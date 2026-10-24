@@ -1,0 +1,487 @@
+{
+  "id": "sentences-medium-01",
+  "label": "HSK 1 sentences · medium · pack 1",
+  "type": "sentence",
+  "cards": [
+    {
+      "id": "sentence-medium-001",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-08",
+      "topic": "Sentence practice",
+      "zh": "我的房间在这里，他的房间在那里。",
+      "py": "Wǒ de fángjiān zài zhèlǐ, tā de fángjiān zài nàlǐ.",
+      "en": "My room is here, and his room is there.",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "possessive / modifier particle"
+        },
+        {
+          "zh": "房间",
+          "py": "fángjiān",
+          "en": "room"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in; ongoing action"
+        },
+        {
+          "zh": "这里",
+          "py": "zhèlǐ",
+          "en": "here"
+        },
+        {
+          "zh": "他",
+          "py": "tā",
+          "en": "he"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "possessive / modifier particle"
+        },
+        {
+          "zh": "房间",
+          "py": "fángjiān",
+          "en": "room"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in; ongoing action"
+        },
+        {
+          "zh": "那里",
+          "py": "nàlǐ",
+          "en": "there"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-002",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-08",
+      "topic": "Sentence practice",
+      "zh": "我住在这里，每天去学校。",
+      "py": "Wǒ zhù zài zhèlǐ, měitiān qù xuéxiào.",
+      "en": "I live here and go to school every day.",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "住",
+          "py": "zhù",
+          "en": "live"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in; ongoing action"
+        },
+        {
+          "zh": "这里",
+          "py": "zhèlǐ",
+          "en": "here"
+        },
+        {
+          "zh": "每天",
+          "py": "měitiān",
+          "en": "every day"
+        },
+        {
+          "zh": "去",
+          "py": "qù",
+          "en": "to go"
+        },
+        {
+          "zh": "学校",
+          "py": "xuéxiào",
+          "en": "school"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-003",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-08",
+      "topic": "Sentence practice",
+      "zh": "公司在电影院前面，我知道怎么去。",
+      "py": "Gōngsī zài diànyǐngyuàn qiánmiàn, wǒ zhīdào zěnme qù.",
+      "en": "The company is in front of the cinema, and I know how to get there.",
+      "breakdown": [
+        {
+          "zh": "公司",
+          "py": "gōngsī",
+          "en": "company"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in; ongoing action"
+        },
+        {
+          "zh": "电影院",
+          "py": "diànyǐngyuàn",
+          "en": "cinema"
+        },
+        {
+          "zh": "前面",
+          "py": "qiánmiàn",
+          "en": "in front of"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "知道",
+          "py": "zhīdào",
+          "en": "know"
+        },
+        {
+          "zh": "怎么",
+          "py": "zěnme",
+          "en": "how"
+        },
+        {
+          "zh": "去",
+          "py": "qù",
+          "en": "to go"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-004",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-08",
+      "topic": "Sentence practice",
+      "zh": "她在房间里找手机。",
+      "py": "Tā zài fángjiān lǐ zhǎo shǒujī.",
+      "en": "She is looking for her cellphone in the room.",
+      "breakdown": [
+        {
+          "zh": "她",
+          "py": "tā",
+          "en": "she"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in; ongoing action"
+        },
+        {
+          "zh": "房间",
+          "py": "fángjiān",
+          "en": "room"
+        },
+        {
+          "zh": "里",
+          "py": "lǐ",
+          "en": "inside"
+        },
+        {
+          "zh": "找",
+          "py": "zhǎo",
+          "en": "look for"
+        },
+        {
+          "zh": "手机",
+          "py": "shǒujī",
+          "en": "mobile phone"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-005",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-09",
+      "topic": "Sentence practice",
+      "zh": "今天天气怎么样？会下雨吗？",
+      "py": "Jīntiān tiānqì zěnmeyàng? huì xiàyǔ ma?",
+      "en": "How is the weather today? Will it rain?",
+      "breakdown": [
+        {
+          "zh": "今天",
+          "py": "jīntiān",
+          "en": "today"
+        },
+        {
+          "zh": "天气",
+          "py": "tiānqì",
+          "en": "weather"
+        },
+        {
+          "zh": "怎么样",
+          "py": "zěnmeyàng",
+          "en": "how is it"
+        },
+        {
+          "zh": "会",
+          "py": "huì",
+          "en": "can / will"
+        },
+        {
+          "zh": "下雨",
+          "py": "xiàyǔ",
+          "en": "rain (verb)"
+        },
+        {
+          "zh": "吗",
+          "py": "ma",
+          "en": "yes/no question particle"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-006",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-09",
+      "topic": "Sentence practice",
+      "zh": "我知道怎么坐火车去中国。",
+      "py": "Wǒ zhīdào zěnme zuò huǒchē qù Zhōngguó.",
+      "en": "I know how to take a train to China.",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "知道",
+          "py": "zhīdào",
+          "en": "know"
+        },
+        {
+          "zh": "怎么",
+          "py": "zěnme",
+          "en": "how"
+        },
+        {
+          "zh": "坐",
+          "py": "zuò",
+          "en": "to sit"
+        },
+        {
+          "zh": "火车",
+          "py": "huǒchē",
+          "en": "train"
+        },
+        {
+          "zh": "去",
+          "py": "qù",
+          "en": "to go"
+        },
+        {
+          "zh": "中国",
+          "py": "Zhōngguó",
+          "en": "China"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-007",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-09",
+      "topic": "Sentence practice",
+      "zh": "老师问我这个汉字怎么读。",
+      "py": "Lǎoshī wèn wǒ zhège Hànzì zěnme dú.",
+      "en": "The teacher asks me how to read this Chinese character.",
+      "breakdown": [
+        {
+          "zh": "老师",
+          "py": "lǎoshī",
+          "en": "teacher"
+        },
+        {
+          "zh": "问",
+          "py": "wèn",
+          "en": "ask"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "这个",
+          "py": "zhège",
+          "en": "this"
+        },
+        {
+          "zh": "汉字",
+          "py": "Hànzì",
+          "en": "Chinese character"
+        },
+        {
+          "zh": "怎么",
+          "py": "zěnme",
+          "en": "how"
+        },
+        {
+          "zh": "读",
+          "py": "dú",
+          "en": "read"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-008",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-09",
+      "topic": "Sentence practice",
+      "zh": "他会开车，但是今天坐出租车。",
+      "py": "Tā huì kāichē, dànshì jīntiān zuò chūzūchē.",
+      "en": "He can drive, but today he is taking a taxi.",
+      "breakdown": [
+        {
+          "zh": "他",
+          "py": "tā",
+          "en": "he"
+        },
+        {
+          "zh": "会",
+          "py": "huì",
+          "en": "can / will"
+        },
+        {
+          "zh": "开车",
+          "py": "kāichē",
+          "en": "drive a car"
+        },
+        {
+          "zh": "但是",
+          "py": "dànshì",
+          "en": "but"
+        },
+        {
+          "zh": "今天",
+          "py": "jīntiān",
+          "en": "today"
+        },
+        {
+          "zh": "坐",
+          "py": "zuò",
+          "en": "to sit"
+        },
+        {
+          "zh": "出租车",
+          "py": "chūzūchē",
+          "en": "taxi"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-009",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-10",
+      "topic": "Sentence practice",
+      "zh": "这个大学生正在读书，不想看电视。",
+      "py": "Zhège dàxuéshēng zhèngzài dúshū, bù xiǎng kàn diànshì.",
+      "en": "This university student is studying and doesn't want to watch TV.",
+      "breakdown": [
+        {
+          "zh": "这个",
+          "py": "zhège",
+          "en": "this"
+        },
+        {
+          "zh": "大学生",
+          "py": "dàxuéshēng",
+          "en": "university student"
+        },
+        {
+          "zh": "正在",
+          "py": "zhèngzài",
+          "en": "currently (action in progress)"
+        },
+        {
+          "zh": "读书",
+          "py": "dúshū",
+          "en": "read study"
+        },
+        {
+          "zh": "不",
+          "py": "bù",
+          "en": "not"
+        },
+        {
+          "zh": "想",
+          "py": "xiǎng",
+          "en": "want to / think"
+        },
+        {
+          "zh": "看",
+          "py": "kàn",
+          "en": "watch / look at"
+        },
+        {
+          "zh": "电视",
+          "py": "diànshì",
+          "en": "television"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-010",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-10",
+      "topic": "Sentence practice",
+      "zh": "医生下班以后给妈妈打电话。",
+      "py": "Yīshēng xiàbān yǐhòu gěi māma dǎ diànhuà.",
+      "en": "After work, the doctor calls Mom.",
+      "breakdown": [
+        {
+          "zh": "医生",
+          "py": "yīshēng",
+          "en": "doctor"
+        },
+        {
+          "zh": "下班",
+          "py": "xiàbān",
+          "en": "finish work"
+        },
+        {
+          "zh": "以后",
+          "py": "yǐhòu",
+          "en": "after"
+        },
+        {
+          "zh": "给",
+          "py": "gěi",
+          "en": "give / to"
+        },
+        {
+          "zh": "妈妈",
+          "py": "māma",
+          "en": "mom"
+        },
+        {
+          "zh": "打电话",
+          "py": "dǎ diànhuà",
+          "en": "make a phone call"
+        }
+      ]
+    }
+  ]
+}

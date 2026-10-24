@@ -1,0 +1,337 @@
+{
+  "id": "sentences-easy-03",
+  "label": "HSK 1 sentences · easy · pack 3",
+  "type": "sentence",
+  "cards": [
+    {
+      "id": "sentence-easy-021",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "foundation-06",
+      "topic": "Sentence practice",
+      "zh": "我想买一个小手机。",
+      "py": "Wǒ xiǎng mǎi yí ge xiǎo shǒujī.",
+      "en": "I want to buy a small cellphone.",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "想",
+          "py": "xiǎng",
+          "en": "want to / think"
+        },
+        {
+          "zh": "买",
+          "py": "mǎi",
+          "en": "buy"
+        },
+        {
+          "zh": "一个",
+          "py": "yí ge",
+          "en": "one (measure phrase)"
+        },
+        {
+          "zh": "小",
+          "py": "xiǎo",
+          "en": "small"
+        },
+        {
+          "zh": "手机",
+          "py": "shǒujī",
+          "en": "mobile phone"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-022",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "foundation-06",
+      "topic": "Sentence practice",
+      "zh": "现在很热。",
+      "py": "Xiànzài hěn rè.",
+      "en": "It is very hot now.",
+      "breakdown": [
+        {
+          "zh": "现在",
+          "py": "xiànzài",
+          "en": "now"
+        },
+        {
+          "zh": "很",
+          "py": "hěn",
+          "en": "very / degree marker"
+        },
+        {
+          "zh": "热",
+          "py": "rè",
+          "en": "hot"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-023",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "foundation-06",
+      "topic": "Sentence practice",
+      "zh": "下午我去学校。",
+      "py": "Xiàwǔ wǒ qù xuéxiào.",
+      "en": "I am going to school in the afternoon.",
+      "breakdown": [
+        {
+          "zh": "下午",
+          "py": "xiàwǔ",
+          "en": "afternoon"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "去",
+          "py": "qù",
+          "en": "to go"
+        },
+        {
+          "zh": "学校",
+          "py": "xuéxiào",
+          "en": "school"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-024",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "foundation-06",
+      "topic": "Sentence practice",
+      "zh": "晚上我想来。",
+      "py": "Wǎnshang wǒ xiǎng lái.",
+      "en": "I want to come in the evening.",
+      "breakdown": [
+        {
+          "zh": "晚上",
+          "py": "wǎnshang",
+          "en": "evening / night"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "想",
+          "py": "xiǎng",
+          "en": "want to / think"
+        },
+        {
+          "zh": "来",
+          "py": "lái",
+          "en": "come"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-025",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "Sentence practice",
+      "zh": "请问，您叫什么名字？",
+      "py": "Qǐngwèn, nín jiào shénme míngzi?",
+      "en": "Excuse me, what is your name?",
+      "breakdown": [
+        {
+          "zh": "请问",
+          "py": "qǐngwèn",
+          "en": "excuse me / may I ask"
+        },
+        {
+          "zh": "您",
+          "py": "nín",
+          "en": "you (polite)"
+        },
+        {
+          "zh": "叫",
+          "py": "jiào",
+          "en": "to be called"
+        },
+        {
+          "zh": "什么",
+          "py": "shénme",
+          "en": "what"
+        },
+        {
+          "zh": "名字",
+          "py": "míngzi",
+          "en": "name"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-026",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "Sentence practice",
+      "zh": "她们认识这个同学。",
+      "py": "Tāmen rènshi zhège tóngxué.",
+      "en": "They know this classmate.",
+      "breakdown": [
+        {
+          "zh": "她们",
+          "py": "tāmen",
+          "en": "they (women)"
+        },
+        {
+          "zh": "认识",
+          "py": "rènshi",
+          "en": "to know someone"
+        },
+        {
+          "zh": "这个",
+          "py": "zhège",
+          "en": "this"
+        },
+        {
+          "zh": "同学",
+          "py": "tóngxué",
+          "en": "classmate"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-027",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "Sentence practice",
+      "zh": "大家很高兴。",
+      "py": "Dàjiā hěn gāoxìng.",
+      "en": "Everyone is happy.",
+      "breakdown": [
+        {
+          "zh": "大家",
+          "py": "dàjiā",
+          "en": "everyone"
+        },
+        {
+          "zh": "很",
+          "py": "hěn",
+          "en": "very / degree marker"
+        },
+        {
+          "zh": "高兴",
+          "py": "gāoxìng",
+          "en": "happy"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-028",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-02",
+      "topic": "Sentence practice",
+      "zh": "我学汉语。",
+      "py": "Wǒ xué Hànyǔ.",
+      "en": "I study Mandarin Chinese.",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "学",
+          "py": "xué",
+          "en": "learn"
+        },
+        {
+          "zh": "汉语",
+          "py": "Hànyǔ",
+          "en": "Mandarin Chinese"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-029",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-02",
+      "topic": "Sentence practice",
+      "zh": "今年我五岁。",
+      "py": "Jīnnián wǒ wǔ suì.",
+      "en": "I am five years old this year.",
+      "breakdown": [
+        {
+          "zh": "今年",
+          "py": "jīnnián",
+          "en": "this year"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "五",
+          "py": "wǔ",
+          "en": "five"
+        },
+        {
+          "zh": "岁",
+          "py": "suì",
+          "en": "years old"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-030",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-02",
+      "topic": "Sentence practice",
+      "zh": "我们都有两个朋友。",
+      "py": "Wǒmen dōu yǒu liǎng ge péngyou.",
+      "en": "We each have two friends.",
+      "breakdown": [
+        {
+          "zh": "我们",
+          "py": "wǒmen",
+          "en": "we / us"
+        },
+        {
+          "zh": "都",
+          "py": "dōu",
+          "en": "all"
+        },
+        {
+          "zh": "有",
+          "py": "yǒu",
+          "en": "have / there is"
+        },
+        {
+          "zh": "两",
+          "py": "liǎng",
+          "en": "two"
+        },
+        {
+          "zh": "个",
+          "py": "ge",
+          "en": "general measure word"
+        },
+        {
+          "zh": "朋友",
+          "py": "péngyou",
+          "en": "friend"
+        }
+      ]
+    }
+  ]
+}

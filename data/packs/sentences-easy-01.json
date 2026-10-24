@@ -1,0 +1,347 @@
+{
+  "id": "sentences-easy-01",
+  "label": "HSK 1 sentences · easy · pack 1",
+  "type": "sentence",
+  "cards": [
+    {
+      "id": "sentence-easy-001",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "foundation-01",
+      "topic": "Sentence practice",
+      "zh": "杯子在桌子上面。",
+      "py": "Bēizi zài zhuōzi shàngmiàn.",
+      "en": "The cup is on the table.",
+      "breakdown": [
+        {
+          "zh": "杯子",
+          "py": "bēizi",
+          "en": "cup"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in; ongoing action"
+        },
+        {
+          "zh": "桌子",
+          "py": "zhuōzi",
+          "en": "table"
+        },
+        {
+          "zh": "上面",
+          "py": "shàngmiàn",
+          "en": "on / above"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-002",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "foundation-01",
+      "topic": "Sentence practice",
+      "zh": "椅子在门后面。",
+      "py": "Yǐzi zài mén hòumiàn.",
+      "en": "The chair is behind the door.",
+      "breakdown": [
+        {
+          "zh": "椅子",
+          "py": "yǐzi",
+          "en": "chair"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in; ongoing action"
+        },
+        {
+          "zh": "门",
+          "py": "mén",
+          "en": "door"
+        },
+        {
+          "zh": "后面",
+          "py": "hòumiàn",
+          "en": "behind"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-003",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "foundation-01",
+      "topic": "Sentence practice",
+      "zh": "猫在盒子里面。",
+      "py": "Māo zài hézi lǐmiàn.",
+      "en": "The cat is inside the box.",
+      "breakdown": [
+        {
+          "zh": "猫",
+          "py": "māo",
+          "en": "cat"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in; ongoing action"
+        },
+        {
+          "zh": "盒子",
+          "py": "hézi",
+          "en": "box"
+        },
+        {
+          "zh": "里面",
+          "py": "lǐmiàn",
+          "en": "inside"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-004",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "foundation-01",
+      "topic": "Sentence practice",
+      "zh": "狗在桌子下面。",
+      "py": "Gǒu zài zhuōzi xiàmiàn.",
+      "en": "The dog is under the table.",
+      "breakdown": [
+        {
+          "zh": "狗",
+          "py": "gǒu",
+          "en": "dog"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in; ongoing action"
+        },
+        {
+          "zh": "桌子",
+          "py": "zhuōzi",
+          "en": "table"
+        },
+        {
+          "zh": "下面",
+          "py": "xiàmiàn",
+          "en": "under / below"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-005",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "foundation-02",
+      "topic": "Sentence practice",
+      "zh": "我有一个哥哥。",
+      "py": "Wǒ yǒu yí ge gēge.",
+      "en": "I have an older brother.",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "有",
+          "py": "yǒu",
+          "en": "have / there is"
+        },
+        {
+          "zh": "一个",
+          "py": "yí ge",
+          "en": "one (measure phrase)"
+        },
+        {
+          "zh": "哥哥",
+          "py": "gēge",
+          "en": "older brother"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-006",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "foundation-02",
+      "topic": "Sentence practice",
+      "zh": "妈妈和妹妹在家。",
+      "py": "Māma hé mèimei zài jiā.",
+      "en": "Mom and my younger sister are at home.",
+      "breakdown": [
+        {
+          "zh": "妈妈",
+          "py": "māma",
+          "en": "mom"
+        },
+        {
+          "zh": "和",
+          "py": "hé",
+          "en": "and / with"
+        },
+        {
+          "zh": "妹妹",
+          "py": "mèimei",
+          "en": "younger sister"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in; ongoing action"
+        },
+        {
+          "zh": "家",
+          "py": "jiā",
+          "en": "home / family"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-007",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "foundation-02",
+      "topic": "Sentence practice",
+      "zh": "姐姐也有一个弟弟。",
+      "py": "Jiějie yě yǒu yí ge dìdi.",
+      "en": "My older sister also has a younger brother.",
+      "breakdown": [
+        {
+          "zh": "姐姐",
+          "py": "jiějie",
+          "en": "older sister"
+        },
+        {
+          "zh": "也",
+          "py": "yě",
+          "en": "also"
+        },
+        {
+          "zh": "有",
+          "py": "yǒu",
+          "en": "have / there is"
+        },
+        {
+          "zh": "一个",
+          "py": "yí ge",
+          "en": "one (measure phrase)"
+        },
+        {
+          "zh": "弟弟",
+          "py": "dìdi",
+          "en": "younger brother"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-008",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "foundation-02",
+      "topic": "Sentence practice",
+      "zh": "爷爷和奶奶在家。",
+      "py": "Yéye hé nǎinai zài jiā.",
+      "en": "Grandpa and Grandma are at home.",
+      "breakdown": [
+        {
+          "zh": "爷爷",
+          "py": "yéye",
+          "en": "paternal grandfather"
+        },
+        {
+          "zh": "和",
+          "py": "hé",
+          "en": "and / with"
+        },
+        {
+          "zh": "奶奶",
+          "py": "nǎinai",
+          "en": "paternal grandmother"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in; ongoing action"
+        },
+        {
+          "zh": "家",
+          "py": "jiā",
+          "en": "home / family"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-009",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "foundation-03",
+      "topic": "Sentence practice",
+      "zh": "我喜欢喝茶。",
+      "py": "Wǒ xǐhuan hē chá.",
+      "en": "I like drinking tea.",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "喜欢",
+          "py": "xǐhuan",
+          "en": "like"
+        },
+        {
+          "zh": "喝",
+          "py": "hē",
+          "en": "drink"
+        },
+        {
+          "zh": "茶",
+          "py": "chá",
+          "en": "tea"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-010",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "foundation-03",
+      "topic": "Sentence practice",
+      "zh": "我们在厨房吃米饭。",
+      "py": "Wǒmen zài chúfáng chī mǐfàn.",
+      "en": "We eat rice in the kitchen.",
+      "breakdown": [
+        {
+          "zh": "我们",
+          "py": "wǒmen",
+          "en": "we / us"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in; ongoing action"
+        },
+        {
+          "zh": "厨房",
+          "py": "chúfáng",
+          "en": "kitchen"
+        },
+        {
+          "zh": "吃",
+          "py": "chī",
+          "en": "eat"
+        },
+        {
+          "zh": "米饭",
+          "py": "mǐfàn",
+          "en": "cooked rice"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "id": "sentences-easy-02",
+  "label": "HSK 1 sentences · easy · pack 2",
+  "type": "sentence",
+  "cards": [
+    {
+      "id": "sentence-easy-011",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "foundation-03",
+      "topic": "Sentence practice",
+      "zh": "筷子和勺子在桌子上面。",
+      "py": "Kuàizi hé sháozi zài zhuōzi shàngmiàn.",
+      "en": "The chopsticks and spoon are on the table.",
+      "breakdown": [
+        {
+          "zh": "筷子",
+          "py": "kuàizi",
+          "en": "chopsticks"
+        },
+        {
+          "zh": "和",
+          "py": "hé",
+          "en": "and / with"
+        },
+        {
+          "zh": "勺子",
+          "py": "sháozi",
+          "en": "spoon"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in; ongoing action"
+        },
+        {
+          "zh": "桌子",
+          "py": "zhuōzi",
+          "en": "table"
+        },
+        {
+          "zh": "上面",
+          "py": "shàngmiàn",
+          "en": "on / above"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-012",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "foundation-03",
+      "topic": "Sentence practice",
+      "zh": "我想喝水。",
+      "py": "Wǒ xiǎng hē shuǐ.",
+      "en": "I want to drink water.",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "想",
+          "py": "xiǎng",
+          "en": "want to / think"
+        },
+        {
+          "zh": "喝",
+          "py": "hē",
+          "en": "drink"
+        },
+        {
+          "zh": "水",
+          "py": "shuǐ",
+          "en": "water"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-013",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "foundation-04",
+      "topic": "Sentence practice",
+      "zh": "明天我去学校。",
+      "py": "Míngtiān wǒ qù xuéxiào.",
+      "en": "I am going to school tomorrow.",
+      "breakdown": [
+        {
+          "zh": "明天",
+          "py": "míngtiān",
+          "en": "tomorrow"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "去",
+          "py": "qù",
+          "en": "to go"
+        },
+        {
+          "zh": "学校",
+          "py": "xuéxiào",
+          "en": "school"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-014",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "foundation-04",
+      "topic": "Sentence practice",
+      "zh": "昨天他在医院。",
+      "py": "Zuótiān tā zài yīyuàn.",
+      "en": "He was at the hospital yesterday.",
+      "breakdown": [
+        {
+          "zh": "昨天",
+          "py": "zuótiān",
+          "en": "yesterday"
+        },
+        {
+          "zh": "他",
+          "py": "tā",
+          "en": "he"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in; ongoing action"
+        },
+        {
+          "zh": "医院",
+          "py": "yīyuàn",
+          "en": "hospital"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-015",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "foundation-04",
+      "topic": "Sentence practice",
+      "zh": "谢谢，再见！",
+      "py": "Xièxie, zàijiàn!",
+      "en": "Thank you, goodbye!",
+      "breakdown": [
+        {
+          "zh": "谢谢",
+          "py": "xièxie",
+          "en": "thank you"
+        },
+        {
+          "zh": "再见",
+          "py": "zàijiàn",
+          "en": "goodbye"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-016",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "foundation-04",
+      "topic": "Sentence practice",
+      "zh": "这是什么？",
+      "py": "Zhè shì shénme?",
+      "en": "What is this?",
+      "breakdown": [
+        {
+          "zh": "这",
+          "py": "zhè",
+          "en": "this"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "什么",
+          "py": "shénme",
+          "en": "what"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-017",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "foundation-05",
+      "topic": "Sentence practice",
+      "zh": "你是老师吗？",
+      "py": "Nǐ shì lǎoshī ma?",
+      "en": "Are you a teacher?",
+      "breakdown": [
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "en": "you"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "老师",
+          "py": "lǎoshī",
+          "en": "teacher"
+        },
+        {
+          "zh": "吗",
+          "py": "ma",
+          "en": "yes/no question particle"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-018",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "foundation-05",
+      "topic": "Sentence practice",
+      "zh": "这个人是学生。",
+      "py": "Zhège rén shì xuésheng.",
+      "en": "This person is a student.",
+      "breakdown": [
+        {
+          "zh": "这个",
+          "py": "zhège",
+          "en": "this"
+        },
+        {
+          "zh": "人",
+          "py": "rén",
+          "en": "person"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "学生",
+          "py": "xuésheng",
+          "en": "student"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-019",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "foundation-05",
+      "topic": "Sentence practice",
+      "zh": "我们看书。",
+      "py": "Wǒmen kàn shū.",
+      "en": "We read books.",
+      "breakdown": [
+        {
+          "zh": "我们",
+          "py": "wǒmen",
+          "en": "we / us"
+        },
+        {
+          "zh": "看",
+          "py": "kàn",
+          "en": "watch / look at"
+        },
+        {
+          "zh": "书",
+          "py": "shū",
+          "en": "book"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-020",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "foundation-05",
+      "topic": "Sentence practice",
+      "zh": "你们说中文吗？",
+      "py": "Nǐmen shuō Zhōngwén ma?",
+      "en": "Do you speak Chinese?",
+      "breakdown": [
+        {
+          "zh": "你们",
+          "py": "nǐmen",
+          "en": "you (plural)"
+        },
+        {
+          "zh": "说",
+          "py": "shuō",
+          "en": "to speak / say"
+        },
+        {
+          "zh": "中文",
+          "py": "Zhōngwén",
+          "en": "Chinese language"
+        },
+        {
+          "zh": "吗",
+          "py": "ma",
+          "en": "yes/no question particle"
+        }
+      ]
+    }
+  ]
+}

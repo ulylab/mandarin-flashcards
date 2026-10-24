@@ -1,0 +1,547 @@
+{
+  "id": "sentences-hard-04",
+  "label": "HSK 1 sentences · hard · pack 4",
+  "type": "sentence",
+  "cards": [
+    {
+      "id": "sentence-hard-016",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "extended-hsk1-10",
+      "topic": "Sentence practice",
+      "zh": "我们上课的时候要听老师说话，下课以后可以给朋友打电话，但是不要在课上看电视。",
+      "py": "Wǒmen shàngkè de shíhou yào tīng lǎoshī shuōhuà, xiàkè yǐhòu kěyǐ gěi péngyou dǎ diànhuà, dànshì búyào zài kè shàng kàn diànshì.",
+      "en": "During class we need to listen to the teacher. After class we can call friends, but we shouldn't watch TV in class.",
+      "breakdown": [
+        {
+          "zh": "我们",
+          "py": "wǒmen",
+          "en": "we / us"
+        },
+        {
+          "zh": "上课",
+          "py": "shàngkè",
+          "en": "attend class"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "possessive / modifier particle"
+        },
+        {
+          "zh": "时候",
+          "py": "shíhou",
+          "en": "time / when"
+        },
+        {
+          "zh": "要",
+          "py": "yào",
+          "en": "need / want"
+        },
+        {
+          "zh": "听",
+          "py": "tīng",
+          "en": "to listen"
+        },
+        {
+          "zh": "老师",
+          "py": "lǎoshī",
+          "en": "teacher"
+        },
+        {
+          "zh": "说话",
+          "py": "shuōhuà",
+          "en": "talk"
+        },
+        {
+          "zh": "下课",
+          "py": "xiàkè",
+          "en": "finish class"
+        },
+        {
+          "zh": "以后",
+          "py": "yǐhòu",
+          "en": "after"
+        },
+        {
+          "zh": "可以",
+          "py": "kěyǐ",
+          "en": "may / can"
+        },
+        {
+          "zh": "给",
+          "py": "gěi",
+          "en": "give / to"
+        },
+        {
+          "zh": "朋友",
+          "py": "péngyou",
+          "en": "friend"
+        },
+        {
+          "zh": "打电话",
+          "py": "dǎ diànhuà",
+          "en": "make a phone call"
+        },
+        {
+          "zh": "但是",
+          "py": "dànshì",
+          "en": "but"
+        },
+        {
+          "zh": "不要",
+          "py": "búyào",
+          "en": "don’t want"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in; ongoing action"
+        },
+        {
+          "zh": "课",
+          "py": "kè",
+          "en": "class"
+        },
+        {
+          "zh": "上",
+          "py": "shàng",
+          "en": "on / during"
+        },
+        {
+          "zh": "看",
+          "py": "kàn",
+          "en": "watch / look at"
+        },
+        {
+          "zh": "电视",
+          "py": "diànshì",
+          "en": "television"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-017",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "extended-hsk1-11",
+      "topic": "Sentence practice",
+      "zh": "我昨天生病了，今天去医院看病，医生说我要多休息，不要去上班。",
+      "py": "Wǒ zuótiān shēngbìng le, jīntiān qù yīyuàn kànbìng, yīshēng shuō wǒ yào duō xiūxi, búyào qù shàngbān.",
+      "en": "I got sick yesterday and went to the hospital today. The doctor said I need more rest and shouldn't go to work.",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "昨天",
+          "py": "zuótiān",
+          "en": "yesterday"
+        },
+        {
+          "zh": "生病",
+          "py": "shēngbìng",
+          "en": "to get sick"
+        },
+        {
+          "zh": "了",
+          "py": "le",
+          "en": "completed action / change"
+        },
+        {
+          "zh": "今天",
+          "py": "jīntiān",
+          "en": "today"
+        },
+        {
+          "zh": "去",
+          "py": "qù",
+          "en": "to go"
+        },
+        {
+          "zh": "医院",
+          "py": "yīyuàn",
+          "en": "hospital"
+        },
+        {
+          "zh": "看病",
+          "py": "kànbìng",
+          "en": "see a doctor"
+        },
+        {
+          "zh": "医生",
+          "py": "yīshēng",
+          "en": "doctor"
+        },
+        {
+          "zh": "说",
+          "py": "shuō",
+          "en": "to speak / say"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "要",
+          "py": "yào",
+          "en": "need / want"
+        },
+        {
+          "zh": "多",
+          "py": "duō",
+          "en": "many"
+        },
+        {
+          "zh": "休息",
+          "py": "xiūxi",
+          "en": "rest"
+        },
+        {
+          "zh": "不要",
+          "py": "búyào",
+          "en": "don’t want"
+        },
+        {
+          "zh": "去",
+          "py": "qù",
+          "en": "to go"
+        },
+        {
+          "zh": "上班",
+          "py": "shàngbān",
+          "en": "go to work"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-018",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "Sentence practice",
+      "zh": "这个先生是我的同学，我们认识三年了，但是我还不知道他的中文名字。",
+      "py": "Zhège xiānsheng shì wǒ de tóngxué, wǒmen rènshi sān nián le, dànshì wǒ hái bù zhīdào tā de Zhōngwén míngzi.",
+      "en": "This man is my classmate. We've known each other for three years, but I still don't know his Chinese name.",
+      "breakdown": [
+        {
+          "zh": "这个",
+          "py": "zhège",
+          "en": "this"
+        },
+        {
+          "zh": "先生",
+          "py": "xiānsheng",
+          "en": "Mr."
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "possessive / modifier particle"
+        },
+        {
+          "zh": "同学",
+          "py": "tóngxué",
+          "en": "classmate"
+        },
+        {
+          "zh": "我们",
+          "py": "wǒmen",
+          "en": "we / us"
+        },
+        {
+          "zh": "认识",
+          "py": "rènshi",
+          "en": "to know someone"
+        },
+        {
+          "zh": "三",
+          "py": "sān",
+          "en": "three"
+        },
+        {
+          "zh": "年",
+          "py": "nián",
+          "en": "year"
+        },
+        {
+          "zh": "了",
+          "py": "le",
+          "en": "completed action / change"
+        },
+        {
+          "zh": "但是",
+          "py": "dànshì",
+          "en": "but"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "还",
+          "py": "hái",
+          "en": "still / also"
+        },
+        {
+          "zh": "不",
+          "py": "bù",
+          "en": "not"
+        },
+        {
+          "zh": "知道",
+          "py": "zhīdào",
+          "en": "know"
+        },
+        {
+          "zh": "他",
+          "py": "tā",
+          "en": "he"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "possessive / modifier particle"
+        },
+        {
+          "zh": "中文",
+          "py": "Zhōngwén",
+          "en": "Chinese language"
+        },
+        {
+          "zh": "名字",
+          "py": "míngzi",
+          "en": "name"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-019",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "extended-hsk1-05",
+      "topic": "Sentence practice",
+      "zh": "妈妈正在厨房做饭，爸爸在看电视，我想和妹妹一起吃晚饭，然后去睡觉。",
+      "py": "Māma zhèngzài chúfáng zuòfàn, bàba zài kàn diànshì, wǒ xiǎng hé mèimei yìqǐ chī wǎnfàn, ránhòu qù shuìjiào.",
+      "en": "Mom is cooking in the kitchen, Dad is watching TV, and I want to have dinner with my younger sister and then go to sleep.",
+      "breakdown": [
+        {
+          "zh": "妈妈",
+          "py": "māma",
+          "en": "mom"
+        },
+        {
+          "zh": "正在",
+          "py": "zhèngzài",
+          "en": "currently (action in progress)"
+        },
+        {
+          "zh": "厨房",
+          "py": "chúfáng",
+          "en": "kitchen"
+        },
+        {
+          "zh": "做饭",
+          "py": "zuòfàn",
+          "en": "cook"
+        },
+        {
+          "zh": "爸爸",
+          "py": "bàba",
+          "en": "dad"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in; ongoing action"
+        },
+        {
+          "zh": "看",
+          "py": "kàn",
+          "en": "watch / look at"
+        },
+        {
+          "zh": "电视",
+          "py": "diànshì",
+          "en": "television"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "想",
+          "py": "xiǎng",
+          "en": "want to / think"
+        },
+        {
+          "zh": "和",
+          "py": "hé",
+          "en": "and / with"
+        },
+        {
+          "zh": "妹妹",
+          "py": "mèimei",
+          "en": "younger sister"
+        },
+        {
+          "zh": "一起",
+          "py": "yìqǐ",
+          "en": "together"
+        },
+        {
+          "zh": "吃",
+          "py": "chī",
+          "en": "eat"
+        },
+        {
+          "zh": "晚饭",
+          "py": "wǎnfàn",
+          "en": "dinner"
+        },
+        {
+          "zh": "然后",
+          "py": "ránhòu",
+          "en": "then / afterward"
+        },
+        {
+          "zh": "去",
+          "py": "qù",
+          "en": "to go"
+        },
+        {
+          "zh": "睡觉",
+          "py": "shuìjiào",
+          "en": "sleep"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-020",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "extended-hsk1-08",
+      "topic": "Sentence practice",
+      "zh": "请问，这边有医院吗？我的朋友生病了，我们想找一个离这里很近的医生。",
+      "py": "Qǐngwèn, zhèbiān yǒu yīyuàn ma? wǒ de péngyou shēngbìng le, wǒmen xiǎng zhǎo yí ge lí zhèlǐ hěn jìn de yīshēng.",
+      "en": "Excuse me, is there a hospital near here? My friend is sick, and we want to find a doctor close by.",
+      "breakdown": [
+        {
+          "zh": "请问",
+          "py": "qǐngwèn",
+          "en": "excuse me / may I ask"
+        },
+        {
+          "zh": "这边",
+          "py": "zhèbiān",
+          "en": "this side"
+        },
+        {
+          "zh": "有",
+          "py": "yǒu",
+          "en": "have / there is"
+        },
+        {
+          "zh": "医院",
+          "py": "yīyuàn",
+          "en": "hospital"
+        },
+        {
+          "zh": "吗",
+          "py": "ma",
+          "en": "yes/no question particle"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "possessive / modifier particle"
+        },
+        {
+          "zh": "朋友",
+          "py": "péngyou",
+          "en": "friend"
+        },
+        {
+          "zh": "生病",
+          "py": "shēngbìng",
+          "en": "to get sick"
+        },
+        {
+          "zh": "了",
+          "py": "le",
+          "en": "completed action / change"
+        },
+        {
+          "zh": "我们",
+          "py": "wǒmen",
+          "en": "we / us"
+        },
+        {
+          "zh": "想",
+          "py": "xiǎng",
+          "en": "want to / think"
+        },
+        {
+          "zh": "找",
+          "py": "zhǎo",
+          "en": "look for"
+        },
+        {
+          "zh": "一个",
+          "py": "yí ge",
+          "en": "one (measure phrase)"
+        },
+        {
+          "zh": "离",
+          "py": "lí",
+          "en": "away from / distance from"
+        },
+        {
+          "zh": "这里",
+          "py": "zhèlǐ",
+          "en": "here"
+        },
+        {
+          "zh": "很",
+          "py": "hěn",
+          "en": "very / degree marker"
+        },
+        {
+          "zh": "近",
+          "py": "jìn",
+          "en": "near / close"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "possessive / modifier particle"
+        },
+        {
+          "zh": "医生",
+          "py": "yīshēng",
+          "en": "doctor"
+        }
+      ]
+    }
+  ]
+}

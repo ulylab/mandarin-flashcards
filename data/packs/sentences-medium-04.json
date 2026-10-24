@@ -1,0 +1,602 @@
+{
+  "id": "sentences-medium-04",
+  "label": "HSK 1 sentences · medium · pack 4",
+  "type": "sentence",
+  "cards": [
+    {
+      "id": "sentence-medium-031",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-02",
+      "topic": "Sentence practice",
+      "zh": "我们家有四口人，今年都很忙。",
+      "py": "Wǒmen jiā yǒu sì kǒu rén, jīnnián dōu hěn máng.",
+      "en": "There are four people in our family, and everyone is busy this year.",
+      "breakdown": [
+        {
+          "zh": "我们",
+          "py": "wǒmen",
+          "en": "we / us"
+        },
+        {
+          "zh": "家",
+          "py": "jiā",
+          "en": "home / family"
+        },
+        {
+          "zh": "有",
+          "py": "yǒu",
+          "en": "have / there is"
+        },
+        {
+          "zh": "四",
+          "py": "sì",
+          "en": "four"
+        },
+        {
+          "zh": "口",
+          "py": "kǒu",
+          "en": "measure word for family members"
+        },
+        {
+          "zh": "人",
+          "py": "rén",
+          "en": "person"
+        },
+        {
+          "zh": "今年",
+          "py": "jīnnián",
+          "en": "this year"
+        },
+        {
+          "zh": "都",
+          "py": "dōu",
+          "en": "all"
+        },
+        {
+          "zh": "很",
+          "py": "hěn",
+          "en": "very / degree marker"
+        },
+        {
+          "zh": "忙",
+          "py": "máng",
+          "en": "busy"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-032",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-02",
+      "topic": "Sentence practice",
+      "zh": "我和两个朋友都在学汉语。",
+      "py": "Wǒ hé liǎng ge péngyou dōu zài xué Hànyǔ.",
+      "en": "Two friends and I are all studying Mandarin Chinese.",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "和",
+          "py": "hé",
+          "en": "and / with"
+        },
+        {
+          "zh": "两",
+          "py": "liǎng",
+          "en": "two"
+        },
+        {
+          "zh": "个",
+          "py": "ge",
+          "en": "general measure word"
+        },
+        {
+          "zh": "朋友",
+          "py": "péngyou",
+          "en": "friend"
+        },
+        {
+          "zh": "都",
+          "py": "dōu",
+          "en": "all"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in; ongoing action"
+        },
+        {
+          "zh": "学",
+          "py": "xué",
+          "en": "learn"
+        },
+        {
+          "zh": "汉语",
+          "py": "Hànyǔ",
+          "en": "Mandarin Chinese"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-033",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-03",
+      "topic": "Sentence practice",
+      "zh": "我的儿子今年六岁，女儿今年四岁。",
+      "py": "Wǒ de érzi jīnnián liù suì, nǚ’ér jīnnián sì suì.",
+      "en": "My son is six this year, and my daughter is four.",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "possessive / modifier particle"
+        },
+        {
+          "zh": "儿子",
+          "py": "érzi",
+          "en": "son"
+        },
+        {
+          "zh": "今年",
+          "py": "jīnnián",
+          "en": "this year"
+        },
+        {
+          "zh": "六",
+          "py": "liù",
+          "en": "six"
+        },
+        {
+          "zh": "岁",
+          "py": "suì",
+          "en": "years old"
+        },
+        {
+          "zh": "女儿",
+          "py": "nǚ’ér",
+          "en": "daughter"
+        },
+        {
+          "zh": "今年",
+          "py": "jīnnián",
+          "en": "this year"
+        },
+        {
+          "zh": "四",
+          "py": "sì",
+          "en": "four"
+        },
+        {
+          "zh": "岁",
+          "py": "suì",
+          "en": "years old"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-034",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-03",
+      "topic": "Sentence practice",
+      "zh": "她的男朋友很忙，但是他非常爱她。",
+      "py": "Tā de nánpéngyou hěn máng, dànshì tā fēicháng ài tā.",
+      "en": "Her boyfriend is busy, but he loves her very much.",
+      "breakdown": [
+        {
+          "zh": "她",
+          "py": "tā",
+          "en": "she"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "possessive / modifier particle"
+        },
+        {
+          "zh": "男朋友",
+          "py": "nánpéngyou",
+          "en": "boyfriend"
+        },
+        {
+          "zh": "很",
+          "py": "hěn",
+          "en": "very / degree marker"
+        },
+        {
+          "zh": "忙",
+          "py": "máng",
+          "en": "busy"
+        },
+        {
+          "zh": "但是",
+          "py": "dànshì",
+          "en": "but"
+        },
+        {
+          "zh": "他",
+          "py": "tā",
+          "en": "he"
+        },
+        {
+          "zh": "非常",
+          "py": "fēicháng",
+          "en": "extremely"
+        },
+        {
+          "zh": "爱",
+          "py": "ài",
+          "en": "to love"
+        },
+        {
+          "zh": "她",
+          "py": "tā",
+          "en": "she"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-035",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-04",
+      "topic": "Sentence practice",
+      "zh": "我早上七点起床，晚上十点睡觉。",
+      "py": "Wǒ zǎoshang qī diǎn qǐchuáng, wǎnshang shí diǎn shuìjiào.",
+      "en": "I get up at seven in the morning and go to bed at ten at night.",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "早上",
+          "py": "zǎoshang",
+          "en": "morning"
+        },
+        {
+          "zh": "七",
+          "py": "qī",
+          "en": "seven"
+        },
+        {
+          "zh": "点",
+          "py": "diǎn",
+          "en": "o’clock"
+        },
+        {
+          "zh": "起床",
+          "py": "qǐchuáng",
+          "en": "get up"
+        },
+        {
+          "zh": "晚上",
+          "py": "wǎnshang",
+          "en": "evening / night"
+        },
+        {
+          "zh": "十",
+          "py": "shí",
+          "en": "ten"
+        },
+        {
+          "zh": "点",
+          "py": "diǎn",
+          "en": "o’clock"
+        },
+        {
+          "zh": "睡觉",
+          "py": "shuìjiào",
+          "en": "sleep"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-036",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-04",
+      "topic": "Sentence practice",
+      "zh": "星期天我有时间，可以和你去看电影。",
+      "py": "Xīngqītiān wǒ yǒu shíjiān, kěyǐ hé nǐ qù kàn diànyǐng.",
+      "en": "I'm free on Sunday and can go to a movie with you.",
+      "breakdown": [
+        {
+          "zh": "星期天",
+          "py": "xīngqītiān",
+          "en": "Sunday"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "有",
+          "py": "yǒu",
+          "en": "have / there is"
+        },
+        {
+          "zh": "时间",
+          "py": "shíjiān",
+          "en": "time"
+        },
+        {
+          "zh": "可以",
+          "py": "kěyǐ",
+          "en": "may / can"
+        },
+        {
+          "zh": "和",
+          "py": "hé",
+          "en": "and / with"
+        },
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "en": "you"
+        },
+        {
+          "zh": "去",
+          "py": "qù",
+          "en": "to go"
+        },
+        {
+          "zh": "看",
+          "py": "kàn",
+          "en": "watch / look at"
+        },
+        {
+          "zh": "电影",
+          "py": "diànyǐng",
+          "en": "movie"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-037",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-05",
+      "topic": "Sentence practice",
+      "zh": "午饭我想吃面条儿，晚饭想吃饺子。",
+      "py": "Wǔfàn wǒ xiǎng chī miàntiáor, wǎnfàn xiǎng chī jiǎozi.",
+      "en": "I want noodles for lunch and dumplings for dinner.",
+      "breakdown": [
+        {
+          "zh": "午饭",
+          "py": "wǔfàn",
+          "en": "lunch"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "想",
+          "py": "xiǎng",
+          "en": "want to / think"
+        },
+        {
+          "zh": "吃",
+          "py": "chī",
+          "en": "eat"
+        },
+        {
+          "zh": "面条儿",
+          "py": "miàntiáor",
+          "en": "noodles"
+        },
+        {
+          "zh": "晚饭",
+          "py": "wǎnfàn",
+          "en": "dinner"
+        },
+        {
+          "zh": "想",
+          "py": "xiǎng",
+          "en": "want to / think"
+        },
+        {
+          "zh": "吃",
+          "py": "chī",
+          "en": "eat"
+        },
+        {
+          "zh": "饺子",
+          "py": "jiǎozi",
+          "en": "dumpling"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-038",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-05",
+      "topic": "Sentence practice",
+      "zh": "我觉得这个包子很好吃，再吃一个吧。",
+      "py": "Wǒ juéde zhège bāozi hěn hǎochī, zài chī yí ge ba.",
+      "en": "I think this steamed bun is delicious. Let's have another one.",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "觉得",
+          "py": "juéde",
+          "en": "think / feel"
+        },
+        {
+          "zh": "这个",
+          "py": "zhège",
+          "en": "this"
+        },
+        {
+          "zh": "包子",
+          "py": "bāozi",
+          "en": "steamed bun"
+        },
+        {
+          "zh": "很",
+          "py": "hěn",
+          "en": "very / degree marker"
+        },
+        {
+          "zh": "好吃",
+          "py": "hǎochī",
+          "en": "delicious"
+        },
+        {
+          "zh": "再",
+          "py": "zài",
+          "en": "again / later"
+        },
+        {
+          "zh": "吃",
+          "py": "chī",
+          "en": "eat"
+        },
+        {
+          "zh": "一个",
+          "py": "yí ge",
+          "en": "one (measure phrase)"
+        },
+        {
+          "zh": "吧",
+          "py": "ba",
+          "en": "suggestion particle"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-039",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-06",
+      "topic": "Sentence practice",
+      "zh": "这些苹果多少钱？我想买一些。",
+      "py": "Zhèxiē píngguǒ duōshao qián? wǒ xiǎng mǎi yìxiē.",
+      "en": "How much are these apples? I'd like to buy some.",
+      "breakdown": [
+        {
+          "zh": "这些",
+          "py": "zhèxiē",
+          "en": "these"
+        },
+        {
+          "zh": "苹果",
+          "py": "píngguǒ",
+          "en": "apple"
+        },
+        {
+          "zh": "多少",
+          "py": "duōshao",
+          "en": "how many / how much"
+        },
+        {
+          "zh": "钱",
+          "py": "qián",
+          "en": "money"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "想",
+          "py": "xiǎng",
+          "en": "want to / think"
+        },
+        {
+          "zh": "买",
+          "py": "mǎi",
+          "en": "buy"
+        },
+        {
+          "zh": "一些",
+          "py": "yìxiē",
+          "en": "some"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-040",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-07",
+      "topic": "Sentence practice",
+      "zh": "商店里有很多新衣服，但是有点儿贵。",
+      "py": "Shāngdiàn lǐ yǒu hěn duō xīn yīfu, dànshì yǒudiǎnr guì.",
+      "en": "There are lots of new clothes in the store, but they're a little expensive.",
+      "breakdown": [
+        {
+          "zh": "商店",
+          "py": "shāngdiàn",
+          "en": "shop"
+        },
+        {
+          "zh": "里",
+          "py": "lǐ",
+          "en": "inside"
+        },
+        {
+          "zh": "有",
+          "py": "yǒu",
+          "en": "have / there is"
+        },
+        {
+          "zh": "很",
+          "py": "hěn",
+          "en": "very / degree marker"
+        },
+        {
+          "zh": "多",
+          "py": "duō",
+          "en": "many"
+        },
+        {
+          "zh": "新",
+          "py": "xīn",
+          "en": "new"
+        },
+        {
+          "zh": "衣服",
+          "py": "yīfu",
+          "en": "clothes"
+        },
+        {
+          "zh": "但是",
+          "py": "dànshì",
+          "en": "but"
+        },
+        {
+          "zh": "有点儿",
+          "py": "yǒudiǎnr",
+          "en": "a bit"
+        },
+        {
+          "zh": "贵",
+          "py": "guì",
+          "en": "expensive"
+        }
+      ]
+    }
+  ]
+}

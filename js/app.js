@@ -7,7 +7,8 @@ let totalReviews = 0;
 function options() {
   return {starredOnly: $('starredOnly').checked, topic: $('topic').value,
     direction: $('direction').value, pinyin: $('pinyin').checked,
-    examples: $('examples').checked, mix: $('mix').value};
+    examples: $('examples').checked, mix: $('mix').value,
+    sentencesEnabled: $('sentencesEnabled').checked};
 }
 function saveOptions() {state.settings = options(); saveSettings(); showStorageStatus();}
 function restoreOptions() {
@@ -16,6 +17,7 @@ function restoreOptions() {
     if (opts[id] && [...$(id).options].some(o => o.value === opts[id])) $(id).value = opts[id];
   }
   $('starredOnly').checked = opts.starredOnly === true;
+  $('sentencesEnabled').checked = opts.sentencesEnabled !== false;
   $('pinyin').checked = opts.pinyin !== false;
   $('examples').checked = opts.examples !== false;
 }
@@ -35,11 +37,15 @@ async function loadVocabulary() {
   const seen = new Set();
   const result = [];
   for (const pack of loaded) for (const card of pack) {
-    if (!card || (typeof card.id !== 'number' && typeof card.id !== 'string') ||
-        !card.zh || !card.py || !card.en || !card.topic ||
-        !Array.isArray(card.examples) || card.examples.length !== 2 ||
-        !card.examples.every(ex => Array.isArray(ex) && ex.length === 3 && ex.every(Boolean)))
-      throw new Error('A vocabulary entry is malformed');
+    const commonValid = card && (typeof card.id === 'number' || typeof card.id === 'string') &&
+      card.zh && card.py && card.en && card.topic;
+    const sentenceValid = card?.type === 'sentence' && ['easy','medium','hard'].includes(card.difficulty) &&
+      typeof card.sourcePack === 'string' && Array.isArray(card.breakdown) && card.breakdown.length >= 3 &&
+      card.breakdown.every(part => part && part.zh && part.py && part.en);
+    const wordValid = card?.type !== 'sentence' && Array.isArray(card?.examples) &&
+      card.examples.length === 2 && card.examples.every(ex => Array.isArray(ex) && ex.length === 3 && ex.every(Boolean));
+    if (!commonValid || !(sentenceValid || wordValid))
+      throw new Error('A vocabulary or sentence card is malformed');
     const id = String(card.id);
     if (seen.has(id)) throw new Error(`Duplicate card ID: ${id}`);
     seen.add(id);
@@ -68,7 +74,7 @@ function pick() {
   const result = nextCard(cards, state.history, state.stars, options(), recent);
   current = result.card;
   recent = result.recent;
-  direction = $('direction').value === 'mix' ? (Math.random() < 0.5 ? 'zh' : 'en') : $('direction').value;
+  direction = current?.type === 'sentence' ? 'zh' : ($('direction').value === 'mix' ? (Math.random() < 0.5 ? 'zh' : 'en') : $('direction').value);
   flipped = false;
   if (current) session++;
   render();
@@ -76,11 +82,14 @@ function pick() {
 function render() {
   const c = current;
   $('total').textContent = cards.length + ' cards';
+  $('card').classList.remove('sentence-card','sentence-easy','sentence-medium','sentence-hard','is-flipped');
+  $('difficultyBadge').hidden = !c || c.type !== 'sentence';
   $('starCount').textContent = Object.values(state.stars).filter(Boolean).length + ' saved';
   $('star').hidden = !c;
   $('miss').disabled = !c; $('know').disabled = !c;
   if (!c) {
     $('topicLabel').textContent = '';
+    $('difficultyBadge').textContent = '';
     $('content').innerHTML = '<div class="empty">No cards in this selection.<br><small>Change your filters in Settings.</small></div>';
     $('tip').textContent = '';
     $('progressText').textContent = 'No matching cards';
@@ -91,12 +100,28 @@ function render() {
   $('star').classList.toggle('active', Boolean(state.stars[c.id]));
   $('star').setAttribute('aria-pressed', state.stars[c.id] ? 'true' : 'false');
   $('star').setAttribute('aria-label', state.stars[c.id] ? 'Remove star' : 'Star this card');
-  $('topicLabel').textContent = c.topic;
+  const isSentence = c.type === 'sentence';
+  $('topicLabel').textContent = isSentence ? 'SENTENCE · ' + c.sourcePack.replace('extended-hsk1-', 'HSK 1 · ').replace('foundation-', 'Foundation · ') : c.topic;
+  if (isSentence) {
+    $('card').classList.add('sentence-card', 'sentence-' + c.difficulty);
+    $('difficultyBadge').textContent = c.difficulty.toUpperCase();
+  }
+  if (flipped) $('card').classList.add('is-flipped');
   $('tip').textContent = flipped ? 'Tap to see front' : 'Tap to reveal';
   $('progressText').textContent = `Card ${session} · ${Object.keys(state.history).length} practiced`;
   const h = state.history[c.id];
-  $('reviewNote').textContent = h ? (h.last === 'miss' ? 'This card needs review' : 'Previously answered correctly') : 'New vocabulary';
+  $('reviewNote').textContent = h ? (h.last === 'miss' ? 'This card needs review' : 'Previously answered correctly') : (isSentence ? 'New sentence' : 'New vocabulary');
   const wordClass = c.zh.length > 4 ? 'word phrase' : 'word';
+  if (isSentence) {
+    if (!flipped) {
+      $('content').innerHTML = `<div class="sentence-zh" lang="zh-Hans">${escapeHTML(c.zh)}</div>${$('pinyin').checked ? `<div class="sentence-py">${escapeHTML(c.py)}</div>` : ''}`;
+    } else {
+      const parts = c.breakdown.map((piece,i) => `<div class="breakdown-row"><span class="breakdown-num">${i+1}</span><div class="breakdown-zh" lang="zh-Hans">${escapeHTML(piece.zh)}</div><div class="breakdown-py">${escapeHTML(piece.py)}</div><div class="breakdown-en">${escapeHTML(piece.en)}</div></div>`).join('');
+      $('content').innerHTML = `<div class="sentence-answer-label">TRANSLATION</div><div class="sentence-translation">${escapeHTML(c.en)}</div><div class="sentence-answer-zh" lang="zh-Hans">${escapeHTML(c.zh)}</div><div class="sentence-answer-py">${escapeHTML(c.py)}</div><div class="sentence-answer-label breakdown-title">WORD-BY-WORD</div><div class="breakdown" aria-label="Word by word meaning">${parts}</div>`;
+    }
+    renderHistory();
+    return;
+  }
   if (!flipped) {
     $('content').innerHTML = direction === 'zh'
       ? `<div class="${wordClass}" lang="zh-Hans">${escapeHTML(c.zh)}</div>${$('pinyin').checked ? `<div class="roman">${escapeHTML(c.py)}</div>` : ''}`
@@ -120,10 +145,10 @@ function rate(correct) {
   pick();
 }
 function wireEvents() {
-  for (const id of ['starredOnly','topic','direction','pinyin','examples','mix']) {
+  for (const id of ['starredOnly','topic','direction','pinyin','examples','mix','sentencesEnabled']) {
     $(id).addEventListener('change', () => {
       saveOptions();
-      if (['starredOnly','topic','direction','mix'].includes(id)) pick(); else render();
+      if (['starredOnly','topic','direction','mix','sentencesEnabled'].includes(id)) pick(); else render();
     });
   }
   $('settingsBtn').onclick = () => {$('overlay').classList.add('open'); renderHistory();};

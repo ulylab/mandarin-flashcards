@@ -35,3 +35,19 @@ Historical downloads opened as `file://` do not share storage with the GitHub Pa
 
 On GitHub: **Settings → Pages → Build and deployment: Deploy from a branch → `main` / root**.
 The site will be available at `https://ulylab.github.io/mandarin-flashcards/` once Pages has been enabled.
+
+
+## Sentence cards (HSK 1)
+
+The app includes 100 optional contextual **sentence cards** in twelve independent
+vocabulary packs under `data/packs/sentences-*.json` (10 easy/medium or 5 hard cards per pack; 40 easy, 40 medium, 20 hard). They are enabled
+by default and can be toggled under **Settings → Include sentence cards**.
+The card background and upper-right difficulty label distinguish levels.
+The reverse includes a natural English translation and a segmented,
+word-by-word Mandarin / pinyin / English breakdown.
+
+Sentence IDs follow `sentence-<difficulty>-###` and are independent of the
+original 335 word card IDs. Grading, favorites, and history are tracked by ID.
+To extend, add a JSON pack conforming to the sentence schema and register
+it in `data/manifest.json`. Run `python tools/validate.py` before publishing.
+Hard means **longer construction**, not substantially harder vocabulary.

@@ -1,0 +1,562 @@
+{
+  "id": "sentences-medium-03",
+  "label": "HSK 1 sentences · medium · pack 3",
+  "type": "sentence",
+  "cards": [
+    {
+      "id": "sentence-medium-021",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "foundation-03",
+      "topic": "Sentence practice",
+      "zh": "我们在厨房做饭，妈妈喜欢吃米饭。",
+      "py": "Wǒmen zài chúfáng zuòfàn, māma xǐhuan chī mǐfàn.",
+      "en": "We are cooking in the kitchen, and Mom likes rice.",
+      "breakdown": [
+        {
+          "zh": "我们",
+          "py": "wǒmen",
+          "en": "we / us"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in; ongoing action"
+        },
+        {
+          "zh": "厨房",
+          "py": "chúfáng",
+          "en": "kitchen"
+        },
+        {
+          "zh": "做饭",
+          "py": "zuòfàn",
+          "en": "cook"
+        },
+        {
+          "zh": "妈妈",
+          "py": "māma",
+          "en": "mom"
+        },
+        {
+          "zh": "喜欢",
+          "py": "xǐhuan",
+          "en": "like"
+        },
+        {
+          "zh": "吃",
+          "py": "chī",
+          "en": "eat"
+        },
+        {
+          "zh": "米饭",
+          "py": "mǐfàn",
+          "en": "cooked rice"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-022",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "foundation-03",
+      "topic": "Sentence practice",
+      "zh": "我想用筷子吃饭，也想喝茶。",
+      "py": "Wǒ xiǎng yòng kuàizi chī fàn, yě xiǎng hē chá.",
+      "en": "I want to use chopsticks to eat and also drink tea.",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "想",
+          "py": "xiǎng",
+          "en": "want to / think"
+        },
+        {
+          "zh": "用",
+          "py": "yòng",
+          "en": "use"
+        },
+        {
+          "zh": "筷子",
+          "py": "kuàizi",
+          "en": "chopsticks"
+        },
+        {
+          "zh": "吃",
+          "py": "chī",
+          "en": "eat"
+        },
+        {
+          "zh": "饭",
+          "py": "fàn",
+          "en": "meal/rice"
+        },
+        {
+          "zh": "也",
+          "py": "yě",
+          "en": "also"
+        },
+        {
+          "zh": "想",
+          "py": "xiǎng",
+          "en": "want to / think"
+        },
+        {
+          "zh": "喝",
+          "py": "hē",
+          "en": "drink"
+        },
+        {
+          "zh": "茶",
+          "py": "chá",
+          "en": "tea"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-023",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "foundation-04",
+      "topic": "Sentence practice",
+      "zh": "昨天我没工作，今天我也不工作。",
+      "py": "Zuótiān wǒ méi gōngzuò, jīntiān wǒ yě bù gōngzuò.",
+      "en": "I didn't work yesterday, and I'm not working today either.",
+      "breakdown": [
+        {
+          "zh": "昨天",
+          "py": "zuótiān",
+          "en": "yesterday"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "没",
+          "py": "méi",
+          "en": "not / did not"
+        },
+        {
+          "zh": "工作",
+          "py": "gōngzuò",
+          "en": "to work / work"
+        },
+        {
+          "zh": "今天",
+          "py": "jīntiān",
+          "en": "today"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "也",
+          "py": "yě",
+          "en": "also"
+        },
+        {
+          "zh": "不",
+          "py": "bù",
+          "en": "not"
+        },
+        {
+          "zh": "工作",
+          "py": "gōngzuò",
+          "en": "to work / work"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-024",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "foundation-04",
+      "topic": "Sentence practice",
+      "zh": "请问，医院在哪儿？",
+      "py": "Qǐngwèn, yīyuàn zài nǎr?",
+      "en": "Excuse me, where is the hospital?",
+      "breakdown": [
+        {
+          "zh": "请问",
+          "py": "qǐngwèn",
+          "en": "excuse me / may I ask"
+        },
+        {
+          "zh": "医院",
+          "py": "yīyuàn",
+          "en": "hospital"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in; ongoing action"
+        },
+        {
+          "zh": "哪儿",
+          "py": "nǎr",
+          "en": "where"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-025",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "foundation-05",
+      "topic": "Sentence practice",
+      "zh": "这个老师会说中文，也会写汉字。",
+      "py": "Zhège lǎoshī huì shuō Zhōngwén, yě huì xiě Hànzì.",
+      "en": "This teacher can speak Chinese and write Chinese characters.",
+      "breakdown": [
+        {
+          "zh": "这个",
+          "py": "zhège",
+          "en": "this"
+        },
+        {
+          "zh": "老师",
+          "py": "lǎoshī",
+          "en": "teacher"
+        },
+        {
+          "zh": "会",
+          "py": "huì",
+          "en": "can / will"
+        },
+        {
+          "zh": "说",
+          "py": "shuō",
+          "en": "to speak / say"
+        },
+        {
+          "zh": "中文",
+          "py": "Zhōngwén",
+          "en": "Chinese language"
+        },
+        {
+          "zh": "也",
+          "py": "yě",
+          "en": "also"
+        },
+        {
+          "zh": "会",
+          "py": "huì",
+          "en": "can / will"
+        },
+        {
+          "zh": "写",
+          "py": "xiě",
+          "en": "to write"
+        },
+        {
+          "zh": "汉字",
+          "py": "Hànzì",
+          "en": "Chinese character"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-026",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "foundation-05",
+      "topic": "Sentence practice",
+      "zh": "我的朋友喜欢看书，也喜欢听歌。",
+      "py": "Wǒ de péngyou xǐhuan kàn shū, yě xǐhuan tīng gē.",
+      "en": "My friend likes reading books and listening to songs.",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "possessive / modifier particle"
+        },
+        {
+          "zh": "朋友",
+          "py": "péngyou",
+          "en": "friend"
+        },
+        {
+          "zh": "喜欢",
+          "py": "xǐhuan",
+          "en": "like"
+        },
+        {
+          "zh": "看",
+          "py": "kàn",
+          "en": "watch / look at"
+        },
+        {
+          "zh": "书",
+          "py": "shū",
+          "en": "book"
+        },
+        {
+          "zh": "也",
+          "py": "yě",
+          "en": "also"
+        },
+        {
+          "zh": "喜欢",
+          "py": "xǐhuan",
+          "en": "like"
+        },
+        {
+          "zh": "听",
+          "py": "tīng",
+          "en": "to listen"
+        },
+        {
+          "zh": "歌",
+          "py": "gē",
+          "en": "song"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-027",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "foundation-06",
+      "topic": "Sentence practice",
+      "zh": "上午我去买书，下午我想在家看书。",
+      "py": "Shàngwǔ wǒ qù mǎi shū, xiàwǔ wǒ xiǎng zài jiā kàn shū.",
+      "en": "I am going to buy books in the morning and want to read at home in the afternoon.",
+      "breakdown": [
+        {
+          "zh": "上午",
+          "py": "shàngwǔ",
+          "en": "morning"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "去",
+          "py": "qù",
+          "en": "to go"
+        },
+        {
+          "zh": "买",
+          "py": "mǎi",
+          "en": "buy"
+        },
+        {
+          "zh": "书",
+          "py": "shū",
+          "en": "book"
+        },
+        {
+          "zh": "下午",
+          "py": "xiàwǔ",
+          "en": "afternoon"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "想",
+          "py": "xiǎng",
+          "en": "want to / think"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in; ongoing action"
+        },
+        {
+          "zh": "家",
+          "py": "jiā",
+          "en": "home / family"
+        },
+        {
+          "zh": "看",
+          "py": "kàn",
+          "en": "watch / look at"
+        },
+        {
+          "zh": "书",
+          "py": "shū",
+          "en": "book"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-028",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "foundation-06",
+      "topic": "Sentence practice",
+      "zh": "今天很热，我想喝一点儿冷水。",
+      "py": "Jīntiān hěn rè, wǒ xiǎng hē yìdiǎnr lěng shuǐ.",
+      "en": "It's very hot today, and I want to drink a little cold water.",
+      "breakdown": [
+        {
+          "zh": "今天",
+          "py": "jīntiān",
+          "en": "today"
+        },
+        {
+          "zh": "很",
+          "py": "hěn",
+          "en": "very / degree marker"
+        },
+        {
+          "zh": "热",
+          "py": "rè",
+          "en": "hot"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "想",
+          "py": "xiǎng",
+          "en": "want to / think"
+        },
+        {
+          "zh": "喝",
+          "py": "hē",
+          "en": "drink"
+        },
+        {
+          "zh": "一点儿",
+          "py": "yìdiǎnr",
+          "en": "a little"
+        },
+        {
+          "zh": "冷",
+          "py": "lěng",
+          "en": "cold"
+        },
+        {
+          "zh": "水",
+          "py": "shuǐ",
+          "en": "water"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-029",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "Sentence practice",
+      "zh": "这个先生叫什么名字？我认识他。",
+      "py": "Zhège xiānsheng jiào shénme míngzi? wǒ rènshi tā.",
+      "en": "What is this man's name? I know him.",
+      "breakdown": [
+        {
+          "zh": "这个",
+          "py": "zhège",
+          "en": "this"
+        },
+        {
+          "zh": "先生",
+          "py": "xiānsheng",
+          "en": "Mr."
+        },
+        {
+          "zh": "叫",
+          "py": "jiào",
+          "en": "to be called"
+        },
+        {
+          "zh": "什么",
+          "py": "shénme",
+          "en": "what"
+        },
+        {
+          "zh": "名字",
+          "py": "míngzi",
+          "en": "name"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "认识",
+          "py": "rènshi",
+          "en": "to know someone"
+        },
+        {
+          "zh": "他",
+          "py": "tā",
+          "en": "he"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-030",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "Sentence practice",
+      "zh": "大家都是同学，认识你很高兴。",
+      "py": "Dàjiā dōu shì tóngxué, rènshi nǐ hěn gāoxìng.",
+      "en": "We're all classmates. Nice to meet you.",
+      "breakdown": [
+        {
+          "zh": "大家",
+          "py": "dàjiā",
+          "en": "everyone"
+        },
+        {
+          "zh": "都",
+          "py": "dōu",
+          "en": "all"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "同学",
+          "py": "tóngxué",
+          "en": "classmate"
+        },
+        {
+          "zh": "认识",
+          "py": "rènshi",
+          "en": "to know someone"
+        },
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "en": "you"
+        },
+        {
+          "zh": "很",
+          "py": "hěn",
+          "en": "very / degree marker"
+        },
+        {
+          "zh": "高兴",
+          "py": "gāoxìng",
+          "en": "happy"
+        }
+      ]
+    }
+  ]
+}

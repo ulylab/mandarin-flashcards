@@ -1,0 +1,552 @@
+{
+  "id": "sentences-medium-02",
+  "label": "HSK 1 sentences · medium · pack 2",
+  "type": "sentence",
+  "cards": [
+    {
+      "id": "sentence-medium-011",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-10",
+      "topic": "Sentence practice",
+      "zh": "我们上课的时候不说话。",
+      "py": "Wǒmen shàngkè de shíhou bù shuōhuà.",
+      "en": "We don't talk during class.",
+      "breakdown": [
+        {
+          "zh": "我们",
+          "py": "wǒmen",
+          "en": "we / us"
+        },
+        {
+          "zh": "上课",
+          "py": "shàngkè",
+          "en": "attend class"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "possessive / modifier particle"
+        },
+        {
+          "zh": "时候",
+          "py": "shíhou",
+          "en": "time / when"
+        },
+        {
+          "zh": "不",
+          "py": "bù",
+          "en": "not"
+        },
+        {
+          "zh": "说话",
+          "py": "shuōhuà",
+          "en": "talk"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-012",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-10",
+      "topic": "Sentence practice",
+      "zh": "我有一个问题，上课的时候可以问老师吗？",
+      "py": "Wǒ yǒu yí ge wèntí, shàngkè de shíhou kěyǐ wèn lǎoshī ma?",
+      "en": "I have a question. May I ask the teacher during class?",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "有",
+          "py": "yǒu",
+          "en": "have / there is"
+        },
+        {
+          "zh": "一个",
+          "py": "yí ge",
+          "en": "one (measure phrase)"
+        },
+        {
+          "zh": "问题",
+          "py": "wèntí",
+          "en": "question problem"
+        },
+        {
+          "zh": "上课",
+          "py": "shàngkè",
+          "en": "attend class"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "possessive / modifier particle"
+        },
+        {
+          "zh": "时候",
+          "py": "shíhou",
+          "en": "time / when"
+        },
+        {
+          "zh": "可以",
+          "py": "kěyǐ",
+          "en": "may / can"
+        },
+        {
+          "zh": "问",
+          "py": "wèn",
+          "en": "ask"
+        },
+        {
+          "zh": "老师",
+          "py": "lǎoshī",
+          "en": "teacher"
+        },
+        {
+          "zh": "吗",
+          "py": "ma",
+          "en": "yes/no question particle"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-013",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-11",
+      "topic": "Sentence practice",
+      "zh": "她正在唱歌，我觉得很好听。",
+      "py": "Tā zhèngzài chànggē, wǒ juéde hěn hǎotīng.",
+      "en": "She is singing, and I think it sounds lovely.",
+      "breakdown": [
+        {
+          "zh": "她",
+          "py": "tā",
+          "en": "she"
+        },
+        {
+          "zh": "正在",
+          "py": "zhèngzài",
+          "en": "currently (action in progress)"
+        },
+        {
+          "zh": "唱歌",
+          "py": "chànggē",
+          "en": "singing"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "觉得",
+          "py": "juéde",
+          "en": "think / feel"
+        },
+        {
+          "zh": "很",
+          "py": "hěn",
+          "en": "very / degree marker"
+        },
+        {
+          "zh": "好听",
+          "py": "hǎotīng",
+          "en": "pleasant sounding"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-014",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-11",
+      "topic": "Sentence practice",
+      "zh": "我生病了，今天要去医院看病。",
+      "py": "Wǒ shēngbìng le, jīntiān yào qù yīyuàn kànbìng.",
+      "en": "I'm sick, so I need to see a doctor at the hospital today.",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "生病",
+          "py": "shēngbìng",
+          "en": "to get sick"
+        },
+        {
+          "zh": "了",
+          "py": "le",
+          "en": "completed action / change"
+        },
+        {
+          "zh": "今天",
+          "py": "jīntiān",
+          "en": "today"
+        },
+        {
+          "zh": "要",
+          "py": "yào",
+          "en": "need / want"
+        },
+        {
+          "zh": "去",
+          "py": "qù",
+          "en": "to go"
+        },
+        {
+          "zh": "医院",
+          "py": "yīyuàn",
+          "en": "hospital"
+        },
+        {
+          "zh": "看病",
+          "py": "kànbìng",
+          "en": "see a doctor"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-015",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-11",
+      "topic": "Sentence practice",
+      "zh": "你看见他了吗？我听见他说话了。",
+      "py": "Nǐ kànjiàn tā le ma? wǒ tīngjiàn tā shuōhuà le.",
+      "en": "Have you seen him? I heard him talking.",
+      "breakdown": [
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "en": "you"
+        },
+        {
+          "zh": "看见",
+          "py": "kànjiàn",
+          "en": "see"
+        },
+        {
+          "zh": "他",
+          "py": "tā",
+          "en": "he"
+        },
+        {
+          "zh": "了",
+          "py": "le",
+          "en": "completed action / change"
+        },
+        {
+          "zh": "吗",
+          "py": "ma",
+          "en": "yes/no question particle"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "听见",
+          "py": "tīngjiàn",
+          "en": "hear"
+        },
+        {
+          "zh": "他",
+          "py": "tā",
+          "en": "he"
+        },
+        {
+          "zh": "说话",
+          "py": "shuōhuà",
+          "en": "talk"
+        },
+        {
+          "zh": "了",
+          "py": "le",
+          "en": "completed action / change"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-016",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-11",
+      "topic": "Sentence practice",
+      "zh": "这个电影很好看，那个歌也好听。",
+      "py": "Zhège diànyǐng hěn hǎokàn, nàge gē yě hǎotīng.",
+      "en": "This movie is good, and that song sounds good too.",
+      "breakdown": [
+        {
+          "zh": "这个",
+          "py": "zhège",
+          "en": "this"
+        },
+        {
+          "zh": "电影",
+          "py": "diànyǐng",
+          "en": "movie"
+        },
+        {
+          "zh": "很",
+          "py": "hěn",
+          "en": "very / degree marker"
+        },
+        {
+          "zh": "好看",
+          "py": "hǎokàn",
+          "en": "good-looking"
+        },
+        {
+          "zh": "那个",
+          "py": "nàge",
+          "en": "that"
+        },
+        {
+          "zh": "歌",
+          "py": "gē",
+          "en": "song"
+        },
+        {
+          "zh": "也",
+          "py": "yě",
+          "en": "also"
+        },
+        {
+          "zh": "好听",
+          "py": "hǎotīng",
+          "en": "pleasant sounding"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-017",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "foundation-01",
+      "topic": "Sentence practice",
+      "zh": "猫在门前面，狗在门后面。",
+      "py": "Māo zài mén qiánmiàn, gǒu zài mén hòumiàn.",
+      "en": "The cat is in front of the door, and the dog is behind it.",
+      "breakdown": [
+        {
+          "zh": "猫",
+          "py": "māo",
+          "en": "cat"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in; ongoing action"
+        },
+        {
+          "zh": "门",
+          "py": "mén",
+          "en": "door"
+        },
+        {
+          "zh": "前面",
+          "py": "qiánmiàn",
+          "en": "in front of"
+        },
+        {
+          "zh": "狗",
+          "py": "gǒu",
+          "en": "dog"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in; ongoing action"
+        },
+        {
+          "zh": "门",
+          "py": "mén",
+          "en": "door"
+        },
+        {
+          "zh": "后面",
+          "py": "hòumiàn",
+          "en": "behind"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-018",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "foundation-01",
+      "topic": "Sentence practice",
+      "zh": "杯子在桌子上面，本子在盒子里面。",
+      "py": "Bēizi zài zhuōzi shàngmiàn, běnzi zài hézi lǐmiàn.",
+      "en": "The cup is on the table, and the notebook is in the box.",
+      "breakdown": [
+        {
+          "zh": "杯子",
+          "py": "bēizi",
+          "en": "cup"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in; ongoing action"
+        },
+        {
+          "zh": "桌子",
+          "py": "zhuōzi",
+          "en": "table"
+        },
+        {
+          "zh": "上面",
+          "py": "shàngmiàn",
+          "en": "on / above"
+        },
+        {
+          "zh": "本子",
+          "py": "běnzi",
+          "en": "notebook"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in; ongoing action"
+        },
+        {
+          "zh": "盒子",
+          "py": "hézi",
+          "en": "box"
+        },
+        {
+          "zh": "里面",
+          "py": "lǐmiàn",
+          "en": "inside"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-019",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "foundation-02",
+      "topic": "Sentence practice",
+      "zh": "我的姐姐有一个儿子，我的妹妹有一个女儿。",
+      "py": "Wǒ de jiějie yǒu yí ge érzi, wǒ de mèimei yǒu yí ge nǚ’ér.",
+      "en": "My older sister has a son, and my younger sister has a daughter.",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "possessive / modifier particle"
+        },
+        {
+          "zh": "姐姐",
+          "py": "jiějie",
+          "en": "older sister"
+        },
+        {
+          "zh": "有",
+          "py": "yǒu",
+          "en": "have / there is"
+        },
+        {
+          "zh": "一个",
+          "py": "yí ge",
+          "en": "one (measure phrase)"
+        },
+        {
+          "zh": "儿子",
+          "py": "érzi",
+          "en": "son"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "possessive / modifier particle"
+        },
+        {
+          "zh": "妹妹",
+          "py": "mèimei",
+          "en": "younger sister"
+        },
+        {
+          "zh": "有",
+          "py": "yǒu",
+          "en": "have / there is"
+        },
+        {
+          "zh": "一个",
+          "py": "yí ge",
+          "en": "one (measure phrase)"
+        },
+        {
+          "zh": "女儿",
+          "py": "nǚ’ér",
+          "en": "daughter"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-020",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "foundation-02",
+      "topic": "Sentence practice",
+      "zh": "哥哥和弟弟都在学校学习。",
+      "py": "Gēge hé dìdi dōu zài xuéxiào xuéxí.",
+      "en": "My older and younger brothers are both studying at school.",
+      "breakdown": [
+        {
+          "zh": "哥哥",
+          "py": "gēge",
+          "en": "older brother"
+        },
+        {
+          "zh": "和",
+          "py": "hé",
+          "en": "and / with"
+        },
+        {
+          "zh": "弟弟",
+          "py": "dìdi",
+          "en": "younger brother"
+        },
+        {
+          "zh": "都",
+          "py": "dōu",
+          "en": "all"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in; ongoing action"
+        },
+        {
+          "zh": "学校",
+          "py": "xuéxiào",
+          "en": "school"
+        },
+        {
+          "zh": "学习",
+          "py": "xuéxí",
+          "en": "study"
+        }
+      ]
+    }
+  ]
+}

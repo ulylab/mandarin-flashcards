@@ -1,0 +1,332 @@
+{
+  "id": "sentences-easy-04",
+  "label": "HSK 1 sentences · easy · pack 4",
+  "type": "sentence",
+  "cards": [
+    {
+      "id": "sentence-easy-031",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-03",
+      "topic": "Sentence practice",
+      "zh": "这个孩子真漂亮。",
+      "py": "Zhège háizi zhēn piàoliang.",
+      "en": "This child is really pretty.",
+      "breakdown": [
+        {
+          "zh": "这个",
+          "py": "zhège",
+          "en": "this"
+        },
+        {
+          "zh": "孩子",
+          "py": "háizi",
+          "en": "child"
+        },
+        {
+          "zh": "真",
+          "py": "zhēn",
+          "en": "really"
+        },
+        {
+          "zh": "漂亮",
+          "py": "piàoliang",
+          "en": "pretty"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-032",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-03",
+      "topic": "Sentence practice",
+      "zh": "她的女儿很忙。",
+      "py": "Tā de nǚ’ér hěn máng.",
+      "en": "Her daughter is very busy.",
+      "breakdown": [
+        {
+          "zh": "她",
+          "py": "tā",
+          "en": "she"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "possessive / modifier particle"
+        },
+        {
+          "zh": "女儿",
+          "py": "nǚ’ér",
+          "en": "daughter"
+        },
+        {
+          "zh": "很",
+          "py": "hěn",
+          "en": "very / degree marker"
+        },
+        {
+          "zh": "忙",
+          "py": "máng",
+          "en": "busy"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-033",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-03",
+      "topic": "Sentence practice",
+      "zh": "我爱我的女朋友。",
+      "py": "Wǒ ài wǒ de nǚpéngyou.",
+      "en": "I love my girlfriend.",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "爱",
+          "py": "ài",
+          "en": "to love"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "possessive / modifier particle"
+        },
+        {
+          "zh": "女朋友",
+          "py": "nǚpéngyou",
+          "en": "girlfriend"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-034",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-04",
+      "topic": "Sentence practice",
+      "zh": "星期天我早上起床。",
+      "py": "Xīngqītiān wǒ zǎoshang qǐchuáng.",
+      "en": "I get up in the morning on Sunday.",
+      "breakdown": [
+        {
+          "zh": "星期天",
+          "py": "xīngqītiān",
+          "en": "Sunday"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "早上",
+          "py": "zǎoshang",
+          "en": "morning"
+        },
+        {
+          "zh": "起床",
+          "py": "qǐchuáng",
+          "en": "get up"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-035",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-04",
+      "topic": "Sentence practice",
+      "zh": "现在三点半。",
+      "py": "Xiànzài sān diǎn bàn.",
+      "en": "It is half past three now.",
+      "breakdown": [
+        {
+          "zh": "现在",
+          "py": "xiànzài",
+          "en": "now"
+        },
+        {
+          "zh": "三",
+          "py": "sān",
+          "en": "three"
+        },
+        {
+          "zh": "点",
+          "py": "diǎn",
+          "en": "o’clock"
+        },
+        {
+          "zh": "半",
+          "py": "bàn",
+          "en": "half"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-036",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-05",
+      "topic": "Sentence practice",
+      "zh": "午饭我吃饺子。",
+      "py": "Wǔfàn wǒ chī jiǎozi.",
+      "en": "I eat dumplings for lunch.",
+      "breakdown": [
+        {
+          "zh": "午饭",
+          "py": "wǔfàn",
+          "en": "lunch"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "吃",
+          "py": "chī",
+          "en": "eat"
+        },
+        {
+          "zh": "饺子",
+          "py": "jiǎozi",
+          "en": "dumpling"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-037",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-05",
+      "topic": "Sentence practice",
+      "zh": "早饭我喝牛奶。",
+      "py": "Zǎofàn wǒ hē niúnǎi.",
+      "en": "I drink milk for breakfast.",
+      "breakdown": [
+        {
+          "zh": "早饭",
+          "py": "zǎofàn",
+          "en": "breakfast"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "喝",
+          "py": "hē",
+          "en": "drink"
+        },
+        {
+          "zh": "牛奶",
+          "py": "niúnǎi",
+          "en": "milk"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-038",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-06",
+      "topic": "Sentence practice",
+      "zh": "我要买苹果。",
+      "py": "Wǒ yào mǎi píngguǒ.",
+      "en": "I want to buy apples.",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "要",
+          "py": "yào",
+          "en": "need / want"
+        },
+        {
+          "zh": "买",
+          "py": "mǎi",
+          "en": "buy"
+        },
+        {
+          "zh": "苹果",
+          "py": "píngguǒ",
+          "en": "apple"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-039",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-06",
+      "topic": "Sentence practice",
+      "zh": "这个面包很便宜。",
+      "py": "Zhège miànbāo hěn piányi.",
+      "en": "This bread is cheap.",
+      "breakdown": [
+        {
+          "zh": "这个",
+          "py": "zhège",
+          "en": "this"
+        },
+        {
+          "zh": "面包",
+          "py": "miànbāo",
+          "en": "bread"
+        },
+        {
+          "zh": "很",
+          "py": "hěn",
+          "en": "very / degree marker"
+        },
+        {
+          "zh": "便宜",
+          "py": "piányi",
+          "en": "cheap"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-040",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-07",
+      "topic": "Sentence practice",
+      "zh": "商店卖衣服。",
+      "py": "Shāngdiàn mài yīfu.",
+      "en": "The shop sells clothes.",
+      "breakdown": [
+        {
+          "zh": "商店",
+          "py": "shāngdiàn",
+          "en": "shop"
+        },
+        {
+          "zh": "卖",
+          "py": "mài",
+          "en": "sell"
+        },
+        {
+          "zh": "衣服",
+          "py": "yīfu",
+          "en": "clothes"
+        }
+      ]
+    }
+  ]
+}

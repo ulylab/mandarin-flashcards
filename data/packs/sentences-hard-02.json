@@ -1,0 +1,522 @@
+{
+  "id": "sentences-hard-02",
+  "label": "HSK 1 sentences · hard · pack 2",
+  "type": "sentence",
+  "cards": [
+    {
+      "id": "sentence-hard-006",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "foundation-06",
+      "topic": "Sentence practice",
+      "zh": "今天上午很冷，下午有点儿热，所以我想晚上再去买东西。",
+      "py": "Jīntiān shàngwǔ hěn lěng, xiàwǔ yǒudiǎnr rè, suǒyǐ wǒ xiǎng wǎnshang zài qù mǎi dōngxi.",
+      "en": "It was very cold this morning and a little hot in the afternoon, so I want to go shopping tonight instead.",
+      "breakdown": [
+        {
+          "zh": "今天",
+          "py": "jīntiān",
+          "en": "today"
+        },
+        {
+          "zh": "上午",
+          "py": "shàngwǔ",
+          "en": "morning"
+        },
+        {
+          "zh": "很",
+          "py": "hěn",
+          "en": "very / degree marker"
+        },
+        {
+          "zh": "冷",
+          "py": "lěng",
+          "en": "cold"
+        },
+        {
+          "zh": "下午",
+          "py": "xiàwǔ",
+          "en": "afternoon"
+        },
+        {
+          "zh": "有点儿",
+          "py": "yǒudiǎnr",
+          "en": "a bit"
+        },
+        {
+          "zh": "热",
+          "py": "rè",
+          "en": "hot"
+        },
+        {
+          "zh": "所以",
+          "py": "suǒyǐ",
+          "en": "so / therefore"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "想",
+          "py": "xiǎng",
+          "en": "want to / think"
+        },
+        {
+          "zh": "晚上",
+          "py": "wǎnshang",
+          "en": "evening / night"
+        },
+        {
+          "zh": "再",
+          "py": "zài",
+          "en": "again / later"
+        },
+        {
+          "zh": "去",
+          "py": "qù",
+          "en": "to go"
+        },
+        {
+          "zh": "买",
+          "py": "mǎi",
+          "en": "buy"
+        },
+        {
+          "zh": "东西",
+          "py": "dōngxi",
+          "en": "thing"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-007",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "Sentence practice",
+      "zh": "请问，您认识那个中国女士吗？我们都是她的同学，但是不知道她的名字。",
+      "py": "Qǐngwèn, nín rènshi nàge Zhōngguó nǚshì ma? wǒmen dōu shì tā de tóngxué, dànshì bù zhīdào tā de míngzi.",
+      "en": "Excuse me, do you know that Chinese woman? We are all her classmates, but we don't know her name.",
+      "breakdown": [
+        {
+          "zh": "请问",
+          "py": "qǐngwèn",
+          "en": "excuse me / may I ask"
+        },
+        {
+          "zh": "您",
+          "py": "nín",
+          "en": "you (polite)"
+        },
+        {
+          "zh": "认识",
+          "py": "rènshi",
+          "en": "to know someone"
+        },
+        {
+          "zh": "那个",
+          "py": "nàge",
+          "en": "that"
+        },
+        {
+          "zh": "中国",
+          "py": "Zhōngguó",
+          "en": "China"
+        },
+        {
+          "zh": "女士",
+          "py": "nǚshì",
+          "en": "Ms."
+        },
+        {
+          "zh": "吗",
+          "py": "ma",
+          "en": "yes/no question particle"
+        },
+        {
+          "zh": "我们",
+          "py": "wǒmen",
+          "en": "we / us"
+        },
+        {
+          "zh": "都",
+          "py": "dōu",
+          "en": "all"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "她",
+          "py": "tā",
+          "en": "she"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "possessive / modifier particle"
+        },
+        {
+          "zh": "同学",
+          "py": "tóngxué",
+          "en": "classmate"
+        },
+        {
+          "zh": "但是",
+          "py": "dànshì",
+          "en": "but"
+        },
+        {
+          "zh": "不",
+          "py": "bù",
+          "en": "not"
+        },
+        {
+          "zh": "知道",
+          "py": "zhīdào",
+          "en": "know"
+        },
+        {
+          "zh": "她",
+          "py": "tā",
+          "en": "she"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "possessive / modifier particle"
+        },
+        {
+          "zh": "名字",
+          "py": "míngzi",
+          "en": "name"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-008",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "extended-hsk1-02",
+      "topic": "Sentence practice",
+      "zh": "我们家有五口人，我和两个孩子都学汉语，但是爸爸和妈妈只会说一点儿。",
+      "py": "Wǒmen jiā yǒu wǔ kǒu rén, wǒ hé liǎng ge háizi dōu xué Hànyǔ, dànshì bàba hé māma zhǐ huì shuō yìdiǎnr.",
+      "en": "There are five people in our family. The two children and I all study Mandarin, but Dad and Mom can only speak a little.",
+      "breakdown": [
+        {
+          "zh": "我们",
+          "py": "wǒmen",
+          "en": "we / us"
+        },
+        {
+          "zh": "家",
+          "py": "jiā",
+          "en": "home / family"
+        },
+        {
+          "zh": "有",
+          "py": "yǒu",
+          "en": "have / there is"
+        },
+        {
+          "zh": "五",
+          "py": "wǔ",
+          "en": "five"
+        },
+        {
+          "zh": "口",
+          "py": "kǒu",
+          "en": "measure word for family members"
+        },
+        {
+          "zh": "人",
+          "py": "rén",
+          "en": "person"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "和",
+          "py": "hé",
+          "en": "and / with"
+        },
+        {
+          "zh": "两",
+          "py": "liǎng",
+          "en": "two"
+        },
+        {
+          "zh": "个",
+          "py": "ge",
+          "en": "general measure word"
+        },
+        {
+          "zh": "孩子",
+          "py": "háizi",
+          "en": "child"
+        },
+        {
+          "zh": "都",
+          "py": "dōu",
+          "en": "all"
+        },
+        {
+          "zh": "学",
+          "py": "xué",
+          "en": "learn"
+        },
+        {
+          "zh": "汉语",
+          "py": "Hànyǔ",
+          "en": "Mandarin Chinese"
+        },
+        {
+          "zh": "但是",
+          "py": "dànshì",
+          "en": "but"
+        },
+        {
+          "zh": "爸爸",
+          "py": "bàba",
+          "en": "dad"
+        },
+        {
+          "zh": "和",
+          "py": "hé",
+          "en": "and / with"
+        },
+        {
+          "zh": "妈妈",
+          "py": "māma",
+          "en": "mom"
+        },
+        {
+          "zh": "只",
+          "py": "zhǐ",
+          "en": "only"
+        },
+        {
+          "zh": "会",
+          "py": "huì",
+          "en": "can / will"
+        },
+        {
+          "zh": "说",
+          "py": "shuō",
+          "en": "to speak / say"
+        },
+        {
+          "zh": "一点儿",
+          "py": "yìdiǎnr",
+          "en": "a little"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-009",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "extended-hsk1-03",
+      "topic": "Sentence practice",
+      "zh": "我的女儿今年七岁，她非常喜欢学汉语，也喜欢和小朋友一起玩。",
+      "py": "Wǒ de nǚ’ér jīnnián qī suì, tā fēicháng xǐhuan xué Hànyǔ, yě xǐhuan hé xiǎopéngyou yìqǐ wán.",
+      "en": "My daughter is seven this year. She really likes studying Mandarin and playing with other children.",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "possessive / modifier particle"
+        },
+        {
+          "zh": "女儿",
+          "py": "nǚ’ér",
+          "en": "daughter"
+        },
+        {
+          "zh": "今年",
+          "py": "jīnnián",
+          "en": "this year"
+        },
+        {
+          "zh": "七",
+          "py": "qī",
+          "en": "seven"
+        },
+        {
+          "zh": "岁",
+          "py": "suì",
+          "en": "years old"
+        },
+        {
+          "zh": "她",
+          "py": "tā",
+          "en": "she"
+        },
+        {
+          "zh": "非常",
+          "py": "fēicháng",
+          "en": "extremely"
+        },
+        {
+          "zh": "喜欢",
+          "py": "xǐhuan",
+          "en": "like"
+        },
+        {
+          "zh": "学",
+          "py": "xué",
+          "en": "learn"
+        },
+        {
+          "zh": "汉语",
+          "py": "Hànyǔ",
+          "en": "Mandarin Chinese"
+        },
+        {
+          "zh": "也",
+          "py": "yě",
+          "en": "also"
+        },
+        {
+          "zh": "喜欢",
+          "py": "xǐhuan",
+          "en": "like"
+        },
+        {
+          "zh": "和",
+          "py": "hé",
+          "en": "and / with"
+        },
+        {
+          "zh": "小朋友",
+          "py": "xiǎopéngyou",
+          "en": "young child"
+        },
+        {
+          "zh": "一起",
+          "py": "yìqǐ",
+          "en": "together"
+        },
+        {
+          "zh": "玩",
+          "py": "wán",
+          "en": "play"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-010",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "extended-hsk1-04",
+      "topic": "Sentence practice",
+      "zh": "明天星期天，我想早上八点起床，学两个小时汉语，下午和朋友看电影。",
+      "py": "Míngtiān xīngqītiān, wǒ xiǎng zǎoshang bā diǎn qǐchuáng, xué liǎng ge xiǎoshí Hànyǔ, xiàwǔ hé péngyou kàn diànyǐng.",
+      "en": "Tomorrow is Sunday. I want to get up at eight, study Mandarin for two hours, then see a movie with friends in the afternoon.",
+      "breakdown": [
+        {
+          "zh": "明天",
+          "py": "míngtiān",
+          "en": "tomorrow"
+        },
+        {
+          "zh": "星期天",
+          "py": "xīngqītiān",
+          "en": "Sunday"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "想",
+          "py": "xiǎng",
+          "en": "want to / think"
+        },
+        {
+          "zh": "早上",
+          "py": "zǎoshang",
+          "en": "morning"
+        },
+        {
+          "zh": "八",
+          "py": "bā",
+          "en": "eight"
+        },
+        {
+          "zh": "点",
+          "py": "diǎn",
+          "en": "o’clock"
+        },
+        {
+          "zh": "起床",
+          "py": "qǐchuáng",
+          "en": "get up"
+        },
+        {
+          "zh": "学",
+          "py": "xué",
+          "en": "learn"
+        },
+        {
+          "zh": "两",
+          "py": "liǎng",
+          "en": "two"
+        },
+        {
+          "zh": "个",
+          "py": "ge",
+          "en": "general measure word"
+        },
+        {
+          "zh": "小时",
+          "py": "xiǎoshí",
+          "en": "hour"
+        },
+        {
+          "zh": "汉语",
+          "py": "Hànyǔ",
+          "en": "Mandarin Chinese"
+        },
+        {
+          "zh": "下午",
+          "py": "xiàwǔ",
+          "en": "afternoon"
+        },
+        {
+          "zh": "和",
+          "py": "hé",
+          "en": "and / with"
+        },
+        {
+          "zh": "朋友",
+          "py": "péngyou",
+          "en": "friend"
+        },
+        {
+          "zh": "看",
+          "py": "kàn",
+          "en": "watch / look at"
+        },
+        {
+          "zh": "电影",
+          "py": "diànyǐng",
+          "en": "movie"
+        }
+      ]
+    }
+  ]
+}

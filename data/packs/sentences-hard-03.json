@@ -1,0 +1,532 @@
+{
+  "id": "sentences-hard-03",
+  "label": "HSK 1 sentences · hard · pack 3",
+  "type": "sentence",
+  "cards": [
+    {
+      "id": "sentence-hard-011",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "extended-hsk1-05",
+      "topic": "Sentence practice",
+      "zh": "我早上没吃早饭，中午吃了一些面条儿，晚上想和家人一起吃饺子。",
+      "py": "Wǒ zǎoshang méi chī zǎofàn, zhōngwǔ chī le yìxiē miàntiáor, wǎnshang xiǎng hé jiārén yìqǐ chī jiǎozi.",
+      "en": "I didn't eat breakfast, had some noodles at noon, and want to eat dumplings with my family tonight.",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "早上",
+          "py": "zǎoshang",
+          "en": "morning"
+        },
+        {
+          "zh": "没",
+          "py": "méi",
+          "en": "not / did not"
+        },
+        {
+          "zh": "吃",
+          "py": "chī",
+          "en": "eat"
+        },
+        {
+          "zh": "早饭",
+          "py": "zǎofàn",
+          "en": "breakfast"
+        },
+        {
+          "zh": "中午",
+          "py": "zhōngwǔ",
+          "en": "noon"
+        },
+        {
+          "zh": "吃",
+          "py": "chī",
+          "en": "eat"
+        },
+        {
+          "zh": "了",
+          "py": "le",
+          "en": "completed action / change"
+        },
+        {
+          "zh": "一些",
+          "py": "yìxiē",
+          "en": "some"
+        },
+        {
+          "zh": "面条儿",
+          "py": "miàntiáor",
+          "en": "noodles"
+        },
+        {
+          "zh": "晚上",
+          "py": "wǎnshang",
+          "en": "evening / night"
+        },
+        {
+          "zh": "想",
+          "py": "xiǎng",
+          "en": "want to / think"
+        },
+        {
+          "zh": "和",
+          "py": "hé",
+          "en": "and / with"
+        },
+        {
+          "zh": "家人",
+          "py": "jiārén",
+          "en": "family members"
+        },
+        {
+          "zh": "一起",
+          "py": "yìqǐ",
+          "en": "together"
+        },
+        {
+          "zh": "吃",
+          "py": "chī",
+          "en": "eat"
+        },
+        {
+          "zh": "饺子",
+          "py": "jiǎozi",
+          "en": "dumpling"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-012",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "extended-hsk1-06",
+      "topic": "Sentence practice",
+      "zh": "我觉得这家饭店的菜很好吃，但是有点儿贵，所以今天我只买面包和水果。",
+      "py": "Wǒ juéde zhè jiā fàndiàn de cài hěn hǎochī, dànshì yǒudiǎnr guì, suǒyǐ jīntiān wǒ zhǐ mǎi miànbāo hé shuǐguǒ.",
+      "en": "I think this restaurant's food is delicious but a little expensive, so today I'm only buying bread and fruit.",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "觉得",
+          "py": "juéde",
+          "en": "think / feel"
+        },
+        {
+          "zh": "这",
+          "py": "zhè",
+          "en": "this"
+        },
+        {
+          "zh": "家",
+          "py": "jiā",
+          "en": "home / family"
+        },
+        {
+          "zh": "饭店",
+          "py": "fàndiàn",
+          "en": "restaurant"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "possessive / modifier particle"
+        },
+        {
+          "zh": "菜",
+          "py": "cài",
+          "en": "dish vegetables"
+        },
+        {
+          "zh": "很",
+          "py": "hěn",
+          "en": "very / degree marker"
+        },
+        {
+          "zh": "好吃",
+          "py": "hǎochī",
+          "en": "delicious"
+        },
+        {
+          "zh": "但是",
+          "py": "dànshì",
+          "en": "but"
+        },
+        {
+          "zh": "有点儿",
+          "py": "yǒudiǎnr",
+          "en": "a bit"
+        },
+        {
+          "zh": "贵",
+          "py": "guì",
+          "en": "expensive"
+        },
+        {
+          "zh": "所以",
+          "py": "suǒyǐ",
+          "en": "so / therefore"
+        },
+        {
+          "zh": "今天",
+          "py": "jīntiān",
+          "en": "today"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "只",
+          "py": "zhǐ",
+          "en": "only"
+        },
+        {
+          "zh": "买",
+          "py": "mǎi",
+          "en": "buy"
+        },
+        {
+          "zh": "面包",
+          "py": "miànbāo",
+          "en": "bread"
+        },
+        {
+          "zh": "和",
+          "py": "hé",
+          "en": "and / with"
+        },
+        {
+          "zh": "水果",
+          "py": "shuǐguǒ",
+          "en": "fruit"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-013",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "extended-hsk1-07",
+      "topic": "Sentence practice",
+      "zh": "我昨天在书店买了两本书，今天又去超市买一些东西，但是没买衣服。",
+      "py": "Wǒ zuótiān zài shūdiàn mǎi le liǎng běn shū, jīntiān yòu qù chāoshì mǎi yìxiē dōngxi, dànshì méi mǎi yīfu.",
+      "en": "Yesterday I bought two books at the bookstore. Today I went to the supermarket to buy some things, but didn't buy clothes.",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "昨天",
+          "py": "zuótiān",
+          "en": "yesterday"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in; ongoing action"
+        },
+        {
+          "zh": "书店",
+          "py": "shūdiàn",
+          "en": "bookstore"
+        },
+        {
+          "zh": "买",
+          "py": "mǎi",
+          "en": "buy"
+        },
+        {
+          "zh": "了",
+          "py": "le",
+          "en": "completed action / change"
+        },
+        {
+          "zh": "两",
+          "py": "liǎng",
+          "en": "two"
+        },
+        {
+          "zh": "本",
+          "py": "běn",
+          "en": "measure word for books"
+        },
+        {
+          "zh": "书",
+          "py": "shū",
+          "en": "book"
+        },
+        {
+          "zh": "今天",
+          "py": "jīntiān",
+          "en": "today"
+        },
+        {
+          "zh": "又",
+          "py": "yòu",
+          "en": "again (completed)"
+        },
+        {
+          "zh": "去",
+          "py": "qù",
+          "en": "to go"
+        },
+        {
+          "zh": "超市",
+          "py": "chāoshì",
+          "en": "supermarket"
+        },
+        {
+          "zh": "买",
+          "py": "mǎi",
+          "en": "buy"
+        },
+        {
+          "zh": "一些",
+          "py": "yìxiē",
+          "en": "some"
+        },
+        {
+          "zh": "东西",
+          "py": "dōngxi",
+          "en": "thing"
+        },
+        {
+          "zh": "但是",
+          "py": "dànshì",
+          "en": "but"
+        },
+        {
+          "zh": "没",
+          "py": "méi",
+          "en": "not / did not"
+        },
+        {
+          "zh": "买",
+          "py": "mǎi",
+          "en": "buy"
+        },
+        {
+          "zh": "衣服",
+          "py": "yīfu",
+          "en": "clothes"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-014",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "extended-hsk1-08",
+      "topic": "Sentence practice",
+      "zh": "我的公司在电影院前面，医院在公司后面，我的家在这两个地方中间。",
+      "py": "Wǒ de gōngsī zài diànyǐngyuàn qiánmiàn, yīyuàn zài gōngsī hòumiàn, wǒ de jiā zài zhè liǎng ge dìfang zhōngjiān.",
+      "en": "My company is in front of the cinema, the hospital is behind the company, and my home is between those two places.",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "possessive / modifier particle"
+        },
+        {
+          "zh": "公司",
+          "py": "gōngsī",
+          "en": "company"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in; ongoing action"
+        },
+        {
+          "zh": "电影院",
+          "py": "diànyǐngyuàn",
+          "en": "cinema"
+        },
+        {
+          "zh": "前面",
+          "py": "qiánmiàn",
+          "en": "in front of"
+        },
+        {
+          "zh": "医院",
+          "py": "yīyuàn",
+          "en": "hospital"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in; ongoing action"
+        },
+        {
+          "zh": "公司",
+          "py": "gōngsī",
+          "en": "company"
+        },
+        {
+          "zh": "后面",
+          "py": "hòumiàn",
+          "en": "behind"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "possessive / modifier particle"
+        },
+        {
+          "zh": "家",
+          "py": "jiā",
+          "en": "home / family"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in; ongoing action"
+        },
+        {
+          "zh": "这",
+          "py": "zhè",
+          "en": "this"
+        },
+        {
+          "zh": "两",
+          "py": "liǎng",
+          "en": "two"
+        },
+        {
+          "zh": "个",
+          "py": "ge",
+          "en": "general measure word"
+        },
+        {
+          "zh": "地方",
+          "py": "dìfang",
+          "en": "place"
+        },
+        {
+          "zh": "中间",
+          "py": "zhōngjiān",
+          "en": "in the middle / between"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-015",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "extended-hsk1-09",
+      "topic": "Sentence practice",
+      "zh": "今天天气不好，早上下雨，下午又下雪，所以我没开车，而是坐了火车。",
+      "py": "Jīntiān tiānqì bù hǎo, zǎoshang xiàyǔ, xiàwǔ yòu xiàxuě, suǒyǐ wǒ méi kāichē, érshì zuò le huǒchē.",
+      "en": "The weather is bad today: it rained in the morning and snowed in the afternoon, so I took the train instead of driving.",
+      "breakdown": [
+        {
+          "zh": "今天",
+          "py": "jīntiān",
+          "en": "today"
+        },
+        {
+          "zh": "天气",
+          "py": "tiānqì",
+          "en": "weather"
+        },
+        {
+          "zh": "不",
+          "py": "bù",
+          "en": "not"
+        },
+        {
+          "zh": "好",
+          "py": "hǎo",
+          "en": "good"
+        },
+        {
+          "zh": "早上",
+          "py": "zǎoshang",
+          "en": "morning"
+        },
+        {
+          "zh": "下雨",
+          "py": "xiàyǔ",
+          "en": "rain (verb)"
+        },
+        {
+          "zh": "下午",
+          "py": "xiàwǔ",
+          "en": "afternoon"
+        },
+        {
+          "zh": "又",
+          "py": "yòu",
+          "en": "again (completed)"
+        },
+        {
+          "zh": "下雪",
+          "py": "xiàxuě",
+          "en": "snow (verb)"
+        },
+        {
+          "zh": "所以",
+          "py": "suǒyǐ",
+          "en": "so / therefore"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "没",
+          "py": "méi",
+          "en": "not / did not"
+        },
+        {
+          "zh": "开车",
+          "py": "kāichē",
+          "en": "drive a car"
+        },
+        {
+          "zh": "而是",
+          "py": "érshì",
+          "en": "but rather"
+        },
+        {
+          "zh": "坐",
+          "py": "zuò",
+          "en": "to sit"
+        },
+        {
+          "zh": "了",
+          "py": "le",
+          "en": "completed action / change"
+        },
+        {
+          "zh": "火车",
+          "py": "huǒchē",
+          "en": "train"
+        }
+      ]
+    }
+  ]
+}

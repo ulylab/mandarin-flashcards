@@ -6,9 +6,10 @@
 </head><body>
 <div class="app"><header class="top"><button class="iconbtn" id="settingsBtn" aria-label="Open settings">☰</button><div class="brand">MANDARIN</div><div class="mini" id="total">…</div></header>
 <main class="main"><div class="pill" id="progressText">Loading vocabulary…</div>
-<div class="card" id="card" tabindex="0" role="button" aria-label="Tap to flip flashcard"><div class="eyebrow" id="topicLabel"></div><button class="starbtn" id="star" aria-label="Star this card" aria-pressed="false" hidden>☆</button><div id="content" aria-live="polite">Loading cards…</div><div class="tip" id="tip"></div></div>
+<div class="card" id="card" tabindex="0" role="button" aria-label="Tap to flip flashcard"><div class="eyebrow" id="topicLabel"></div><span class="difficulty-badge" id="difficultyBadge" hidden></span><button class="starbtn" id="star" aria-label="Star this card" aria-pressed="false" hidden>☆</button><div id="content" aria-live="polite">Loading cards…</div><div class="tip" id="tip"></div></div>
 <div class="controls"><button class="grade bad" id="miss" disabled>← Study again</button><button class="grade good" id="know" disabled>Got it →</button></div><div class="foot">Swipe left if missed · Swipe right if known<br><strong id="reviewNote">Your answers shape the next cards</strong></div></main></div>
 <div class="overlay" id="overlay"><aside class="panel" role="dialog" aria-modal="true" aria-label="Settings"><div class="panelhead"><h2>Settings</h2><button class="iconbtn" id="close" aria-label="Close settings">×</button></div>
+<label class="check"><input type="checkbox" id="sentencesEnabled" checked>Include sentence cards (40 easy · 40 medium · 20 hard)</label>
 <label class="check"><input type="checkbox" id="starredOnly">See starred cards <span id="starCount" class="star-count">0</span></label>
 <label class="setting"><span>Topic</span><select id="topic"><option value="all">All topics</option></select></label>
 <label class="setting"><span>Card direction</span><select id="direction"><option value="zh">Chinese → English</option><option value="en">English → Chinese</option><option value="mix">Mixed</option></select></label>

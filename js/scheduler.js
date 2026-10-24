@@ -1,7 +1,8 @@
 export function nextCard(cards, history, stars, options, recent, now = Date.now(), random = Math.random) {
   const pool = cards.filter(card =>
     (options.topic === 'all' || card.topic === options.topic) &&
-    (!options.starredOnly || Boolean(stars[card.id]))
+    (!options.starredOnly || Boolean(stars[card.id])) &&
+    (options.sentencesEnabled !== false || card.type !== 'sentence')
   );
   if (!pool.length) return {card: null, recent};
   const mix = options.mix || 'balanced';

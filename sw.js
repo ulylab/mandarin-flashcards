@@ -1,5 +1,5 @@
 // Offline support for GitHub Pages. Updating this file causes the cache to refresh.
-const CACHE = 'mandarin-flashcards-static-v2';
+const CACHE = 'mandarin-flashcards-static-v3';
 const CORE = ['./', 'index.html', 'css/styles.css', 'js/app.js',
   'js/storage.js', 'js/scheduler.js', 'data/manifest.json', 'manifest.webmanifest'];
 

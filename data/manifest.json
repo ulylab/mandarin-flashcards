@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "schemaVersion": 1,
   "packs": [
     {
@@ -73,6 +73,54 @@
     {
       "id": "extended-hsk1-11",
       "file": "data/packs/extended-hsk1-11.json"
+    },
+    {
+      "id": "sentences-easy-01",
+      "file": "data/packs/sentences-easy-01.json"
+    },
+    {
+      "id": "sentences-easy-02",
+      "file": "data/packs/sentences-easy-02.json"
+    },
+    {
+      "id": "sentences-easy-03",
+      "file": "data/packs/sentences-easy-03.json"
+    },
+    {
+      "id": "sentences-easy-04",
+      "file": "data/packs/sentences-easy-04.json"
+    },
+    {
+      "id": "sentences-medium-01",
+      "file": "data/packs/sentences-medium-01.json"
+    },
+    {
+      "id": "sentences-medium-02",
+      "file": "data/packs/sentences-medium-02.json"
+    },
+    {
+      "id": "sentences-medium-03",
+      "file": "data/packs/sentences-medium-03.json"
+    },
+    {
+      "id": "sentences-medium-04",
+      "file": "data/packs/sentences-medium-04.json"
+    },
+    {
+      "id": "sentences-hard-01",
+      "file": "data/packs/sentences-hard-01.json"
+    },
+    {
+      "id": "sentences-hard-02",
+      "file": "data/packs/sentences-hard-02.json"
+    },
+    {
+      "id": "sentences-hard-03",
+      "file": "data/packs/sentences-hard-03.json"
+    },
+    {
+      "id": "sentences-hard-04",
+      "file": "data/packs/sentences-hard-04.json"
     }
   ]
 }

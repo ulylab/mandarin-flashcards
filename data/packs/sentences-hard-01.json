@@ -1,0 +1,527 @@
+{
+  "id": "sentences-hard-01",
+  "label": "HSK 1 sentences · hard · pack 1",
+  "type": "sentence",
+  "cards": [
+    {
+      "id": "sentence-hard-001",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "foundation-01",
+      "topic": "Sentence practice",
+      "zh": "我的猫在桌子下面睡觉，狗在门前面，但是我的杯子不在桌子上面。",
+      "py": "Wǒ de māo zài zhuōzi xiàmiàn shuìjiào, gǒu zài mén qiánmiàn, dànshì wǒ de bēizi bù zài zhuōzi shàngmiàn.",
+      "en": "My cat is sleeping under the table, the dog is in front of the door, but my cup isn't on the table.",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "possessive / modifier particle"
+        },
+        {
+          "zh": "猫",
+          "py": "māo",
+          "en": "cat"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in; ongoing action"
+        },
+        {
+          "zh": "桌子",
+          "py": "zhuōzi",
+          "en": "table"
+        },
+        {
+          "zh": "下面",
+          "py": "xiàmiàn",
+          "en": "under / below"
+        },
+        {
+          "zh": "睡觉",
+          "py": "shuìjiào",
+          "en": "sleep"
+        },
+        {
+          "zh": "狗",
+          "py": "gǒu",
+          "en": "dog"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in; ongoing action"
+        },
+        {
+          "zh": "门",
+          "py": "mén",
+          "en": "door"
+        },
+        {
+          "zh": "前面",
+          "py": "qiánmiàn",
+          "en": "in front of"
+        },
+        {
+          "zh": "但是",
+          "py": "dànshì",
+          "en": "but"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "possessive / modifier particle"
+        },
+        {
+          "zh": "杯子",
+          "py": "bēizi",
+          "en": "cup"
+        },
+        {
+          "zh": "不",
+          "py": "bù",
+          "en": "not"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in; ongoing action"
+        },
+        {
+          "zh": "桌子",
+          "py": "zhuōzi",
+          "en": "table"
+        },
+        {
+          "zh": "上面",
+          "py": "shàngmiàn",
+          "en": "on / above"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-002",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "foundation-02",
+      "topic": "Sentence practice",
+      "zh": "我的妈妈有一个哥哥和一个妹妹，哥哥是我的舅舅，妹妹是我的阿姨。",
+      "py": "Wǒ de māma yǒu yí ge gēge hé yí ge mèimei, gēge shì wǒ de jiùjiu, mèimei shì wǒ de āyí.",
+      "en": "My mother has an older brother and a younger sister; her brother is my uncle and her sister is my aunt.",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "possessive / modifier particle"
+        },
+        {
+          "zh": "妈妈",
+          "py": "māma",
+          "en": "mom"
+        },
+        {
+          "zh": "有",
+          "py": "yǒu",
+          "en": "have / there is"
+        },
+        {
+          "zh": "一个",
+          "py": "yí ge",
+          "en": "one (measure phrase)"
+        },
+        {
+          "zh": "哥哥",
+          "py": "gēge",
+          "en": "older brother"
+        },
+        {
+          "zh": "和",
+          "py": "hé",
+          "en": "and / with"
+        },
+        {
+          "zh": "一个",
+          "py": "yí ge",
+          "en": "one (measure phrase)"
+        },
+        {
+          "zh": "妹妹",
+          "py": "mèimei",
+          "en": "younger sister"
+        },
+        {
+          "zh": "哥哥",
+          "py": "gēge",
+          "en": "older brother"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "possessive / modifier particle"
+        },
+        {
+          "zh": "舅舅",
+          "py": "jiùjiu",
+          "en": "mother’s brother"
+        },
+        {
+          "zh": "妹妹",
+          "py": "mèimei",
+          "en": "younger sister"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "possessive / modifier particle"
+        },
+        {
+          "zh": "阿姨",
+          "py": "āyí",
+          "en": "aunt / mother’s sister"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-003",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "foundation-03",
+      "topic": "Sentence practice",
+      "zh": "我和妈妈在厨房做饭的时候，弟弟在桌子旁边喝水，妹妹在吃米饭。",
+      "py": "Wǒ hé māma zài chúfáng zuòfàn de shíhou, dìdi zài zhuōzi pángbiān hē shuǐ, mèimei zài chī mǐfàn.",
+      "en": "While Mom and I are cooking in the kitchen, my younger brother is drinking water next to the table and my younger sister is eating rice.",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "和",
+          "py": "hé",
+          "en": "and / with"
+        },
+        {
+          "zh": "妈妈",
+          "py": "māma",
+          "en": "mom"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in; ongoing action"
+        },
+        {
+          "zh": "厨房",
+          "py": "chúfáng",
+          "en": "kitchen"
+        },
+        {
+          "zh": "做饭",
+          "py": "zuòfàn",
+          "en": "cook"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "possessive / modifier particle"
+        },
+        {
+          "zh": "时候",
+          "py": "shíhou",
+          "en": "time / when"
+        },
+        {
+          "zh": "弟弟",
+          "py": "dìdi",
+          "en": "younger brother"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in; ongoing action"
+        },
+        {
+          "zh": "桌子",
+          "py": "zhuōzi",
+          "en": "table"
+        },
+        {
+          "zh": "旁边",
+          "py": "pángbiān",
+          "en": "beside / next to"
+        },
+        {
+          "zh": "喝",
+          "py": "hē",
+          "en": "drink"
+        },
+        {
+          "zh": "水",
+          "py": "shuǐ",
+          "en": "water"
+        },
+        {
+          "zh": "妹妹",
+          "py": "mèimei",
+          "en": "younger sister"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in; ongoing action"
+        },
+        {
+          "zh": "吃",
+          "py": "chī",
+          "en": "eat"
+        },
+        {
+          "zh": "米饭",
+          "py": "mǐfàn",
+          "en": "cooked rice"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-004",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "foundation-04",
+      "topic": "Sentence practice",
+      "zh": "昨天我在家工作，今天我要去学校，明天我想去医院看朋友。",
+      "py": "Zuótiān wǒ zài jiā gōngzuò, jīntiān wǒ yào qù xuéxiào, míngtiān wǒ xiǎng qù yīyuàn kàn péngyou.",
+      "en": "Yesterday I worked at home, today I need to go to school, and tomorrow I want to visit a friend at the hospital.",
+      "breakdown": [
+        {
+          "zh": "昨天",
+          "py": "zuótiān",
+          "en": "yesterday"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in; ongoing action"
+        },
+        {
+          "zh": "家",
+          "py": "jiā",
+          "en": "home / family"
+        },
+        {
+          "zh": "工作",
+          "py": "gōngzuò",
+          "en": "to work / work"
+        },
+        {
+          "zh": "今天",
+          "py": "jīntiān",
+          "en": "today"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "要",
+          "py": "yào",
+          "en": "need / want"
+        },
+        {
+          "zh": "去",
+          "py": "qù",
+          "en": "to go"
+        },
+        {
+          "zh": "学校",
+          "py": "xuéxiào",
+          "en": "school"
+        },
+        {
+          "zh": "明天",
+          "py": "míngtiān",
+          "en": "tomorrow"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "想",
+          "py": "xiǎng",
+          "en": "want to / think"
+        },
+        {
+          "zh": "去",
+          "py": "qù",
+          "en": "to go"
+        },
+        {
+          "zh": "医院",
+          "py": "yīyuàn",
+          "en": "hospital"
+        },
+        {
+          "zh": "看",
+          "py": "kàn",
+          "en": "watch / look at"
+        },
+        {
+          "zh": "朋友",
+          "py": "péngyou",
+          "en": "friend"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-005",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "foundation-05",
+      "topic": "Sentence practice",
+      "zh": "我的朋友是中文老师，他会说汉语，也会写汉字，但是他不会开车。",
+      "py": "Wǒ de péngyou shì Zhōngwén lǎoshī, tā huì shuō Hànyǔ, yě huì xiě Hànzì, dànshì tā bù huì kāichē.",
+      "en": "My friend is a Chinese teacher. He can speak Mandarin and write Chinese characters, but he can't drive.",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "possessive / modifier particle"
+        },
+        {
+          "zh": "朋友",
+          "py": "péngyou",
+          "en": "friend"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "中文",
+          "py": "Zhōngwén",
+          "en": "Chinese language"
+        },
+        {
+          "zh": "老师",
+          "py": "lǎoshī",
+          "en": "teacher"
+        },
+        {
+          "zh": "他",
+          "py": "tā",
+          "en": "he"
+        },
+        {
+          "zh": "会",
+          "py": "huì",
+          "en": "can / will"
+        },
+        {
+          "zh": "说",
+          "py": "shuō",
+          "en": "to speak / say"
+        },
+        {
+          "zh": "汉语",
+          "py": "Hànyǔ",
+          "en": "Mandarin Chinese"
+        },
+        {
+          "zh": "也",
+          "py": "yě",
+          "en": "also"
+        },
+        {
+          "zh": "会",
+          "py": "huì",
+          "en": "can / will"
+        },
+        {
+          "zh": "写",
+          "py": "xiě",
+          "en": "to write"
+        },
+        {
+          "zh": "汉字",
+          "py": "Hànzì",
+          "en": "Chinese character"
+        },
+        {
+          "zh": "但是",
+          "py": "dànshì",
+          "en": "but"
+        },
+        {
+          "zh": "他",
+          "py": "tā",
+          "en": "he"
+        },
+        {
+          "zh": "不",
+          "py": "bù",
+          "en": "not"
+        },
+        {
+          "zh": "会",
+          "py": "huì",
+          "en": "can / will"
+        },
+        {
+          "zh": "开车",
+          "py": "kāichē",
+          "en": "drive a car"
+        }
+      ]
+    }
+  ]
+}
