@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "schemaVersion": 1,
+  "packs": [
+    {
+      "id": "foundation-01",
+      "file": "data/packs/foundation-01.json"
+    },
+    {
+      "id": "foundation-02",
+      "file": "data/packs/foundation-02.json"
+    },
+    {
+      "id": "foundation-03",
+      "file": "data/packs/foundation-03.json"
+    },
+    {
+      "id": "foundation-04",
+      "file": "data/packs/foundation-04.json"
+    },
+    {
+      "id": "foundation-05",
+      "file": "data/packs/foundation-05.json"
+    },
+    {
+      "id": "foundation-06",
+      "file": "data/packs/foundation-06.json"
+    },
+    {
+      "id": "foundation-07",
+      "file": "data/packs/foundation-07.json"
+    },
+    {
+      "id": "extended-hsk1-01",
+      "file": "data/packs/extended-hsk1-01.json"
+    },
+    {
+      "id": "extended-hsk1-02",
+      "file": "data/packs/extended-hsk1-02.json"
+    },
+    {
+      "id": "extended-hsk1-03",
+      "file": "data/packs/extended-hsk1-03.json"
+    },
+    {
+      "id": "extended-hsk1-04",
+      "file": "data/packs/extended-hsk1-04.json"
+    },
+    {
+      "id": "extended-hsk1-05",
+      "file": "data/packs/extended-hsk1-05.json"
+    },
+    {
+      "id": "extended-hsk1-06",
+      "file": "data/packs/extended-hsk1-06.json"
+    },
+    {
+      "id": "extended-hsk1-07",
+      "file": "data/packs/extended-hsk1-07.json"
+    },
+    {
+      "id": "extended-hsk1-08",
+      "file": "data/packs/extended-hsk1-08.json"
+    },
+    {
+      "id": "extended-hsk1-09",
+      "file": "data/packs/extended-hsk1-09.json"
+    },
+    {
+      "id": "extended-hsk1-10",
+      "file": "data/packs/extended-hsk1-10.json"
+    },
+    {
+      "id": "extended-hsk1-11",
+      "file": "data/packs/extended-hsk1-11.json"
+    }
+  ]
+}

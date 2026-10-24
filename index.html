@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f7f7f5"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default">
+<title>Mandarin — Daily Cards</title><link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="css/styles.css">
+</head><body>
+<div class="app"><header class="top"><button class="iconbtn" id="settingsBtn" aria-label="Open settings">☰</button><div class="brand">MANDARIN</div><div class="mini" id="total">…</div></header>
+<main class="main"><div class="pill" id="progressText">Loading vocabulary…</div>
+<div class="card" id="card" tabindex="0" role="button" aria-label="Tap to flip flashcard"><div class="eyebrow" id="topicLabel"></div><button class="starbtn" id="star" aria-label="Star this card" aria-pressed="false" hidden>☆</button><div id="content" aria-live="polite">Loading cards…</div><div class="tip" id="tip"></div></div>
+<div class="controls"><button class="grade bad" id="miss" disabled>← Study again</button><button class="grade good" id="know" disabled>Got it →</button></div><div class="foot">Swipe left if missed · Swipe right if known<br><strong id="reviewNote">Your answers shape the next cards</strong></div></main></div>
+<div class="overlay" id="overlay"><aside class="panel" role="dialog" aria-modal="true" aria-label="Settings"><div class="panelhead"><h2>Settings</h2><button class="iconbtn" id="close" aria-label="Close settings">×</button></div>
+<label class="check"><input type="checkbox" id="starredOnly">See starred cards <span id="starCount" class="star-count">0</span></label>
+<label class="setting"><span>Topic</span><select id="topic"><option value="all">All topics</option></select></label>
+<label class="setting"><span>Card direction</span><select id="direction"><option value="zh">Chinese → English</option><option value="en">English → Chinese</option><option value="mix">Mixed</option></select></label>
+<label class="check"><input type="checkbox" id="pinyin" checked>Show pinyin on front</label>
+<label class="check"><input type="checkbox" id="examples" checked>Show two examples on back</label>
+<label class="setting"><span>Practice mix</span><select id="mix"><option value="balanced">Balanced — new & review</option><option value="new">More new cards</option><option value="review">More repetition</option></select></label>
+<section class="history-section"><h3>Your history</h3><p class="muted" id="stats">Loading…</p><p class="muted" id="historyDetails"></p><ol id="recentReviews" class="recent-reviews"></ol></section>
+<section class="backup"><h3>Keep your progress</h3><p class="muted">Answers and stars are saved on this browser only. Export a backup to move devices or protect against browser data loss.</p><div class="backup-actions"><button id="export" type="button">Export progress</button><button id="import" type="button">Import progress</button></div><input id="importFile" type="file" accept="application/json,.json" hidden><p class="muted" id="storageStatus" role="status"></p></section>
+<button class="reset" id="reset">Reset learning progress</button></aside></div>
+<script type="module" src="js/app.js"></script></body></html>
