@@ -4,6 +4,26 @@ const $ = id => document.getElementById(id);
 const escapeHTML = value => String(value ?? '').replace(/[&<>"']/g, char => ({'&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'}[char]));
 let cards = [], current = null, flipped = false, direction = 'zh', recent = [], session = 0;
 let totalReviews = 0;
+const speechAvailable = typeof window !== 'undefined' && 'speechSynthesis' in window && 'SpeechSynthesisUtterance' in window;
+function stopAudio() {
+  if (speechAvailable) window.speechSynthesis.cancel();
+  const button = $('audioBtn');
+  if (button) button.setAttribute('aria-label', 'Play Mandarin pronunciation');
+}
+function playAudio() {
+  if (!current || !speechAvailable) return;
+  const synthesis = window.speechSynthesis;
+  synthesis.cancel();
+  const utterance = new SpeechSynthesisUtterance(current.zh);
+  utterance.lang = 'zh-CN';
+  utterance.rate = 0.85;
+  utterance.pitch = 1;
+  const voices = synthesis.getVoices();
+  const voice = voices.find(v => /^zh[-_]CN$/i.test(v.lang)) || voices.find(v => /^zh/i.test(v.lang));
+  if (voice) utterance.voice = voice;
+  synthesis.speak(utterance);
+}
+
 function options() {
   return {starredOnly: $('starredOnly').checked, topic: $('topic').value,
     direction: $('direction').value, pinyin: $('pinyin').checked,
@@ -71,6 +91,7 @@ function renderHistory() {
   showStorageStatus();
 }
 function pick() {
+  stopAudio();
   const result = nextCard(cards, state.history, state.stars, options(), recent);
   current = result.card;
   recent = result.recent;
@@ -86,6 +107,8 @@ function render() {
   $('difficultyBadge').hidden = !c || c.type !== 'sentence';
   $('starCount').textContent = Object.values(state.stars).filter(Boolean).length + ' saved';
   $('star').hidden = !c;
+  $('audioBtn').hidden = !c || flipped || direction === 'en';
+  $('audioBtn').disabled = !speechAvailable;
   $('miss').disabled = !c; $('know').disabled = !c;
   if (!c) {
     $('topicLabel').textContent = '';
@@ -136,7 +159,7 @@ function render() {
   }
   renderHistory();
 }
-function flip() { if (current) { flipped = !flipped; render(); } }
+function flip() { if (current) { stopAudio(); flipped = !flipped; render(); } }
 function rate(correct) {
   if (!current) return;
   const id = String(current.id);
@@ -145,6 +168,9 @@ function rate(correct) {
   pick();
 }
 function wireEvents() {
+  $('audioBtn').addEventListener('pointerdown', e => e.stopPropagation());
+  $('audioBtn').addEventListener('pointerup', e => e.stopPropagation());
+  $('audioBtn').addEventListener('click', e => { e.preventDefault(); e.stopPropagation(); playAudio(); });
   for (const id of ['starredOnly','topic','direction','pinyin','examples','mix','sentencesEnabled']) {
     $(id).addEventListener('change', () => {
       saveOptions();
