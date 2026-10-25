@@ -10,7 +10,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 1",
       "zh": "你好。",
-      "py": "nǐ hǎo.",
+      "py": "Nǐ hǎo.",
       "en": "Hello",
       "breakdown": [
         {
@@ -32,7 +32,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 1",
       "zh": "老师好。",
-      "py": "lǎoshī hǎo.",
+      "py": "Lǎoshī hǎo.",
       "en": "Hello, teacher",
       "breakdown": [
         {
@@ -53,8 +53,8 @@
       "difficulty": "easy",
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 1",
-      "zh": "你好吗。",
-      "py": "nǐ hǎo ma.",
+      "zh": "你好吗？",
+      "py": "Nǐ hǎo ma?",
       "en": "How are you?",
       "breakdown": [
         {
@@ -80,8 +80,8 @@
       "difficulty": "easy",
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 1",
-      "zh": "老师好吗。",
-      "py": "lǎoshī hǎo ma.",
+      "zh": "老师好吗？",
+      "py": "Lǎoshī hǎo ma?",
       "en": "How is the teacher?",
       "breakdown": [
         {
@@ -108,7 +108,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 1",
       "zh": "我很好。",
-      "py": "wǒ hěn hǎo.",
+      "py": "Wǒ hěn hǎo.",
       "en": "I'm well",
       "breakdown": [
         {
@@ -135,7 +135,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 1",
       "zh": "老师很好。",
-      "py": "lǎoshī hěn hǎo.",
+      "py": "Lǎoshī hěn hǎo.",
       "en": "The teacher is well",
       "breakdown": [
         {
@@ -162,7 +162,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 1",
       "zh": "你们好。",
-      "py": "nǐmen hǎo.",
+      "py": "Nǐmen hǎo.",
       "en": "Hello, everyone",
       "breakdown": [
         {
@@ -184,7 +184,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 1",
       "zh": "我们很好。",
-      "py": "wǒmen hěn hǎo.",
+      "py": "Wǒmen hěn hǎo.",
       "en": "We are well",
       "breakdown": [
         {
@@ -211,7 +211,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 1",
       "zh": "你是老师，我是学生。",
-      "py": "nǐ shì lǎoshī, wǒ shì xuésheng.",
+      "py": "Nǐ shì lǎoshī, wǒ shì xuésheng.",
       "en": "You're a teacher; I'm a student",
       "breakdown": [
         {
@@ -253,7 +253,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 1",
       "zh": "他是老师，她是学生。",
-      "py": "tā shì lǎoshī, tā shì xuésheng.",
+      "py": "Tā shì lǎoshī, tā shì xuésheng.",
       "en": "He's a teacher; she's a student",
       "breakdown": [
         {
@@ -295,7 +295,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 2",
       "zh": "谢谢。",
-      "py": "xièxie.",
+      "py": "Xièxie.",
       "en": "Thank you",
       "breakdown": [
         {
@@ -312,7 +312,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 2",
       "zh": "谢谢你。",
-      "py": "xièxie nǐ.",
+      "py": "Xièxie nǐ.",
       "en": "Thank you",
       "breakdown": [
         {
@@ -334,7 +334,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 2",
       "zh": "不客气。",
-      "py": "bú kèqi.",
+      "py": "Bú kèqi.",
       "en": "You're welcome",
       "breakdown": [
         {
@@ -351,7 +351,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 2",
       "zh": "没关系。",
-      "py": "méi guānxi.",
+      "py": "Méi guānxi.",
       "en": "It's okay",
       "breakdown": [
         {
@@ -368,7 +368,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 2",
       "zh": "对不起。",
-      "py": "duìbuqǐ.",
+      "py": "Duìbuqǐ.",
       "en": "Sorry",
       "breakdown": [
         {
@@ -385,7 +385,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 2",
       "zh": "老师，对不起。",
-      "py": "lǎoshī, duìbuqǐ.",
+      "py": "Lǎoshī, duìbuqǐ.",
       "en": "Sorry, teacher",
       "breakdown": [
         {
@@ -407,7 +407,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 2",
       "zh": "谢谢老师。",
-      "py": "xièxie lǎoshī.",
+      "py": "Xièxie lǎoshī.",
       "en": "Thank you, teacher",
       "breakdown": [
         {
@@ -429,7 +429,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 2",
       "zh": "谢谢你帮我。",
-      "py": "xièxie nǐ bāng wǒ.",
+      "py": "Xièxie nǐ bāng wǒ.",
       "en": "Thanks for helping me",
       "breakdown": [
         {
@@ -461,7 +461,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 2",
       "zh": "对不起，我今天不能来。",
-      "py": "duìbuqǐ, wǒ jīntiān bù néng lái.",
+      "py": "Duìbuqǐ, wǒ jīntiān bù néng lái.",
       "en": "Sorry, I can't come today",
       "breakdown": [
         {
@@ -503,7 +503,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 2",
       "zh": "谢谢老师，我们明天见。",
-      "py": "xièxie lǎoshī, wǒmen míngtiān jiàn.",
+      "py": "Xièxie lǎoshī, wǒmen míngtiān jiàn.",
       "en": "Thank you, teacher; see you tomorrow",
       "breakdown": [
         {
@@ -540,7 +540,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 3",
       "zh": "我叫小明。",
-      "py": "wǒ jiào Xiǎomíng.",
+      "py": "Wǒ jiào Xiǎomíng.",
       "en": "My name is Xiaoming",
       "breakdown": [
         {
@@ -567,7 +567,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 3",
       "zh": "我叫小王。",
-      "py": "wǒ jiào Xiǎo Wáng.",
+      "py": "Wǒ jiào Xiǎo Wáng.",
       "en": "My name is Xiao Wang",
       "breakdown": [
         {
@@ -593,8 +593,8 @@
       "difficulty": "easy",
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 3",
-      "zh": "你叫什么名字。",
-      "py": "nǐ jiào shénme míngzi.",
+      "zh": "你叫什么名字？",
+      "py": "Nǐ jiào shénme míngzi?",
       "en": "What's your name?",
       "breakdown": [
         {
@@ -625,8 +625,8 @@
       "difficulty": "easy",
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 3",
-      "zh": "他叫什么名字。",
-      "py": "tā jiào shénme míngzi.",
+      "zh": "他叫什么名字？",
+      "py": "Tā jiào shénme míngzi?",
       "en": "What's his name?",
       "breakdown": [
         {
@@ -658,7 +658,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 3",
       "zh": "我是学生。",
-      "py": "wǒ shì xuésheng.",
+      "py": "Wǒ shì xuésheng.",
       "en": "I'm a student",
       "breakdown": [
         {
@@ -685,7 +685,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 3",
       "zh": "他是老师。",
-      "py": "tā shì lǎoshī.",
+      "py": "Tā shì lǎoshī.",
       "en": "He's a teacher",
       "breakdown": [
         {
@@ -711,8 +711,8 @@
       "difficulty": "medium",
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 3",
-      "zh": "你是中国人吗。",
-      "py": "nǐ shì Zhōngguó rén ma.",
+      "zh": "你是中国人吗？",
+      "py": "Nǐ shì Zhōngguó rén ma?",
       "en": "Are you Chinese?",
       "breakdown": [
         {
@@ -748,8 +748,8 @@
       "difficulty": "hard",
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 3",
-      "zh": "她是中国人吗。",
-      "py": "tā shì Zhōngguó rén ma.",
+      "zh": "她是中国人吗？",
+      "py": "Tā shì Zhōngguó rén ma?",
       "en": "Is she Chinese?",
       "breakdown": [
         {
@@ -786,7 +786,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 3",
       "zh": "他是中国人，也是老师。",
-      "py": "tā shì Zhōngguó rén, yě shì lǎoshī.",
+      "py": "Tā shì Zhōngguó rén, yě shì lǎoshī.",
       "en": "He's Chinese and a teacher",
       "breakdown": [
         {
@@ -832,8 +832,8 @@
       "difficulty": "hard",
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 3",
-      "zh": "你是学生，还是老师。",
-      "py": "nǐ shì xuésheng, háishi lǎoshī.",
+      "zh": "你是学生，还是老师？",
+      "py": "Nǐ shì xuésheng, háishi lǎoshī?",
       "en": "Are you a student or teacher?",
       "breakdown": [
         {
@@ -869,8 +869,8 @@
       "difficulty": "easy",
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 4",
-      "zh": "她是谁。",
-      "py": "tā shì shéi.",
+      "zh": "她是谁？",
+      "py": "Tā shì shéi?",
       "en": "Who is she?",
       "breakdown": [
         {
@@ -896,8 +896,8 @@
       "difficulty": "easy",
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 4",
-      "zh": "他是谁。",
-      "py": "tā shì shéi.",
+      "zh": "他是谁？",
+      "py": "Tā shì shéi?",
       "en": "Who is he?",
       "breakdown": [
         {
@@ -924,7 +924,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 4",
       "zh": "这是我的书。",
-      "py": "zhè shì wǒ de shū.",
+      "py": "Zhè shì wǒ de shū.",
       "en": "This is my book",
       "breakdown": [
         {
@@ -961,7 +961,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 4",
       "zh": "那是你的书。",
-      "py": "nà shì nǐ de shū.",
+      "py": "Nà shì nǐ de shū.",
       "en": "That's your book",
       "breakdown": [
         {
@@ -998,7 +998,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 4",
       "zh": "他是我爸爸。",
-      "py": "tā shì wǒ bàba.",
+      "py": "Tā shì wǒ bàba.",
       "en": "He's my dad",
       "breakdown": [
         {
@@ -1030,7 +1030,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 4",
       "zh": "她是我妈妈。",
-      "py": "tā shì wǒ māma.",
+      "py": "Tā shì wǒ māma.",
       "en": "She's my mum",
       "breakdown": [
         {
@@ -1061,8 +1061,8 @@
       "difficulty": "medium",
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 4",
-      "zh": "你是哪国人。",
-      "py": "nǐ shì nǎ guó rén.",
+      "zh": "你是哪国人？",
+      "py": "Nǐ shì nǎ guó rén?",
       "en": "What country are you from?",
       "breakdown": [
         {
@@ -1098,8 +1098,8 @@
       "difficulty": "hard",
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 4",
-      "zh": "你的老师是谁。",
-      "py": "nǐ de lǎoshī shì shéi.",
+      "zh": "你的老师是谁？",
+      "py": "Nǐ de lǎoshī shì shéi?",
       "en": "Who is your teacher?",
       "breakdown": [
         {
@@ -1136,7 +1136,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 4",
       "zh": "我爸爸的朋友也是老师。",
-      "py": "wǒ bàba de péngyou yě shì lǎoshī.",
+      "py": "Wǒ bàba de péngyou yě shì lǎoshī.",
       "en": "My dad's friend is a teacher too",
       "breakdown": [
         {
@@ -1183,7 +1183,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 4",
       "zh": "她不是我的老师，是他的老师。",
-      "py": "tā bù shì wǒ de lǎoshī, shì tā de lǎoshī.",
+      "py": "Tā bù shì wǒ de lǎoshī, shì tā de lǎoshī.",
       "en": "She's his teacher, not mine",
       "breakdown": [
         {
@@ -1245,7 +1245,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 5",
       "zh": "我十岁。",
-      "py": "wǒ shí suì.",
+      "py": "Wǒ shí suì.",
       "en": "I'm ten years old",
       "breakdown": [
         {
@@ -1272,7 +1272,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 5",
       "zh": "他五岁。",
-      "py": "tā wǔ suì.",
+      "py": "Tā wǔ suì.",
       "en": "He's five years old",
       "breakdown": [
         {
@@ -1298,8 +1298,8 @@
       "difficulty": "easy",
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 5",
-      "zh": "她几岁。",
-      "py": "tā jǐ suì.",
+      "zh": "她几岁？",
+      "py": "Tā jǐ suì?",
       "en": "How old is she?",
       "breakdown": [
         {
@@ -1325,8 +1325,8 @@
       "difficulty": "easy",
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 5",
-      "zh": "你多大了。",
-      "py": "nǐ duō dà le.",
+      "zh": "你多大了？",
+      "py": "Nǐ duō dà le?",
       "en": "How old are you?",
       "breakdown": [
         {
@@ -1358,7 +1358,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 5",
       "zh": "他今年二十岁。",
-      "py": "tā jīnnián èrshí suì.",
+      "py": "Tā jīnnián èrshí suì.",
       "en": "He's twenty this year",
       "breakdown": [
         {
@@ -1390,7 +1390,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 5",
       "zh": "我妈妈今年四十岁。",
-      "py": "wǒ māma jīnnián sìshí suì.",
+      "py": "Wǒ māma jīnnián sìshí suì.",
       "en": "My mum is forty this year",
       "breakdown": [
         {
@@ -1426,8 +1426,8 @@
       "difficulty": "medium",
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 5",
-      "zh": "你有几个孩子。",
-      "py": "nǐ yǒu jǐ ge háizi.",
+      "zh": "你有几个孩子？",
+      "py": "Nǐ yǒu jǐ ge háizi?",
       "en": "How many children do you have?",
       "breakdown": [
         {
@@ -1464,7 +1464,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 5",
       "zh": "我有一个女儿。",
-      "py": "wǒ yǒu yī ge nǚ’ér.",
+      "py": "Wǒ yǒu yī ge nǚ’ér.",
       "en": "I have one daughter",
       "breakdown": [
         {
@@ -1501,7 +1501,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 5",
       "zh": "我有一个儿子和一个女儿。",
-      "py": "wǒ yǒu yī ge érzi hé yī ge nǚ’ér.",
+      "py": "Wǒ yǒu yī ge érzi hé yī ge nǚ’ér.",
       "en": "I have a son and a daughter",
       "breakdown": [
         {
@@ -1558,7 +1558,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 5",
       "zh": "你爸爸比我爸爸大两岁。",
-      "py": "nǐ bàba bǐ wǒ bàba dà liǎng suì.",
+      "py": "Nǐ bàba bǐ wǒ bàba dà liǎng suì.",
       "en": "Your dad is two years older than mine",
       "breakdown": [
         {
@@ -1610,7 +1610,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 6",
       "zh": "我会说汉语。",
-      "py": "wǒ huì shuō Hànyǔ.",
+      "py": "Wǒ huì shuō Hànyǔ.",
       "en": "I can speak Chinese",
       "breakdown": [
         {
@@ -1642,7 +1642,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 6",
       "zh": "他会说汉语。",
-      "py": "tā huì shuō Hànyǔ.",
+      "py": "Tā huì shuō Hànyǔ.",
       "en": "He can speak Chinese",
       "breakdown": [
         {
@@ -1673,8 +1673,8 @@
       "difficulty": "easy",
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 6",
-      "zh": "你会写字吗。",
-      "py": "nǐ huì xiě zì ma.",
+      "zh": "你会写字吗？",
+      "py": "Nǐ huì xiě zì ma?",
       "en": "Can you write characters?",
       "breakdown": [
         {
@@ -1710,8 +1710,8 @@
       "difficulty": "easy",
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 6",
-      "zh": "你会读书吗。",
-      "py": "nǐ huì dú shū ma.",
+      "zh": "你会读书吗？",
+      "py": "Nǐ huì dú shū ma?",
       "en": "Can you read books?",
       "breakdown": [
         {
@@ -1775,7 +1775,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 6",
       "zh": "这个字很难。",
-      "py": "zhè ge zì hěn nán.",
+      "py": "Zhè ge zì hěn nán.",
       "en": "This character is difficult",
       "breakdown": [
         {
@@ -1812,7 +1812,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 6",
       "zh": "我会说一点儿汉语。",
-      "py": "wǒ huì shuō yìdiǎnr Hànyǔ.",
+      "py": "Wǒ huì shuō yìdiǎnr Hànyǔ.",
       "en": "I can speak a little Chinese",
       "breakdown": [
         {
@@ -1849,7 +1849,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 6",
       "zh": "我不会写这个字。",
-      "py": "wǒ bù huì xiě zhè ge zì.",
+      "py": "Wǒ bù huì xiě zhè ge zì.",
       "en": "I can't write this character",
       "breakdown": [
         {
@@ -1896,7 +1896,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 6",
       "zh": "她会说汉语，但是不会写汉字。",
-      "py": "tā huì shuō Hànyǔ, dànshì bù huì xiě Hànzì.",
+      "py": "Tā huì shuō Hànyǔ, dànshì bù huì xiě Hànzì.",
       "en": "She speaks Chinese but can't write characters",
       "breakdown": [
         {
@@ -1952,8 +1952,8 @@
       "difficulty": "hard",
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 6",
-      "zh": "你会用汉语介绍你的家人吗。",
-      "py": "nǐ huì yòng Hànyǔ jièshào nǐ de jiārén ma.",
+      "zh": "你会用汉语介绍你的家人吗？",
+      "py": "Nǐ huì yòng Hànyǔ jièshào nǐ de jiārén ma?",
       "en": "Can you introduce your family in Chinese?",
       "breakdown": [
         {
@@ -2010,7 +2010,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 7",
       "zh": "今天星期一。",
-      "py": "jīntiān xīngqīyī.",
+      "py": "Jīntiān xīngqīyī.",
       "en": "Today is Monday",
       "breakdown": [
         {
@@ -2032,7 +2032,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 7",
       "zh": "明天星期二。",
-      "py": "míngtiān xīngqī'èr.",
+      "py": "Míngtiān xīngqī'èr.",
       "en": "Tomorrow is Tuesday",
       "breakdown": [
         {
@@ -2053,8 +2053,8 @@
       "difficulty": "easy",
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 7",
-      "zh": "今天几号。",
-      "py": "jīntiān jǐ hào.",
+      "zh": "今天几号？",
+      "py": "Jīntiān jǐ hào?",
       "en": "What's today's date?",
       "breakdown": [
         {
@@ -2081,7 +2081,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 7",
       "zh": "今天是五号。",
-      "py": "jīntiān shì wǔ hào.",
+      "py": "Jīntiān shì wǔ hào.",
       "en": "Today is the fifth",
       "breakdown": [
         {
@@ -2113,7 +2113,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 7",
       "zh": "昨天是星期天。",
-      "py": "zuótiān shì xīngqītiān.",
+      "py": "Zuótiān shì xīngqītiān.",
       "en": "Yesterday was Sunday",
       "breakdown": [
         {
@@ -2140,7 +2140,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 7",
       "zh": "今天是星期天。",
-      "py": "jīntiān shì xīngqītiān.",
+      "py": "Jīntiān shì xīngqītiān.",
       "en": "Today is Sunday",
       "breakdown": [
         {
@@ -2166,8 +2166,8 @@
       "difficulty": "medium",
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 7",
-      "zh": "你星期几去学校。",
-      "py": "nǐ xīngqījǐ qù xuéxiào.",
+      "zh": "你星期几去学校？",
+      "py": "Nǐ xīngqījǐ qù xuéxiào?",
       "en": "What day do you go to school?",
       "breakdown": [
         {
@@ -2199,7 +2199,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 7",
       "zh": "明天我不去工作。",
-      "py": "míngtiān wǒ bù qù gōngzuò.",
+      "py": "Míngtiān wǒ bù qù gōngzuò.",
       "en": "I'm not going to work tomorrow",
       "breakdown": [
         {
@@ -2235,8 +2235,8 @@
       "difficulty": "hard",
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 7",
-      "zh": "下星期三你有时间吗。",
-      "py": "xià xīngqīsān nǐ yǒu shíjiān ma.",
+      "zh": "下星期三你有时间吗？",
+      "py": "Xià xīngqīsān nǐ yǒu shíjiān ma?",
       "en": "Are you free next Wednesday?",
       "breakdown": [
         {
@@ -2278,7 +2278,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 7",
       "zh": "我明天上午去学校，下午回家。",
-      "py": "wǒ míngtiān shàngwǔ qù xuéxiào, xiàwǔ huí jiā.",
+      "py": "Wǒ míngtiān shàngwǔ qù xuéxiào, xiàwǔ huí jiā.",
       "en": "Tomorrow I go to school in the morning and return home in the afternoon",
       "breakdown": [
         {
@@ -2330,7 +2330,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 8",
       "zh": "我想喝茶。",
-      "py": "wǒ xiǎng hē chá.",
+      "py": "Wǒ xiǎng hē chá.",
       "en": "I'd like tea",
       "breakdown": [
         {
@@ -2362,7 +2362,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 8",
       "zh": "我想喝水。",
-      "py": "wǒ xiǎng hē shuǐ.",
+      "py": "Wǒ xiǎng hē shuǐ.",
       "en": "I'd like water",
       "breakdown": [
         {
@@ -2393,8 +2393,8 @@
       "difficulty": "easy",
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 8",
-      "zh": "你喝水吗。",
-      "py": "nǐ hē shuǐ ma.",
+      "zh": "你喝水吗？",
+      "py": "Nǐ hē shuǐ ma?",
       "en": "Do you drink water?",
       "breakdown": [
         {
@@ -2425,8 +2425,8 @@
       "difficulty": "easy",
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 8",
-      "zh": "你喝茶吗。",
-      "py": "nǐ hē chá ma.",
+      "zh": "你喝茶吗？",
+      "py": "Nǐ hē chá ma?",
       "en": "Do you drink tea?",
       "breakdown": [
         {
@@ -2458,7 +2458,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 8",
       "zh": "我想吃米饭。",
-      "py": "wǒ xiǎng chī mǐfàn.",
+      "py": "Wǒ xiǎng chī mǐfàn.",
       "en": "I want rice",
       "breakdown": [
         {
@@ -2490,7 +2490,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 8",
       "zh": "我想吃苹果。",
-      "py": "wǒ xiǎng chī píngguǒ.",
+      "py": "Wǒ xiǎng chī píngguǒ.",
       "en": "I want an apple",
       "breakdown": [
         {
@@ -2521,8 +2521,8 @@
       "difficulty": "medium",
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 8",
-      "zh": "这个多少钱。",
-      "py": "zhè ge duōshao qián.",
+      "zh": "这个多少钱？",
+      "py": "Zhè ge duōshao qián?",
       "en": "How much is this?",
       "breakdown": [
         {
@@ -2554,7 +2554,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 8",
       "zh": "这个杯子十块钱。",
-      "py": "zhè ge bēizi shí kuài qián.",
+      "py": "Zhè ge bēizi shí kuài qián.",
       "en": "This cup costs ten yuan",
       "breakdown": [
         {
@@ -2595,8 +2595,8 @@
       "difficulty": "hard",
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 8",
-      "zh": "你想喝茶还是水。",
-      "py": "nǐ xiǎng hē chá háishi shuǐ.",
+      "zh": "你想喝茶还是水？",
+      "py": "Nǐ xiǎng hē chá háishi shuǐ?",
       "en": "Would you like tea or water?",
       "breakdown": [
         {
@@ -2638,7 +2638,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 8",
       "zh": "妈妈喜欢喝茶，爸爸喜欢喝水。",
-      "py": "māma xǐhuan hē chá, bàba xǐhuan hē shuǐ.",
+      "py": "Māma xǐhuan hē chá, bàba xǐhuan hē shuǐ.",
       "en": "Mum likes tea; Dad likes water",
       "breakdown": [
         {
@@ -2689,8 +2689,8 @@
       "difficulty": "easy",
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 9",
-      "zh": "你在哪儿。",
-      "py": "nǐ zài nǎr.",
+      "zh": "你在哪儿？",
+      "py": "Nǐ zài nǎr?",
       "en": "Where are you?",
       "breakdown": [
         {
@@ -2716,8 +2716,8 @@
       "difficulty": "easy",
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 9",
-      "zh": "他在哪儿。",
-      "py": "tā zài nǎr.",
+      "zh": "他在哪儿？",
+      "py": "Tā zài nǎr?",
       "en": "Where is he?",
       "breakdown": [
         {
@@ -2744,7 +2744,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 9",
       "zh": "我在学校。",
-      "py": "wǒ zài xuéxiào.",
+      "py": "Wǒ zài xuéxiào.",
       "en": "I'm at school",
       "breakdown": [
         {
@@ -2771,7 +2771,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 9",
       "zh": "爸爸在医院。",
-      "py": "bàba zài yīyuàn.",
+      "py": "Bàba zài yīyuàn.",
       "en": "Dad is at the hospital",
       "breakdown": [
         {
@@ -2797,8 +2797,8 @@
       "difficulty": "medium",
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 9",
-      "zh": "他在哪儿工作。",
-      "py": "tā zài nǎr gōngzuò.",
+      "zh": "他在哪儿工作？",
+      "py": "Tā zài nǎr gōngzuò?",
       "en": "Where does he work?",
       "breakdown": [
         {
@@ -2829,8 +2829,8 @@
       "difficulty": "medium",
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 9",
-      "zh": "她在哪儿工作。",
-      "py": "tā zài nǎr gōngzuò.",
+      "zh": "她在哪儿工作？",
+      "py": "Tā zài nǎr gōngzuò?",
       "en": "Where does she work?",
       "breakdown": [
         {
@@ -2862,7 +2862,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 9",
       "zh": "我妈妈在医院工作。",
-      "py": "wǒ māma zài yīyuàn gōngzuò.",
+      "py": "Wǒ māma zài yīyuàn gōngzuò.",
       "en": "My mum works at a hospital",
       "breakdown": [
         {
@@ -2898,8 +2898,8 @@
       "difficulty": "hard",
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 9",
-      "zh": "你儿子在哪儿学习。",
-      "py": "nǐ érzi zài nǎr xuéxí.",
+      "zh": "你儿子在哪儿学习？",
+      "py": "Nǐ érzi zài nǎr xuéxí?",
       "en": "Where does your son study?",
       "breakdown": [
         {
@@ -2936,7 +2936,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 9",
       "zh": "我爸爸在学校工作，妈妈在医院工作。",
-      "py": "wǒ bàba zài xuéxiào gōngzuò, māma zài yīyuàn gōngzuò.",
+      "py": "Wǒ bàba zài xuéxiào gōngzuò, māma zài yīyuàn gōngzuò.",
       "en": "Dad works at school; Mum at a hospital",
       "breakdown": [
         {
@@ -2993,7 +2993,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 9",
       "zh": "今天他不在医院，在家休息。",
-      "py": "jīntiān tā bù zài yīyuàn, zài jiā xiūxi.",
+      "py": "Jīntiān tā bù zài yīyuàn, zài jiā xiūxi.",
       "en": "Today he's resting at home, not at the hospital",
       "breakdown": [
         {
@@ -3044,8 +3044,8 @@
       "difficulty": "easy",
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 10",
-      "zh": "我能坐这儿吗。",
-      "py": "wǒ néng zuò zhèr ma.",
+      "zh": "我能坐这儿吗？",
+      "py": "Wǒ néng zuò zhèr ma?",
       "en": "May I sit here?",
       "breakdown": [
         {
@@ -3081,8 +3081,8 @@
       "difficulty": "easy",
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 10",
-      "zh": "你能坐这儿吗。",
-      "py": "nǐ néng zuò zhèr ma.",
+      "zh": "你能坐这儿吗？",
+      "py": "Nǐ néng zuò zhèr ma?",
       "en": "Can you sit here?",
       "breakdown": [
         {
@@ -3119,7 +3119,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 10",
       "zh": "这是我的椅子。",
-      "py": "zhè shì wǒ de yǐzi.",
+      "py": "Zhè shì wǒ de yǐzi.",
       "en": "This is my chair",
       "breakdown": [
         {
@@ -3156,7 +3156,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 10",
       "zh": "那是你的椅子。",
-      "py": "nà shì nǐ de yǐzi.",
+      "py": "Nà shì nǐ de yǐzi.",
       "en": "That's your chair",
       "breakdown": [
         {
@@ -3193,7 +3193,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 10",
       "zh": "杯子在桌子上。",
-      "py": "bēizi zài zhuōzi shàng.",
+      "py": "Bēizi zài zhuōzi shàng.",
       "en": "The cup is on the table",
       "breakdown": [
         {
@@ -3225,7 +3225,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 10",
       "zh": "书在桌子上面。",
-      "py": "shū zài zhuōzi shàngmiàn.",
+      "py": "Shū zài zhuōzi shàngmiàn.",
       "en": "The book is on the table",
       "breakdown": [
         {
@@ -3257,7 +3257,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 10",
       "zh": "桌子下面有猫。",
-      "py": "zhuōzi xiàmiàn yǒu māo.",
+      "py": "Zhuōzi xiàmiàn yǒu māo.",
       "en": "There's a cat under the table",
       "breakdown": [
         {
@@ -3289,7 +3289,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 10",
       "zh": "桌子上有三个杯子。",
-      "py": "zhuōzi shàng yǒu sān ge bēizi.",
+      "py": "Zhuōzi shàng yǒu sān ge bēizi.",
       "en": "There are three cups on the table",
       "breakdown": [
         {
@@ -3330,8 +3330,8 @@
       "difficulty": "hard",
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 10",
-      "zh": "我可以坐你的椅子吗。",
-      "py": "wǒ kěyǐ zuò nǐ de yǐzi ma.",
+      "zh": "我可以坐你的椅子吗？",
+      "py": "Wǒ kěyǐ zuò nǐ de yǐzi ma?",
       "en": "May I sit in your chair?",
       "breakdown": [
         {
@@ -3378,7 +3378,7 @@
       "sourcePack": "extended-hsk1-01",
       "topic": "HSK 1 · Chapter 10",
       "zh": "椅子在桌子后面，书在桌子上。",
-      "py": "yǐzi zài zhuōzi hòumiàn, shū zài zhuōzi shàng.",
+      "py": "Yǐzi zài zhuōzi hòumiàn, shū zài zhuōzi shàng.",
       "en": "The chair is behind the table; the book is on it",
       "breakdown": [
         {
