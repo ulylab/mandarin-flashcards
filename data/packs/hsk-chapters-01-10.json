@@ -1,0 +1,3427 @@
+{
+  "id": "hsk-chapters-01-10",
+  "label": "HSK 1 chapters 1–10 · 100 sentence cards",
+  "type": "sentence",
+  "cards": [
+    {
+      "id": "sentence-easy-ch01-01",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 1",
+      "zh": "你好。",
+      "py": "nǐ hǎo.",
+      "en": "Hello",
+      "breakdown": [
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "en": "you"
+        },
+        {
+          "zh": "好",
+          "py": "hǎo",
+          "en": "good"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch01-02",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 1",
+      "zh": "老师好。",
+      "py": "lǎoshī hǎo.",
+      "en": "Hello, teacher",
+      "breakdown": [
+        {
+          "zh": "老师",
+          "py": "lǎoshī",
+          "en": "teacher"
+        },
+        {
+          "zh": "好",
+          "py": "hǎo",
+          "en": "good"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch01-03",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 1",
+      "zh": "你好吗。",
+      "py": "nǐ hǎo ma.",
+      "en": "How are you?",
+      "breakdown": [
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "en": "you"
+        },
+        {
+          "zh": "好",
+          "py": "hǎo",
+          "en": "good"
+        },
+        {
+          "zh": "吗",
+          "py": "ma",
+          "en": "yes/no question particle"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch01-04",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 1",
+      "zh": "老师好吗。",
+      "py": "lǎoshī hǎo ma.",
+      "en": "How is the teacher?",
+      "breakdown": [
+        {
+          "zh": "老师",
+          "py": "lǎoshī",
+          "en": "teacher"
+        },
+        {
+          "zh": "好",
+          "py": "hǎo",
+          "en": "good"
+        },
+        {
+          "zh": "吗",
+          "py": "ma",
+          "en": "yes/no question particle"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-ch01-05",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 1",
+      "zh": "我很好。",
+      "py": "wǒ hěn hǎo.",
+      "en": "I'm well",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "很",
+          "py": "hěn",
+          "en": "very / degree marker"
+        },
+        {
+          "zh": "好",
+          "py": "hǎo",
+          "en": "good"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-ch01-06",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 1",
+      "zh": "老师很好。",
+      "py": "lǎoshī hěn hǎo.",
+      "en": "The teacher is well",
+      "breakdown": [
+        {
+          "zh": "老师",
+          "py": "lǎoshī",
+          "en": "teacher"
+        },
+        {
+          "zh": "很",
+          "py": "hěn",
+          "en": "very / degree marker"
+        },
+        {
+          "zh": "好",
+          "py": "hǎo",
+          "en": "good"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-ch01-07",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 1",
+      "zh": "你们好。",
+      "py": "nǐmen hǎo.",
+      "en": "Hello, everyone",
+      "breakdown": [
+        {
+          "zh": "你们",
+          "py": "nǐmen",
+          "en": "you (plural)"
+        },
+        {
+          "zh": "好",
+          "py": "hǎo",
+          "en": "good"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-ch01-08",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 1",
+      "zh": "我们很好。",
+      "py": "wǒmen hěn hǎo.",
+      "en": "We are well",
+      "breakdown": [
+        {
+          "zh": "我们",
+          "py": "wǒmen",
+          "en": "we / us"
+        },
+        {
+          "zh": "很",
+          "py": "hěn",
+          "en": "very / degree marker"
+        },
+        {
+          "zh": "好",
+          "py": "hǎo",
+          "en": "good"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-ch01-09",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 1",
+      "zh": "你是老师，我是学生。",
+      "py": "nǐ shì lǎoshī, wǒ shì xuésheng.",
+      "en": "You're a teacher; I'm a student",
+      "breakdown": [
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "en": "you"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "老师",
+          "py": "lǎoshī",
+          "en": "teacher"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "学生",
+          "py": "xuésheng",
+          "en": "student"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-ch01-10",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 1",
+      "zh": "他是老师，她是学生。",
+      "py": "tā shì lǎoshī, tā shì xuésheng.",
+      "en": "He's a teacher; she's a student",
+      "breakdown": [
+        {
+          "zh": "他",
+          "py": "tā",
+          "en": "he"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "老师",
+          "py": "lǎoshī",
+          "en": "teacher"
+        },
+        {
+          "zh": "她",
+          "py": "tā",
+          "en": "she"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "学生",
+          "py": "xuésheng",
+          "en": "student"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch02-01",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 2",
+      "zh": "谢谢。",
+      "py": "xièxie.",
+      "en": "Thank you",
+      "breakdown": [
+        {
+          "zh": "谢谢",
+          "py": "xièxie",
+          "en": "thank you"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch02-02",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 2",
+      "zh": "谢谢你。",
+      "py": "xièxie nǐ.",
+      "en": "Thank you",
+      "breakdown": [
+        {
+          "zh": "谢谢",
+          "py": "xièxie",
+          "en": "thank you"
+        },
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "en": "you"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch02-03",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 2",
+      "zh": "不客气。",
+      "py": "bú kèqi.",
+      "en": "You're welcome",
+      "breakdown": [
+        {
+          "zh": "不客气",
+          "py": "bú kèqi",
+          "en": "you’re welcome"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch02-04",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 2",
+      "zh": "没关系。",
+      "py": "méi guānxi.",
+      "en": "It's okay",
+      "breakdown": [
+        {
+          "zh": "没关系",
+          "py": "méi guānxi",
+          "en": "it's okay"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-ch02-05",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 2",
+      "zh": "对不起。",
+      "py": "duìbuqǐ.",
+      "en": "Sorry",
+      "breakdown": [
+        {
+          "zh": "对不起",
+          "py": "duìbuqǐ",
+          "en": "sorry"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-ch02-06",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 2",
+      "zh": "老师，对不起。",
+      "py": "lǎoshī, duìbuqǐ.",
+      "en": "Sorry, teacher",
+      "breakdown": [
+        {
+          "zh": "老师",
+          "py": "lǎoshī",
+          "en": "teacher"
+        },
+        {
+          "zh": "对不起",
+          "py": "duìbuqǐ",
+          "en": "sorry"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-ch02-07",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 2",
+      "zh": "谢谢老师。",
+      "py": "xièxie lǎoshī.",
+      "en": "Thank you, teacher",
+      "breakdown": [
+        {
+          "zh": "谢谢",
+          "py": "xièxie",
+          "en": "thank you"
+        },
+        {
+          "zh": "老师",
+          "py": "lǎoshī",
+          "en": "teacher"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-ch02-08",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 2",
+      "zh": "谢谢你帮我。",
+      "py": "xièxie nǐ bāng wǒ.",
+      "en": "Thanks for helping me",
+      "breakdown": [
+        {
+          "zh": "谢谢",
+          "py": "xièxie",
+          "en": "thank you"
+        },
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "en": "you"
+        },
+        {
+          "zh": "帮",
+          "py": "bāng",
+          "en": "help"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-ch02-09",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 2",
+      "zh": "对不起，我今天不能来。",
+      "py": "duìbuqǐ, wǒ jīntiān bù néng lái.",
+      "en": "Sorry, I can't come today",
+      "breakdown": [
+        {
+          "zh": "对不起",
+          "py": "duìbuqǐ",
+          "en": "sorry"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "今天",
+          "py": "jīntiān",
+          "en": "today"
+        },
+        {
+          "zh": "不",
+          "py": "bù",
+          "en": "not"
+        },
+        {
+          "zh": "能",
+          "py": "néng",
+          "en": "can"
+        },
+        {
+          "zh": "来",
+          "py": "lái",
+          "en": "come"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-ch02-10",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 2",
+      "zh": "谢谢老师，我们明天见。",
+      "py": "xièxie lǎoshī, wǒmen míngtiān jiàn.",
+      "en": "Thank you, teacher; see you tomorrow",
+      "breakdown": [
+        {
+          "zh": "谢谢",
+          "py": "xièxie",
+          "en": "thank you"
+        },
+        {
+          "zh": "老师",
+          "py": "lǎoshī",
+          "en": "teacher"
+        },
+        {
+          "zh": "我们",
+          "py": "wǒmen",
+          "en": "we / us"
+        },
+        {
+          "zh": "明天",
+          "py": "míngtiān",
+          "en": "tomorrow"
+        },
+        {
+          "zh": "见",
+          "py": "jiàn",
+          "en": "meet"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch03-01",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 3",
+      "zh": "我叫小明。",
+      "py": "wǒ jiào Xiǎomíng.",
+      "en": "My name is Xiaoming",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "叫",
+          "py": "jiào",
+          "en": "to be called"
+        },
+        {
+          "zh": "小明",
+          "py": "Xiǎomíng",
+          "en": "Xiaoming"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch03-02",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 3",
+      "zh": "我叫小王。",
+      "py": "wǒ jiào Xiǎo Wáng.",
+      "en": "My name is Xiao Wang",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "叫",
+          "py": "jiào",
+          "en": "to be called"
+        },
+        {
+          "zh": "小王",
+          "py": "Xiǎo Wáng",
+          "en": "Xiao Wang"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch03-03",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 3",
+      "zh": "你叫什么名字。",
+      "py": "nǐ jiào shénme míngzi.",
+      "en": "What's your name?",
+      "breakdown": [
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "en": "you"
+        },
+        {
+          "zh": "叫",
+          "py": "jiào",
+          "en": "to be called"
+        },
+        {
+          "zh": "什么",
+          "py": "shénme",
+          "en": "what"
+        },
+        {
+          "zh": "名字",
+          "py": "míngzi",
+          "en": "name"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch03-04",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 3",
+      "zh": "他叫什么名字。",
+      "py": "tā jiào shénme míngzi.",
+      "en": "What's his name?",
+      "breakdown": [
+        {
+          "zh": "他",
+          "py": "tā",
+          "en": "he"
+        },
+        {
+          "zh": "叫",
+          "py": "jiào",
+          "en": "to be called"
+        },
+        {
+          "zh": "什么",
+          "py": "shénme",
+          "en": "what"
+        },
+        {
+          "zh": "名字",
+          "py": "míngzi",
+          "en": "name"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-ch03-05",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 3",
+      "zh": "我是学生。",
+      "py": "wǒ shì xuésheng.",
+      "en": "I'm a student",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "学生",
+          "py": "xuésheng",
+          "en": "student"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-ch03-06",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 3",
+      "zh": "他是老师。",
+      "py": "tā shì lǎoshī.",
+      "en": "He's a teacher",
+      "breakdown": [
+        {
+          "zh": "他",
+          "py": "tā",
+          "en": "he"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "老师",
+          "py": "lǎoshī",
+          "en": "teacher"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-ch03-07",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 3",
+      "zh": "你是中国人吗。",
+      "py": "nǐ shì Zhōngguó rén ma.",
+      "en": "Are you Chinese?",
+      "breakdown": [
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "en": "you"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "中国",
+          "py": "Zhōngguó",
+          "en": "China"
+        },
+        {
+          "zh": "人",
+          "py": "rén",
+          "en": "person"
+        },
+        {
+          "zh": "吗",
+          "py": "ma",
+          "en": "yes/no question particle"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-ch03-08",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 3",
+      "zh": "她是中国人吗。",
+      "py": "tā shì Zhōngguó rén ma.",
+      "en": "Is she Chinese?",
+      "breakdown": [
+        {
+          "zh": "她",
+          "py": "tā",
+          "en": "she"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "中国",
+          "py": "Zhōngguó",
+          "en": "China"
+        },
+        {
+          "zh": "人",
+          "py": "rén",
+          "en": "person"
+        },
+        {
+          "zh": "吗",
+          "py": "ma",
+          "en": "yes/no question particle"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-ch03-09",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 3",
+      "zh": "他是中国人，也是老师。",
+      "py": "tā shì Zhōngguó rén, yě shì lǎoshī.",
+      "en": "He's Chinese and a teacher",
+      "breakdown": [
+        {
+          "zh": "他",
+          "py": "tā",
+          "en": "he"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "中国",
+          "py": "Zhōngguó",
+          "en": "China"
+        },
+        {
+          "zh": "人",
+          "py": "rén",
+          "en": "person"
+        },
+        {
+          "zh": "也",
+          "py": "yě",
+          "en": "also"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "老师",
+          "py": "lǎoshī",
+          "en": "teacher"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-ch03-10",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 3",
+      "zh": "你是学生，还是老师。",
+      "py": "nǐ shì xuésheng, háishi lǎoshī.",
+      "en": "Are you a student or teacher?",
+      "breakdown": [
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "en": "you"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "学生",
+          "py": "xuésheng",
+          "en": "student"
+        },
+        {
+          "zh": "还是",
+          "py": "háishi",
+          "en": "or"
+        },
+        {
+          "zh": "老师",
+          "py": "lǎoshī",
+          "en": "teacher"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch04-01",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 4",
+      "zh": "她是谁。",
+      "py": "tā shì shéi.",
+      "en": "Who is she?",
+      "breakdown": [
+        {
+          "zh": "她",
+          "py": "tā",
+          "en": "she"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "谁",
+          "py": "shéi",
+          "en": "who"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch04-02",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 4",
+      "zh": "他是谁。",
+      "py": "tā shì shéi.",
+      "en": "Who is he?",
+      "breakdown": [
+        {
+          "zh": "他",
+          "py": "tā",
+          "en": "he"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "谁",
+          "py": "shéi",
+          "en": "who"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch04-03",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 4",
+      "zh": "这是我的书。",
+      "py": "zhè shì wǒ de shū.",
+      "en": "This is my book",
+      "breakdown": [
+        {
+          "zh": "这",
+          "py": "zhè",
+          "en": "this"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "possessive / modifier particle"
+        },
+        {
+          "zh": "书",
+          "py": "shū",
+          "en": "book"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch04-04",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 4",
+      "zh": "那是你的书。",
+      "py": "nà shì nǐ de shū.",
+      "en": "That's your book",
+      "breakdown": [
+        {
+          "zh": "那",
+          "py": "nà",
+          "en": "that"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "en": "you"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "possessive / modifier particle"
+        },
+        {
+          "zh": "书",
+          "py": "shū",
+          "en": "book"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-ch04-05",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 4",
+      "zh": "他是我爸爸。",
+      "py": "tā shì wǒ bàba.",
+      "en": "He's my dad",
+      "breakdown": [
+        {
+          "zh": "他",
+          "py": "tā",
+          "en": "he"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "爸爸",
+          "py": "bàba",
+          "en": "dad"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-ch04-06",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 4",
+      "zh": "她是我妈妈。",
+      "py": "tā shì wǒ māma.",
+      "en": "She's my mum",
+      "breakdown": [
+        {
+          "zh": "她",
+          "py": "tā",
+          "en": "she"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "妈妈",
+          "py": "māma",
+          "en": "mom"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-ch04-07",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 4",
+      "zh": "你是哪国人。",
+      "py": "nǐ shì nǎ guó rén.",
+      "en": "What country are you from?",
+      "breakdown": [
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "en": "you"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "哪",
+          "py": "nǎ",
+          "en": "which"
+        },
+        {
+          "zh": "国",
+          "py": "guó",
+          "en": "country"
+        },
+        {
+          "zh": "人",
+          "py": "rén",
+          "en": "person"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-ch04-08",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 4",
+      "zh": "你的老师是谁。",
+      "py": "nǐ de lǎoshī shì shéi.",
+      "en": "Who is your teacher?",
+      "breakdown": [
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "en": "you"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "possessive / modifier particle"
+        },
+        {
+          "zh": "老师",
+          "py": "lǎoshī",
+          "en": "teacher"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "谁",
+          "py": "shéi",
+          "en": "who"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-ch04-09",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 4",
+      "zh": "我爸爸的朋友也是老师。",
+      "py": "wǒ bàba de péngyou yě shì lǎoshī.",
+      "en": "My dad's friend is a teacher too",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "爸爸",
+          "py": "bàba",
+          "en": "dad"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "possessive / modifier particle"
+        },
+        {
+          "zh": "朋友",
+          "py": "péngyou",
+          "en": "friend"
+        },
+        {
+          "zh": "也",
+          "py": "yě",
+          "en": "also"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "老师",
+          "py": "lǎoshī",
+          "en": "teacher"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-ch04-10",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 4",
+      "zh": "她不是我的老师，是他的老师。",
+      "py": "tā bù shì wǒ de lǎoshī, shì tā de lǎoshī.",
+      "en": "She's his teacher, not mine",
+      "breakdown": [
+        {
+          "zh": "她",
+          "py": "tā",
+          "en": "she"
+        },
+        {
+          "zh": "不",
+          "py": "bù",
+          "en": "not"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "possessive / modifier particle"
+        },
+        {
+          "zh": "老师",
+          "py": "lǎoshī",
+          "en": "teacher"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "他",
+          "py": "tā",
+          "en": "he"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "possessive / modifier particle"
+        },
+        {
+          "zh": "老师",
+          "py": "lǎoshī",
+          "en": "teacher"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch05-01",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 5",
+      "zh": "我十岁。",
+      "py": "wǒ shí suì.",
+      "en": "I'm ten years old",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "十",
+          "py": "shí",
+          "en": "ten"
+        },
+        {
+          "zh": "岁",
+          "py": "suì",
+          "en": "years old"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch05-02",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 5",
+      "zh": "他五岁。",
+      "py": "tā wǔ suì.",
+      "en": "He's five years old",
+      "breakdown": [
+        {
+          "zh": "他",
+          "py": "tā",
+          "en": "he"
+        },
+        {
+          "zh": "五",
+          "py": "wǔ",
+          "en": "five"
+        },
+        {
+          "zh": "岁",
+          "py": "suì",
+          "en": "years old"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch05-03",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 5",
+      "zh": "她几岁。",
+      "py": "tā jǐ suì.",
+      "en": "How old is she?",
+      "breakdown": [
+        {
+          "zh": "她",
+          "py": "tā",
+          "en": "she"
+        },
+        {
+          "zh": "几",
+          "py": "jǐ",
+          "en": "how many"
+        },
+        {
+          "zh": "岁",
+          "py": "suì",
+          "en": "years old"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch05-04",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 5",
+      "zh": "你多大了。",
+      "py": "nǐ duō dà le.",
+      "en": "How old are you?",
+      "breakdown": [
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "en": "you"
+        },
+        {
+          "zh": "多",
+          "py": "duō",
+          "en": "many"
+        },
+        {
+          "zh": "大",
+          "py": "dà",
+          "en": "old"
+        },
+        {
+          "zh": "了",
+          "py": "le",
+          "en": "completed action / change"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-ch05-05",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 5",
+      "zh": "他今年二十岁。",
+      "py": "tā jīnnián èrshí suì.",
+      "en": "He's twenty this year",
+      "breakdown": [
+        {
+          "zh": "他",
+          "py": "tā",
+          "en": "he"
+        },
+        {
+          "zh": "今年",
+          "py": "jīnnián",
+          "en": "this year"
+        },
+        {
+          "zh": "二十",
+          "py": "èrshí",
+          "en": "twenty"
+        },
+        {
+          "zh": "岁",
+          "py": "suì",
+          "en": "years old"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-ch05-06",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 5",
+      "zh": "我妈妈今年四十岁。",
+      "py": "wǒ māma jīnnián sìshí suì.",
+      "en": "My mum is forty this year",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "妈妈",
+          "py": "māma",
+          "en": "mom"
+        },
+        {
+          "zh": "今年",
+          "py": "jīnnián",
+          "en": "this year"
+        },
+        {
+          "zh": "四十",
+          "py": "sìshí",
+          "en": "forty"
+        },
+        {
+          "zh": "岁",
+          "py": "suì",
+          "en": "years old"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-ch05-07",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 5",
+      "zh": "你有几个孩子。",
+      "py": "nǐ yǒu jǐ ge háizi.",
+      "en": "How many children do you have?",
+      "breakdown": [
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "en": "you"
+        },
+        {
+          "zh": "有",
+          "py": "yǒu",
+          "en": "have / there is"
+        },
+        {
+          "zh": "几",
+          "py": "jǐ",
+          "en": "how many"
+        },
+        {
+          "zh": "个",
+          "py": "ge",
+          "en": "general measure word"
+        },
+        {
+          "zh": "孩子",
+          "py": "háizi",
+          "en": "child"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-ch05-08",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 5",
+      "zh": "我有一个女儿。",
+      "py": "wǒ yǒu yī ge nǚ’ér.",
+      "en": "I have one daughter",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "有",
+          "py": "yǒu",
+          "en": "have / there is"
+        },
+        {
+          "zh": "一",
+          "py": "yī",
+          "en": "one"
+        },
+        {
+          "zh": "个",
+          "py": "ge",
+          "en": "general measure word"
+        },
+        {
+          "zh": "女儿",
+          "py": "nǚ’ér",
+          "en": "daughter"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-ch05-09",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 5",
+      "zh": "我有一个儿子和一个女儿。",
+      "py": "wǒ yǒu yī ge érzi hé yī ge nǚ’ér.",
+      "en": "I have a son and a daughter",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "有",
+          "py": "yǒu",
+          "en": "have / there is"
+        },
+        {
+          "zh": "一",
+          "py": "yī",
+          "en": "one"
+        },
+        {
+          "zh": "个",
+          "py": "ge",
+          "en": "general measure word"
+        },
+        {
+          "zh": "儿子",
+          "py": "érzi",
+          "en": "son"
+        },
+        {
+          "zh": "和",
+          "py": "hé",
+          "en": "and / with"
+        },
+        {
+          "zh": "一",
+          "py": "yī",
+          "en": "one"
+        },
+        {
+          "zh": "个",
+          "py": "ge",
+          "en": "general measure word"
+        },
+        {
+          "zh": "女儿",
+          "py": "nǚ’ér",
+          "en": "daughter"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-ch05-10",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 5",
+      "zh": "你爸爸比我爸爸大两岁。",
+      "py": "nǐ bàba bǐ wǒ bàba dà liǎng suì.",
+      "en": "Your dad is two years older than mine",
+      "breakdown": [
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "en": "you"
+        },
+        {
+          "zh": "爸爸",
+          "py": "bàba",
+          "en": "dad"
+        },
+        {
+          "zh": "比",
+          "py": "bǐ",
+          "en": "than"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "爸爸",
+          "py": "bàba",
+          "en": "dad"
+        },
+        {
+          "zh": "大",
+          "py": "dà",
+          "en": "old"
+        },
+        {
+          "zh": "两",
+          "py": "liǎng",
+          "en": "two"
+        },
+        {
+          "zh": "岁",
+          "py": "suì",
+          "en": "years old"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch06-01",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 6",
+      "zh": "我会说汉语。",
+      "py": "wǒ huì shuō Hànyǔ.",
+      "en": "I can speak Chinese",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "会",
+          "py": "huì",
+          "en": "can / will"
+        },
+        {
+          "zh": "说",
+          "py": "shuō",
+          "en": "to speak / say"
+        },
+        {
+          "zh": "汉语",
+          "py": "Hànyǔ",
+          "en": "Mandarin Chinese"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch06-02",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 6",
+      "zh": "他会说汉语。",
+      "py": "tā huì shuō Hànyǔ.",
+      "en": "He can speak Chinese",
+      "breakdown": [
+        {
+          "zh": "他",
+          "py": "tā",
+          "en": "he"
+        },
+        {
+          "zh": "会",
+          "py": "huì",
+          "en": "can / will"
+        },
+        {
+          "zh": "说",
+          "py": "shuō",
+          "en": "to speak / say"
+        },
+        {
+          "zh": "汉语",
+          "py": "Hànyǔ",
+          "en": "Mandarin Chinese"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch06-03",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 6",
+      "zh": "你会写字吗。",
+      "py": "nǐ huì xiě zì ma.",
+      "en": "Can you write characters?",
+      "breakdown": [
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "en": "you"
+        },
+        {
+          "zh": "会",
+          "py": "huì",
+          "en": "can / will"
+        },
+        {
+          "zh": "写",
+          "py": "xiě",
+          "en": "to write"
+        },
+        {
+          "zh": "字",
+          "py": "zì",
+          "en": "character"
+        },
+        {
+          "zh": "吗",
+          "py": "ma",
+          "en": "yes/no question particle"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch06-04",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 6",
+      "zh": "你会读书吗。",
+      "py": "nǐ huì dú shū ma.",
+      "en": "Can you read books?",
+      "breakdown": [
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "en": "you"
+        },
+        {
+          "zh": "会",
+          "py": "huì",
+          "en": "can / will"
+        },
+        {
+          "zh": "读",
+          "py": "dú",
+          "en": "read"
+        },
+        {
+          "zh": "书",
+          "py": "shū",
+          "en": "book"
+        },
+        {
+          "zh": "吗",
+          "py": "ma",
+          "en": "yes/no question particle"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-ch06-05",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 6",
+      "zh": "汉语很难。",
+      "py": "Hànyǔ hěn nán.",
+      "en": "Chinese is difficult",
+      "breakdown": [
+        {
+          "zh": "汉语",
+          "py": "Hànyǔ",
+          "en": "Mandarin Chinese"
+        },
+        {
+          "zh": "很",
+          "py": "hěn",
+          "en": "very / degree marker"
+        },
+        {
+          "zh": "难",
+          "py": "nán",
+          "en": "difficult"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-ch06-06",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 6",
+      "zh": "这个字很难。",
+      "py": "zhè ge zì hěn nán.",
+      "en": "This character is difficult",
+      "breakdown": [
+        {
+          "zh": "这",
+          "py": "zhè",
+          "en": "this"
+        },
+        {
+          "zh": "个",
+          "py": "ge",
+          "en": "general measure word"
+        },
+        {
+          "zh": "字",
+          "py": "zì",
+          "en": "character"
+        },
+        {
+          "zh": "很",
+          "py": "hěn",
+          "en": "very / degree marker"
+        },
+        {
+          "zh": "难",
+          "py": "nán",
+          "en": "difficult"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-ch06-07",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 6",
+      "zh": "我会说一点儿汉语。",
+      "py": "wǒ huì shuō yìdiǎnr Hànyǔ.",
+      "en": "I can speak a little Chinese",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "会",
+          "py": "huì",
+          "en": "can / will"
+        },
+        {
+          "zh": "说",
+          "py": "shuō",
+          "en": "to speak / say"
+        },
+        {
+          "zh": "一点儿",
+          "py": "yìdiǎnr",
+          "en": "a little"
+        },
+        {
+          "zh": "汉语",
+          "py": "Hànyǔ",
+          "en": "Mandarin Chinese"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-ch06-08",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 6",
+      "zh": "我不会写这个字。",
+      "py": "wǒ bù huì xiě zhè ge zì.",
+      "en": "I can't write this character",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "不",
+          "py": "bù",
+          "en": "not"
+        },
+        {
+          "zh": "会",
+          "py": "huì",
+          "en": "can / will"
+        },
+        {
+          "zh": "写",
+          "py": "xiě",
+          "en": "to write"
+        },
+        {
+          "zh": "这",
+          "py": "zhè",
+          "en": "this"
+        },
+        {
+          "zh": "个",
+          "py": "ge",
+          "en": "general measure word"
+        },
+        {
+          "zh": "字",
+          "py": "zì",
+          "en": "character"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-ch06-09",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 6",
+      "zh": "她会说汉语，但是不会写汉字。",
+      "py": "tā huì shuō Hànyǔ, dànshì bù huì xiě Hànzì.",
+      "en": "She speaks Chinese but can't write characters",
+      "breakdown": [
+        {
+          "zh": "她",
+          "py": "tā",
+          "en": "she"
+        },
+        {
+          "zh": "会",
+          "py": "huì",
+          "en": "can / will"
+        },
+        {
+          "zh": "说",
+          "py": "shuō",
+          "en": "to speak / say"
+        },
+        {
+          "zh": "汉语",
+          "py": "Hànyǔ",
+          "en": "Mandarin Chinese"
+        },
+        {
+          "zh": "但是",
+          "py": "dànshì",
+          "en": "but"
+        },
+        {
+          "zh": "不",
+          "py": "bù",
+          "en": "not"
+        },
+        {
+          "zh": "会",
+          "py": "huì",
+          "en": "can / will"
+        },
+        {
+          "zh": "写",
+          "py": "xiě",
+          "en": "to write"
+        },
+        {
+          "zh": "汉字",
+          "py": "Hànzì",
+          "en": "Chinese character"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-ch06-10",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 6",
+      "zh": "你会用汉语介绍你的家人吗。",
+      "py": "nǐ huì yòng Hànyǔ jièshào nǐ de jiārén ma.",
+      "en": "Can you introduce your family in Chinese?",
+      "breakdown": [
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "en": "you"
+        },
+        {
+          "zh": "会",
+          "py": "huì",
+          "en": "can / will"
+        },
+        {
+          "zh": "用",
+          "py": "yòng",
+          "en": "use"
+        },
+        {
+          "zh": "汉语",
+          "py": "Hànyǔ",
+          "en": "Mandarin Chinese"
+        },
+        {
+          "zh": "介绍",
+          "py": "jièshào",
+          "en": "introduce"
+        },
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "en": "you"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "possessive / modifier particle"
+        },
+        {
+          "zh": "家人",
+          "py": "jiārén",
+          "en": "family members"
+        },
+        {
+          "zh": "吗",
+          "py": "ma",
+          "en": "yes/no question particle"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch07-01",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 7",
+      "zh": "今天星期一。",
+      "py": "jīntiān xīngqīyī.",
+      "en": "Today is Monday",
+      "breakdown": [
+        {
+          "zh": "今天",
+          "py": "jīntiān",
+          "en": "today"
+        },
+        {
+          "zh": "星期一",
+          "py": "xīngqīyī",
+          "en": "Monday"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch07-02",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 7",
+      "zh": "明天星期二。",
+      "py": "míngtiān xīngqī'èr.",
+      "en": "Tomorrow is Tuesday",
+      "breakdown": [
+        {
+          "zh": "明天",
+          "py": "míngtiān",
+          "en": "tomorrow"
+        },
+        {
+          "zh": "星期二",
+          "py": "xīngqī'èr",
+          "en": "Tuesday"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch07-03",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 7",
+      "zh": "今天几号。",
+      "py": "jīntiān jǐ hào.",
+      "en": "What's today's date?",
+      "breakdown": [
+        {
+          "zh": "今天",
+          "py": "jīntiān",
+          "en": "today"
+        },
+        {
+          "zh": "几",
+          "py": "jǐ",
+          "en": "how many"
+        },
+        {
+          "zh": "号",
+          "py": "hào",
+          "en": "day of month"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch07-04",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 7",
+      "zh": "今天是五号。",
+      "py": "jīntiān shì wǔ hào.",
+      "en": "Today is the fifth",
+      "breakdown": [
+        {
+          "zh": "今天",
+          "py": "jīntiān",
+          "en": "today"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "五",
+          "py": "wǔ",
+          "en": "five"
+        },
+        {
+          "zh": "号",
+          "py": "hào",
+          "en": "day of month"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-ch07-05",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 7",
+      "zh": "昨天是星期天。",
+      "py": "zuótiān shì xīngqītiān.",
+      "en": "Yesterday was Sunday",
+      "breakdown": [
+        {
+          "zh": "昨天",
+          "py": "zuótiān",
+          "en": "yesterday"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "星期天",
+          "py": "xīngqītiān",
+          "en": "Sunday"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-ch07-06",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 7",
+      "zh": "今天是星期天。",
+      "py": "jīntiān shì xīngqītiān.",
+      "en": "Today is Sunday",
+      "breakdown": [
+        {
+          "zh": "今天",
+          "py": "jīntiān",
+          "en": "today"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "星期天",
+          "py": "xīngqītiān",
+          "en": "Sunday"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-ch07-07",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 7",
+      "zh": "你星期几去学校。",
+      "py": "nǐ xīngqījǐ qù xuéxiào.",
+      "en": "What day do you go to school?",
+      "breakdown": [
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "en": "you"
+        },
+        {
+          "zh": "星期几",
+          "py": "xīngqījǐ",
+          "en": "which weekday"
+        },
+        {
+          "zh": "去",
+          "py": "qù",
+          "en": "to go"
+        },
+        {
+          "zh": "学校",
+          "py": "xuéxiào",
+          "en": "school"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-ch07-08",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 7",
+      "zh": "明天我不去工作。",
+      "py": "míngtiān wǒ bù qù gōngzuò.",
+      "en": "I'm not going to work tomorrow",
+      "breakdown": [
+        {
+          "zh": "明天",
+          "py": "míngtiān",
+          "en": "tomorrow"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "不",
+          "py": "bù",
+          "en": "not"
+        },
+        {
+          "zh": "去",
+          "py": "qù",
+          "en": "to go"
+        },
+        {
+          "zh": "工作",
+          "py": "gōngzuò",
+          "en": "to work / work"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-ch07-09",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 7",
+      "zh": "下星期三你有时间吗。",
+      "py": "xià xīngqīsān nǐ yǒu shíjiān ma.",
+      "en": "Are you free next Wednesday?",
+      "breakdown": [
+        {
+          "zh": "下",
+          "py": "xià",
+          "en": "next"
+        },
+        {
+          "zh": "星期三",
+          "py": "xīngqīsān",
+          "en": "Wednesday"
+        },
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "en": "you"
+        },
+        {
+          "zh": "有",
+          "py": "yǒu",
+          "en": "have / there is"
+        },
+        {
+          "zh": "时间",
+          "py": "shíjiān",
+          "en": "time"
+        },
+        {
+          "zh": "吗",
+          "py": "ma",
+          "en": "yes/no question particle"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-ch07-10",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 7",
+      "zh": "我明天上午去学校，下午回家。",
+      "py": "wǒ míngtiān shàngwǔ qù xuéxiào, xiàwǔ huí jiā.",
+      "en": "Tomorrow I go to school in the morning and return home in the afternoon",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "明天",
+          "py": "míngtiān",
+          "en": "tomorrow"
+        },
+        {
+          "zh": "上午",
+          "py": "shàngwǔ",
+          "en": "morning"
+        },
+        {
+          "zh": "去",
+          "py": "qù",
+          "en": "to go"
+        },
+        {
+          "zh": "学校",
+          "py": "xuéxiào",
+          "en": "school"
+        },
+        {
+          "zh": "下午",
+          "py": "xiàwǔ",
+          "en": "afternoon"
+        },
+        {
+          "zh": "回",
+          "py": "huí",
+          "en": "return"
+        },
+        {
+          "zh": "家",
+          "py": "jiā",
+          "en": "home / family"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch08-01",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 8",
+      "zh": "我想喝茶。",
+      "py": "wǒ xiǎng hē chá.",
+      "en": "I'd like tea",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "想",
+          "py": "xiǎng",
+          "en": "want to / think"
+        },
+        {
+          "zh": "喝",
+          "py": "hē",
+          "en": "drink"
+        },
+        {
+          "zh": "茶",
+          "py": "chá",
+          "en": "tea"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch08-02",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 8",
+      "zh": "我想喝水。",
+      "py": "wǒ xiǎng hē shuǐ.",
+      "en": "I'd like water",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "想",
+          "py": "xiǎng",
+          "en": "want to / think"
+        },
+        {
+          "zh": "喝",
+          "py": "hē",
+          "en": "drink"
+        },
+        {
+          "zh": "水",
+          "py": "shuǐ",
+          "en": "water"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch08-03",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 8",
+      "zh": "你喝水吗。",
+      "py": "nǐ hē shuǐ ma.",
+      "en": "Do you drink water?",
+      "breakdown": [
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "en": "you"
+        },
+        {
+          "zh": "喝",
+          "py": "hē",
+          "en": "drink"
+        },
+        {
+          "zh": "水",
+          "py": "shuǐ",
+          "en": "water"
+        },
+        {
+          "zh": "吗",
+          "py": "ma",
+          "en": "yes/no question particle"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch08-04",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 8",
+      "zh": "你喝茶吗。",
+      "py": "nǐ hē chá ma.",
+      "en": "Do you drink tea?",
+      "breakdown": [
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "en": "you"
+        },
+        {
+          "zh": "喝",
+          "py": "hē",
+          "en": "drink"
+        },
+        {
+          "zh": "茶",
+          "py": "chá",
+          "en": "tea"
+        },
+        {
+          "zh": "吗",
+          "py": "ma",
+          "en": "yes/no question particle"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-ch08-05",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 8",
+      "zh": "我想吃米饭。",
+      "py": "wǒ xiǎng chī mǐfàn.",
+      "en": "I want rice",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "想",
+          "py": "xiǎng",
+          "en": "want to / think"
+        },
+        {
+          "zh": "吃",
+          "py": "chī",
+          "en": "eat"
+        },
+        {
+          "zh": "米饭",
+          "py": "mǐfàn",
+          "en": "cooked rice"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-ch08-06",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 8",
+      "zh": "我想吃苹果。",
+      "py": "wǒ xiǎng chī píngguǒ.",
+      "en": "I want an apple",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "想",
+          "py": "xiǎng",
+          "en": "want to / think"
+        },
+        {
+          "zh": "吃",
+          "py": "chī",
+          "en": "eat"
+        },
+        {
+          "zh": "苹果",
+          "py": "píngguǒ",
+          "en": "apple"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-ch08-07",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 8",
+      "zh": "这个多少钱。",
+      "py": "zhè ge duōshao qián.",
+      "en": "How much is this?",
+      "breakdown": [
+        {
+          "zh": "这",
+          "py": "zhè",
+          "en": "this"
+        },
+        {
+          "zh": "个",
+          "py": "ge",
+          "en": "general measure word"
+        },
+        {
+          "zh": "多少",
+          "py": "duōshao",
+          "en": "how many"
+        },
+        {
+          "zh": "钱",
+          "py": "qián",
+          "en": "money"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-ch08-08",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 8",
+      "zh": "这个杯子十块钱。",
+      "py": "zhè ge bēizi shí kuài qián.",
+      "en": "This cup costs ten yuan",
+      "breakdown": [
+        {
+          "zh": "这",
+          "py": "zhè",
+          "en": "this"
+        },
+        {
+          "zh": "个",
+          "py": "ge",
+          "en": "general measure word"
+        },
+        {
+          "zh": "杯子",
+          "py": "bēizi",
+          "en": "cup"
+        },
+        {
+          "zh": "十",
+          "py": "shí",
+          "en": "ten"
+        },
+        {
+          "zh": "块",
+          "py": "kuài",
+          "en": "yuan (spoken)"
+        },
+        {
+          "zh": "钱",
+          "py": "qián",
+          "en": "money"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-ch08-09",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 8",
+      "zh": "你想喝茶还是水。",
+      "py": "nǐ xiǎng hē chá háishi shuǐ.",
+      "en": "Would you like tea or water?",
+      "breakdown": [
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "en": "you"
+        },
+        {
+          "zh": "想",
+          "py": "xiǎng",
+          "en": "want to / think"
+        },
+        {
+          "zh": "喝",
+          "py": "hē",
+          "en": "drink"
+        },
+        {
+          "zh": "茶",
+          "py": "chá",
+          "en": "tea"
+        },
+        {
+          "zh": "还是",
+          "py": "háishi",
+          "en": "or"
+        },
+        {
+          "zh": "水",
+          "py": "shuǐ",
+          "en": "water"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-ch08-10",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 8",
+      "zh": "妈妈喜欢喝茶，爸爸喜欢喝水。",
+      "py": "māma xǐhuan hē chá, bàba xǐhuan hē shuǐ.",
+      "en": "Mum likes tea; Dad likes water",
+      "breakdown": [
+        {
+          "zh": "妈妈",
+          "py": "māma",
+          "en": "mom"
+        },
+        {
+          "zh": "喜欢",
+          "py": "xǐhuan",
+          "en": "like"
+        },
+        {
+          "zh": "喝",
+          "py": "hē",
+          "en": "drink"
+        },
+        {
+          "zh": "茶",
+          "py": "chá",
+          "en": "tea"
+        },
+        {
+          "zh": "爸爸",
+          "py": "bàba",
+          "en": "dad"
+        },
+        {
+          "zh": "喜欢",
+          "py": "xǐhuan",
+          "en": "like"
+        },
+        {
+          "zh": "喝",
+          "py": "hē",
+          "en": "drink"
+        },
+        {
+          "zh": "水",
+          "py": "shuǐ",
+          "en": "water"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch09-01",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 9",
+      "zh": "你在哪儿。",
+      "py": "nǐ zài nǎr.",
+      "en": "Where are you?",
+      "breakdown": [
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "en": "you"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in; ongoing action"
+        },
+        {
+          "zh": "哪儿",
+          "py": "nǎr",
+          "en": "where"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch09-02",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 9",
+      "zh": "他在哪儿。",
+      "py": "tā zài nǎr.",
+      "en": "Where is he?",
+      "breakdown": [
+        {
+          "zh": "他",
+          "py": "tā",
+          "en": "he"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in; ongoing action"
+        },
+        {
+          "zh": "哪儿",
+          "py": "nǎr",
+          "en": "where"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch09-03",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 9",
+      "zh": "我在学校。",
+      "py": "wǒ zài xuéxiào.",
+      "en": "I'm at school",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in; ongoing action"
+        },
+        {
+          "zh": "学校",
+          "py": "xuéxiào",
+          "en": "school"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch09-04",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 9",
+      "zh": "爸爸在医院。",
+      "py": "bàba zài yīyuàn.",
+      "en": "Dad is at the hospital",
+      "breakdown": [
+        {
+          "zh": "爸爸",
+          "py": "bàba",
+          "en": "dad"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in; ongoing action"
+        },
+        {
+          "zh": "医院",
+          "py": "yīyuàn",
+          "en": "hospital"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-ch09-05",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 9",
+      "zh": "他在哪儿工作。",
+      "py": "tā zài nǎr gōngzuò.",
+      "en": "Where does he work?",
+      "breakdown": [
+        {
+          "zh": "他",
+          "py": "tā",
+          "en": "he"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in; ongoing action"
+        },
+        {
+          "zh": "哪儿",
+          "py": "nǎr",
+          "en": "where"
+        },
+        {
+          "zh": "工作",
+          "py": "gōngzuò",
+          "en": "to work / work"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-ch09-06",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 9",
+      "zh": "她在哪儿工作。",
+      "py": "tā zài nǎr gōngzuò.",
+      "en": "Where does she work?",
+      "breakdown": [
+        {
+          "zh": "她",
+          "py": "tā",
+          "en": "she"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in; ongoing action"
+        },
+        {
+          "zh": "哪儿",
+          "py": "nǎr",
+          "en": "where"
+        },
+        {
+          "zh": "工作",
+          "py": "gōngzuò",
+          "en": "to work / work"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-ch09-07",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 9",
+      "zh": "我妈妈在医院工作。",
+      "py": "wǒ māma zài yīyuàn gōngzuò.",
+      "en": "My mum works at a hospital",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "妈妈",
+          "py": "māma",
+          "en": "mom"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in; ongoing action"
+        },
+        {
+          "zh": "医院",
+          "py": "yīyuàn",
+          "en": "hospital"
+        },
+        {
+          "zh": "工作",
+          "py": "gōngzuò",
+          "en": "to work / work"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-ch09-08",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 9",
+      "zh": "你儿子在哪儿学习。",
+      "py": "nǐ érzi zài nǎr xuéxí.",
+      "en": "Where does your son study?",
+      "breakdown": [
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "en": "you"
+        },
+        {
+          "zh": "儿子",
+          "py": "érzi",
+          "en": "son"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in; ongoing action"
+        },
+        {
+          "zh": "哪儿",
+          "py": "nǎr",
+          "en": "where"
+        },
+        {
+          "zh": "学习",
+          "py": "xuéxí",
+          "en": "study"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-ch09-09",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 9",
+      "zh": "我爸爸在学校工作，妈妈在医院工作。",
+      "py": "wǒ bàba zài xuéxiào gōngzuò, māma zài yīyuàn gōngzuò.",
+      "en": "Dad works at school; Mum at a hospital",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "爸爸",
+          "py": "bàba",
+          "en": "dad"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in; ongoing action"
+        },
+        {
+          "zh": "学校",
+          "py": "xuéxiào",
+          "en": "school"
+        },
+        {
+          "zh": "工作",
+          "py": "gōngzuò",
+          "en": "to work / work"
+        },
+        {
+          "zh": "妈妈",
+          "py": "māma",
+          "en": "mom"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in; ongoing action"
+        },
+        {
+          "zh": "医院",
+          "py": "yīyuàn",
+          "en": "hospital"
+        },
+        {
+          "zh": "工作",
+          "py": "gōngzuò",
+          "en": "to work / work"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-ch09-10",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 9",
+      "zh": "今天他不在医院，在家休息。",
+      "py": "jīntiān tā bù zài yīyuàn, zài jiā xiūxi.",
+      "en": "Today he's resting at home, not at the hospital",
+      "breakdown": [
+        {
+          "zh": "今天",
+          "py": "jīntiān",
+          "en": "today"
+        },
+        {
+          "zh": "他",
+          "py": "tā",
+          "en": "he"
+        },
+        {
+          "zh": "不",
+          "py": "bù",
+          "en": "not"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in; ongoing action"
+        },
+        {
+          "zh": "医院",
+          "py": "yīyuàn",
+          "en": "hospital"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in; ongoing action"
+        },
+        {
+          "zh": "家",
+          "py": "jiā",
+          "en": "home / family"
+        },
+        {
+          "zh": "休息",
+          "py": "xiūxi",
+          "en": "rest"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch10-01",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 10",
+      "zh": "我能坐这儿吗。",
+      "py": "wǒ néng zuò zhèr ma.",
+      "en": "May I sit here?",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "能",
+          "py": "néng",
+          "en": "can"
+        },
+        {
+          "zh": "坐",
+          "py": "zuò",
+          "en": "to sit"
+        },
+        {
+          "zh": "这儿",
+          "py": "zhèr",
+          "en": "here"
+        },
+        {
+          "zh": "吗",
+          "py": "ma",
+          "en": "yes/no question particle"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch10-02",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 10",
+      "zh": "你能坐这儿吗。",
+      "py": "nǐ néng zuò zhèr ma.",
+      "en": "Can you sit here?",
+      "breakdown": [
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "en": "you"
+        },
+        {
+          "zh": "能",
+          "py": "néng",
+          "en": "can"
+        },
+        {
+          "zh": "坐",
+          "py": "zuò",
+          "en": "to sit"
+        },
+        {
+          "zh": "这儿",
+          "py": "zhèr",
+          "en": "here"
+        },
+        {
+          "zh": "吗",
+          "py": "ma",
+          "en": "yes/no question particle"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch10-03",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 10",
+      "zh": "这是我的椅子。",
+      "py": "zhè shì wǒ de yǐzi.",
+      "en": "This is my chair",
+      "breakdown": [
+        {
+          "zh": "这",
+          "py": "zhè",
+          "en": "this"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "possessive / modifier particle"
+        },
+        {
+          "zh": "椅子",
+          "py": "yǐzi",
+          "en": "chair"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch10-04",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 10",
+      "zh": "那是你的椅子。",
+      "py": "nà shì nǐ de yǐzi.",
+      "en": "That's your chair",
+      "breakdown": [
+        {
+          "zh": "那",
+          "py": "nà",
+          "en": "that"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "en": "you"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "possessive / modifier particle"
+        },
+        {
+          "zh": "椅子",
+          "py": "yǐzi",
+          "en": "chair"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-ch10-05",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 10",
+      "zh": "杯子在桌子上。",
+      "py": "bēizi zài zhuōzi shàng.",
+      "en": "The cup is on the table",
+      "breakdown": [
+        {
+          "zh": "杯子",
+          "py": "bēizi",
+          "en": "cup"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in; ongoing action"
+        },
+        {
+          "zh": "桌子",
+          "py": "zhuōzi",
+          "en": "table"
+        },
+        {
+          "zh": "上",
+          "py": "shàng",
+          "en": "on"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-ch10-06",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 10",
+      "zh": "书在桌子上面。",
+      "py": "shū zài zhuōzi shàngmiàn.",
+      "en": "The book is on the table",
+      "breakdown": [
+        {
+          "zh": "书",
+          "py": "shū",
+          "en": "book"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in; ongoing action"
+        },
+        {
+          "zh": "桌子",
+          "py": "zhuōzi",
+          "en": "table"
+        },
+        {
+          "zh": "上面",
+          "py": "shàngmiàn",
+          "en": "on / above"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-ch10-07",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 10",
+      "zh": "桌子下面有猫。",
+      "py": "zhuōzi xiàmiàn yǒu māo.",
+      "en": "There's a cat under the table",
+      "breakdown": [
+        {
+          "zh": "桌子",
+          "py": "zhuōzi",
+          "en": "table"
+        },
+        {
+          "zh": "下面",
+          "py": "xiàmiàn",
+          "en": "under / below"
+        },
+        {
+          "zh": "有",
+          "py": "yǒu",
+          "en": "have / there is"
+        },
+        {
+          "zh": "猫",
+          "py": "māo",
+          "en": "cat"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-ch10-08",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 10",
+      "zh": "桌子上有三个杯子。",
+      "py": "zhuōzi shàng yǒu sān ge bēizi.",
+      "en": "There are three cups on the table",
+      "breakdown": [
+        {
+          "zh": "桌子",
+          "py": "zhuōzi",
+          "en": "table"
+        },
+        {
+          "zh": "上",
+          "py": "shàng",
+          "en": "on"
+        },
+        {
+          "zh": "有",
+          "py": "yǒu",
+          "en": "have / there is"
+        },
+        {
+          "zh": "三",
+          "py": "sān",
+          "en": "three"
+        },
+        {
+          "zh": "个",
+          "py": "ge",
+          "en": "general measure word"
+        },
+        {
+          "zh": "杯子",
+          "py": "bēizi",
+          "en": "cup"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-ch10-09",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 10",
+      "zh": "我可以坐你的椅子吗。",
+      "py": "wǒ kěyǐ zuò nǐ de yǐzi ma.",
+      "en": "May I sit in your chair?",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "可以",
+          "py": "kěyǐ",
+          "en": "may / can"
+        },
+        {
+          "zh": "坐",
+          "py": "zuò",
+          "en": "to sit"
+        },
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "en": "you"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "possessive / modifier particle"
+        },
+        {
+          "zh": "椅子",
+          "py": "yǐzi",
+          "en": "chair"
+        },
+        {
+          "zh": "吗",
+          "py": "ma",
+          "en": "yes/no question particle"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-ch10-10",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "extended-hsk1-01",
+      "topic": "HSK 1 · Chapter 10",
+      "zh": "椅子在桌子后面，书在桌子上。",
+      "py": "yǐzi zài zhuōzi hòumiàn, shū zài zhuōzi shàng.",
+      "en": "The chair is behind the table; the book is on it",
+      "breakdown": [
+        {
+          "zh": "椅子",
+          "py": "yǐzi",
+          "en": "chair"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in; ongoing action"
+        },
+        {
+          "zh": "桌子",
+          "py": "zhuōzi",
+          "en": "table"
+        },
+        {
+          "zh": "后面",
+          "py": "hòumiàn",
+          "en": "behind"
+        },
+        {
+          "zh": "书",
+          "py": "shū",
+          "en": "book"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in; ongoing action"
+        },
+        {
+          "zh": "桌子",
+          "py": "zhuōzi",
+          "en": "table"
+        },
+        {
+          "zh": "上",
+          "py": "shàng",
+          "en": "on"
+        }
+      ]
+    }
+  ]
+}
