@@ -4,17 +4,19 @@ const $ = id => document.getElementById(id);
 const escapeHTML = value => String(value ?? '').replace(/[&<>"']/g, char => ({'&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'}[char]));
 let cards = [], current = null, flipped = false, direction = 'zh', recent = [], session = 0;
 let totalReviews = 0;
+let audioMuted = state.settings.audioMuted === true;
+function renderMute() { const b = $('muteBtn'); b.textContent = audioMuted ? '🔇' : '🔊'; b.setAttribute('aria-pressed', String(audioMuted)); b.setAttribute('aria-label', audioMuted ? 'Enable automatic pronunciation' : 'Mute automatic pronunciation'); }
 const speechAvailable = typeof window !== 'undefined' && 'speechSynthesis' in window && 'SpeechSynthesisUtterance' in window;
 function stopAudio() {
   if (speechAvailable) window.speechSynthesis.cancel();
   const button = $('audioBtn');
   if (button) button.setAttribute('aria-label', 'Play Mandarin pronunciation');
 }
-function playAudio() {
-  if (!current || !speechAvailable) return;
+function playAudio(text = current?.zh) {
+  if (!text || !speechAvailable) return;
   const synthesis = window.speechSynthesis;
   synthesis.cancel();
-  const utterance = new SpeechSynthesisUtterance(current.zh);
+  const utterance = new SpeechSynthesisUtterance(text);
   utterance.lang = 'zh-CN';
   utterance.rate = 0.85;
   utterance.pitch = 1;
@@ -30,9 +32,11 @@ function options() {
     examples: $('examples').checked, mix: $('mix').value,
     sentencesEnabled: $('sentencesEnabled').checked};
 }
-function saveOptions() {state.settings = options(); saveSettings(); showStorageStatus();}
+function saveOptions() {state.settings = {...state.settings, ...options(), audioMuted}; saveSettings(); showStorageStatus();}
 function restoreOptions() {
   const opts = state.settings;
+  audioMuted = opts.audioMuted === true;
+  renderMute();
   for (const id of ['topic','direction','mix']) {
     if (opts[id] && [...$(id).options].some(o => o.value === opts[id])) $(id).value = opts[id];
   }
@@ -99,6 +103,7 @@ function pick() {
   flipped = false;
   if (current) session++;
   render();
+  if (current && !audioMuted && direction !== 'en') playAudio(current.zh);
 }
 function render() {
   const c = current;
@@ -154,7 +159,7 @@ function render() {
       ? `<div class="meaning">${escapeHTML(c.en)}</div><div class="answer-zh" lang="zh-Hans">${escapeHTML(c.zh)}</div>`
       : `<div class="answer-zh" lang="zh-Hans">${escapeHTML(c.zh)}</div><div class="meaning">${escapeHTML(c.en)}</div>`;
     const examples = $('examples').checked
-      ? `<div class="examples">${c.examples.map((ex,i) => `<div class="example"><div class="example-label">EXAMPLE ${i + 1}</div><div class="cn" lang="zh-Hans">${escapeHTML(ex[0])}</div><div class="py">${escapeHTML(ex[1])}</div><div class="en">${escapeHTML(ex[2])}</div></div>`).join('')}</div>` : '';
+      ? `<div class="examples">${c.examples.map((ex,i) => `<div class="example"><div class="example-label">EXAMPLE ${i + 1}</div><div class="cn" lang="zh-Hans">${escapeHTML(ex[0])}</div><div class="py">${escapeHTML(ex[1])}</div><div class="en">${escapeHTML(ex[2])}</div><button class="example-play" type="button" data-example="${i}" aria-label="Play example ${i+1} in Mandarin">▶ Listen</button></div>`).join('')}</div>` : '';
     $('content').innerHTML = `${primary}<div class="answer-py">${escapeHTML(c.py)}</div>${examples}`;
   }
   renderHistory();
@@ -168,6 +173,10 @@ function rate(correct) {
   pick();
 }
 function wireEvents() {
+  $('muteBtn').onclick = () => { audioMuted = !audioMuted; saveOptions(); renderMute(); if (audioMuted) stopAudio(); else if (current && !flipped && direction !== 'en') playAudio(current.zh); };
+  $('content').addEventListener('pointerdown', e => { if(e.target.closest('.example-play')) e.stopPropagation(); });
+  $('content').addEventListener('pointerup', e => { if(e.target.closest('.example-play')) e.stopPropagation(); });
+  $('content').addEventListener('click', e => { const btn=e.target.closest('.example-play'); if(!btn)return; e.preventDefault();e.stopPropagation(); const example=current?.examples?.[Number(btn.dataset.example)]; if(example) playAudio(example[0]); });
   $('audioBtn').addEventListener('pointerdown', e => e.stopPropagation());
   $('audioBtn').addEventListener('pointerup', e => e.stopPropagation());
   $('audioBtn').addEventListener('click', e => { e.preventDefault(); e.stopPropagation(); playAudio(); });
