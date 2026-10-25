@@ -129,7 +129,7 @@ function render() {
   $('star').setAttribute('aria-pressed', state.stars[c.id] ? 'true' : 'false');
   $('star').setAttribute('aria-label', state.stars[c.id] ? 'Remove star' : 'Star this card');
   const isSentence = c.type === 'sentence';
-  $('topicLabel').textContent = isSentence ? 'SENTENCE · ' + c.sourcePack.replace('extended-hsk1-', 'HSK 1 · ').replace('foundation-', 'Foundation · ') : c.topic;
+  $('topicLabel').textContent = isSentence ? (c.topic.startsWith('HSK 1 · Chapter ') ? c.topic.toUpperCase() : 'SENTENCE · ' + c.sourcePack.replace('extended-hsk1-', 'HSK 1 · ').replace('foundation-', 'Foundation · ')) : c.topic;
   if (isSentence) {
     $('card').classList.add('sentence-card', 'sentence-' + c.difficulty);
     $('difficultyBadge').textContent = c.difficulty.toUpperCase();
