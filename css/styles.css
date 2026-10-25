@@ -45,3 +45,6 @@
 .sentence-card.is-flipped #content{margin:0;}
 
 .audio-button{position:relative;z-index:3;display:flex;align-items:center;justify-content:center;gap:7px;margin:18px auto 36px;padding:10px 17px;border:1px solid #d8e3dc;border-radius:28px;background:#f4f8f5;color:#255b40;font-size:14px;font-weight:600;min-height:44px;flex-shrink:0;touch-action:manipulation}.audio-button[hidden]{display:none}.audio-button:focus-visible{outline:3px solid #71b48c}.sentence-card:not(.is-flipped) .audio-button{margin:12px auto 32px}
+
+/* Audio controls */
+.top-actions{display:flex;align-items:center;gap:10px}.mute-toggle{font-size:21px;width:42px;height:42px;touch-action:manipulation}.example-play{display:inline-flex;justify-content:center;align-items:center;gap:5px;margin:8px auto 3px;padding:7px 12px;border:1px solid #cad7d0;background:#f3f8f4;border-radius:20px;font-size:12px;font-weight:600;color:#276145;min-height:34px;touch-action:manipulation;position:relative;z-index:4}.example-play:active{background:#deecdf}.example-play:focus-visible{outline:2px solid #34775a}.example .cn,.example .py,.example .en{pointer-events:none}
