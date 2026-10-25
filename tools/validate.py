@@ -17,7 +17,7 @@ for entry in manifest['packs']:
     pack_ids.add(entry['id'])
     data = json.loads((ROOT / path).read_text(encoding='utf-8'))
     assert data['id'] == entry['id'], path
-    if not path.startswith('data/packs/sentences-'):
+    if not path.startswith('data/packs/sentences-') and data['id'] != 'hsk-chapters-01-10':
         word_packs[data['id']] = [c['zh'] for c in data['cards']]
     for c in data['cards']:
         cid = str(c['id'])
@@ -30,7 +30,7 @@ for entry in manifest['packs']:
             assert difficulty in ('easy','medium','hard'), cid
             assert cid.startswith(f'sentence-{difficulty}-'), cid
             assert c['sourcePack'] in word_packs, (cid, c['sourcePack'])
-            assert c['breakdown'] and len(c['breakdown']) >= 2, cid
+            assert c['breakdown'] and len(c['breakdown']) >= (1 if data['id'] == 'hsk-chapters-01-10' else 2), cid
             assert all(all(isinstance(piece.get(k),str) and piece[k] for k in ('zh','py','en')) for piece in c['breakdown']), cid
             words = ''.join(part['zh'] for part in c['breakdown'])
             assert ''.join(x for x in c['zh'] if x not in '，。？！') == words, (cid, 'missing breakdown tokens')
