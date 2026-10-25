@@ -40,12 +40,12 @@ async function loadVocabulary() {
     const commonValid = card && (typeof card.id === 'number' || typeof card.id === 'string') &&
       card.zh && card.py && card.en && card.topic;
     const sentenceValid = card?.type === 'sentence' && ['easy','medium','hard'].includes(card.difficulty) &&
-      typeof card.sourcePack === 'string' && Array.isArray(card.breakdown) && card.breakdown.length >= 3 &&
+      typeof card.sourcePack === 'string' && Array.isArray(card.breakdown) && card.breakdown.length >= 1 &&
       card.breakdown.every(part => part && part.zh && part.py && part.en);
     const wordValid = card?.type !== 'sentence' && Array.isArray(card?.examples) &&
       card.examples.length === 2 && card.examples.every(ex => Array.isArray(ex) && ex.length === 3 && ex.every(Boolean));
     if (!commonValid || !(sentenceValid || wordValid))
-      throw new Error('A vocabulary or sentence card is malformed');
+      throw new Error(`Malformed card ${card?.id ?? '(missing ID)'} in vocabulary data`);
     const id = String(card.id);
     if (seen.has(id)) throw new Error(`Duplicate card ID: ${id}`);
     seen.add(id);
