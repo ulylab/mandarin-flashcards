@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "schemaVersion": 1,
   "packs": [
     {
@@ -121,6 +121,10 @@
     {
       "id": "sentences-hard-04",
       "file": "data/packs/sentences-hard-04.json"
+    },
+    {
+      "id": "hsk-chapters-01-10",
+      "file": "data/packs/hsk-chapters-01-10.json"
     }
   ]
 }
