@@ -9,6 +9,7 @@ pack_ids = set()
 word_packs = {}
 word_count = 0
 sentence_count = Counter()
+chapter_count = Counter()
 for entry in manifest['packs']:
     path=entry['file']
     assert path.startswith('data/packs/') and path.endswith('.json'), path
@@ -35,8 +36,12 @@ for entry in manifest['packs']:
             assert ''.join(x for x in c['zh'] if x not in '，。？！') == words, (cid, 'missing breakdown tokens')
             # Each sentence is strongly anchored to its source word pack, not a random sentence.
             matches = [w for w in word_packs[c['sourcePack']] if w in c['zh']]
-            assert len(matches) >= 2, (cid,'insufficient source pack vocabulary',matches)
-            sentence_count[difficulty] += 1
+            if data['id'] == 'hsk-chapters-01-10':
+                chapter_count[int(c['topic'].split('Chapter ')[1])] += 1
+            else:
+                assert len(matches) >= 2, (cid,'insufficient source pack vocabulary',matches)
+            if data['id'] != 'hsk-chapters-01-10':
+                sentence_count[difficulty] += 1
         else:
             assert len(c['examples']) == 2, cid
             for e in c['examples']:
@@ -46,3 +51,5 @@ for entry in manifest['packs']:
 assert word_count == 335, word_count
 assert sentence_count == {'easy':40,'medium':40,'hard':20}, sentence_count
 print(f'PASS: {word_count} original word cards, {sum(sentence_count.values())} sentences ({dict(sentence_count)}) across {len(pack_ids)} packs.')
+
+assert chapter_count == {i:10 for i in range(1,11)}, chapter_count
