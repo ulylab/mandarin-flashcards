@@ -49,6 +49,6 @@
 /* Audio controls */
 .top-actions{display:flex;align-items:center;gap:10px}.mute-toggle{font-size:21px;width:42px;height:42px;touch-action:manipulation}.example-play{display:inline-flex;justify-content:center;align-items:center;gap:5px;margin:8px auto 3px;padding:7px 12px;border:1px solid #cad7d0;background:#f3f8f4;border-radius:20px;font-size:12px;font-weight:600;color:#276145;min-height:34px;touch-action:manipulation;position:relative;z-index:4}.example-play:active{background:#deecdf}.example-play:focus-visible{outline:2px solid #34775a}.example .cn,.example .py,.example .en{pointer-events:none}
 
-/* Card appearance count; remains visible on the front and reverse. */
-.seen-badge{position:absolute;right:17px;bottom:16px;z-index:5;pointer-events:none;border:1px solid #adb5af70;border-radius:999px;background:#ffffffdb;color:#53625a;font-size:12px;font-weight:700;line-height:1;padding:7px 10px;min-width:36px;text-align:center;box-shadow:0 1px 4px #0000000a}
-.sentence-card .seen-badge{background:var(--sentence-bg);border-color:var(--sentence-accent);color:var(--sentence-accent)}
+/* Quiet metadata label, matching the category label typography. */
+.seen-badge{position:absolute;right:24px;bottom:22px;z-index:5;pointer-events:none;color:var(--muted);font-size:12px;font-weight:400;line-height:1.45}
+.sentence-card .seen-badge{color:var(--sentence-accent);font-size:11px;letter-spacing:.04em}
