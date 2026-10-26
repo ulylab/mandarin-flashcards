@@ -113,6 +113,7 @@ function render() {
   $('total').textContent = cards.length + ' cards';
   $('card').classList.remove('sentence-card','sentence-easy','sentence-medium','sentence-hard','is-flipped');
   $('difficultyBadge').hidden = !c || c.type !== 'sentence';
+  $('seenBadge').hidden = !c;
   $('starCount').textContent = Object.values(state.stars).filter(Boolean).length + ' saved';
   $('star').hidden = !c;
   $('audioBtn').hidden = !c || flipped || direction === 'en';
@@ -141,6 +142,9 @@ function render() {
   $('tip').textContent = flipped ? 'Tap to see front' : 'Tap to reveal';
   $('progressText').textContent = `Card ${session} · ${Object.keys(state.history).length} practiced`;
   const h = state.history[c.id];
+  const previousReviews = Math.max(0, Number(h?.seen) || 0);
+  $('seenBadge').textContent = previousReviews ? `#${previousReviews + 1}` : 'New';
+  $('seenBadge').setAttribute('aria-label', previousReviews ? `Card appearance ${previousReviews + 1}` : 'New card, first appearance');
   $('reviewNote').textContent = h ? (h.last === 'miss' ? 'This card needs review' : 'Previously answered correctly') : (isSentence ? 'New sentence' : 'New vocabulary');
   const wordClass = c.zh.length > 4 ? 'word phrase' : 'word';
   if (isSentence) {
