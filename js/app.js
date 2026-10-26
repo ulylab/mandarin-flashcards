@@ -4,6 +4,7 @@ const $ = id => document.getElementById(id);
 const escapeHTML = value => String(value ?? '').replace(/[&<>"']/g, char => ({'&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'}[char]));
 let cards = [], current = null, flipped = false, direction = 'zh', recent = [], session = 0;
 let totalReviews = 0;
+let selectionCounts = {};
 let audioMuted = state.settings.audioMuted === true;
 function renderMute() { const b = $('muteBtn'); b.textContent = audioMuted ? '🔇' : '🔊'; b.setAttribute('aria-pressed', String(audioMuted)); b.setAttribute('aria-label', audioMuted ? 'Enable automatic pronunciation' : 'Mute automatic pronunciation'); }
 const speechAvailable = typeof window !== 'undefined' && 'speechSynthesis' in window && 'SpeechSynthesisUtterance' in window;
@@ -38,7 +39,8 @@ function restoreOptions() {
   audioMuted = opts.audioMuted === true;
   renderMute();
   for (const id of ['topic','direction','mix']) {
-    if (opts[id] && [...$(id).options].some(o => o.value === opts[id])) $(id).value = opts[id];
+    const selected = id === 'mix' && opts[id] === 'balanced' ? 'new' : opts[id];
+    if (selected && [...$(id).options].some(o => o.value === selected)) $(id).value = selected;
   }
   $('starredOnly').checked = opts.starredOnly === true;
   $('sentencesEnabled').checked = opts.sentencesEnabled !== false;
@@ -96,7 +98,8 @@ function renderHistory() {
 }
 function pick() {
   stopAudio();
-  const result = nextCard(cards, state.history, state.stars, options(), recent);
+  const result = nextCard(cards, state.history, state.stars, options(), recent, Date.now(), Math.random, selectionCounts);
+  selectionCounts = result.counts;
   current = result.card;
   recent = result.recent;
   direction = current?.type === 'sentence' ? 'zh' : ($('direction').value === 'mix' ? (Math.random() < 0.5 ? 'zh' : 'en') : $('direction').value);
@@ -183,7 +186,10 @@ function wireEvents() {
   for (const id of ['starredOnly','topic','direction','pinyin','examples','mix','sentencesEnabled']) {
     $(id).addEventListener('change', () => {
       saveOptions();
-      if (['starredOnly','topic','direction','mix','sentencesEnabled'].includes(id)) pick(); else render();
+      if (['starredOnly','topic','direction','mix','sentencesEnabled'].includes(id)) {
+        if (['starredOnly','topic','mix','sentencesEnabled'].includes(id)) {recent=[]; selectionCounts={};}
+        pick();
+      } else render();
     });
   }
   $('settingsBtn').onclick = () => {$('overlay').classList.add('open'); renderHistory();};
@@ -191,7 +197,7 @@ function wireEvents() {
   $('overlay').onclick = e => {if(e.target === $('overlay')) $('overlay').classList.remove('open');};
   $('reset').onclick = () => {
     if (confirm('Reset all reviews and learning history on this device? Starred cards will be kept.')) {
-      resetReviewHistory(); recent=[]; session=0; pick();
+      resetReviewHistory(); recent=[]; selectionCounts={}; session=0; pick();
     }
   };
   $('star').addEventListener('pointerdown', e => e.stopPropagation());
@@ -245,7 +251,7 @@ function wireEvents() {
       const data=JSON.parse(await file.text());
       if(!confirm('Replace the progress and stars on this device with the imported backup?'))return;
       importProgress(data);
-      restoreOptions();recent=[];pick();showStorageStatus('Progress imported.');
+      restoreOptions();recent=[];selectionCounts={};pick();showStorageStatus('Progress imported.');
     } catch (err) {showStorageStatus(err.message || 'Unable to import this backup.');}
     finally {e.target.value='';}
   };
