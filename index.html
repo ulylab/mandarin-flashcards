@@ -15,7 +15,7 @@
 <label class="setting"><span>Card direction</span><select id="direction"><option value="zh">Chinese → English</option><option value="en">English → Chinese</option><option value="mix">Mixed</option></select></label>
 <label class="check"><input type="checkbox" id="pinyin" checked>Show pinyin on front</label>
 <label class="check"><input type="checkbox" id="examples" checked>Show two examples on back</label>
-<label class="setting"><span>Practice mix</span><select id="mix"><option value="balanced">Balanced — new & review</option><option value="new">More new cards</option><option value="review">More repetition</option></select></label>
+<label class="setting"><span>Practice mix</span><select id="mix"><option value="new" selected>More variety — 60% new / 25% due / 15% reinforcement</option><option value="balanced">Balanced — 45% new / 35% due / 20% reinforcement</option><option value="review">Intensive review — 20% new / 55% due / 25% reinforcement</option></select></label>
 <section class="history-section"><h3>Your history</h3><p class="muted" id="stats">Loading…</p><p class="muted" id="historyDetails"></p><ol id="recentReviews" class="recent-reviews"></ol></section>
 <section class="backup"><h3>Keep your progress</h3><p class="muted">Answers and stars are saved on this browser only. Export a backup to move devices or protect against browser data loss.</p><div class="backup-actions"><button id="export" type="button">Export progress</button><button id="import" type="button">Import progress</button></div><input id="importFile" type="file" accept="application/json,.json" hidden><p class="muted" id="storageStatus" role="status"></p></section>
 <button class="reset" id="reset">Reset learning progress</button></aside></div>
