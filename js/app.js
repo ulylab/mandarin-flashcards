@@ -113,7 +113,7 @@ function render() {
   $('total').textContent = cards.length + ' cards';
   $('card').classList.remove('sentence-card','sentence-easy','sentence-medium','sentence-hard','is-flipped');
   $('difficultyBadge').hidden = !c || c.type !== 'sentence';
-  $('seenBadge').hidden = !c;
+  $('seenBadge').hidden = !c || flipped;
   $('starCount').textContent = Object.values(state.stars).filter(Boolean).length + ' saved';
   $('star').hidden = !c;
   $('audioBtn').hidden = !c || flipped || direction === 'en';
