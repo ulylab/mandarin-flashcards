@@ -1,0 +1,3380 @@
+{
+  "id": "hsk-book1-vocabulary",
+  "label": "HSK Book 1 vocabulary",
+  "cards": [
+    {
+      "id": "hsk-book1-vocab-001",
+      "zh": "爱",
+      "py": "ài",
+      "en": "to love",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 12,
+      "examples": [
+        [
+          "我爱妈妈。",
+          "Wǒ ài māma.",
+          "I love my mom."
+        ],
+        [
+          "我爱我的家人。",
+          "Wǒ ài wǒ de jiārén.",
+          "I love my family."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-002",
+      "zh": "八",
+      "py": "bā",
+      "en": "eight",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 5,
+      "examples": [
+        [
+          "现在八点。",
+          "Xiànzài bā diǎn.",
+          "It's eight o'clock now."
+        ],
+        [
+          "我们八点在学校门口见。",
+          "Wǒmen bā diǎn zài xuéxiào ménkǒu jiàn.",
+          "Let's meet at the school gate at eight."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-003",
+      "zh": "爸爸",
+      "py": "bàba",
+      "en": "dad / father",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 9,
+      "examples": [
+        [
+          "我爸爸喜欢喝茶。",
+          "Wǒ bàba xǐhuan hē chá.",
+          "My dad likes to drink tea."
+        ],
+        [
+          "我爸爸每天早上喝一杯茶。",
+          "Wǒ bàba měi tiān zǎoshang hē yì bēi chá.",
+          "My dad drinks a cup of tea every morning."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-004",
+      "zh": "杯子",
+      "py": "bēizi",
+      "en": "cup",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 8,
+      "examples": [
+        [
+          "杯子在桌子上面。",
+          "Bēizi zài zhuōzi shàngmiàn.",
+          "The cup is on the table."
+        ],
+        [
+          "请给我一个干净的杯子。",
+          "Qǐng gěi wǒ yí ge gānjìng de bēizi.",
+          "Please give me a clean cup."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-005",
+      "zh": "本",
+      "py": "běn",
+      "en": "book measure word",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 10,
+      "examples": [
+        [
+          "我有一本书。",
+          "Wǒ yǒu yì běn shū.",
+          "I have one book."
+        ],
+        [
+          "这本书很好。",
+          "Zhè běn shū hěn hǎo.",
+          "This book is good."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-006",
+      "zh": "不客气",
+      "py": "bú kèqi",
+      "en": "you’re welcome",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 2,
+      "examples": [
+        [
+          "谢谢你！不客气。",
+          "Xièxie nǐ! Bú kèqi.",
+          "Thank you! You're welcome."
+        ],
+        [
+          "不客气，这是小事。",
+          "Bú kèqi, zhè shì xiǎo shì.",
+          "You're welcome; it's a small thing."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-007",
+      "zh": "不",
+      "py": "bù",
+      "en": "not / no",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 2,
+      "examples": [
+        [
+          "我今天不工作。",
+          "Wǒ jīntiān bù gōngzuò.",
+          "I am not working today."
+        ],
+        [
+          "我不喜欢喝咖啡，但是喜欢喝茶。",
+          "Wǒ bù xǐhuan hē kāfēi, dànshì xǐhuan hē chá.",
+          "I don't like coffee, but I like tea."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-008",
+      "zh": "菜",
+      "py": "cài",
+      "en": "dish vegetables",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 6,
+      "examples": [
+        [
+          "我喜欢吃菜。",
+          "Wǒ xǐhuan chī cài.",
+          "I like eating dish vegetables."
+        ],
+        [
+          "妈妈买了很多菜，准备做晚饭。",
+          "Māma mǎi le hěn duō cài, zhǔnbèi zuò wǎnfàn.",
+          "Mom bought lots of vegetables to prepare dinner."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-009",
+      "zh": "茶",
+      "py": "chá",
+      "en": "tea",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 8,
+      "examples": [
+        [
+          "我爸爸喜欢喝茶。",
+          "Wǒ bàba xǐhuan hē chá.",
+          "My dad likes tea."
+        ],
+        [
+          "爷爷喜欢晚上喝茶，看一会儿书。",
+          "Yéye xǐhuan wǎnshang hē chá, kàn yíhuìr shū.",
+          "Grandpa likes drinking tea and reading a little in the evening."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-010",
+      "zh": "吃",
+      "py": "chī",
+      "en": "to eat",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 8,
+      "examples": [
+        [
+          "我想吃米饭。",
+          "Wǒ xiǎng chī mǐfàn.",
+          "I want to eat rice."
+        ],
+        [
+          "妹妹喜欢吃苹果，也喜欢吃面包。",
+          "Mèimei xǐhuan chī píngguǒ, yě xǐhuan chī miànbāo.",
+          "My younger sister likes eating apples and bread."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-011",
+      "zh": "出租车",
+      "py": "chūzūchē",
+      "en": "taxi",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 15,
+      "examples": [
+        [
+          "我坐出租车去学校。",
+          "Wǒ zuò chūzūchē qù xuéxiào.",
+          "I take a taxi to school."
+        ],
+        [
+          "下雨了，我们坐出租车去学校吧。",
+          "Xià yǔ le, wǒmen zuò chūzūchē qù xuéxiào ba.",
+          "It's raining; let's take a taxi to school."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-012",
+      "zh": "打电话",
+      "py": "dǎ diànhuà",
+      "en": "call by phone",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 13,
+      "examples": [
+        [
+          "我喜欢打电话。",
+          "Wǒ xǐhuan dǎ diànhuà.",
+          "I like to call by phone."
+        ],
+        [
+          "我晚上给妈妈打电话，问她怎么样。",
+          "Wǒ wǎnshang gěi māma dǎ diànhuà, wèn tā zěnmeyàng.",
+          "I'll call Mom tonight and ask how she's doing."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-013",
+      "zh": "大",
+      "py": "dà",
+      "en": "big",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 5,
+      "examples": [
+        [
+          "桌子很大。",
+          "Zhuōzi hěn dà.",
+          "The table is big."
+        ],
+        [
+          "我家的厨房不大，但是很干净。",
+          "Wǒ jiā de chúfáng bú dà, dànshì hěn gānjìng.",
+          "My kitchen isn't big, but it's very clean."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-014",
+      "zh": "的",
+      "py": "de",
+      "en": "possessive particle",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 4,
+      "examples": [
+        [
+          "这是我的书。",
+          "Zhè shì wǒ de shū.",
+          "This is my book."
+        ],
+        [
+          "桌子上的那本书是我妹妹的。",
+          "Zhuōzi shàng de nà běn shū shì wǒ mèimei de.",
+          "That book on the table belongs to my younger sister."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-015",
+      "zh": "点",
+      "py": "diǎn",
+      "en": "o’clock",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 11,
+      "examples": [
+        [
+          "现在三点。",
+          "Xiànzài sān diǎn.",
+          "It's three o'clock now."
+        ],
+        [
+          "我们八点见。",
+          "Wǒmen bā diǎn jiàn.",
+          "Let's meet at eight."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-016",
+      "zh": "电脑",
+      "py": "diànnǎo",
+      "en": "computer",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 10,
+      "examples": [
+        [
+          "电脑在桌子上。",
+          "Diànnǎo zài zhuōzi shàng.",
+          "The computer is on the table."
+        ],
+        [
+          "我用电脑学习中文，也看电影。",
+          "Wǒ yòng diànnǎo xuéxí Zhōngwén, yě kàn diànyǐng.",
+          "I use my computer to study Chinese and watch movies."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-017",
+      "zh": "电视",
+      "py": "diànshì",
+      "en": "television",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 13,
+      "examples": [
+        [
+          "我晚上看电视。",
+          "Wǒ wǎnshang kàn diànshì.",
+          "I watch TV in the evening."
+        ],
+        [
+          "我每天晚上和家人一起看电视。",
+          "Wǒ měi tiān wǎnshang hé jiārén yìqǐ kàn diànshì.",
+          "I watch television with my family every evening."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-018",
+      "zh": "电影",
+      "py": "diànyǐng",
+      "en": "movie",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 11,
+      "examples": [
+        [
+          "我们去看电影。",
+          "Wǒmen qù kàn diànyǐng.",
+          "We're going to see a movie."
+        ],
+        [
+          "这部电影很好看，我们再看一遍吧。",
+          "Zhè bù diànyǐng hěn hǎokàn, wǒmen zài kàn yí biàn ba.",
+          "This movie is really good; let's watch it again."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-019",
+      "zh": "东西",
+      "py": "dōngxi",
+      "en": "thing",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 14,
+      "examples": [
+        [
+          "我买了一些东西。",
+          "Wǒ mǎi le yìxiē dōngxi.",
+          "I bought a few things."
+        ],
+        [
+          "我今天去超市买了一些东西。",
+          "Wǒ jīntiān qù chāoshì mǎi le yìxiē dōngxi.",
+          "I bought some things at the supermarket today."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-020",
+      "zh": "都",
+      "py": "dōu",
+      "en": "all both",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 14,
+      "examples": [
+        [
+          "我们都喜欢中文。",
+          "Wǒmen dōu xǐhuan Zhōngwén.",
+          "We all like Chinese."
+        ],
+        [
+          "我们都学汉语，但老师不同。",
+          "Wǒmen dōu xué Hànyǔ, dàn lǎoshī bù tóng.",
+          "We all study Chinese, but we have different teachers."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-021",
+      "zh": "读",
+      "py": "dú",
+      "en": "read",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 6,
+      "examples": [
+        [
+          "请读这个字。",
+          "Qǐng dú zhège zì.",
+          "Please read this character."
+        ],
+        [
+          "请你读一下这句话，然后翻译。",
+          "Qǐng nǐ dú yíxià zhè jù huà, ránhòu fānyì.",
+          "Please read this sentence and then translate it."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-022",
+      "zh": "对不起",
+      "py": "duìbuqǐ",
+      "en": "sorry",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 1,
+      "examples": [
+        [
+          "对不起，我不知道。",
+          "Duìbuqǐ, wǒ bù zhīdào.",
+          "Sorry, I don't know."
+        ],
+        [
+          "对不起，我今天不能和你一起去。",
+          "Duìbuqǐ, wǒ jīntiān bù néng hé nǐ yìqǐ qù.",
+          "I'm sorry, I can't go with you today."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-023",
+      "zh": "多",
+      "py": "duō",
+      "en": "many",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 5,
+      "examples": [
+        [
+          "这里有很多人。",
+          "Zhèli yǒu hěn duō rén.",
+          "There are many people here."
+        ],
+        [
+          "你有多大？",
+          "Nǐ yǒu duō dà?",
+          "How big is yours?"
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-024",
+      "zh": "多少",
+      "py": "duōshao",
+      "en": "how many / how much",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 8,
+      "examples": [
+        [
+          "这本书多少钱？",
+          "Zhè běn shū duōshao qián?",
+          "How much does this book cost?"
+        ],
+        [
+          "这两个杯子一共多少钱？",
+          "Zhè liǎng ge bēizi yígòng duōshao qián?",
+          "How much are these two cups altogether?"
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-025",
+      "zh": "儿子",
+      "py": "érzi",
+      "en": "son",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 5,
+      "examples": [
+        [
+          "他是我的儿子。",
+          "Tā shì wǒ de érzi.",
+          "He is my son."
+        ],
+        [
+          "我的儿子今年六岁，喜欢画画。",
+          "Wǒ de érzi jīnnián liù suì, xǐhuan huàhuà.",
+          "My son is six years old and likes drawing."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-026",
+      "zh": "二",
+      "py": "èr",
+      "en": "two",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 5,
+      "examples": [
+        [
+          "我有二十块钱。",
+          "Wǒ yǒu èrshí kuài qián.",
+          "I have twenty yuan."
+        ],
+        [
+          "我买了两本书，妹妹买了二十本。",
+          "Wǒ mǎi le liǎng běn shū, mèimei mǎi le èrshí běn.",
+          "I bought two books; my younger sister bought twenty."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-027",
+      "zh": "饭店",
+      "py": "fàndiàn",
+      "en": "restaurant",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 15,
+      "examples": [
+        [
+          "我们去饭店吃饭。",
+          "Wǒmen qù fàndiàn chīfàn.",
+          "We're going to a restaurant to eat."
+        ],
+        [
+          "这家饭店离我家很近，菜也很好吃。",
+          "Zhè jiā fàndiàn lí wǒ jiā hěn jìn, cài yě hěn hǎochī.",
+          "This restaurant is close to my home, and the food is good."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-028",
+      "zh": "飞机",
+      "py": "fēijī",
+      "en": "plane",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 15,
+      "examples": [
+        [
+          "我坐飞机去中国。",
+          "Wǒ zuò fēijī qù Zhōngguó.",
+          "I fly to China."
+        ],
+        [
+          "明天早上我们坐飞机去上海。",
+          "Míngtiān zǎoshang wǒmen zuò fēijī qù Shànghǎi.",
+          "We're flying to Shanghai tomorrow morning."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-029",
+      "zh": "分钟",
+      "py": "fēnzhōng",
+      "en": "minute (duration)",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 15,
+      "examples": [
+        [
+          "请等五分钟。",
+          "Qǐng děng wǔ fēnzhōng.",
+          "Please wait five minutes."
+        ],
+        [
+          "我学习十分钟。",
+          "Wǒ xuéxí shí fēnzhōng.",
+          "I study for ten minutes."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-030",
+      "zh": "高兴",
+      "py": "gāoxìng",
+      "en": "happy",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 15,
+      "examples": [
+        [
+          "我很高兴。",
+          "Wǒ hěn gāoxìng.",
+          "I'm happy."
+        ],
+        [
+          "听说你通过考试了，我很高兴。",
+          "Tīngshuō nǐ tōngguò kǎoshì le, wǒ hěn gāoxìng.",
+          "I'm happy to hear that you passed the exam."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-031",
+      "zh": "个",
+      "py": "gè",
+      "en": "general measure word",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 8,
+      "examples": [
+        [
+          "我有一个杯子。",
+          "Wǒ yǒu yí ge bēizi.",
+          "I have one cup."
+        ],
+        [
+          "这里有三个人。",
+          "Zhèli yǒu sān ge rén.",
+          "There are three people here."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-032",
+      "zh": "工作",
+      "py": "gōngzuò",
+      "en": "to work / work",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 9,
+      "examples": [
+        [
+          "我今天不工作。",
+          "Wǒ jīntiān bù gōngzuò.",
+          "I am not working today."
+        ],
+        [
+          "我爸爸每天早上八点开始工作。",
+          "Wǒ bàba měi tiān zǎoshang bā diǎn kāishǐ gōngzuò.",
+          "My dad starts work at eight every morning."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-033",
+      "zh": "狗",
+      "py": "gǒu",
+      "en": "dog",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 9,
+      "examples": [
+        [
+          "狗在门外面。",
+          "Gǒu zài mén wàimiàn.",
+          "The dog is outside the door."
+        ],
+        [
+          "我家的狗喜欢在公园里玩。",
+          "Wǒ jiā de gǒu xǐhuan zài gōngyuán lǐ wán.",
+          "My dog likes to play in the park."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-034",
+      "zh": "汉语",
+      "py": "Hànyǔ",
+      "en": "Chinese language",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 4,
+      "examples": [
+        [
+          "我学习汉语。",
+          "Wǒ xuéxí Hànyǔ.",
+          "I study Chinese."
+        ],
+        [
+          "我每天学习汉语，还练习写汉字。",
+          "Wǒ měi tiān xuéxí Hànyǔ, hái liànxí xiě Hànzì.",
+          "I study Chinese every day and also practice writing characters."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-035",
+      "zh": "好",
+      "py": "hǎo",
+      "en": "good",
+      "topic": "HSK Book 1 vocabulary",
+      "examples": [
+        [
+          "我很好。",
+          "Wǒ hěn hǎo.",
+          "I am well."
+        ],
+        [
+          "今天的天气很好，我们去公园吧。",
+          "Jīntiān de tiānqì hěn hǎo, wǒmen qù gōngyuán ba.",
+          "The weather is nice today; let's go to the park."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-036",
+      "zh": "号",
+      "py": "hào",
+      "en": "day of month",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 7,
+      "examples": [
+        [
+          "今天是十月十号。",
+          "Jīntiān shì shí yuè shí hào.",
+          "Today is October tenth."
+        ],
+        [
+          "今天是十月十号，明天是十一号。",
+          "Jīntiān shì shí yuè shí hào, míngtiān shì shíyī hào.",
+          "Today is October 10; tomorrow is the 11th."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-037",
+      "zh": "喝",
+      "py": "hē",
+      "en": "to drink",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 8,
+      "examples": [
+        [
+          "我喝水。",
+          "Wǒ hē shuǐ.",
+          "I drink water."
+        ],
+        [
+          "天气很热，我们一起喝点儿水吧。",
+          "Tiānqì hěn rè, wǒmen yìqǐ hē diǎnr shuǐ ba.",
+          "It's hot; let's drink some water together."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-038",
+      "zh": "和",
+      "py": "hé",
+      "en": "and with",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 10,
+      "examples": [
+        [
+          "我和妹妹在家。",
+          "Wǒ hé mèimei zài jiā.",
+          "My younger sister and I are at home."
+        ],
+        [
+          "我和妹妹都喜欢喝茶。",
+          "Wǒ hé mèimei dōu xǐhuan hē chá.",
+          "Both my younger sister and I like drinking tea."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-039",
+      "zh": "很",
+      "py": "hěn",
+      "en": "very / linking adjective",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 6,
+      "examples": [
+        [
+          "他很好。",
+          "Tā hěn hǎo.",
+          "He is well."
+        ],
+        [
+          "妹妹很喜欢那本中文书。",
+          "Mèimei hěn xǐhuan nà běn Zhōngwén shū.",
+          "My younger sister really likes that Chinese book."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-040",
+      "zh": "后面",
+      "py": "hòumiàn",
+      "en": "behind",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 10,
+      "examples": [
+        [
+          "猫在门后面。",
+          "Māo zài mén hòumiàn.",
+          "The cat is behind the door."
+        ],
+        [
+          "我家后面有一个小公园。",
+          "Wǒ jiā hòumiàn yǒu yí ge xiǎo gōngyuán.",
+          "There is a small park behind my home."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-041",
+      "zh": "回",
+      "py": "huí",
+      "en": "return",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 11,
+      "examples": [
+        [
+          "我想回家。",
+          "Wǒ xiǎng huí jiā.",
+          "I want to go home."
+        ],
+        [
+          "我今天下班以后就回家做饭。",
+          "Wǒ jīntiān xiàbān yǐhòu jiù huí jiā zuòfàn.",
+          "I'll go home and cook right after work today."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-042",
+      "zh": "会",
+      "py": "huì",
+      "en": "can (learned skill)",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 6,
+      "examples": [
+        [
+          "我会说中文。",
+          "Wǒ huì shuō Zhōngwén.",
+          "I can speak Chinese."
+        ],
+        [
+          "我会说一点儿中文，但说得不太好。",
+          "Wǒ huì shuō yìdiǎnr Zhōngwén, dàn shuō de bú tài hǎo.",
+          "I can speak a little Chinese, but not very well."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-043",
+      "zh": "几",
+      "py": "jǐ",
+      "en": "how many (small number)",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 5,
+      "examples": [
+        [
+          "你有几个杯子？",
+          "Nǐ yǒu jǐ ge bēizi?",
+          "How many cups do you have?"
+        ],
+        [
+          "你家有几口人？",
+          "Nǐ jiā yǒu jǐ kǒu rén?",
+          "How many people are in your family?"
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-044",
+      "zh": "家",
+      "py": "jiā",
+      "en": "home / family",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 5,
+      "examples": [
+        [
+          "我在家。",
+          "Wǒ zài jiā.",
+          "I am at home."
+        ],
+        [
+          "我们家有四口人，都喜欢喝茶。",
+          "Wǒmen jiā yǒu sì kǒu rén, dōu xǐhuan hē chá.",
+          "There are four people in our family; we all like tea."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-045",
+      "zh": "叫",
+      "py": "jiào",
+      "en": "to be called",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 3,
+      "examples": [
+        [
+          "我叫小明。",
+          "Wǒ jiào Xiǎomíng.",
+          "My name is Xiaoming."
+        ],
+        [
+          "你叫什么名字？",
+          "Nǐ jiào shénme míngzi?",
+          "What is your name?"
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-046",
+      "zh": "今天",
+      "py": "jīntiān",
+      "en": "today",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 7,
+      "examples": [
+        [
+          "我今天不工作。",
+          "Wǒ jīntiān bù gōngzuò.",
+          "I am not working today."
+        ],
+        [
+          "今天下午我不工作，想在家休息。",
+          "Jīntiān xiàwǔ wǒ bù gōngzuò, xiǎng zài jiā xiūxi.",
+          "I'm not working this afternoon and want to rest at home."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-047",
+      "zh": "九",
+      "py": "jiǔ",
+      "en": "nine",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 5,
+      "examples": [
+        [
+          "现在九点。",
+          "Xiànzài jiǔ diǎn.",
+          "It's nine o'clock now."
+        ],
+        [
+          "今天是九月九号，星期三。",
+          "Jīntiān shì jiǔ yuè jiǔ hào, xīngqīsān.",
+          "Today is Wednesday, September 9."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-048",
+      "zh": "开",
+      "py": "kāi",
+      "en": "open drive",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 14,
+      "examples": [
+        [
+          "请开门。",
+          "Qǐng kāi mén.",
+          "Please open the door."
+        ],
+        [
+          "请开门，让猫进来。",
+          "Qǐng kāi mén, ràng māo jìnlái.",
+          "Please open the door and let the cat in."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-049",
+      "zh": "看",
+      "py": "kàn",
+      "en": "to look / read / watch",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 7,
+      "examples": [
+        [
+          "我看书。",
+          "Wǒ kàn shū.",
+          "I read a book."
+        ],
+        [
+          "我喜欢和妹妹一起看电影。",
+          "Wǒ xǐhuan hé mèimei yìqǐ kàn diànyǐng.",
+          "I like watching movies with my younger sister."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-050",
+      "zh": "看见",
+      "py": "kànjiàn",
+      "en": "see",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 14,
+      "examples": [
+        [
+          "我看见一只猫。",
+          "Wǒ kànjiàn yì zhī māo.",
+          "I see a cat."
+        ],
+        [
+          "我刚才看见你的朋友进了学校。",
+          "Wǒ gāngcái kànjiàn nǐ de péngyou jìn le xuéxiào.",
+          "I just saw your friend go into the school."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-051",
+      "zh": "块",
+      "py": "kuài",
+      "en": "yuan (spoken)",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 8,
+      "examples": [
+        [
+          "这个要五块钱。",
+          "Zhège yào wǔ kuài qián.",
+          "This costs five yuan."
+        ],
+        [
+          "我有十块钱。",
+          "Wǒ yǒu shí kuài qián.",
+          "I have ten yuan."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-052",
+      "zh": "来",
+      "py": "lái",
+      "en": "to come",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 12,
+      "examples": [
+        [
+          "你明天来吗？",
+          "Nǐ míngtiān lái ma?",
+          "Are you coming tomorrow?"
+        ],
+        [
+          "你明天下午可以来我家吗？",
+          "Nǐ míngtiān xiàwǔ kěyǐ lái wǒ jiā ma?",
+          "Can you come to my home tomorrow afternoon?"
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-053",
+      "zh": "老师",
+      "py": "lǎoshī",
+      "en": "teacher",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 3,
+      "examples": [
+        [
+          "她是我们的中文老师。",
+          "Tā shì wǒmen de Zhōngwén lǎoshī.",
+          "She is our Chinese teacher."
+        ],
+        [
+          "老师正在给学生讲一个故事。",
+          "Lǎoshī zhèngzài gěi xuésheng jiǎng yí ge gùshi.",
+          "The teacher is telling the students a story."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-054",
+      "zh": "了",
+      "py": "le",
+      "en": "completion particle",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 5,
+      "examples": [
+        [
+          "我吃了饭。",
+          "Wǒ chī le fàn.",
+          "I ate a meal."
+        ],
+        [
+          "下雨了，我们今天不去公园了。",
+          "Xià yǔ le, wǒmen jīntiān bú qù gōngyuán le.",
+          "It started raining, so we aren’t going to the park today."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-055",
+      "zh": "冷",
+      "py": "lěng",
+      "en": "cold",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 12,
+      "examples": [
+        [
+          "今天很冷。",
+          "Jīntiān hěn lěng.",
+          "It’s cold today."
+        ],
+        [
+          "外面很冷，出门前多穿一点儿。",
+          "Wàimiàn hěn lěng, chūmén qián duō chuān yìdiǎnr.",
+          "It's cold outside; put on some more clothes before going out."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-056",
+      "zh": "里",
+      "py": "lǐ",
+      "en": "inside",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 10,
+      "examples": [
+        [
+          "书在包里。",
+          "Shū zài bāo lǐ.",
+          "The book is in the bag."
+        ],
+        [
+          "杯子里有水。",
+          "Bēizi lǐ yǒu shuǐ.",
+          "There is water in the cup."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-057",
+      "zh": "六",
+      "py": "liù",
+      "en": "six",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 5,
+      "examples": [
+        [
+          "现在六点。",
+          "Xiànzài liù diǎn.",
+          "It's six o'clock now."
+        ],
+        [
+          "我每天早上六点半起床。",
+          "Wǒ měi tiān zǎoshang liù diǎn bàn qǐchuáng.",
+          "I get up at 6:30 every morning."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-058",
+      "zh": "妈妈",
+      "py": "māma",
+      "en": "mom / mother",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 6,
+      "examples": [
+        [
+          "我妈妈在家。",
+          "Wǒ māma zài jiā.",
+          "My mom is at home."
+        ],
+        [
+          "妈妈今天在厨房给我们做饭。",
+          "Māma jīntiān zài chúfáng gěi wǒmen zuòfàn.",
+          "Mom is cooking for us in the kitchen today."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-059",
+      "zh": "吗",
+      "py": "ma",
+      "en": "yes-no question particle",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 3,
+      "examples": [
+        [
+          "你喜欢茶吗？",
+          "Nǐ xǐhuan chá ma?",
+          "Do you like tea?"
+        ],
+        [
+          "你明天上午有时间吗？",
+          "Nǐ míngtiān shàngwǔ yǒu shíjiān ma?",
+          "Do you have time tomorrow morning?"
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-060",
+      "zh": "买",
+      "py": "mǎi",
+      "en": "to buy",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 8,
+      "examples": [
+        [
+          "我去买水。",
+          "Wǒ qù mǎi shuǐ.",
+          "I’m going to buy water."
+        ],
+        [
+          "我想去超市买一些水果。",
+          "Wǒ xiǎng qù chāoshì mǎi yìxiē shuǐguǒ.",
+          "I want to go to the supermarket to buy some fruit."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-061",
+      "zh": "猫",
+      "py": "māo",
+      "en": "cat",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 9,
+      "examples": [
+        [
+          "猫在椅子下面。",
+          "Māo zài yǐzi xiàmiàn.",
+          "The cat is under the chair."
+        ],
+        [
+          "那只小猫正在椅子上睡觉。",
+          "Nà zhī xiǎo māo zhèngzài yǐzi shàng shuìjiào.",
+          "That kitten is sleeping on the chair."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-062",
+      "zh": "没关系",
+      "py": "méi guānxi",
+      "en": "it’s okay",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 1,
+      "examples": [
+        [
+          "“对不起。”“没关系。”",
+          "“Duìbuqǐ.” “Méi guānxi.”",
+          "“Sorry.” “It's okay.”"
+        ],
+        [
+          "“对不起，我来晚了。”“没关系，快坐吧。”",
+          "“Duìbuqǐ, wǒ lái wǎn le.” “Méi guānxi, kuài zuò ba.”",
+          "“Sorry I'm late.” “It's okay; have a seat.”"
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-063",
+      "zh": "没有",
+      "py": "méiyǒu",
+      "en": "not have",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 10,
+      "examples": [
+        [
+          "我没有哥哥。",
+          "Wǒ méiyǒu gēge.",
+          "I don't have an older brother."
+        ],
+        [
+          "我今天没有时间，明天可以吗？",
+          "Wǒ jīntiān méiyǒu shíjiān, míngtiān kěyǐ ma?",
+          "I don’t have time today; is tomorrow okay?"
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-064",
+      "zh": "米饭",
+      "py": "mǐfàn",
+      "en": "cooked rice",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 8,
+      "examples": [
+        [
+          "我喜欢吃米饭。",
+          "Wǒ xǐhuan chī mǐfàn.",
+          "I like to eat rice."
+        ],
+        [
+          "今天晚上我们吃米饭和鸡蛋。",
+          "Jīntiān wǎnshang wǒmen chī mǐfàn hé jīdàn.",
+          "Tonight we're having rice and eggs."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-065",
+      "zh": "名字",
+      "py": "míngzi",
+      "en": "name",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 3,
+      "examples": [
+        [
+          "你的名字是什么？",
+          "Nǐ de míngzi shì shénme?",
+          "What is your name?"
+        ],
+        [
+          "我的名字叫小王。",
+          "Wǒ de míngzi jiào Xiǎo Wáng.",
+          "My name is Xiao Wang."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-066",
+      "zh": "明天",
+      "py": "míngtiān",
+      "en": "tomorrow",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 7,
+      "examples": [
+        [
+          "我明天工作。",
+          "Wǒ míngtiān gōngzuò.",
+          "I work tomorrow."
+        ],
+        [
+          "明天我们一起去公园玩，好吗？",
+          "Míngtiān wǒmen yìqǐ qù gōngyuán wán, hǎo ma?",
+          "Shall we go to the park together tomorrow?"
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-067",
+      "zh": "哪",
+      "py": "nǎ",
+      "en": "which",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 4,
+      "examples": [
+        [
+          "你是哪国人？",
+          "Nǐ shì nǎ guó rén?",
+          "Which country are you from?"
+        ],
+        [
+          "你喜欢哪本书？我可以借给你。",
+          "Nǐ xǐhuan nǎ běn shū? Wǒ kěyǐ jiè gěi nǐ.",
+          "Which book do you like? I can lend it to you."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-068",
+      "zh": "哪儿",
+      "py": "nǎr",
+      "en": "where",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 9,
+      "examples": [
+        [
+          "你在哪儿？",
+          "Nǐ zài nǎr?",
+          "Where are you?"
+        ],
+        [
+          "请问，你知道最近的书店在哪儿吗？",
+          "Qǐngwèn, nǐ zhīdào zuìjìn de shūdiàn zài nǎr ma?",
+          "Excuse me, do you know where the nearest bookstore is?"
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-069",
+      "zh": "那",
+      "py": "nà",
+      "en": "that",
+      "topic": "HSK Book 1 vocabulary",
+      "examples": [
+        [
+          "那是我的桌子。",
+          "Nà shì wǒ de zhuōzi.",
+          "That is my table."
+        ],
+        [
+          "那个人是我爸爸的好朋友。",
+          "Nàge rén shì wǒ bàba de hǎo péngyou.",
+          "That person is a good friend of my dad's."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-070",
+      "zh": "呢",
+      "py": "ne",
+      "en": "and what about...?",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 4,
+      "examples": [
+        [
+          "我很好，你呢？",
+          "Wǒ hěn hǎo, nǐ ne?",
+          "I’m well, and you?"
+        ],
+        [
+          "我想喝茶，你呢？",
+          "Wǒ xiǎng hē chá, nǐ ne?",
+          "I'd like tea; how about you?"
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-071",
+      "zh": "能",
+      "py": "néng",
+      "en": "be able to",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 10,
+      "examples": [
+        [
+          "我能去吗？",
+          "Wǒ néng qù ma?",
+          "Can I go?"
+        ],
+        [
+          "他今天生病了，不能来学校上课。",
+          "Tā jīntiān shēngbìng le, bù néng lái xuéxiào shàngkè.",
+          "He is ill today and can’t come to class."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-072",
+      "zh": "你",
+      "py": "nǐ",
+      "en": "you",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 1,
+      "examples": [
+        [
+          "你喜欢喝茶吗？",
+          "Nǐ xǐhuan hē chá ma?",
+          "Do you like drinking tea?"
+        ],
+        [
+          "我明天想和你一起去看电影。",
+          "Wǒ míngtiān xiǎng hé nǐ yìqǐ qù kàn diànyǐng.",
+          "I want to go see a movie with you tomorrow."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-073",
+      "zh": "年",
+      "py": "nián",
+      "en": "year",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 5,
+      "examples": [
+        [
+          "我今年二十岁。",
+          "Wǒ jīnnián èrshí suì.",
+          "I'm twenty this year."
+        ],
+        [
+          "一年有十二个月。",
+          "Yì nián yǒu shí'èr ge yuè.",
+          "A year has twelve months."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-074",
+      "zh": "女儿",
+      "py": "nǚ’ér",
+      "en": "daughter",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 5,
+      "examples": [
+        [
+          "她是我的女儿。",
+          "Tā shì wǒ de nǚ'ér.",
+          "She is my daughter."
+        ],
+        [
+          "她的女儿每天自己走路去学校。",
+          "Tā de nǚ'ér měi tiān zìjǐ zǒulù qù xuéxiào.",
+          "Her daughter walks to school by herself every day."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-075",
+      "zh": "朋友",
+      "py": "péngyou",
+      "en": "friend",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 4,
+      "examples": [
+        [
+          "他是我的朋友。",
+          "Tā shì wǒ de péngyou.",
+          "He is my friend."
+        ],
+        [
+          "我和朋友每个星期一起学习中文。",
+          "Wǒ hé péngyou měi ge xīngqī yìqǐ xuéxí Zhōngwén.",
+          "My friend and I study Chinese together every week."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-076",
+      "zh": "漂亮",
+      "py": "piàoliang",
+      "en": "pretty",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 14,
+      "examples": [
+        [
+          "这朵花很漂亮。",
+          "Zhè duǒ huā hěn piàoliang.",
+          "This flower is beautiful."
+        ],
+        [
+          "公园里的花很漂亮，我想拍照。",
+          "Gōngyuán lǐ de huā hěn piàoliang, wǒ xiǎng pāizhào.",
+          "The flowers in the park are beautiful, and I want to take pictures."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-077",
+      "zh": "苹果",
+      "py": "píngguǒ",
+      "en": "apple",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 14,
+      "examples": [
+        [
+          "我喜欢吃苹果。",
+          "Wǒ xǐhuan chī píngguǒ.",
+          "I like eating apple."
+        ],
+        [
+          "我买了三个苹果，想给你一个。",
+          "Wǒ mǎi le sān ge píngguǒ, xiǎng gěi nǐ yí ge.",
+          "I bought three apples and want to give you one."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-078",
+      "zh": "七",
+      "py": "qī",
+      "en": "seven",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 5,
+      "examples": [
+        [
+          "现在七点。",
+          "Xiànzài qī diǎn.",
+          "It's seven o'clock now."
+        ],
+        [
+          "姐姐七点起床，八点去学校。",
+          "Jiějie qī diǎn qǐchuáng, bā diǎn qù xuéxiào.",
+          "My older sister gets up at seven and goes to school at eight."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-079",
+      "zh": "前面",
+      "py": "qiánmiàn",
+      "en": "in front of",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 10,
+      "examples": [
+        [
+          "猫在门前面。",
+          "Māo zài mén qiánmiàn.",
+          "The cat is in front of the door."
+        ],
+        [
+          "学校前面有一家小商店。",
+          "Xuéxiào qiánmiàn yǒu yì jiā xiǎo shāngdiàn.",
+          "There's a small shop in front of the school."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-080",
+      "zh": "钱",
+      "py": "qián",
+      "en": "money",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 8,
+      "examples": [
+        [
+          "我没有钱。",
+          "Wǒ méiyǒu qián.",
+          "I don't have money."
+        ],
+        [
+          "我没有带钱，可以明天付吗？",
+          "Wǒ méiyǒu dài qián, kěyǐ míngtiān fù ma?",
+          "I didn't bring money; can I pay tomorrow?"
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-081",
+      "zh": "请",
+      "py": "qǐng",
+      "en": "please / to invite",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 7,
+      "examples": [
+        [
+          "请喝茶。",
+          "Qǐng hē chá.",
+          "Please have some tea."
+        ],
+        [
+          "请给我一杯水，谢谢！",
+          "Qǐng gěi wǒ yì bēi shuǐ, xièxie!",
+          "Please give me a glass of water, thank you!"
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-082",
+      "zh": "去",
+      "py": "qù",
+      "en": "to go",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 7,
+      "examples": [
+        [
+          "我明天去学校。",
+          "Wǒ míngtiān qù xuéxiào.",
+          "I go to school tomorrow."
+        ],
+        [
+          "我们明天一起去学校旁边的书店。",
+          "Wǒmen míngtiān yìqǐ qù xuéxiào pángbiān de shūdiàn.",
+          "Tomorrow we'll go to the bookstore next to school together."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-083",
+      "zh": "热",
+      "py": "rè",
+      "en": "hot",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 12,
+      "examples": [
+        [
+          "今天很热。",
+          "Jīntiān hěn rè.",
+          "It’s hot today."
+        ],
+        [
+          "今天太热了，我想喝点儿冷水。",
+          "Jīntiān tài rè le, wǒ xiǎng hē diǎnr lěng shuǐ.",
+          "It's too hot today; I want some cold water."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-084",
+      "zh": "人",
+      "py": "rén",
+      "en": "person",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 3,
+      "examples": [
+        [
+          "这里有三个人。",
+          "Zhèli yǒu sān ge rén.",
+          "There are three people here."
+        ],
+        [
+          "这个教室里有二十个人。",
+          "Zhège jiàoshì lǐ yǒu èrshí ge rén.",
+          "There are twenty people in this classroom."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-085",
+      "zh": "认识",
+      "py": "rènshi",
+      "en": "to know someone",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 15,
+      "examples": [
+        [
+          "我认识他。",
+          "Wǒ rènshi tā.",
+          "I know him."
+        ],
+        [
+          "很高兴认识你，希望明天再见！",
+          "Hěn gāoxìng rènshi nǐ, xīwàng míngtiān zàijiàn!",
+          "Nice to meet you; I hope to see you again tomorrow!"
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-086",
+      "zh": "三",
+      "py": "sān",
+      "en": "three",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 5,
+      "examples": [
+        [
+          "我有三个杯子。",
+          "Wǒ yǒu sān ge bēizi.",
+          "I have three cups."
+        ],
+        [
+          "桌子上有三个杯子和两本书。",
+          "Zhuōzi shàng yǒu sān ge bēizi hé liǎng běn shū.",
+          "There are three cups and two books on the table."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-087",
+      "zh": "商店",
+      "py": "shāngdiàn",
+      "en": "shop",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 8,
+      "examples": [
+        [
+          "我要去商店。",
+          "Wǒ yào qù shāngdiàn.",
+          "I'm going to the shop."
+        ],
+        [
+          "学校旁边的商店每天早上八点开门。",
+          "Xuéxiào pángbiān de shāngdiàn měi tiān zǎoshang bā diǎn kāimén.",
+          "The shop next to school opens at eight every morning."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-088",
+      "zh": "上",
+      "py": "shàng",
+      "en": "above",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 10,
+      "examples": [
+        [
+          "书在桌子上。",
+          "Shū zài zhuōzi shàng.",
+          "The book is on the table."
+        ],
+        [
+          "桌子上有一本书，书上还有一支笔。",
+          "Zhuōzi shàng yǒu yì běn shū, shū shàng hái yǒu yì zhī bǐ.",
+          "There’s a book on the table and a pen on the book."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-089",
+      "zh": "上午",
+      "py": "shàngwǔ",
+      "en": "morning",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 13,
+      "examples": [
+        [
+          "我上午学习。",
+          "Wǒ shàngwǔ xuéxí.",
+          "I study in the morning."
+        ],
+        [
+          "我上午八点上课，下午三点下课。",
+          "Wǒ shàngwǔ bā diǎn shàngkè, xiàwǔ sān diǎn xiàkè.",
+          "My classes start at 8 a.m. and end at 3 p.m."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-090",
+      "zh": "少",
+      "py": "shǎo",
+      "en": "few",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 14,
+      "examples": [
+        [
+          "这里人很少。",
+          "Zhèli rén hěn shǎo.",
+          "There are few people here."
+        ],
+        [
+          "我只有很少的钱。",
+          "Wǒ zhǐ yǒu hěn shǎo de qián.",
+          "I have very little money."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-091",
+      "zh": "谁",
+      "py": "shéi",
+      "en": "who",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 4,
+      "examples": [
+        [
+          "他是谁？",
+          "Tā shì shéi?",
+          "Who is he?"
+        ],
+        [
+          "门前面站着的那个人是谁？",
+          "Mén qiánmiàn zhàn zhe de nàge rén shì shéi?",
+          "Who is that person standing in front of the door?"
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-092",
+      "zh": "什么",
+      "py": "shénme",
+      "en": "what",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 3,
+      "examples": [
+        [
+          "这是什么？",
+          "Zhè shì shénme?",
+          "What is this?"
+        ],
+        [
+          "你今天晚上想吃什么？",
+          "Nǐ jīntiān wǎnshang xiǎng chī shénme?",
+          "What do you want to eat tonight?"
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-093",
+      "zh": "十",
+      "py": "shí",
+      "en": "ten",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 5,
+      "examples": [
+        [
+          "这里有十个人。",
+          "Zhèli yǒu shí ge rén.",
+          "There are ten people here."
+        ],
+        [
+          "这本书十块钱，我想买两本。",
+          "Zhè běn shū shí kuài qián, wǒ xiǎng mǎi liǎng běn.",
+          "This book costs ten yuan, and I want two copies."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-094",
+      "zh": "时候",
+      "py": "shíhou",
+      "en": "time moment",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 11,
+      "examples": [
+        [
+          "你什么时候来？",
+          "Nǐ shénme shíhou lái?",
+          "When are you coming?"
+        ],
+        [
+          "你什么时候有时间？我们一起学习。",
+          "Nǐ shénme shíhou yǒu shíjiān? Wǒmen yìqǐ xuéxí.",
+          "When do you have time? We can study together."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-095",
+      "zh": "是",
+      "py": "shì",
+      "en": "to be",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 3,
+      "examples": [
+        [
+          "她是老师。",
+          "Tā shì lǎoshī.",
+          "She is a teacher."
+        ],
+        [
+          "她是我的老师，也是我的朋友。",
+          "Tā shì wǒ de lǎoshī, yě shì wǒ de péngyou.",
+          "She is my teacher and also my friend."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-096",
+      "zh": "书",
+      "py": "shū",
+      "en": "book",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 7,
+      "examples": [
+        [
+          "书在桌子上面。",
+          "Shū zài zhuōzi shàngmiàn.",
+          "The book is on the table."
+        ],
+        [
+          "我想在书店买一本中文书。",
+          "Wǒ xiǎng zài shūdiàn mǎi yì běn Zhōngwén shū.",
+          "I want to buy a Chinese book at the bookstore."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-097",
+      "zh": "水",
+      "py": "shuǐ",
+      "en": "water",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 12,
+      "examples": [
+        [
+          "我想喝水。",
+          "Wǒ xiǎng hē shuǐ.",
+          "I want to drink water."
+        ],
+        [
+          "天气很热，我想喝一杯冷水。",
+          "Tiānqì hěn rè, wǒ xiǎng hē yì bēi lěng shuǐ.",
+          "It's hot, and I'd like a glass of cold water."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-098",
+      "zh": "水果",
+      "py": "shuǐguǒ",
+      "en": "fruit",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 12,
+      "examples": [
+        [
+          "我喜欢吃水果。",
+          "Wǒ xǐhuan chī shuǐguǒ.",
+          "I like eating fruit."
+        ],
+        [
+          "妈妈每个星期都去超市买水果。",
+          "Māma měi ge xīngqī dōu qù chāoshì mǎi shuǐguǒ.",
+          "Mom buys fruit at the supermarket every week."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-099",
+      "zh": "睡觉",
+      "py": "shuìjiào",
+      "en": "sleep",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 13,
+      "examples": [
+        [
+          "我晚上十点睡觉。",
+          "Wǒ wǎnshang shí diǎn shuìjiào.",
+          "I go to bed at ten at night."
+        ],
+        [
+          "我妹妹每天晚上九点睡觉。",
+          "Wǒ mèimei měi tiān wǎnshang jiǔ diǎn shuìjiào.",
+          "My younger sister goes to bed at nine every night."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-100",
+      "zh": "说",
+      "py": "shuō",
+      "en": "to speak / say",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 6,
+      "examples": [
+        [
+          "我会说中文。",
+          "Wǒ huì shuō Zhōngwén.",
+          "I can speak Chinese."
+        ],
+        [
+          "请说慢一点儿，我听不懂。",
+          "Qǐng shuō màn yìdiǎnr, wǒ tīng bu dǒng.",
+          "Please speak a little more slowly; I don't understand."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-101",
+      "zh": "四",
+      "py": "sì",
+      "en": "four",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 5,
+      "examples": [
+        [
+          "我家有四口人。",
+          "Wǒ jiā yǒu sì kǒu rén.",
+          "There are four people in my family."
+        ],
+        [
+          "我们家有四口人，都喜欢看电影。",
+          "Wǒmen jiā yǒu sì kǒu rén, dōu xǐhuan kàn diànyǐng.",
+          "There are four people in my family, and we all like movies."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-102",
+      "zh": "岁",
+      "py": "suì",
+      "en": "years old",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 5,
+      "examples": [
+        [
+          "我二十岁。",
+          "Wǒ èrshí suì.",
+          "I am twenty years old."
+        ],
+        [
+          "你今年几岁？",
+          "Nǐ jīnnián jǐ suì?",
+          "How old are you this year?"
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-103",
+      "zh": "他",
+      "py": "tā",
+      "en": "he / him",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 4,
+      "examples": [
+        [
+          "他在学校。",
+          "Tā zài xuéxiào.",
+          "He is at school."
+        ],
+        [
+          "他是我哥哥，今天在学校上课。",
+          "Tā shì wǒ gēge, jīntiān zài xuéxiào shàngkè.",
+          "He is my older brother, and he's in class today."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-104",
+      "zh": "她",
+      "py": "tā",
+      "en": "she / her",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 4,
+      "examples": [
+        [
+          "她在学校。",
+          "Tā zài xuéxiào.",
+          "She is at school."
+        ],
+        [
+          "她是我的中文老师，也会说英语。",
+          "Tā shì wǒ de Zhōngwén lǎoshī, yě huì shuō Yīngyǔ.",
+          "She's my Chinese teacher and also speaks English."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-105",
+      "zh": "太",
+      "py": "tài",
+      "en": "too very",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 12,
+      "examples": [
+        [
+          "太好了！",
+          "Tài hǎo le!",
+          "That's great!"
+        ],
+        [
+          "这个太贵了，我们去别的店看看吧。",
+          "Zhège tài guì le, wǒmen qù bié de diàn kànkan ba.",
+          "This is too expensive; let’s look in another shop."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-106",
+      "zh": "天气",
+      "py": "tiānqì",
+      "en": "weather",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 12,
+      "examples": [
+        [
+          "今天天气很好。",
+          "Jīntiān tiānqì hěn hǎo.",
+          "The weather is nice today."
+        ],
+        [
+          "明天天气怎么样？",
+          "Míngtiān tiānqì zěnmeyàng?",
+          "How's the weather tomorrow?"
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-107",
+      "zh": "听",
+      "py": "tīng",
+      "en": "to listen",
+      "topic": "HSK Book 1 vocabulary",
+      "examples": [
+        [
+          "我听老师说话。",
+          "Wǒ tīng lǎoshī shuōhuà.",
+          "I listen to the teacher speak."
+        ],
+        [
+          "我喜欢晚上听中文歌。",
+          "Wǒ xǐhuan wǎnshang tīng Zhōngwén gē.",
+          "I like listening to Chinese songs in the evening."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-108",
+      "zh": "同学",
+      "py": "tóngxué",
+      "en": "classmate",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 4,
+      "examples": [
+        [
+          "他是我的同学。",
+          "Tā shì wǒ de tóngxué.",
+          "He is my classmate."
+        ],
+        [
+          "我和同学常常一起练习说中文。",
+          "Wǒ hé tóngxué chángcháng yìqǐ liànxí shuō Zhōngwén.",
+          "My classmate and I often practice speaking Chinese together."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-109",
+      "zh": "喂",
+      "py": "wèi",
+      "en": "hello (phone)",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 13,
+      "examples": [
+        [
+          "喂，你好！",
+          "Wèi, nǐ hǎo!",
+          "Hello, speaking!"
+        ],
+        [
+          "喂，您好！请问李先生在吗？",
+          "Wèi, nín hǎo! Qǐngwèn Lǐ xiānsheng zài ma?",
+          "Hello! May I speak to Mr. Li?"
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-110",
+      "zh": "我",
+      "py": "wǒ",
+      "en": "I / me",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 3,
+      "examples": [
+        [
+          "我喜欢喝水。",
+          "Wǒ xǐhuan hē shuǐ.",
+          "I like drinking water."
+        ],
+        [
+          "我今天想和朋友一起学习中文。",
+          "Wǒ jīntiān xiǎng hé péngyou yìqǐ xuéxí Zhōngwén.",
+          "I want to study Chinese with a friend today."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-111",
+      "zh": "我们",
+      "py": "wǒmen",
+      "en": "we / us",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 11,
+      "examples": [
+        [
+          "我们学习中文。",
+          "Wǒmen xuéxí Zhōngwén.",
+          "We study Chinese."
+        ],
+        [
+          "我们明天上午一起去学校。",
+          "Wǒmen míngtiān shàngwǔ yìqǐ qù xuéxiào.",
+          "We're going to school together tomorrow morning."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-112",
+      "zh": "五",
+      "py": "wǔ",
+      "en": "five",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 5,
+      "examples": [
+        [
+          "我有五本书。",
+          "Wǒ yǒu wǔ běn shū.",
+          "I have five books."
+        ],
+        [
+          "我每天晚上学习五十分钟。",
+          "Wǒ měi tiān wǎnshang xuéxí wǔshí fēnzhōng.",
+          "I study for fifty minutes every evening."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-113",
+      "zh": "喜欢",
+      "py": "xǐhuan",
+      "en": "to like",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 13,
+      "examples": [
+        [
+          "我喜欢喝茶。",
+          "Wǒ xǐhuan hē chá.",
+          "I like drinking tea."
+        ],
+        [
+          "我喜欢看电影，也喜欢听音乐。",
+          "Wǒ xǐhuan kàn diànyǐng, yě xǐhuan tīng yīnyuè.",
+          "I like watching movies and listening to music."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-114",
+      "zh": "下",
+      "py": "xià",
+      "en": "below",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 9,
+      "examples": [
+        [
+          "猫在桌子下。",
+          "Māo zài zhuōzi xià.",
+          "The cat is under the table."
+        ],
+        [
+          "猫在桌子下，狗在桌子旁边。",
+          "Māo zài zhuōzi xià, gǒu zài zhuōzi pángbiān.",
+          "The cat is under the table and the dog is beside it."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-115",
+      "zh": "下午",
+      "py": "xiàwǔ",
+      "en": "afternoon",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 8,
+      "examples": [
+        [
+          "我下午工作。",
+          "Wǒ xiàwǔ gōngzuò.",
+          "I work in the afternoon."
+        ],
+        [
+          "今天下午我想去书店买书。",
+          "Jīntiān xiàwǔ wǒ xiǎng qù shūdiàn mǎi shū.",
+          "I'd like to go buy books this afternoon."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-116",
+      "zh": "下雨",
+      "py": "xiàyǔ",
+      "en": "rain (verb)",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 12,
+      "examples": [
+        [
+          "今天下雨。",
+          "Jīntiān xià yǔ.",
+          "It's raining today."
+        ],
+        [
+          "明天会下雨吗？",
+          "Míngtiān huì xià yǔ ma?",
+          "Will it rain tomorrow?"
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-117",
+      "zh": "先生",
+      "py": "xiānsheng",
+      "en": "Mr.",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 14,
+      "examples": [
+        [
+          "他是王先生。",
+          "Tā shì Wáng xiānsheng.",
+          "He is Mr. Wang."
+        ],
+        [
+          "这位先生是我们的中文老师。",
+          "Zhè wèi xiānsheng shì wǒmen de Zhōngwén lǎoshī.",
+          "This gentleman is our Chinese teacher."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-118",
+      "zh": "现在",
+      "py": "xiànzài",
+      "en": "now",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 11,
+      "examples": [
+        [
+          "我现在在家。",
+          "Wǒ xiànzài zài jiā.",
+          "I am at home now."
+        ],
+        [
+          "现在已经八点了，我们去学校吧。",
+          "Xiànzài yǐjīng bā diǎn le, wǒmen qù xuéxiào ba.",
+          "It's already eight; let's go to school."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-119",
+      "zh": "想",
+      "py": "xiǎng",
+      "en": "want / think",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 8,
+      "examples": [
+        [
+          "我想喝水。",
+          "Wǒ xiǎng hē shuǐ.",
+          "I want to drink water."
+        ],
+        [
+          "我想明天上午去买水果。",
+          "Wǒ xiǎng míngtiān shàngwǔ qù mǎi shuǐguǒ.",
+          "I want to go buy fruit tomorrow morning."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-120",
+      "zh": "小",
+      "py": "xiǎo",
+      "en": "small",
+      "topic": "HSK Book 1 vocabulary",
+      "examples": [
+        [
+          "杯子很小。",
+          "Bēizi hěn xiǎo.",
+          "The cup is small."
+        ],
+        [
+          "这个杯子太小了，我想换一个。",
+          "Zhège bēizi tài xiǎo le, wǒ xiǎng huàn yí ge.",
+          "This cup is too small; I'd like to exchange it."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-121",
+      "zh": "小姐",
+      "py": "xiǎojiě",
+      "en": "Miss; young lady",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 12,
+      "examples": [
+        [
+          "王小姐是老师。",
+          "Wáng xiǎojiě shì lǎoshī.",
+          "Miss Wang is a teacher."
+        ],
+        [
+          "小姐，请问现在几点？",
+          "Xiǎojiě, qǐngwèn xiànzài jǐ diǎn?",
+          "Excuse me, miss, what time is it now?"
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-122",
+      "zh": "些",
+      "py": "xiē",
+      "en": "some",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 12,
+      "examples": [
+        [
+          "我有些书。",
+          "Wǒ yǒu xiē shū.",
+          "I have some books."
+        ],
+        [
+          "请给我些水。",
+          "Qǐng gěi wǒ xiē shuǐ.",
+          "Please give me some water."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-123",
+      "zh": "写",
+      "py": "xiě",
+      "en": "to write",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 6,
+      "examples": [
+        [
+          "我写汉字。",
+          "Wǒ xiě Hànzì.",
+          "I write Chinese characters."
+        ],
+        [
+          "我会写一些简单的汉字。",
+          "Wǒ huì xiě yìxiē jiǎndān de Hànzì.",
+          "I can write some simple Chinese characters."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-124",
+      "zh": "谢谢",
+      "py": "xièxie",
+      "en": "thank you",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 2,
+      "examples": [
+        [
+          "谢谢你。",
+          "Xièxie nǐ.",
+          "Thank you."
+        ],
+        [
+          "谢谢你今天帮我学习中文。",
+          "Xièxie nǐ jīntiān bāng wǒ xuéxí Zhōngwén.",
+          "Thank you for helping me study Chinese today."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-125",
+      "zh": "星期",
+      "py": "xīngqī",
+      "en": "week",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 7,
+      "examples": [
+        [
+          "今天星期几？",
+          "Jīntiān xīngqī jǐ?",
+          "What day of the week is it?"
+        ],
+        [
+          "我这个星期很忙。",
+          "Wǒ zhège xīngqī hěn máng.",
+          "I'm busy this week."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-126",
+      "zh": "学生",
+      "py": "xuésheng",
+      "en": "student",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 3,
+      "examples": [
+        [
+          "我是学生。",
+          "Wǒ shì xuésheng.",
+          "I am a student."
+        ],
+        [
+          "那个学生每天早上七点起床。",
+          "Nàge xuésheng měi tiān zǎoshang qī diǎn qǐchuáng.",
+          "That student gets up at seven every morning."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-127",
+      "zh": "学习",
+      "py": "xuéxí",
+      "en": "to study",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 13,
+      "examples": [
+        [
+          "我在学校学习。",
+          "Wǒ zài xuéxiào xuéxí.",
+          "I study at school."
+        ],
+        [
+          "我每天晚上在家学习半个小时。",
+          "Wǒ měi tiān wǎnshang zài jiā xuéxí bàn ge xiǎoshí.",
+          "I study at home for half an hour every evening."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-128",
+      "zh": "学校",
+      "py": "xuéxiào",
+      "en": "school",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 7,
+      "examples": [
+        [
+          "我在学校学习。",
+          "Wǒ zài xuéxiào xuéxí.",
+          "I study at school."
+        ],
+        [
+          "我妹妹每天八点去学校上课。",
+          "Wǒ mèimei měi tiān bā diǎn qù xuéxiào shàngkè.",
+          "My younger sister goes to school at eight every day."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-129",
+      "zh": "一",
+      "py": "yī",
+      "en": "one",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 5,
+      "examples": [
+        [
+          "我有一本书。",
+          "Wǒ yǒu yì běn shū.",
+          "I have one book."
+        ],
+        [
+          "我只有一本中文书，想再买一本。",
+          "Wǒ zhǐ yǒu yì běn Zhōngwén shū, xiǎng zài mǎi yì běn.",
+          "I have only one Chinese book and want to buy another."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-130",
+      "zh": "衣服",
+      "py": "yīfu",
+      "en": "clothes",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 14,
+      "examples": [
+        [
+          "我想买新衣服。",
+          "Wǒ xiǎng mǎi xīn yīfu.",
+          "I want to buy new clothes."
+        ],
+        [
+          "这件衣服太大了，有小一点儿的吗？",
+          "Zhè jiàn yīfu tài dà le, yǒu xiǎo yìdiǎnr de ma?",
+          "This item of clothing is too big; do you have a smaller one?"
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-131",
+      "zh": "医生",
+      "py": "yīshēng",
+      "en": "doctor",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 9,
+      "examples": [
+        [
+          "他是医生。",
+          "Tā shì yīshēng.",
+          "He is doctor."
+        ],
+        [
+          "这位医生每天在医院工作到晚上。",
+          "Zhè wèi yīshēng měi tiān zài yīyuàn gōngzuò dào wǎnshang.",
+          "This doctor works at the hospital until evening every day."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-132",
+      "zh": "医院",
+      "py": "yīyuàn",
+      "en": "hospital",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 9,
+      "examples": [
+        [
+          "我妈妈在医院工作。",
+          "Wǒ māma zài yīyuàn gōngzuò.",
+          "My mom works at the hospital."
+        ],
+        [
+          "妈妈在医院工作，她是一名医生。",
+          "Māma zài yīyuàn gōngzuò, tā shì yì míng yīshēng.",
+          "My mother works at a hospital; she's a doctor."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-133",
+      "zh": "椅子",
+      "py": "yǐzi",
+      "en": "chair",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 9,
+      "examples": [
+        [
+          "椅子在桌子旁边。",
+          "Yǐzi zài zhuōzi pángbiān.",
+          "The chair is next to the table."
+        ],
+        [
+          "桌子旁边有两把椅子。",
+          "Zhuōzi pángbiān yǒu liǎng bǎ yǐzi.",
+          "There are two chairs beside the table."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-134",
+      "zh": "一点儿",
+      "py": "yìdiǎnr",
+      "en": "a little",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 14,
+      "examples": [
+        [
+          "我会说一点儿中文。",
+          "Wǒ huì shuō yìdiǎnr Zhōngwén.",
+          "I can speak a little Chinese."
+        ],
+        [
+          "请给我一点儿水。",
+          "Qǐng gěi wǒ yìdiǎnr shuǐ.",
+          "Please give me a little water."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-135",
+      "zh": "有",
+      "py": "yǒu",
+      "en": "to have",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 5,
+      "examples": [
+        [
+          "我有一个哥哥。",
+          "Wǒ yǒu yí ge gēge.",
+          "I have an older brother."
+        ],
+        [
+          "我有一个姐姐，也有一个妹妹。",
+          "Wǒ yǒu yí ge jiějie, yě yǒu yí ge mèimei.",
+          "I have an older sister and a younger sister."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-136",
+      "zh": "月",
+      "py": "yuè",
+      "en": "month",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 7,
+      "examples": [
+        [
+          "这个月我很忙。",
+          "Zhège yuè wǒ hěn máng.",
+          "I'm busy this month."
+        ],
+        [
+          "下个月见！",
+          "Xià ge yuè jiàn!",
+          "See you next month!"
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-137",
+      "zh": "再见",
+      "py": "zàijiàn",
+      "en": "goodbye",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 2,
+      "examples": [
+        [
+          "再见，明天见！",
+          "Zàijiàn, míngtiān jiàn!",
+          "Goodbye, see you tomorrow!"
+        ],
+        [
+          "今天很高兴认识你，明天再见！",
+          "Jīntiān hěn gāoxìng rènshi nǐ, míngtiān zàijiàn!",
+          "It was nice to meet you today; see you tomorrow!"
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-138",
+      "zh": "在",
+      "py": "zài",
+      "en": "at / in / located",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 9,
+      "examples": [
+        [
+          "我在学校。",
+          "Wǒ zài xuéxiào.",
+          "I am at school."
+        ],
+        [
+          "我妹妹现在在学校学习中文。",
+          "Wǒ mèimei xiànzài zài xuéxiào xuéxí Zhōngwén.",
+          "My younger sister is studying Chinese at school now."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-139",
+      "zh": "怎么",
+      "py": "zěnme",
+      "en": "how",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 6,
+      "examples": [
+        [
+          "这个字怎么读？",
+          "Zhège zì zěnme dú?",
+          "How do you read this character?"
+        ],
+        [
+          "你怎么来学校？",
+          "Nǐ zěnme lái xuéxiào?",
+          "How do you get to school?"
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-140",
+      "zh": "怎么样",
+      "py": "zěnmeyàng",
+      "en": "how is it",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 12,
+      "examples": [
+        [
+          "你觉得怎么样？",
+          "Nǐ juéde zěnmeyàng?",
+          "What do you think?"
+        ],
+        [
+          "今天天气怎么样？",
+          "Jīntiān tiānqì zěnmeyàng?",
+          "What's the weather like today?"
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-141",
+      "zh": "这",
+      "py": "zhè",
+      "en": "this",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 8,
+      "examples": [
+        [
+          "这是我的杯子。",
+          "Zhè shì wǒ de bēizi.",
+          "This is my cup."
+        ],
+        [
+          "这本书是我的，那本是你的。",
+          "Zhè běn shū shì wǒ de, nà běn shì nǐ de.",
+          "This book is mine; that one is yours."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-142",
+      "zh": "中午",
+      "py": "zhōngwǔ",
+      "en": "noon",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 11,
+      "examples": [
+        [
+          "我们中午吃午饭。",
+          "Wǒmen zhōngwǔ chī wǔfàn.",
+          "We eat lunch at noon."
+        ],
+        [
+          "中午我在学校吃饭，下午上课。",
+          "Zhōngwǔ wǒ zài xuéxiào chīfàn, xiàwǔ shàngkè.",
+          "I eat lunch at school at noon and attend class in the afternoon."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-143",
+      "zh": "住",
+      "py": "zhù",
+      "en": "live",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 11,
+      "examples": [
+        [
+          "我住在北京。",
+          "Wǒ zhù zài Běijīng.",
+          "I live in Beijing."
+        ],
+        [
+          "我想住在学校附近，走路去上课。",
+          "Wǒ xiǎng zhù zài xuéxiào fùjìn, zǒulù qù shàngkè.",
+          "I want to live near school and walk to class."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-144",
+      "zh": "桌子",
+      "py": "zhuōzi",
+      "en": "table",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 10,
+      "examples": [
+        [
+          "杯子在桌子上面。",
+          "Bēizi zài zhuōzi shàngmiàn.",
+          "The cup is on the table."
+        ],
+        [
+          "我想买一张大桌子放在厨房里。",
+          "Wǒ xiǎng mǎi yì zhāng dà zhuōzi fàng zài chúfáng lǐ.",
+          "I want to buy a big table to put in the kitchen."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-145",
+      "zh": "字",
+      "py": "zì",
+      "en": "character",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 6,
+      "examples": [
+        [
+          "我会写这个字。",
+          "Wǒ huì xiě zhège zì.",
+          "I can write this character."
+        ],
+        [
+          "我不会写这个字，可以教我吗？",
+          "Wǒ bú huì xiě zhège zì, kěyǐ jiāo wǒ ma?",
+          "I can’t write this character; can you teach me?"
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-146",
+      "zh": "昨天",
+      "py": "zuótiān",
+      "en": "yesterday",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 7,
+      "examples": [
+        [
+          "我昨天在家。",
+          "Wǒ zuótiān zài jiā.",
+          "I was at home yesterday."
+        ],
+        [
+          "昨天我和姐姐在家看了电影。",
+          "Zuótiān wǒ hé jiějie zài jiā kàn le diànyǐng.",
+          "Yesterday my older sister and I watched a movie at home."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-147",
+      "zh": "坐",
+      "py": "zuò",
+      "en": "to sit",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 10,
+      "examples": [
+        [
+          "请坐。",
+          "Qǐng zuò.",
+          "Please sit."
+        ],
+        [
+          "请坐在我旁边，我们一起学习。",
+          "Qǐng zuò zài wǒ pángbiān, wǒmen yìqǐ xuéxí.",
+          "Please sit next to me so we can study together."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-148",
+      "zh": "做",
+      "py": "zuò",
+      "en": "do make",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 6,
+      "examples": [
+        [
+          "我会做饭。",
+          "Wǒ huì zuòfàn.",
+          "I can cook."
+        ],
+        [
+          "我会做饭，但是今天想去饭店吃。",
+          "Wǒ huì zuòfàn, dànshì jīntiān xiǎng qù fàndiàn chī.",
+          "I can cook, but today I want to eat at a restaurant."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-149",
+      "zh": "不少",
+      "py": "bù shǎo",
+      "en": "quite a few; many",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 14,
+      "examples": [
+        [
+          "这里有不少人。",
+          "Zhèlǐ yǒu bù shǎo rén.",
+          "There are quite a few people here."
+        ],
+        [
+          "我认识不少中国朋友。",
+          "Wǒ rènshi bù shǎo Zhōngguó péngyou.",
+          "I know quite a few Chinese friends."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-150",
+      "zh": "车",
+      "py": "chē",
+      "en": "vehicle",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 14,
+      "examples": [
+        [
+          "我家有一辆车。",
+          "Wǒ jiā yǒu yí liàng chē.",
+          "My family has a car."
+        ],
+        [
+          "这辆车是我爸爸去年买的。",
+          "Zhè liàng chē shì wǒ bàba qùnián mǎi de.",
+          "My dad bought this car last year."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-151",
+      "zh": "吃饭",
+      "py": "chī fàn",
+      "en": "to eat a meal",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 11,
+      "examples": [
+        [
+          "我们中午吃饭。",
+          "Wǒmen zhōngwǔ chī fàn.",
+          "We eat lunch at noon."
+        ],
+        [
+          "你想在哪儿吃饭？",
+          "Nǐ xiǎng zài nǎr chī fàn?",
+          "Where would you like to eat?"
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-152",
+      "zh": "大学",
+      "py": "dàxué",
+      "en": "university",
+      "topic": "HSK Book 1 vocabulary",
+      "examples": [
+        [
+          "他在大学学习中文。",
+          "Tā zài dàxué xuéxí Zhōngwén.",
+          "He studies Chinese at university."
+        ],
+        [
+          "我哥哥明年要去北京的大学学习。",
+          "Wǒ gēge míngnián yào qù Běijīng de dàxué xuéxí.",
+          "My older brother will study at a university in Beijing next year."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-153",
+      "zh": "分",
+      "py": "fēn",
+      "en": "minute",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 11,
+      "examples": [
+        [
+          "现在三点十分。",
+          "Xiànzài sān diǎn shí fēn.",
+          "It's 3:10 now."
+        ],
+        [
+          "现在三点十分，我们四点上课。",
+          "Xiànzài sān diǎn shí fēn, wǒmen sì diǎn shàngkè.",
+          "It’s 3:10; our class starts at four."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-154",
+      "zh": "国",
+      "py": "guó",
+      "en": "country",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 4,
+      "examples": [
+        [
+          "你是哪国人？",
+          "Nǐ shì nǎ guó rén?",
+          "Which country are you from?"
+        ],
+        [
+          "中国是一个大国。",
+          "Zhōngguó shì yí ge dà guó.",
+          "China is a large country."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-155",
+      "zh": "汉字",
+      "py": "Hànzì",
+      "en": "Chinese character",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 6,
+      "examples": [
+        [
+          "我会写汉字。",
+          "Wǒ huì xiě Hànzì.",
+          "I can write Chinese characters."
+        ],
+        [
+          "我每天练习写汉字，还读中文书。",
+          "Wǒ měi tiān liànxí xiě Hànzì, hái dú Zhōngwén shū.",
+          "I practice writing characters and read Chinese books every day."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-156",
+      "zh": "后",
+      "py": "hòu",
+      "en": "back",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 14,
+      "examples": [
+        [
+          "猫在门后。",
+          "Māo zài mén hòu.",
+          "The cat is behind the door."
+        ],
+        [
+          "书在桌子后。",
+          "Shū zài zhuōzi hòu.",
+          "The book is behind the table."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-157",
+      "zh": "回来",
+      "py": "huílái",
+      "en": "to come back",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 14,
+      "examples": [
+        [
+          "爸爸今天回来。",
+          "Bàba jīntiān huílái.",
+          "Dad is coming back today."
+        ],
+        [
+          "你什么时候回来？",
+          "Nǐ shénme shíhou huílái?",
+          "When are you coming back?"
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-158",
+      "zh": "今年",
+      "py": "jīnnián",
+      "en": "this year",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 5,
+      "examples": [
+        [
+          "我今年二十岁。",
+          "Wǒ jīnnián èrshí suì.",
+          "I'm twenty this year."
+        ],
+        [
+          "今年我开始学汉语，每天都练习。",
+          "Jīnnián wǒ kāishǐ xué Hànyǔ, měi tiān dōu liànxí.",
+          "I started studying Chinese this year and practice every day."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-159",
+      "zh": "没",
+      "py": "méi",
+      "en": "not (have / past)",
+      "topic": "HSK Book 1 vocabulary",
+      "examples": [
+        [
+          "我没有哥哥。",
+          "Wǒ méiyǒu gēge.",
+          "I don't have an older brother."
+        ],
+        [
+          "我昨天没去学校，因为我生病了。",
+          "Wǒ zuótiān méi qù xuéxiào, yīnwèi wǒ shēngbìng le.",
+          "I didn't go to school yesterday because I was sick."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-160",
+      "zh": "那儿",
+      "py": "nàr",
+      "en": "there",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 14,
+      "examples": [
+        [
+          "我的朋友在那儿。",
+          "Wǒ de péngyou zài nàr.",
+          "My friend is over there."
+        ],
+        [
+          "你去那儿吗？",
+          "Nǐ qù nàr ma?",
+          "Are you going there?"
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-161",
+      "zh": "你们",
+      "py": "nǐmen",
+      "en": "you (plural)",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 1,
+      "examples": [
+        [
+          "你们在学校吗？",
+          "Nǐmen zài xuéxiào ma?",
+          "Are you at school?"
+        ],
+        [
+          "你们今天下午都去上课吗？",
+          "Nǐmen jīntiān xiàwǔ dōu qù shàngkè ma?",
+          "Are all of you going to class this afternoon?"
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-162",
+      "zh": "前",
+      "py": "qián",
+      "en": "front",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 11,
+      "examples": [
+        [
+          "猫在门前。",
+          "Māo zài mén qián.",
+          "The cat is in front of the door."
+        ],
+        [
+          "我站在学校前。",
+          "Wǒ zhàn zài xuéxiào qián.",
+          "I stand in front of the school."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-163",
+      "zh": "太……了",
+      "py": "tài…le",
+      "en": "too; extremely (construction)",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 12,
+      "examples": [
+        [
+          "太好了！",
+          "Tài hǎo le!",
+          "That's great!"
+        ],
+        [
+          "今天太热了。",
+          "Jīntiān tài rè le.",
+          "It's too hot today."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-164",
+      "zh": "下",
+      "py": "xià",
+      "en": "below",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 9,
+      "examples": [
+        [
+          "猫在桌子下。",
+          "Māo zài zhuōzi xià.",
+          "The cat is under the table."
+        ],
+        [
+          "猫在桌子下，狗在桌子旁边。",
+          "Māo zài zhuōzi xià, gǒu zài zhuōzi pángbiān.",
+          "The cat is under the table and the dog is beside it."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-165",
+      "zh": "下面",
+      "py": "xiàmiàn",
+      "en": "under / below",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 9,
+      "examples": [
+        [
+          "猫在桌子下面。",
+          "Māo zài zhuōzi xiàmiàn.",
+          "The cat is under the table."
+        ],
+        [
+          "我的手机在那张桌子下面。",
+          "Wǒ de shǒujī zài nà zhāng zhuōzi xiàmiàn.",
+          "My phone is under that table."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-166",
+      "zh": "学",
+      "py": "xué",
+      "en": "learn",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 13,
+      "examples": [
+        [
+          "我学中文。",
+          "Wǒ xué Zhōngwén.",
+          "I'm learning Chinese."
+        ],
+        [
+          "我想学做饭，因为我喜欢中国菜。",
+          "Wǒ xiǎng xué zuòfàn, yīnwèi wǒ xǐhuan Zhōngguó cài.",
+          "I want to learn cooking because I like Chinese food."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-167",
+      "zh": "雨",
+      "py": "yǔ",
+      "en": "rain",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 12,
+      "examples": [
+        [
+          "今天有雨。",
+          "Jīntiān yǒu yǔ.",
+          "There's rain today."
+        ],
+        [
+          "我不喜欢下雨。",
+          "Wǒ bù xǐhuan xià yǔ.",
+          "I don't like rain."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-168",
+      "zh": "这儿",
+      "py": "zhèr",
+      "en": "here",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 10,
+      "examples": [
+        [
+          "我的书在这儿。",
+          "Wǒ de shū zài zhèr.",
+          "My book is here."
+        ],
+        [
+          "请坐这儿。",
+          "Qǐng zuò zhèr.",
+          "Please sit here."
+        ]
+      ]
+    },
+    {
+      "id": "hsk-book1-vocab-169",
+      "zh": "这些",
+      "py": "zhèxiē",
+      "en": "these",
+      "topic": "HSK Book 1 vocabulary",
+      "lesson": 14,
+      "examples": [
+        [
+          "这些是我的书。",
+          "Zhèxiē shì wǒ de shū.",
+          "These are my books."
+        ],
+        [
+          "我喜欢这些杯子。",
+          "Wǒ xǐhuan zhèxiē bēizi.",
+          "I like these cups."
+        ]
+      ]
+    }
+  ]
+}
