@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "schemaVersion": 1,
   "packs": [
     {
@@ -125,6 +125,10 @@
     {
       "id": "hsk-chapters-01-10",
       "file": "data/packs/hsk-chapters-01-10.json"
+    },
+    {
+      "id": "hsk-book1-vocabulary",
+      "file": "data/packs/hsk-book1-vocabulary.json"
     }
   ]
 }
