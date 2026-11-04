@@ -1,8 +1,10 @@
+import {matchesBank} from './banks.js';
+
 // Session-aware selection: respects review due dates and keeps recent cards apart.
 // Stable card IDs and the grade() history schema are unchanged.
 export function nextCard(cards, history, stars, options, recent = [], now = Date.now(), random = Math.random, counts = {}) {
   const pool = cards.filter(card =>
-    (options.topic === 'all' || card.topic === options.topic) &&
+    matchesBank(card, options) &&
     (!options.starredOnly || Boolean(stars[card.id])) &&
     (options.sentencesEnabled !== false || card.type !== 'sentence')
   );
