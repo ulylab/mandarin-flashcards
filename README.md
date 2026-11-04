@@ -1,6 +1,6 @@
 # Mandarin Flashcards
 
-A lightweight, mobile-friendly Mandarin study app hosted as a static website (GitHub Pages). The app contains **625 cards**: 335 vocabulary, 250 sentence cards, and 40 original HSK 1 test-preparation questions.
+A lightweight, mobile-friendly Mandarin study app hosted as a static website (GitHub Pages). The app contains **794 cards**: 504 vocabulary, 250 sentence cards, and 40 original HSK 1 test-preparation questions.
 
 ## Adding vocabulary
 
