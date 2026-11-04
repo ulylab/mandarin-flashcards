@@ -1,0 +1,687 @@
+{
+  "id": "hsk-test-prep",
+  "label": "HSK Test Prep · 20 listening + 20 reading (Book 1 / HSK 2.0)",
+  "type": "test",
+  "cards": [
+    {
+      "id": "hsk-test-001",
+      "type": "test",
+      "section": "listening",
+      "topic": "HSK Test Prep",
+      "zh": "你好。",
+      "py": "Nǐ hǎo.",
+      "en": "Hello",
+      "question": "What did you hear?",
+      "choices": [
+        "Hello.",
+        "Thank you.",
+        "Goodbye."
+      ],
+      "answer": 0,
+      "explanation": "你好 is a basic greeting."
+    },
+    {
+      "id": "hsk-test-002",
+      "type": "test",
+      "section": "listening",
+      "topic": "HSK Test Prep",
+      "zh": "谢谢你。",
+      "py": "Xièxie nǐ.",
+      "en": "Thank you",
+      "question": "What did you hear?",
+      "choices": [
+        "Sorry.",
+        "You're welcome.",
+        "Thank you."
+      ],
+      "answer": 2,
+      "explanation": "谢谢 means thank you."
+    },
+    {
+      "id": "hsk-test-003",
+      "type": "test",
+      "section": "listening",
+      "topic": "HSK Test Prep",
+      "zh": "我叫小明。",
+      "py": "Wǒ jiào Xiǎomíng.",
+      "en": "My name is Xiaoming",
+      "question": "What does the speaker say?",
+      "choices": [
+        "Where is Xiaoming?",
+        "My name is Xiaoming.",
+        "I'm a teacher."
+      ],
+      "answer": 1,
+      "explanation": "叫 introduces someone's name."
+    },
+    {
+      "id": "hsk-test-004",
+      "type": "test",
+      "section": "listening",
+      "topic": "HSK Test Prep",
+      "zh": "她是谁？",
+      "py": "Tā shì shéi?",
+      "en": "Who is she?",
+      "question": "Which question is being asked?",
+      "choices": [
+        "Who is she?",
+        "Who is he?",
+        "Where is she?"
+      ],
+      "answer": 0,
+      "explanation": "谁 asks who; 她 refers to she."
+    },
+    {
+      "id": "hsk-test-005",
+      "type": "test",
+      "section": "listening",
+      "topic": "HSK Test Prep",
+      "zh": "她几岁？",
+      "py": "Tā jǐ suì?",
+      "en": "How old is she?",
+      "question": "Which question is being asked?",
+      "choices": [
+        "What is her name?",
+        "Where is she?",
+        "How old is she?"
+      ],
+      "answer": 2,
+      "explanation": "几岁 asks someone's age."
+    },
+    {
+      "id": "hsk-test-006",
+      "type": "test",
+      "section": "listening",
+      "topic": "HSK Test Prep",
+      "zh": "我会说汉语。",
+      "py": "Wǒ huì shuō Hànyǔ.",
+      "en": "I can speak Chinese",
+      "question": "What can the speaker do?",
+      "choices": [
+        "Cook Chinese food.",
+        "Speak Chinese.",
+        "Write Chinese characters."
+      ],
+      "answer": 1,
+      "explanation": "会说 means can speak."
+    },
+    {
+      "id": "hsk-test-007",
+      "type": "test",
+      "section": "listening",
+      "topic": "HSK Test Prep",
+      "zh": "今天几号？",
+      "py": "Jīntiān jǐ hào?",
+      "en": "What's today's date?",
+      "question": "What is being asked?",
+      "choices": [
+        "Today's date.",
+        "The current time.",
+        "Tomorrow's weather."
+      ],
+      "answer": 0,
+      "explanation": "几号 asks the day of the month."
+    },
+    {
+      "id": "hsk-test-008",
+      "type": "test",
+      "section": "listening",
+      "topic": "HSK Test Prep",
+      "zh": "我想喝茶。",
+      "py": "Wǒ xiǎng hē chá.",
+      "en": "I'd like tea",
+      "question": "What does the speaker want?",
+      "choices": [
+        "Water.",
+        "Coffee.",
+        "Tea."
+      ],
+      "answer": 2,
+      "explanation": "想喝 means would like to drink."
+    },
+    {
+      "id": "hsk-test-009",
+      "type": "test",
+      "section": "listening",
+      "topic": "HSK Test Prep",
+      "zh": "他在哪儿工作？",
+      "py": "Tā zài nǎr gōngzuò?",
+      "en": "Where does he work?",
+      "question": "What is the question about?",
+      "choices": [
+        "What time he eats.",
+        "Where he works.",
+        "How old he is."
+      ],
+      "answer": 1,
+      "explanation": "在哪儿 asks where."
+    },
+    {
+      "id": "hsk-test-010",
+      "type": "test",
+      "section": "listening",
+      "topic": "HSK Test Prep",
+      "zh": "杯子在桌子上。",
+      "py": "Bēizi zài zhuōzi shàng.",
+      "en": "The cup is on the table",
+      "question": "Where is the cup?",
+      "choices": [
+        "On the table.",
+        "Under the table.",
+        "Behind the chair."
+      ],
+      "answer": 0,
+      "explanation": "在桌子上 means on the table."
+    },
+    {
+      "id": "hsk-test-011",
+      "type": "test",
+      "section": "listening",
+      "topic": "HSK Test Prep",
+      "zh": "现在几点？",
+      "py": "Xiànzài jǐ diǎn?",
+      "en": "What time is it now?",
+      "question": "What is being asked?",
+      "choices": [
+        "Today's date.",
+        "Someone's age.",
+        "The time now."
+      ],
+      "answer": 2,
+      "explanation": "几点 asks what time."
+    },
+    {
+      "id": "hsk-test-012",
+      "type": "test",
+      "section": "listening",
+      "topic": "HSK Test Prep",
+      "zh": "现在九点十分。",
+      "py": "Xiànzài jiǔ diǎn shí fēn.",
+      "en": "It's 9:10 now.",
+      "question": "What time did you hear?",
+      "choices": [
+        "10:09.",
+        "9:10.",
+        "9:00."
+      ],
+      "answer": 1,
+      "explanation": "九点十分 means nine ten."
+    },
+    {
+      "id": "hsk-test-013",
+      "type": "test",
+      "section": "listening",
+      "topic": "HSK Test Prep",
+      "zh": "明天天气怎么样？",
+      "py": "Míngtiān tiānqì zěnmeyàng?",
+      "en": "What will the weather be like tomorrow?",
+      "question": "What is the speaker asking about?",
+      "choices": [
+        "Tomorrow's weather.",
+        "Today's time.",
+        "A friend's name."
+      ],
+      "answer": 0,
+      "explanation": "天气怎么样 asks how the weather is."
+    },
+    {
+      "id": "hsk-test-014",
+      "type": "test",
+      "section": "listening",
+      "topic": "HSK Test Prep",
+      "zh": "今天太冷了。",
+      "py": "Jīntiān tài lěng le.",
+      "en": "It's too cold today.",
+      "question": "What is the weather like?",
+      "choices": [
+        "Very hot tomorrow.",
+        "Rainy today.",
+        "Too cold today."
+      ],
+      "answer": 2,
+      "explanation": "太冷了 means too cold."
+    },
+    {
+      "id": "hsk-test-015",
+      "type": "test",
+      "section": "listening",
+      "topic": "HSK Test Prep",
+      "zh": "他在看电视。",
+      "py": "Tā zài kàn diànshì.",
+      "en": "He's watching TV.",
+      "question": "What is he doing?",
+      "choices": [
+        "Making a call.",
+        "Watching TV.",
+        "Studying Chinese."
+      ],
+      "answer": 1,
+      "explanation": "在 plus a verb indicates an ongoing action."
+    },
+    {
+      "id": "hsk-test-016",
+      "type": "test",
+      "section": "listening",
+      "topic": "HSK Test Prep",
+      "zh": "他在打电话呢。",
+      "py": "Tā zài dǎ diànhuà ne.",
+      "en": "He's on the phone right now.",
+      "question": "What is he doing?",
+      "choices": [
+        "Talking on the phone.",
+        "Watching TV.",
+        "Drinking tea."
+      ],
+      "answer": 0,
+      "explanation": "打电话 means to make a phone call."
+    },
+    {
+      "id": "hsk-test-017",
+      "type": "test",
+      "section": "listening",
+      "topic": "HSK Test Prep",
+      "zh": "这些苹果多少钱？",
+      "py": "Zhèxiē píngguǒ duōshao qián?",
+      "en": "How much are these apples?",
+      "question": "What is being asked?",
+      "choices": [
+        "The number of apples.",
+        "The location of the apples.",
+        "The price of these apples."
+      ],
+      "answer": 2,
+      "explanation": "多少钱 asks how much something costs."
+    },
+    {
+      "id": "hsk-test-018",
+      "type": "test",
+      "section": "listening",
+      "topic": "HSK Test Prep",
+      "zh": "这些衣服都很漂亮。",
+      "py": "Zhèxiē yīfu dōu hěn piàoliang.",
+      "en": "All these clothes are beautiful.",
+      "question": "What does the speaker say?",
+      "choices": [
+        "These apples are expensive.",
+        "All these clothes are beautiful.",
+        "These clothes are too small."
+      ],
+      "answer": 1,
+      "explanation": "都 means all; 漂亮 means beautiful."
+    },
+    {
+      "id": "hsk-test-019",
+      "type": "test",
+      "section": "listening",
+      "topic": "HSK Test Prep",
+      "zh": "你怎么来的？",
+      "py": "Nǐ zěnme lái de?",
+      "en": "How did you come here?",
+      "question": "What is being asked?",
+      "choices": [
+        "How did you get here?",
+        "When did you arrive?",
+        "Where are you going?"
+      ],
+      "answer": 0,
+      "explanation": "怎么来的 asks how someone came."
+    },
+    {
+      "id": "hsk-test-020",
+      "type": "test",
+      "section": "listening",
+      "topic": "HSK Test Prep",
+      "zh": "我坐飞机来的。",
+      "py": "Wǒ zuò fēijī lái de.",
+      "en": "I came by plane.",
+      "question": "How did the speaker come?",
+      "choices": [
+        "By taxi.",
+        "On foot.",
+        "By plane."
+      ],
+      "answer": 2,
+      "explanation": "坐飞机 means travel by plane."
+    },
+    {
+      "id": "hsk-test-021",
+      "type": "test",
+      "section": "reading",
+      "topic": "HSK Test Prep",
+      "zh": "我很好。",
+      "py": "Wǒ hěn hǎo.",
+      "en": "I'm well",
+      "question": "What does the sentence mean?",
+      "choices": [
+        "I am a teacher.",
+        "I am very tired.",
+        "I am well."
+      ],
+      "answer": 2,
+      "explanation": "很好 means well/very good."
+    },
+    {
+      "id": "hsk-test-022",
+      "type": "test",
+      "section": "reading",
+      "topic": "HSK Test Prep",
+      "zh": "对不起。",
+      "py": "Duìbuqǐ.",
+      "en": "Sorry",
+      "question": "Choose the best meaning.",
+      "choices": [
+        "Hello.",
+        "Sorry.",
+        "Thank you."
+      ],
+      "answer": 1,
+      "explanation": "对不起 is an apology."
+    },
+    {
+      "id": "hsk-test-023",
+      "type": "test",
+      "section": "reading",
+      "topic": "HSK Test Prep",
+      "zh": "你叫什么名字？",
+      "py": "Nǐ jiào shénme míngzi?",
+      "en": "What's your name?",
+      "question": "What information is requested?",
+      "choices": [
+        "Your name.",
+        "Your age.",
+        "Your job."
+      ],
+      "answer": 0,
+      "explanation": "叫什么名字 asks a person's name."
+    },
+    {
+      "id": "hsk-test-024",
+      "type": "test",
+      "section": "reading",
+      "topic": "HSK Test Prep",
+      "zh": "这是我的书。",
+      "py": "Zhè shì wǒ de shū.",
+      "en": "This is my book",
+      "question": "Whose book is this?",
+      "choices": [
+        "His.",
+        "Hers.",
+        "Mine."
+      ],
+      "answer": 2,
+      "explanation": "我的 means my."
+    },
+    {
+      "id": "hsk-test-025",
+      "type": "test",
+      "section": "reading",
+      "topic": "HSK Test Prep",
+      "zh": "我有一个女儿。",
+      "py": "Wǒ yǒu yī ge nǚ’ér.",
+      "en": "I have one daughter",
+      "question": "Who does the speaker have?",
+      "choices": [
+        "A teacher.",
+        "A daughter.",
+        "A son."
+      ],
+      "answer": 1,
+      "explanation": "女儿 means daughter."
+    },
+    {
+      "id": "hsk-test-026",
+      "type": "test",
+      "section": "reading",
+      "topic": "HSK Test Prep",
+      "zh": "你会写字吗？",
+      "py": "Nǐ huì xiě zì ma?",
+      "en": "Can you write characters?",
+      "question": "What ability is the question about?",
+      "choices": [
+        "Writing characters.",
+        "Speaking English.",
+        "Reading a newspaper."
+      ],
+      "answer": 0,
+      "explanation": "会写字 means can write characters."
+    },
+    {
+      "id": "hsk-test-027",
+      "type": "test",
+      "section": "reading",
+      "topic": "HSK Test Prep",
+      "zh": "今天是五号。",
+      "py": "Jīntiān shì wǔ hào.",
+      "en": "Today is the fifth",
+      "question": "What date is given?",
+      "choices": [
+        "The fifteenth.",
+        "The first.",
+        "The fifth."
+      ],
+      "answer": 2,
+      "explanation": "五号 is the fifth day of the month."
+    },
+    {
+      "id": "hsk-test-028",
+      "type": "test",
+      "section": "reading",
+      "topic": "HSK Test Prep",
+      "zh": "这个杯子十块钱。",
+      "py": "Zhè ge bēizi shí kuài qián.",
+      "en": "This cup costs ten yuan",
+      "question": "How much does the cup cost?",
+      "choices": [
+        "Five yuan.",
+        "Ten yuan.",
+        "Eight yuan."
+      ],
+      "answer": 1,
+      "explanation": "十块钱 means ten yuan."
+    },
+    {
+      "id": "hsk-test-029",
+      "type": "test",
+      "section": "reading",
+      "topic": "HSK Test Prep",
+      "zh": "我妈妈在医院工作。",
+      "py": "Wǒ māma zài yīyuàn gōngzuò.",
+      "en": "My mum works at a hospital",
+      "question": "Where does the speaker's mother work?",
+      "choices": [
+        "At a hospital.",
+        "At a school.",
+        "At a shop."
+      ],
+      "answer": 0,
+      "explanation": "医院 means hospital."
+    },
+    {
+      "id": "hsk-test-030",
+      "type": "test",
+      "section": "reading",
+      "topic": "HSK Test Prep",
+      "zh": "桌子下面有猫。",
+      "py": "Zhuōzi xiàmiàn yǒu māo.",
+      "en": "There's a cat under the table",
+      "question": "Where is the cat?",
+      "choices": [
+        "On the table.",
+        "Behind the door.",
+        "Under the table."
+      ],
+      "answer": 2,
+      "explanation": "下面 means below or under."
+    },
+    {
+      "id": "hsk-test-031",
+      "type": "test",
+      "section": "reading",
+      "topic": "HSK Test Prep",
+      "zh": "你几点回家？",
+      "py": "Nǐ jǐ diǎn huí jiā?",
+      "en": "What time are you going home?",
+      "question": "What is the speaker asking?",
+      "choices": [
+        "Who is at home?",
+        "When are you going home?",
+        "Where is your home?"
+      ],
+      "answer": 1,
+      "explanation": "几点 asks for a clock time."
+    },
+    {
+      "id": "hsk-test-032",
+      "type": "test",
+      "section": "reading",
+      "topic": "HSK Test Prep",
+      "zh": "我下午三点回家。",
+      "py": "Wǒ xiàwǔ sān diǎn huí jiā.",
+      "en": "I go home at three in the afternoon.",
+      "question": "When does the speaker go home?",
+      "choices": [
+        "3 p.m.",
+        "3 a.m.",
+        "Noon."
+      ],
+      "answer": 0,
+      "explanation": "下午 means afternoon; 三点 is three."
+    },
+    {
+      "id": "hsk-test-033",
+      "type": "test",
+      "section": "reading",
+      "topic": "HSK Test Prep",
+      "zh": "明天会下雨吗？",
+      "py": "Míngtiān huì xiàyǔ ma?",
+      "en": "Will it rain tomorrow?",
+      "question": "What is the question about?",
+      "choices": [
+        "Whether it is hot today.",
+        "Whether it snowed yesterday.",
+        "Whether it will rain tomorrow."
+      ],
+      "answer": 2,
+      "explanation": "会下雨吗 asks if rain will occur."
+    },
+    {
+      "id": "hsk-test-034",
+      "type": "test",
+      "section": "reading",
+      "topic": "HSK Test Prep",
+      "zh": "我想喝水。",
+      "py": "Wǒ xiǎng hē shuǐ.",
+      "en": "I want to drink water.",
+      "question": "What does the speaker want?",
+      "choices": [
+        "Rice.",
+        "Water.",
+        "Tea."
+      ],
+      "answer": 1,
+      "explanation": "想喝水 means want to drink water."
+    },
+    {
+      "id": "hsk-test-035",
+      "type": "test",
+      "section": "reading",
+      "topic": "HSK Test Prep",
+      "zh": "我在学习汉语。",
+      "py": "Wǒ zài xuéxí hànyǔ.",
+      "en": "I'm studying Chinese.",
+      "question": "What is the speaker doing?",
+      "choices": [
+        "Studying Chinese.",
+        "Watching TV.",
+        "Working at school."
+      ],
+      "answer": 0,
+      "explanation": "在学习 means is studying."
+    },
+    {
+      "id": "hsk-test-036",
+      "type": "test",
+      "section": "reading",
+      "topic": "HSK Test Prep",
+      "zh": "我现在在学做饭。",
+      "py": "Wǒ xiànzài zài xué zuò fàn.",
+      "en": "I'm learning to cook now.",
+      "question": "What is the speaker learning?",
+      "choices": [
+        "To drive.",
+        "To read a newspaper.",
+        "To cook."
+      ],
+      "answer": 2,
+      "explanation": "学做饭 means learn to cook."
+    },
+    {
+      "id": "hsk-test-037",
+      "type": "test",
+      "section": "reading",
+      "topic": "HSK Test Prep",
+      "zh": "他买了不少东西。",
+      "py": "Tā mǎi le bù shǎo dōngxi.",
+      "en": "He bought quite a few things.",
+      "question": "What did he do?",
+      "choices": [
+        "Saw some friends.",
+        "Bought quite a few things.",
+        "Sold many clothes."
+      ],
+      "answer": 1,
+      "explanation": "买了 indicates buying; 不少 means quite a few."
+    },
+    {
+      "id": "hsk-test-038",
+      "type": "test",
+      "section": "reading",
+      "topic": "HSK Test Prep",
+      "zh": "我买了三件衣服。",
+      "py": "Wǒ mǎi le sān jiàn yīfu.",
+      "en": "I bought three items of clothing.",
+      "question": "How many pieces of clothing were bought?",
+      "choices": [
+        "Three.",
+        "Two.",
+        "Four."
+      ],
+      "answer": 0,
+      "explanation": "三件衣服 means three pieces of clothing."
+    },
+    {
+      "id": "hsk-test-039",
+      "type": "test",
+      "section": "reading",
+      "topic": "HSK Test Prep",
+      "zh": "我坐出租车去饭店。",
+      "py": "Wǒ zuò chūzūchē qù fàndiàn.",
+      "en": "I take a taxi to the hotel.",
+      "question": "How is the speaker travelling?",
+      "choices": [
+        "By plane.",
+        "On foot.",
+        "By taxi."
+      ],
+      "answer": 2,
+      "explanation": "坐出租车 means travel by taxi."
+    },
+    {
+      "id": "hsk-test-040",
+      "type": "test",
+      "section": "reading",
+      "topic": "HSK Test Prep",
+      "zh": "我很高兴认识你。",
+      "py": "Wǒ hěn gāoxìng rènshi nǐ.",
+      "en": "I'm very happy to meet you.",
+      "question": "How does the speaker feel?",
+      "choices": [
+        "Tired after work.",
+        "Happy to meet you.",
+        "Angry about the weather."
+      ],
+      "answer": 1,
+      "explanation": "高兴认识你 means pleased to meet you."
+    }
+  ]
+}
