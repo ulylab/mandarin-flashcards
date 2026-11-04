@@ -1,7 +1,7 @@
 // Offline support for GitHub Pages. Updating this file causes the cache to refresh.
-const CACHE = 'mandarin-flashcards-static-v11';
+const CACHE = 'mandarin-flashcards-static-v12';
 const CORE = ['./', 'index.html', 'css/styles.css', 'js/app.js',
-  'js/storage.js', 'js/scheduler.js', 'data/manifest.json', 'manifest.webmanifest'];
+  'js/storage.js', 'js/scheduler.js', 'js/banks.js', 'data/manifest.json', 'manifest.webmanifest'];
 
 self.addEventListener('install', event => event.waitUntil((async () => {
   const cache = await caches.open(CACHE);
