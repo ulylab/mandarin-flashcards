@@ -1,6 +1,6 @@
 # Mandarin Flashcards
 
-A lightweight, mobile-friendly Mandarin study app hosted as a static website (GitHub Pages). The app contains 335 cards, including extended HSK 1 terms and vocabulary from prior lessons.
+A lightweight, mobile-friendly Mandarin study app hosted as a static website (GitHub Pages). The app contains **794 cards**: 504 vocabulary, 250 sentence cards, and 40 original HSK 1 test-preparation questions.
 
 ## Adding vocabulary
 
@@ -56,3 +56,30 @@ original 335 word card IDs. Grading, favorites, and history are tracked by ID.
 To extend, add a JSON pack conforming to the sentence schema and register
 it in `data/manifest.json`. Run `python tools/validate.py` before publishing.
 Hard means **longer construction**, not substantially harder vocabulary.
+
+## HSK Standard Course 1: all 15 chapters
+
+The existing **169 HSK Book 1 word cards** have permanent IDs and lesson metadata.
+Words from all 15 lessons can be studied through the corresponding **HSK 1 · Chapter 1–15** banks,
+or together in the original **HSK Book 1 vocabulary** bank. These are *additional bank
+memberships*, not duplicate cards: selecting both banks does not duplicate a question or
+reset progress. The six book words without a chapter assignment remain in the general bank.
+
+Chapters **11–15** add 50 new sentence cards (10 per chapter) with word-by-word breakdowns,
+pinyin and English. The topics are time, weather, ongoing actions, shopping and transport.
+They respect the existing sentence-card toggle and scheduling history.
+
+## HSK Test Prep (Book 1 / older HSK 1)
+
+Select **HSK Test Prep** under Settings → Question banks to review 40 original practice
+questions: **20 listening** and **20 reading**, each with three choices, the correct answer
+and an explanation on the reverse. Listening questions hide the Chinese text on the
+front and use the browser's Chinese text-to-speech engine for playback (speech quality
+and voice availability vary by browser). Reading questions display Chinese text and
+optional pinyin. Use **Study again** / **Got it** to self-grade after flipping.
+
+This is **supplementary practice**, not an official mock exam or a replacement for
+authentic recorded listening tests. It follows **HSK Standard Course 1**, based on the
+older 150-word HSK 1 syllabus (HSK 2.0). **HSK 3.0 officially launches on 13 December 2026**
+and has a different, larger vocabulary syllabus. Consult the exam centre and its
+current syllabus before choosing exam preparation materials.

@@ -51,8 +51,10 @@ export function nextCard(cards, history, stars, options, recent = [], now = Date
 
   // Favor underrepresented topics / chapters and difficulties in the recent window.
   const recentCards = recent.map(id => pool.find(c => c.id === id)).filter(Boolean);
-  const chapter = card => card.topic?.startsWith('HSK 1 · Chapter ')
-    ? card.topic : (card.sourcePack || card.topic || 'other');
+  const chapter = card => card.topic === 'HSK Book 1 vocabulary' && Number.isInteger(card.lesson)
+    ? `HSK 1 · Chapter ${card.lesson}`
+    : card.topic?.startsWith('HSK 1 · Chapter ')
+      ? card.topic : (card.sourcePack || card.topic || 'other');
   const weight = card => {
     const sameTopic = recentCards.filter(c => chapter(c) === chapter(card)).length;
     const sameDifficulty = card.difficulty

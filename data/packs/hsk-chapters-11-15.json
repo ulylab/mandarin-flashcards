@@ -1,0 +1,1902 @@
+{
+  "id": "hsk-chapters-11-15",
+  "label": "HSK 1 chapters 11–15 · 50 sentence cards",
+  "type": "sentence",
+  "cards": [
+    {
+      "id": "sentence-easy-ch11-01",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "hsk-book1-vocabulary",
+      "topic": "HSK 1 · Chapter 11",
+      "zh": "现在几点？",
+      "py": "Xiànzài jǐ diǎn?",
+      "en": "What time is it now?",
+      "breakdown": [
+        {
+          "zh": "现在",
+          "py": "xiànzài",
+          "en": "now"
+        },
+        {
+          "zh": "几",
+          "py": "jǐ",
+          "en": "how many (small number)"
+        },
+        {
+          "zh": "点",
+          "py": "diǎn",
+          "en": "o’clock"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch11-02",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "hsk-book1-vocabulary",
+      "topic": "HSK 1 · Chapter 11",
+      "zh": "现在八点。",
+      "py": "Xiànzài bā diǎn.",
+      "en": "It's eight o'clock now.",
+      "breakdown": [
+        {
+          "zh": "现在",
+          "py": "xiànzài",
+          "en": "now"
+        },
+        {
+          "zh": "八",
+          "py": "bā",
+          "en": "eight"
+        },
+        {
+          "zh": "点",
+          "py": "diǎn",
+          "en": "o’clock"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch11-03",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "hsk-book1-vocabulary",
+      "topic": "HSK 1 · Chapter 11",
+      "zh": "我中午吃饭。",
+      "py": "Wǒ zhōngwǔ chī fàn.",
+      "en": "I eat lunch at noon.",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "中午",
+          "py": "zhōngwǔ",
+          "en": "noon"
+        },
+        {
+          "zh": "吃饭",
+          "py": "chī fàn",
+          "en": "to eat a meal"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-ch11-04",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "hsk-book1-vocabulary",
+      "topic": "HSK 1 · Chapter 11",
+      "zh": "你几点回家？",
+      "py": "Nǐ jǐ diǎn huí jiā?",
+      "en": "What time are you going home?",
+      "breakdown": [
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "en": "you"
+        },
+        {
+          "zh": "几",
+          "py": "jǐ",
+          "en": "how many (small number)"
+        },
+        {
+          "zh": "点",
+          "py": "diǎn",
+          "en": "o’clock"
+        },
+        {
+          "zh": "回",
+          "py": "huí",
+          "en": "return"
+        },
+        {
+          "zh": "家",
+          "py": "jiā",
+          "en": "home / family"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-ch11-05",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "hsk-book1-vocabulary",
+      "topic": "HSK 1 · Chapter 11",
+      "zh": "我们八点看电影。",
+      "py": "Wǒmen bā diǎn kàn diànyǐng.",
+      "en": "We watch a movie at eight.",
+      "breakdown": [
+        {
+          "zh": "我们",
+          "py": "wǒmen",
+          "en": "we / us"
+        },
+        {
+          "zh": "八",
+          "py": "bā",
+          "en": "eight"
+        },
+        {
+          "zh": "点",
+          "py": "diǎn",
+          "en": "o’clock"
+        },
+        {
+          "zh": "看",
+          "py": "kàn",
+          "en": "to look / read / watch"
+        },
+        {
+          "zh": "电影",
+          "py": "diànyǐng",
+          "en": "movie"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-ch11-06",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "hsk-book1-vocabulary",
+      "topic": "HSK 1 · Chapter 11",
+      "zh": "我上午九点工作。",
+      "py": "Wǒ shàngwǔ jiǔ diǎn gōngzuò.",
+      "en": "I work at nine in the morning.",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "上午",
+          "py": "shàngwǔ",
+          "en": "morning"
+        },
+        {
+          "zh": "九",
+          "py": "jiǔ",
+          "en": "nine"
+        },
+        {
+          "zh": "点",
+          "py": "diǎn",
+          "en": "o’clock"
+        },
+        {
+          "zh": "工作",
+          "py": "gōngzuò",
+          "en": "to work / work"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-ch11-07",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "hsk-book1-vocabulary",
+      "topic": "HSK 1 · Chapter 11",
+      "zh": "现在九点十分。",
+      "py": "Xiànzài jiǔ diǎn shí fēn.",
+      "en": "It's 9:10 now.",
+      "breakdown": [
+        {
+          "zh": "现在",
+          "py": "xiànzài",
+          "en": "now"
+        },
+        {
+          "zh": "九",
+          "py": "jiǔ",
+          "en": "nine"
+        },
+        {
+          "zh": "点",
+          "py": "diǎn",
+          "en": "o’clock"
+        },
+        {
+          "zh": "十",
+          "py": "shí",
+          "en": "ten"
+        },
+        {
+          "zh": "分",
+          "py": "fēn",
+          "en": "minute"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-ch11-08",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "hsk-book1-vocabulary",
+      "topic": "HSK 1 · Chapter 11",
+      "zh": "我下午三点回家。",
+      "py": "Wǒ xiàwǔ sān diǎn huí jiā.",
+      "en": "I go home at three in the afternoon.",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "下午",
+          "py": "xiàwǔ",
+          "en": "afternoon"
+        },
+        {
+          "zh": "三",
+          "py": "sān",
+          "en": "three"
+        },
+        {
+          "zh": "点",
+          "py": "diǎn",
+          "en": "o’clock"
+        },
+        {
+          "zh": "回",
+          "py": "huí",
+          "en": "return"
+        },
+        {
+          "zh": "家",
+          "py": "jiā",
+          "en": "home / family"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-ch11-09",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "hsk-book1-vocabulary",
+      "topic": "HSK 1 · Chapter 11",
+      "zh": "你什么时候来我家？",
+      "py": "Nǐ shénme shíhou lái wǒ jiā?",
+      "en": "When will you come to my home?",
+      "breakdown": [
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "en": "you"
+        },
+        {
+          "zh": "什么",
+          "py": "shénme",
+          "en": "what"
+        },
+        {
+          "zh": "时候",
+          "py": "shíhou",
+          "en": "time moment"
+        },
+        {
+          "zh": "来",
+          "py": "lái",
+          "en": "to come"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "家",
+          "py": "jiā",
+          "en": "home / family"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-ch11-10",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "hsk-book1-vocabulary",
+      "topic": "HSK 1 · Chapter 11",
+      "zh": "我们下午两点去学校。",
+      "py": "Wǒmen xiàwǔ liǎng diǎn qù xuéxiào.",
+      "en": "We go to school at two in the afternoon.",
+      "breakdown": [
+        {
+          "zh": "我们",
+          "py": "wǒmen",
+          "en": "we / us"
+        },
+        {
+          "zh": "下午",
+          "py": "xiàwǔ",
+          "en": "afternoon"
+        },
+        {
+          "zh": "两",
+          "py": "liǎng",
+          "en": "two (before a measure word)"
+        },
+        {
+          "zh": "点",
+          "py": "diǎn",
+          "en": "o’clock"
+        },
+        {
+          "zh": "去",
+          "py": "qù",
+          "en": "to go"
+        },
+        {
+          "zh": "学校",
+          "py": "xuéxiào",
+          "en": "school"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch12-01",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "hsk-book1-vocabulary",
+      "topic": "HSK 1 · Chapter 12",
+      "zh": "今天很热。",
+      "py": "Jīntiān hěn rè.",
+      "en": "It's very hot today.",
+      "breakdown": [
+        {
+          "zh": "今天",
+          "py": "jīntiān",
+          "en": "today"
+        },
+        {
+          "zh": "很",
+          "py": "hěn",
+          "en": "very / linking adjective"
+        },
+        {
+          "zh": "热",
+          "py": "rè",
+          "en": "hot"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch12-02",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "hsk-book1-vocabulary",
+      "topic": "HSK 1 · Chapter 12",
+      "zh": "明天天气怎么样？",
+      "py": "Míngtiān tiānqì zěnmeyàng?",
+      "en": "What will the weather be like tomorrow?",
+      "breakdown": [
+        {
+          "zh": "明天",
+          "py": "míngtiān",
+          "en": "tomorrow"
+        },
+        {
+          "zh": "天气",
+          "py": "tiānqì",
+          "en": "weather"
+        },
+        {
+          "zh": "怎么样",
+          "py": "zěnmeyàng",
+          "en": "how is it"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch12-03",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "hsk-book1-vocabulary",
+      "topic": "HSK 1 · Chapter 12",
+      "zh": "我想喝水。",
+      "py": "Wǒ xiǎng hē shuǐ.",
+      "en": "I want to drink water.",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "想",
+          "py": "xiǎng",
+          "en": "want / think"
+        },
+        {
+          "zh": "喝",
+          "py": "hē",
+          "en": "to drink"
+        },
+        {
+          "zh": "水",
+          "py": "shuǐ",
+          "en": "water"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-ch12-04",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "hsk-book1-vocabulary",
+      "topic": "HSK 1 · Chapter 12",
+      "zh": "今天太冷了。",
+      "py": "Jīntiān tài lěng le.",
+      "en": "It's too cold today.",
+      "breakdown": [
+        {
+          "zh": "今天",
+          "py": "jīntiān",
+          "en": "today"
+        },
+        {
+          "zh": "太",
+          "py": "tài",
+          "en": "too very"
+        },
+        {
+          "zh": "冷",
+          "py": "lěng",
+          "en": "cold"
+        },
+        {
+          "zh": "了",
+          "py": "le",
+          "en": "completion particle"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-ch12-05",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "hsk-book1-vocabulary",
+      "topic": "HSK 1 · Chapter 12",
+      "zh": "明天会下雨吗？",
+      "py": "Míngtiān huì xiàyǔ ma?",
+      "en": "Will it rain tomorrow?",
+      "breakdown": [
+        {
+          "zh": "明天",
+          "py": "míngtiān",
+          "en": "tomorrow"
+        },
+        {
+          "zh": "会",
+          "py": "huì",
+          "en": "can (learned skill)"
+        },
+        {
+          "zh": "下雨",
+          "py": "xiàyǔ",
+          "en": "rain (verb)"
+        },
+        {
+          "zh": "吗",
+          "py": "ma",
+          "en": "yes-no question particle"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-ch12-06",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "hsk-book1-vocabulary",
+      "topic": "HSK 1 · Chapter 12",
+      "zh": "今天天气很好。",
+      "py": "Jīntiān tiānqì hěn hǎo.",
+      "en": "The weather is good today.",
+      "breakdown": [
+        {
+          "zh": "今天",
+          "py": "jīntiān",
+          "en": "today"
+        },
+        {
+          "zh": "天气",
+          "py": "tiānqì",
+          "en": "weather"
+        },
+        {
+          "zh": "很",
+          "py": "hěn",
+          "en": "very / linking adjective"
+        },
+        {
+          "zh": "好",
+          "py": "hǎo",
+          "en": "good"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-ch12-07",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "hsk-book1-vocabulary",
+      "topic": "HSK 1 · Chapter 12",
+      "zh": "天气热，我想吃水果。",
+      "py": "Tiānqì rè, wǒ xiǎng chī shuǐguǒ.",
+      "en": "It's hot, so I want to eat some fruit.",
+      "breakdown": [
+        {
+          "zh": "天气",
+          "py": "tiānqì",
+          "en": "weather"
+        },
+        {
+          "zh": "热",
+          "py": "rè",
+          "en": "hot"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "想",
+          "py": "xiǎng",
+          "en": "want / think"
+        },
+        {
+          "zh": "吃",
+          "py": "chī",
+          "en": "to eat"
+        },
+        {
+          "zh": "水果",
+          "py": "shuǐguǒ",
+          "en": "fruit"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-ch12-08",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "hsk-book1-vocabulary",
+      "topic": "HSK 1 · Chapter 12",
+      "zh": "明天下雨，我不去学校。",
+      "py": "Míngtiān xiàyǔ, wǒ bù qù xuéxiào.",
+      "en": "If it rains tomorrow, I won't go to school.",
+      "breakdown": [
+        {
+          "zh": "明天",
+          "py": "míngtiān",
+          "en": "tomorrow"
+        },
+        {
+          "zh": "下雨",
+          "py": "xiàyǔ",
+          "en": "rain (verb)"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "不",
+          "py": "bù",
+          "en": "not / no"
+        },
+        {
+          "zh": "去",
+          "py": "qù",
+          "en": "to go"
+        },
+        {
+          "zh": "学校",
+          "py": "xuéxiào",
+          "en": "school"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-ch12-09",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "hsk-book1-vocabulary",
+      "topic": "HSK 1 · Chapter 12",
+      "zh": "今天很冷，你想喝茶吗？",
+      "py": "Jīntiān hěn lěng, nǐ xiǎng hē chá ma?",
+      "en": "It's cold today. Do you want some tea?",
+      "breakdown": [
+        {
+          "zh": "今天",
+          "py": "jīntiān",
+          "en": "today"
+        },
+        {
+          "zh": "很",
+          "py": "hěn",
+          "en": "very / linking adjective"
+        },
+        {
+          "zh": "冷",
+          "py": "lěng",
+          "en": "cold"
+        },
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "en": "you"
+        },
+        {
+          "zh": "想",
+          "py": "xiǎng",
+          "en": "want / think"
+        },
+        {
+          "zh": "喝",
+          "py": "hē",
+          "en": "to drink"
+        },
+        {
+          "zh": "茶",
+          "py": "chá",
+          "en": "tea"
+        },
+        {
+          "zh": "吗",
+          "py": "ma",
+          "en": "yes-no question particle"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-ch12-10",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "hsk-book1-vocabulary",
+      "topic": "HSK 1 · Chapter 12",
+      "zh": "明天不下雨，我们去买水果。",
+      "py": "Míngtiān bù xiàyǔ, wǒmen qù mǎi shuǐguǒ.",
+      "en": "If it doesn't rain tomorrow, we'll go buy fruit.",
+      "breakdown": [
+        {
+          "zh": "明天",
+          "py": "míngtiān",
+          "en": "tomorrow"
+        },
+        {
+          "zh": "不",
+          "py": "bù",
+          "en": "not / no"
+        },
+        {
+          "zh": "下雨",
+          "py": "xiàyǔ",
+          "en": "rain (verb)"
+        },
+        {
+          "zh": "我们",
+          "py": "wǒmen",
+          "en": "we / us"
+        },
+        {
+          "zh": "去",
+          "py": "qù",
+          "en": "to go"
+        },
+        {
+          "zh": "买",
+          "py": "mǎi",
+          "en": "to buy"
+        },
+        {
+          "zh": "水果",
+          "py": "shuǐguǒ",
+          "en": "fruit"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch13-01",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "hsk-book1-vocabulary",
+      "topic": "HSK 1 · Chapter 13",
+      "zh": "你在做什么？",
+      "py": "Nǐ zài zuò shénme?",
+      "en": "What are you doing?",
+      "breakdown": [
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "en": "you"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in / located"
+        },
+        {
+          "zh": "做",
+          "py": "zuò",
+          "en": "do make"
+        },
+        {
+          "zh": "什么",
+          "py": "shénme",
+          "en": "what"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch13-02",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "hsk-book1-vocabulary",
+      "topic": "HSK 1 · Chapter 13",
+      "zh": "我在学习汉语。",
+      "py": "Wǒ zài xuéxí hànyǔ.",
+      "en": "I'm studying Chinese.",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in / located"
+        },
+        {
+          "zh": "学习",
+          "py": "xuéxí",
+          "en": "to study"
+        },
+        {
+          "zh": "汉语",
+          "py": "hànyǔ",
+          "en": "Chinese language"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch13-03",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "hsk-book1-vocabulary",
+      "topic": "HSK 1 · Chapter 13",
+      "zh": "他在看电视。",
+      "py": "Tā zài kàn diànshì.",
+      "en": "He's watching TV.",
+      "breakdown": [
+        {
+          "zh": "他",
+          "py": "tā",
+          "en": "he / him"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in / located"
+        },
+        {
+          "zh": "看",
+          "py": "kàn",
+          "en": "to look / read / watch"
+        },
+        {
+          "zh": "电视",
+          "py": "diànshì",
+          "en": "television"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-ch13-04",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "hsk-book1-vocabulary",
+      "topic": "HSK 1 · Chapter 13",
+      "zh": "妈妈在做饭。",
+      "py": "Māma zài zuò fàn.",
+      "en": "Mom is cooking.",
+      "breakdown": [
+        {
+          "zh": "妈妈",
+          "py": "māma",
+          "en": "mom / mother"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in / located"
+        },
+        {
+          "zh": "做饭",
+          "py": "zuò fàn",
+          "en": "to cook"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-ch13-05",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "hsk-book1-vocabulary",
+      "topic": "HSK 1 · Chapter 13",
+      "zh": "你喜欢中国菜吗？",
+      "py": "Nǐ xǐhuan zhōngguó cài ma?",
+      "en": "Do you like Chinese food?",
+      "breakdown": [
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "en": "you"
+        },
+        {
+          "zh": "喜欢",
+          "py": "xǐhuan",
+          "en": "to like"
+        },
+        {
+          "zh": "中国",
+          "py": "zhōngguó",
+          "en": "China"
+        },
+        {
+          "zh": "菜",
+          "py": "cài",
+          "en": "dish vegetables"
+        },
+        {
+          "zh": "吗",
+          "py": "ma",
+          "en": "yes-no question particle"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-ch13-06",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "hsk-book1-vocabulary",
+      "topic": "HSK 1 · Chapter 13",
+      "zh": "我现在在学做饭。",
+      "py": "Wǒ xiànzài zài xué zuò fàn.",
+      "en": "I'm learning to cook now.",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "现在",
+          "py": "xiànzài",
+          "en": "now"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in / located"
+        },
+        {
+          "zh": "学",
+          "py": "xué",
+          "en": "learn"
+        },
+        {
+          "zh": "做饭",
+          "py": "zuò fàn",
+          "en": "to cook"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-ch13-07",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "hsk-book1-vocabulary",
+      "topic": "HSK 1 · Chapter 13",
+      "zh": "他在打电话呢。",
+      "py": "Tā zài dǎ diànhuà ne.",
+      "en": "He's on the phone right now.",
+      "breakdown": [
+        {
+          "zh": "他",
+          "py": "tā",
+          "en": "he / him"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in / located"
+        },
+        {
+          "zh": "打电话",
+          "py": "dǎ diànhuà",
+          "en": "call by phone"
+        },
+        {
+          "zh": "呢",
+          "py": "ne",
+          "en": "and what about...?"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-ch13-08",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "hsk-book1-vocabulary",
+      "topic": "HSK 1 · Chapter 13",
+      "zh": "我在看书，爸爸在看电视。",
+      "py": "Wǒ zài kàn shū, bàba zài kàn diànshì.",
+      "en": "I'm reading while Dad watches TV.",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in / located"
+        },
+        {
+          "zh": "看",
+          "py": "kàn",
+          "en": "to look / read / watch"
+        },
+        {
+          "zh": "书",
+          "py": "shū",
+          "en": "book"
+        },
+        {
+          "zh": "爸爸",
+          "py": "bàba",
+          "en": "dad / father"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in / located"
+        },
+        {
+          "zh": "看",
+          "py": "kàn",
+          "en": "to look / read / watch"
+        },
+        {
+          "zh": "电视",
+          "py": "diànshì",
+          "en": "television"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-ch13-09",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "hsk-book1-vocabulary",
+      "topic": "HSK 1 · Chapter 13",
+      "zh": "你在学校学汉语吗？",
+      "py": "Nǐ zài xuéxiào xué hànyǔ ma?",
+      "en": "Are you studying Chinese at school?",
+      "breakdown": [
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "en": "you"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in / located"
+        },
+        {
+          "zh": "学校",
+          "py": "xuéxiào",
+          "en": "school"
+        },
+        {
+          "zh": "学",
+          "py": "xué",
+          "en": "learn"
+        },
+        {
+          "zh": "汉语",
+          "py": "hànyǔ",
+          "en": "Chinese language"
+        },
+        {
+          "zh": "吗",
+          "py": "ma",
+          "en": "yes-no question particle"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-ch13-10",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "hsk-book1-vocabulary",
+      "topic": "HSK 1 · Chapter 13",
+      "zh": "我妈妈上午工作，下午学习汉语。",
+      "py": "Wǒ māma shàngwǔ gōngzuò, xiàwǔ xuéxí hànyǔ.",
+      "en": "My mom works in the morning and studies Chinese in the afternoon.",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "妈妈",
+          "py": "māma",
+          "en": "mom / mother"
+        },
+        {
+          "zh": "上午",
+          "py": "shàngwǔ",
+          "en": "morning"
+        },
+        {
+          "zh": "工作",
+          "py": "gōngzuò",
+          "en": "to work / work"
+        },
+        {
+          "zh": "下午",
+          "py": "xiàwǔ",
+          "en": "afternoon"
+        },
+        {
+          "zh": "学习",
+          "py": "xuéxí",
+          "en": "to study"
+        },
+        {
+          "zh": "汉语",
+          "py": "hànyǔ",
+          "en": "Chinese language"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch14-01",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "hsk-book1-vocabulary",
+      "topic": "HSK 1 · Chapter 14",
+      "zh": "这件衣服很漂亮。",
+      "py": "Zhè jiàn yīfu hěn piàoliang.",
+      "en": "This item of clothing is beautiful.",
+      "breakdown": [
+        {
+          "zh": "这",
+          "py": "zhè",
+          "en": "this"
+        },
+        {
+          "zh": "件",
+          "py": "jiàn",
+          "en": "measure word for clothes"
+        },
+        {
+          "zh": "衣服",
+          "py": "yīfu",
+          "en": "clothes"
+        },
+        {
+          "zh": "很",
+          "py": "hěn",
+          "en": "very / linking adjective"
+        },
+        {
+          "zh": "漂亮",
+          "py": "piàoliang",
+          "en": "pretty"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch14-02",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "hsk-book1-vocabulary",
+      "topic": "HSK 1 · Chapter 14",
+      "zh": "我买了很多衣服。",
+      "py": "Wǒ mǎi le hěn duō yīfu.",
+      "en": "I bought a lot of clothes.",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "买",
+          "py": "mǎi",
+          "en": "to buy"
+        },
+        {
+          "zh": "了",
+          "py": "le",
+          "en": "completion particle"
+        },
+        {
+          "zh": "很",
+          "py": "hěn",
+          "en": "very / linking adjective"
+        },
+        {
+          "zh": "多",
+          "py": "duō",
+          "en": "many"
+        },
+        {
+          "zh": "衣服",
+          "py": "yīfu",
+          "en": "clothes"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch14-03",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "hsk-book1-vocabulary",
+      "topic": "HSK 1 · Chapter 14",
+      "zh": "这些苹果多少钱？",
+      "py": "Zhèxiē píngguǒ duōshao qián?",
+      "en": "How much are these apples?",
+      "breakdown": [
+        {
+          "zh": "这些",
+          "py": "zhèxiē",
+          "en": "these"
+        },
+        {
+          "zh": "苹果",
+          "py": "píngguǒ",
+          "en": "apple"
+        },
+        {
+          "zh": "多少",
+          "py": "duōshao",
+          "en": "how many / how much"
+        },
+        {
+          "zh": "钱",
+          "py": "qián",
+          "en": "money"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-ch14-04",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "hsk-book1-vocabulary",
+      "topic": "HSK 1 · Chapter 14",
+      "zh": "我看见你了。",
+      "py": "Wǒ kànjiàn nǐ le.",
+      "en": "I saw you.",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "看见",
+          "py": "kànjiàn",
+          "en": "see"
+        },
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "en": "you"
+        },
+        {
+          "zh": "了",
+          "py": "le",
+          "en": "completion particle"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-ch14-05",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "hsk-book1-vocabulary",
+      "topic": "HSK 1 · Chapter 14",
+      "zh": "他买了不少东西。",
+      "py": "Tā mǎi le bù shǎo dōngxi.",
+      "en": "He bought quite a few things.",
+      "breakdown": [
+        {
+          "zh": "他",
+          "py": "tā",
+          "en": "he / him"
+        },
+        {
+          "zh": "买",
+          "py": "mǎi",
+          "en": "to buy"
+        },
+        {
+          "zh": "了",
+          "py": "le",
+          "en": "completion particle"
+        },
+        {
+          "zh": "不少",
+          "py": "bù shǎo",
+          "en": "quite a few; many"
+        },
+        {
+          "zh": "东西",
+          "py": "dōngxi",
+          "en": "thing"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-ch14-06",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "hsk-book1-vocabulary",
+      "topic": "HSK 1 · Chapter 14",
+      "zh": "我想买一点儿水果。",
+      "py": "Wǒ xiǎng mǎi yìdiǎnr shuǐguǒ.",
+      "en": "I want to buy a little fruit.",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "想",
+          "py": "xiǎng",
+          "en": "want / think"
+        },
+        {
+          "zh": "买",
+          "py": "mǎi",
+          "en": "to buy"
+        },
+        {
+          "zh": "一点儿",
+          "py": "yìdiǎnr",
+          "en": "a little"
+        },
+        {
+          "zh": "水果",
+          "py": "shuǐguǒ",
+          "en": "fruit"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-ch14-07",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "hsk-book1-vocabulary",
+      "topic": "HSK 1 · Chapter 14",
+      "zh": "这些衣服都很漂亮。",
+      "py": "Zhèxiē yīfu dōu hěn piàoliang.",
+      "en": "All these clothes are beautiful.",
+      "breakdown": [
+        {
+          "zh": "这些",
+          "py": "zhèxiē",
+          "en": "these"
+        },
+        {
+          "zh": "衣服",
+          "py": "yīfu",
+          "en": "clothes"
+        },
+        {
+          "zh": "都",
+          "py": "dōu",
+          "en": "all both"
+        },
+        {
+          "zh": "很",
+          "py": "hěn",
+          "en": "very / linking adjective"
+        },
+        {
+          "zh": "漂亮",
+          "py": "piàoliang",
+          "en": "pretty"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-ch14-08",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "hsk-book1-vocabulary",
+      "topic": "HSK 1 · Chapter 14",
+      "zh": "我买了三件衣服。",
+      "py": "Wǒ mǎi le sān jiàn yīfu.",
+      "en": "I bought three items of clothing.",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "买",
+          "py": "mǎi",
+          "en": "to buy"
+        },
+        {
+          "zh": "了",
+          "py": "le",
+          "en": "completion particle"
+        },
+        {
+          "zh": "三",
+          "py": "sān",
+          "en": "three"
+        },
+        {
+          "zh": "件",
+          "py": "jiàn",
+          "en": "measure word for clothes"
+        },
+        {
+          "zh": "衣服",
+          "py": "yīfu",
+          "en": "clothes"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-ch14-09",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "hsk-book1-vocabulary",
+      "topic": "HSK 1 · Chapter 14",
+      "zh": "商店里有很多东西。",
+      "py": "Shāngdiàn lǐ yǒu hěn duō dōngxi.",
+      "en": "There are many things in the store.",
+      "breakdown": [
+        {
+          "zh": "商店",
+          "py": "shāngdiàn",
+          "en": "shop"
+        },
+        {
+          "zh": "里",
+          "py": "lǐ",
+          "en": "inside"
+        },
+        {
+          "zh": "有",
+          "py": "yǒu",
+          "en": "to have"
+        },
+        {
+          "zh": "很",
+          "py": "hěn",
+          "en": "very / linking adjective"
+        },
+        {
+          "zh": "多",
+          "py": "duō",
+          "en": "many"
+        },
+        {
+          "zh": "东西",
+          "py": "dōngxi",
+          "en": "thing"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-ch14-10",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "hsk-book1-vocabulary",
+      "topic": "HSK 1 · Chapter 14",
+      "zh": "这个商店的衣服很漂亮。",
+      "py": "Zhè gè shāngdiàn de yīfu hěn piàoliang.",
+      "en": "The clothes in this store are beautiful.",
+      "breakdown": [
+        {
+          "zh": "这",
+          "py": "zhè",
+          "en": "this"
+        },
+        {
+          "zh": "个",
+          "py": "gè",
+          "en": "general measure word"
+        },
+        {
+          "zh": "商店",
+          "py": "shāngdiàn",
+          "en": "shop"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "possessive particle"
+        },
+        {
+          "zh": "衣服",
+          "py": "yīfu",
+          "en": "clothes"
+        },
+        {
+          "zh": "很",
+          "py": "hěn",
+          "en": "very / linking adjective"
+        },
+        {
+          "zh": "漂亮",
+          "py": "piàoliang",
+          "en": "pretty"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch15-01",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "hsk-book1-vocabulary",
+      "topic": "HSK 1 · Chapter 15",
+      "zh": "我坐飞机来的。",
+      "py": "Wǒ zuò fēijī lái de.",
+      "en": "I came by plane.",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "坐",
+          "py": "zuò",
+          "en": "to sit"
+        },
+        {
+          "zh": "飞机",
+          "py": "fēijī",
+          "en": "plane"
+        },
+        {
+          "zh": "来",
+          "py": "lái",
+          "en": "to come"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "possessive particle"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch15-02",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "hsk-book1-vocabulary",
+      "topic": "HSK 1 · Chapter 15",
+      "zh": "他坐出租车。",
+      "py": "Tā zuò chūzūchē.",
+      "en": "He takes a taxi.",
+      "breakdown": [
+        {
+          "zh": "他",
+          "py": "tā",
+          "en": "he / him"
+        },
+        {
+          "zh": "坐",
+          "py": "zuò",
+          "en": "to sit"
+        },
+        {
+          "zh": "出租车",
+          "py": "chūzūchē",
+          "en": "taxi"
+        }
+      ]
+    },
+    {
+      "id": "sentence-easy-ch15-03",
+      "type": "sentence",
+      "difficulty": "easy",
+      "sourcePack": "hsk-book1-vocabulary",
+      "topic": "HSK 1 · Chapter 15",
+      "zh": "我很高兴认识你。",
+      "py": "Wǒ hěn gāoxìng rènshi nǐ.",
+      "en": "I'm very happy to meet you.",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "很",
+          "py": "hěn",
+          "en": "very / linking adjective"
+        },
+        {
+          "zh": "高兴",
+          "py": "gāoxìng",
+          "en": "happy"
+        },
+        {
+          "zh": "认识",
+          "py": "rènshi",
+          "en": "to know someone"
+        },
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "en": "you"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-ch15-04",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "hsk-book1-vocabulary",
+      "topic": "HSK 1 · Chapter 15",
+      "zh": "我坐出租车去饭店。",
+      "py": "Wǒ zuò chūzūchē qù fàndiàn.",
+      "en": "I take a taxi to the hotel.",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "坐",
+          "py": "zuò",
+          "en": "to sit"
+        },
+        {
+          "zh": "出租车",
+          "py": "chūzūchē",
+          "en": "taxi"
+        },
+        {
+          "zh": "去",
+          "py": "qù",
+          "en": "to go"
+        },
+        {
+          "zh": "饭店",
+          "py": "fàndiàn",
+          "en": "restaurant"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-ch15-05",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "hsk-book1-vocabulary",
+      "topic": "HSK 1 · Chapter 15",
+      "zh": "你怎么来的？",
+      "py": "Nǐ zěnme lái de?",
+      "en": "How did you come here?",
+      "breakdown": [
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "en": "you"
+        },
+        {
+          "zh": "怎么",
+          "py": "zěnme",
+          "en": "how"
+        },
+        {
+          "zh": "来",
+          "py": "lái",
+          "en": "to come"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "possessive particle"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-ch15-06",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "hsk-book1-vocabulary",
+      "topic": "HSK 1 · Chapter 15",
+      "zh": "我是坐出租车来的。",
+      "py": "Wǒ shì zuò chūzūchē lái de.",
+      "en": "I came by taxi.",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "坐",
+          "py": "zuò",
+          "en": "to sit"
+        },
+        {
+          "zh": "出租车",
+          "py": "chūzūchē",
+          "en": "taxi"
+        },
+        {
+          "zh": "来",
+          "py": "lái",
+          "en": "to come"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "possessive particle"
+        }
+      ]
+    },
+    {
+      "id": "sentence-medium-ch15-07",
+      "type": "sentence",
+      "difficulty": "medium",
+      "sourcePack": "hsk-book1-vocabulary",
+      "topic": "HSK 1 · Chapter 15",
+      "zh": "我们坐飞机去中国。",
+      "py": "Wǒmen zuò fēijī qù zhōngguó.",
+      "en": "We go to China by plane.",
+      "breakdown": [
+        {
+          "zh": "我们",
+          "py": "wǒmen",
+          "en": "we / us"
+        },
+        {
+          "zh": "坐",
+          "py": "zuò",
+          "en": "to sit"
+        },
+        {
+          "zh": "飞机",
+          "py": "fēijī",
+          "en": "plane"
+        },
+        {
+          "zh": "去",
+          "py": "qù",
+          "en": "to go"
+        },
+        {
+          "zh": "中国",
+          "py": "zhōngguó",
+          "en": "China"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-ch15-08",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "hsk-book1-vocabulary",
+      "topic": "HSK 1 · Chapter 15",
+      "zh": "他坐飞机来，我很高兴。",
+      "py": "Tā zuò fēijī lái, wǒ hěn gāoxìng.",
+      "en": "He is coming by plane, and I'm very happy.",
+      "breakdown": [
+        {
+          "zh": "他",
+          "py": "tā",
+          "en": "he / him"
+        },
+        {
+          "zh": "坐",
+          "py": "zuò",
+          "en": "to sit"
+        },
+        {
+          "zh": "飞机",
+          "py": "fēijī",
+          "en": "plane"
+        },
+        {
+          "zh": "来",
+          "py": "lái",
+          "en": "to come"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "很",
+          "py": "hěn",
+          "en": "very / linking adjective"
+        },
+        {
+          "zh": "高兴",
+          "py": "gāoxìng",
+          "en": "happy"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-ch15-09",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "hsk-book1-vocabulary",
+      "topic": "HSK 1 · Chapter 15",
+      "zh": "现在八点，我们九点坐飞机。",
+      "py": "Xiànzài bā diǎn, wǒmen jiǔ diǎn zuò fēijī.",
+      "en": "It's eight now; we're taking a plane at nine.",
+      "breakdown": [
+        {
+          "zh": "现在",
+          "py": "xiànzài",
+          "en": "now"
+        },
+        {
+          "zh": "八",
+          "py": "bā",
+          "en": "eight"
+        },
+        {
+          "zh": "点",
+          "py": "diǎn",
+          "en": "o’clock"
+        },
+        {
+          "zh": "我们",
+          "py": "wǒmen",
+          "en": "we / us"
+        },
+        {
+          "zh": "九",
+          "py": "jiǔ",
+          "en": "nine"
+        },
+        {
+          "zh": "点",
+          "py": "diǎn",
+          "en": "o’clock"
+        },
+        {
+          "zh": "坐",
+          "py": "zuò",
+          "en": "to sit"
+        },
+        {
+          "zh": "飞机",
+          "py": "fēijī",
+          "en": "plane"
+        }
+      ]
+    },
+    {
+      "id": "sentence-hard-ch15-10",
+      "type": "sentence",
+      "difficulty": "hard",
+      "sourcePack": "hsk-book1-vocabulary",
+      "topic": "HSK 1 · Chapter 15",
+      "zh": "我和朋友坐飞机去中国，他坐出租车去饭店。",
+      "py": "Wǒ hé péngyou zuò fēijī qù zhōngguó, tā zuò chūzūchē qù fàndiàn.",
+      "en": "My friend and I fly to China; he takes a taxi to the hotel.",
+      "breakdown": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "I / me"
+        },
+        {
+          "zh": "和",
+          "py": "hé",
+          "en": "and with"
+        },
+        {
+          "zh": "朋友",
+          "py": "péngyou",
+          "en": "friend"
+        },
+        {
+          "zh": "坐",
+          "py": "zuò",
+          "en": "to sit"
+        },
+        {
+          "zh": "飞机",
+          "py": "fēijī",
+          "en": "plane"
+        },
+        {
+          "zh": "去",
+          "py": "qù",
+          "en": "to go"
+        },
+        {
+          "zh": "中国",
+          "py": "zhōngguó",
+          "en": "China"
+        },
+        {
+          "zh": "他",
+          "py": "tā",
+          "en": "he / him"
+        },
+        {
+          "zh": "坐",
+          "py": "zuò",
+          "en": "to sit"
+        },
+        {
+          "zh": "出租车",
+          "py": "chūzūchē",
+          "en": "taxi"
+        },
+        {
+          "zh": "去",
+          "py": "qù",
+          "en": "to go"
+        },
+        {
+          "zh": "饭店",
+          "py": "fàndiàn",
+          "en": "restaurant"
+        }
+      ]
+    }
+  ]
+}

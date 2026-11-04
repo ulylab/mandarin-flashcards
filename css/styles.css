@@ -66,3 +66,23 @@
 .bank-option:last-child{border-bottom:0}
 .bank-option input{flex:none;width:18px;height:18px;accent-color:var(--green)}
 .bank-option span{min-width:0;overflow-wrap:anywhere}
+
+/* HSK Test Prep: reading questions and audio-first listening cards. */
+.card.test-card{background:#eef3fb;border:2px solid #506d9e;padding:74px 20px 46px;justify-content:flex-start}
+.test-card:not(.is-flipped) #content{margin:auto 0}
+.test-card.is-flipped #content{align-items:stretch}
+.test-card .eyebrow{color:#3d5b8a;font-weight:600}
+.test-card .difficulty-badge{background:#506d9e;color:white}
+.test-card .starbtn{top:49px;right:19px;font-size:25px}
+.test-instruction{text-align:center;color:#4e6281;line-height:1.6;font-size:15px;max-width:360px;margin:4px auto 17px}
+.test-zh{text-align:center;font-size:clamp(24px,5.5vw,34px);line-height:1.5;font-weight:600;margin:4px 0 10px}
+.test-py{text-align:center;font-size:14px;color:#68778c;margin:2px 0 12px}
+.test-question{font-size:16px;font-weight:650;text-align:center;line-height:1.5;margin:10px 0 16px}
+.test-options{width:100%;max-width:420px;display:flex;flex-direction:column;gap:9px}
+.test-option{border:1px solid #cbd5e5;background:#fff;border-radius:11px;padding:11px 13px;font-size:14px;line-height:1.5;text-align:left}
+.test-option strong{margin-right:7px;color:#435a80}
+.test-option.correct{border-color:#26754d;background:#e0f3e6;color:#185637}
+.test-solution{font-size:12px;font-weight:800;letter-spacing:.08em;color:#225b41;text-align:center;margin:0 0 12px}
+.test-explanation{font-size:14px;line-height:1.55;margin:18px 0 12px;color:#344b6a}
+.test-translation{font-size:13px;text-align:center;color:#68778c;margin-bottom:14px}
+.test-card.is-flipped .tip{position:sticky;bottom:-38px;margin:8px 0 0;padding:5px;background:#eef3fb}

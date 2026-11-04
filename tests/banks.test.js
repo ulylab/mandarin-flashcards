@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import {matchesBank, resolveBanks} from '../js/banks.js';
+import {bankMemberships, matchesBank, resolveBanks} from '../js/banks.js';
 
 const banks = ['HSK 1 · Chapter 1', 'HSK 1 · Chapter 2', 'HSK Book 1 vocabulary'];
 
@@ -32,4 +32,21 @@ test('matching honors multi-bank and legacy single-bank filters', () => {
   assert.equal(matchesBank(card, {topics: 'all'}), true);
   assert.equal(matchesBank(card, {topic: 'HSK 1 · Chapter 1'}), false);
   assert.equal(matchesBank(card, {topic: 'HSK 1 · Chapter 2'}), true);
+});
+
+test('HSK Book 1 word cards also appear in their lesson bank without new IDs', () => {
+  const card = {id:'hsk-book1-vocab-001', topic:'HSK Book 1 vocabulary', lesson:12};
+  assert.deepEqual(bankMemberships(card), ['HSK Book 1 vocabulary', 'HSK 1 · Chapter 12']);
+  assert.ok(matchesBank(card, {topics:['HSK 1 · Chapter 12']}));
+  assert.ok(matchesBank(card, {topics:['HSK Book 1 vocabulary']}));
+  assert.ok(matchesBank(card, {topics:['HSK Book 1 vocabulary', 'HSK 1 · Chapter 12']}));
+  assert.equal(matchesBank(card, {topics:['HSK 1 · Chapter 11']}), false);
+  assert.equal(matchesBank(card, {topic:'HSK 1 · Chapter 12'}), true);
+  assert.deepEqual(bankMemberships({topic:'HSK Book 1 vocabulary'}), ['HSK Book 1 vocabulary']);
+});
+
+test('HSK Test Prep is an independent bank and can be mixed with chapters', () => {
+  const testCard = {topic:'HSK Test Prep', type:'test'};
+  assert.ok(matchesBank(testCard, {topics:['HSK Test Prep', 'HSK 1 · Chapter 11']}));
+  assert.equal(matchesBank(testCard, {topics:['HSK 1 · Chapter 11']}), false);
 });
