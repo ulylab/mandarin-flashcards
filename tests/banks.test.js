@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import {bankMemberships, matchesBank, resolveBanks} from '../js/banks.js';
+import {bankMemberships, compareBanks, matchesBank, resolveBanks} from '../js/banks.js';
 
 const banks = ['HSK 1 · Chapter 1', 'HSK 1 · Chapter 2', 'HSK Book 1 vocabulary'];
 
@@ -49,4 +49,21 @@ test('HSK Test Prep is an independent bank and can be mixed with chapters', () =
   const testCard = {topic:'HSK Test Prep', type:'test'};
   assert.ok(matchesBank(testCard, {topics:['HSK Test Prep', 'HSK 1 · Chapter 11']}));
   assert.equal(matchesBank(testCard, {topics:['HSK 1 · Chapter 11']}), false);
+});
+
+test('chapter banks sort numerically before other banks', () => {
+  const unsorted = ['HSK Test Prep', 'HSK 1 · Chapter 15', 'HSK 1 · Chapter 2',
+    'HSK Book 1 vocabulary', 'HSK 1 · Chapter 10', 'Foundation'];
+  assert.deepEqual(unsorted.sort(compareBanks), [
+    'HSK 1 · Chapter 2', 'HSK 1 · Chapter 10', 'HSK 1 · Chapter 15',
+    'Foundation', 'HSK Book 1 vocabulary', 'HSK Test Prep']);
+});
+
+test('all 15 chapters appear in numeric order and bank selection remains unchanged', () => {
+  const chapterNames = Array.from({length:15}, (_, i) => `HSK 1 · Chapter ${i + 1}`);
+  const available = [...chapterNames].reverse().concat('HSK Test Prep').sort(compareBanks);
+  assert.deepEqual(available.slice(0, 15), chapterNames);
+  const saved = {topics:['HSK 1 · Chapter 12', 'HSK 1 · Chapter 2', 'HSK Test Prep']};
+  assert.deepEqual(resolveBanks(saved, available), [
+    'HSK 1 · Chapter 2', 'HSK 1 · Chapter 12', 'HSK Test Prep']);
 });
