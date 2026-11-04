@@ -56,7 +56,9 @@ for entry in manifest['packs']:
             assert len(card['examples']) == 2, cid
             for example in card['examples']:
                 assert len(example) == 3 and all(isinstance(s, str) and s.strip() for s in example), cid
-                assert card['zh'] in example[0], (cid, card['zh'], example[0])
+                # Construction entries such as 太……了 contain a variable slot.
+                fragments = card['zh'].split('……')
+                assert all(fragment in example[0] for fragment in fragments), (cid, card['zh'], example[0])
             word_count += 1
 
 assert word_count == 504, word_count
