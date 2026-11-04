@@ -1,6 +1,6 @@
 import {state, saveHistory, saveStars, saveSettings, saveReview, exportProgress, importProgress, resetReviewHistory} from './storage.js';
 import {nextCard, grade} from './scheduler.js';
-import {resolveBanks, bankMemberships} from './banks.js';
+import {resolveBanks, bankMemberships, compareBanks} from './banks.js';
 const $ = id => document.getElementById(id);
 const escapeHTML = value => String(value ?? '').replace(/[&<>"']/g, char => ({'&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'}[char]));
 let cards = [], current = null, flipped = false, direction = 'zh', recent = [], session = 0;
@@ -330,7 +330,7 @@ async function start() {
   wireEvents();
   try {
     cards = await loadVocabulary();
-    availableBanks = [...new Set(cards.flatMap(bankMemberships))].sort();
+    availableBanks = [...new Set(cards.flatMap(bankMemberships))].sort(compareBanks);
     buildBankPicker();
     restoreOptions(); pick();
     if ('serviceWorker' in navigator && location.protocol === 'https:')

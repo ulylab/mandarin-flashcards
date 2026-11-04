@@ -1,3 +1,14 @@
+// Sort chapter banks numerically (1, 2, ... 15), then other banks alphabetically.
+export function compareBanks(a, b) {
+  const chapterPattern = /^HSK 1 · Chapter (\d+)$/;
+  const aChapter = chapterPattern.exec(a);
+  const bChapter = chapterPattern.exec(b);
+  if (aChapter && bChapter) return Number(aChapter[1]) - Number(bChapter[1]);
+  if (aChapter) return -1;
+  if (bChapter) return 1;
+  return a.localeCompare(b, undefined, {numeric: true, sensitivity: 'base'});
+}
+
 // The book's 169 vocabulary IDs retain their original bank and review history.
 // Each lesson also appears in its chapter bank without duplicating the card.
 export function bankMemberships(card) {
