@@ -16,8 +16,8 @@ const all = packs.flatMap(pack => pack.cards);
 test('every pack is registered, parseable, and card IDs remain unique', () => {
   assert.equal(new Set(manifest.packs.map(p => p.id)).size, manifest.packs.length);
   assert.equal(new Set(all.map(c => String(c.id))).size, all.length);
-  assert.equal(all.length, 625);
-  assert.equal(all.filter(c => !['sentence','test'].includes(c.type)).length, 335);
+  assert.equal(all.length, 794);
+  assert.equal(all.filter(c => !['sentence','test'].includes(c.type)).length, 504);
 });
 
 test('HSK Standard Course has ten chapter sentence cards for each of 15 lessons', () => {
