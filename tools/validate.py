@@ -59,7 +59,7 @@ for entry in manifest['packs']:
                 assert card['zh'] in example[0], (cid, card['zh'], example[0])
             word_count += 1
 
-assert word_count == 335, word_count
+assert word_count == 504, word_count
 assert sentence_count == {'easy': 40, 'medium': 40, 'hard': 20}, sentence_count
 assert chapter_count == {i: 10 for i in range(1, 16)}, chapter_count
 assert test_count == {'listening': 20, 'reading': 20}, test_count
