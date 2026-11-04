@@ -1,6 +1,6 @@
 import {state, saveHistory, saveStars, saveSettings, saveReview, exportProgress, importProgress, resetReviewHistory} from './storage.js';
 import {nextCard, grade} from './scheduler.js';
-import {resolveBanks} from './banks.js';
+import {resolveBanks, bankMemberships} from './banks.js';
 const $ = id => document.getElementById(id);
 const escapeHTML = value => String(value ?? '').replace(/[&<>"']/g, char => ({'&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'}[char]));
 let cards = [], current = null, flipped = false, direction = 'zh', recent = [], session = 0;
@@ -103,9 +103,15 @@ async function loadVocabulary() {
     const sentenceValid = card?.type === 'sentence' && ['easy','medium','hard'].includes(card.difficulty) &&
       typeof card.sourcePack === 'string' && Array.isArray(card.breakdown) && card.breakdown.length >= 1 &&
       card.breakdown.every(part => part && part.zh && part.py && part.en);
-    const wordValid = card?.type !== 'sentence' && Array.isArray(card?.examples) &&
+    const testValid = card?.type === 'test' && ['listening', 'reading'].includes(card.section) &&
+      typeof card.question === 'string' && card.question.trim() &&
+      Array.isArray(card.choices) && card.choices.length === 3 &&
+      card.choices.every(choice => typeof choice === 'string' && choice.trim()) &&
+      Number.isInteger(card.answer) && card.answer >= 0 && card.answer < card.choices.length &&
+      typeof card.explanation === 'string' && card.explanation.trim();
+    const wordValid = card?.type !== 'sentence' && card?.type !== 'test' && Array.isArray(card?.examples) &&
       card.examples.length === 2 && card.examples.every(ex => Array.isArray(ex) && ex.length === 3 && ex.every(Boolean));
-    if (!commonValid || !(sentenceValid || wordValid))
+    if (!commonValid || !(sentenceValid || testValid || wordValid))
       throw new Error(`Malformed card ${card?.id ?? '(missing ID)'} in vocabulary data`);
     const id = String(card.id);
     if (seen.has(id)) throw new Error(`Duplicate card ID: ${id}`);
@@ -137,17 +143,17 @@ function pick() {
   selectionCounts = result.counts;
   current = result.card;
   recent = result.recent;
-  direction = current?.type === 'sentence' ? 'zh' : ($('direction').value === 'mix' ? (Math.random() < 0.5 ? 'zh' : 'en') : $('direction').value);
+  direction = ['sentence','test'].includes(current?.type) ? 'zh' : ($('direction').value === 'mix' ? (Math.random() < 0.5 ? 'zh' : 'en') : $('direction').value);
   flipped = false;
   if (current) session++;
   render();
-  if (current && !audioMuted && direction !== 'en') playAudio(current.zh);
+  if (current && !audioMuted && direction !== 'en' && !(current.type === 'test' && current.section === 'reading')) playAudio(current.zh);
 }
 function render() {
   const c = current;
   $('total').textContent = cards.length + ' cards';
-  $('card').classList.remove('sentence-card','sentence-easy','sentence-medium','sentence-hard','is-flipped');
-  $('difficultyBadge').hidden = !c || c.type !== 'sentence';
+  $('card').classList.remove('sentence-card','sentence-easy','sentence-medium','sentence-hard','test-card','is-flipped');
+  $('difficultyBadge').hidden = !c || !['sentence','test'].includes(c.type);
   $('seenBadge').hidden = !c || flipped;
   $('starCount').textContent = Object.values(state.stars).filter(Boolean).length + ' saved';
   $('star').hidden = !c;
@@ -168,7 +174,12 @@ function render() {
   $('star').setAttribute('aria-pressed', state.stars[c.id] ? 'true' : 'false');
   $('star').setAttribute('aria-label', state.stars[c.id] ? 'Remove star' : 'Star this card');
   const isSentence = c.type === 'sentence';
+  const isTest = c.type === 'test';
   $('topicLabel').textContent = isSentence ? (c.topic.startsWith('HSK 1 · Chapter ') ? c.topic.toUpperCase() : 'SENTENCE · ' + c.sourcePack.replace('extended-hsk1-', 'HSK 1 · ').replace('foundation-', 'Foundation · ')) : c.topic;
+  if (isTest) {
+    $('card').classList.add('test-card');
+    $('difficultyBadge').textContent = c.section.toUpperCase();
+  }
   if (isSentence) {
     $('card').classList.add('sentence-card', 'sentence-' + c.difficulty);
     $('difficultyBadge').textContent = c.difficulty.toUpperCase();
@@ -180,8 +191,22 @@ function render() {
   const previousReviews = Math.max(0, Number(h?.seen) || 0);
   $('seenBadge').textContent = previousReviews ? `#${previousReviews + 1}` : 'New';
   $('seenBadge').setAttribute('aria-label', previousReviews ? `Card appearance ${previousReviews + 1}` : 'New card, first appearance');
-  $('reviewNote').textContent = h ? (h.last === 'miss' ? 'This card needs review' : 'Previously answered correctly') : (isSentence ? 'New sentence' : 'New vocabulary');
+  $('reviewNote').textContent = h ? (h.last === 'miss' ? 'This card needs review' : 'Previously answered correctly') : (isSentence ? 'New sentence' : isTest ? 'New exam practice question' : 'New vocabulary');
   const wordClass = c.zh.length > 4 ? 'word phrase' : 'word';
+  if (isTest) {
+    const answers = c.choices.map((choice, i) =>
+      `<div class="test-option${flipped && i === c.answer ? ' correct' : ''}"><strong>${'ABC'[i]}.</strong> ${escapeHTML(choice)}</div>`).join('');
+    if (!flipped) {
+      const front = c.section === 'listening'
+        ? '<div class="test-instruction">Listen to the audio. The Chinese text stays hidden until you flip.</div>'
+        : `<div class="test-zh" lang="zh-Hans">${escapeHTML(c.zh)}</div>${$('pinyin').checked ? `<div class="test-py">${escapeHTML(c.py)}</div>` : ''}`;
+      $('content').innerHTML = `${front}<div class="test-question">${escapeHTML(c.question)}</div><div class="test-options">${answers}</div>`;
+    } else {
+      $('content').innerHTML = `<div class="test-solution">CORRECT ANSWER · ${'ABC'[c.answer]}</div><div class="test-options">${answers}</div><div class="test-explanation">${escapeHTML(c.explanation)}</div><div class="test-zh" lang="zh-Hans">${escapeHTML(c.zh)}</div><div class="test-py">${escapeHTML(c.py)}</div><div class="test-translation">${escapeHTML(c.en)}</div>`;
+    }
+    renderHistory();
+    return;
+  }
   if (isSentence) {
     if (!flipped) {
       $('content').innerHTML = `<div class="sentence-zh" lang="zh-Hans">${escapeHTML(c.zh)}</div>${$('pinyin').checked ? `<div class="sentence-py">${escapeHTML(c.py)}</div>` : ''}`;
@@ -305,7 +330,7 @@ async function start() {
   wireEvents();
   try {
     cards = await loadVocabulary();
-    availableBanks = [...new Set(cards.map(c=>c.topic))].sort();
+    availableBanks = [...new Set(cards.flatMap(bankMemberships))].sort();
     buildBankPicker();
     restoreOptions(); pick();
     if ('serviceWorker' in navigator && location.protocol === 'https:')
