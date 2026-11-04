@@ -57,3 +57,30 @@ test('legacy grading and review record fields remain stable',()=>{
   assert.equal(b.seen,2);
   assert.equal(b.lapses,1);
 });
+
+test('selecting multiple question banks mixes only cards from those banks', () => {
+  const cards = make(30);
+  const selectedTopics = ['HSK 1 · Chapter 2', 'HSK 1 · Chapter 5'];
+  const multi = {...options, topics: selectedTopics};
+  let recent = [], counts = {};
+  const observed = new Set();
+  for (let i = 0; i < 40; i++) {
+    const result = nextCard(cards, {}, {}, multi, recent, 1_000_000, () => 0.37, counts);
+    assert.ok(result.card);
+    assert.ok(selectedTopics.includes(result.card.topic), result.card.topic);
+    observed.add(result.card.topic);
+    recent = result.recent;
+    counts = result.counts;
+  }
+  assert.deepEqual([...observed].sort(), [...selectedTopics].sort());
+});
+
+test('all or no question banks, starred and sentence filters work together', () => {
+  const cards = make(3);
+  assert.equal(nextCard(cards, {}, {}, {...options, topics: []}, [], 1_000_000).card, null);
+  assert.ok(nextCard(cards, {}, {}, {...options, topics: 'all'}, [], 1_000_000).card);
+  const filter = {...options, topics: [cards[0].topic, cards[1].topic], starredOnly: true};
+  assert.equal(nextCard(cards, {}, {[cards[1].id]: true}, filter, [], 1_000_000).card.id, cards[1].id);
+  assert.equal(nextCard(cards, {}, {[cards[1].id]: true},
+    {...filter, sentencesEnabled: false}, [], 1_000_000).card, null);
+});

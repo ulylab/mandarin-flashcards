@@ -11,7 +11,7 @@
 <div class="overlay" id="overlay"><aside class="panel" role="dialog" aria-modal="true" aria-label="Settings"><div class="panelhead"><h2>Settings</h2><button class="iconbtn" id="close" aria-label="Close settings">×</button></div>
 <label class="check"><input type="checkbox" id="sentencesEnabled" checked>Include sentence cards (40 easy · 40 medium · 20 hard)</label>
 <label class="check"><input type="checkbox" id="starredOnly">See starred cards <span id="starCount" class="star-count">0</span></label>
-<label class="setting"><span>Topic</span><select id="topic"><option value="all">All topics</option></select></label>
+<fieldset class="bank-picker"><legend>Question banks</legend><p class="muted bank-help">Choose multiple banks to study their cards together.</p><div class="bank-actions"><button type="button" id="banksAll">Select all</button><button type="button" id="banksNone">Clear</button></div><p class="muted bank-count" id="bankCount" role="status">Loading question banks…</p><div id="bankList" class="bank-list" aria-label="Available question banks"></div></fieldset>
 <label class="setting"><span>Card direction</span><select id="direction"><option value="zh">Chinese → English</option><option value="en">English → Chinese</option><option value="mix">Mixed</option></select></label>
 <label class="check"><input type="checkbox" id="pinyin" checked>Show pinyin on front</label>
 <label class="check"><input type="checkbox" id="examples" checked>Show two examples on back</label>

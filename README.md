@@ -16,6 +16,10 @@ Example:
 {"id":"custom-kitchen-001","zh":"勺子","py":"sháozi","en":"spoon","topic":"Kitchen","examples":[["这是勺子。","Zhè shì sháozi.","This is a spoon."],["我用勺子喝汤。","Wǒ yòng sháozi hē tāng.","I use a spoon to drink soup."]]}
 ```
 
+## Studying multiple question banks
+
+In Settings, select any combination of **Question banks** (the topics formerly shown in the single-choice Topic menu). Use **Select all** to include every bank or **Clear** to start a new selection. Cards from selected banks are mixed by the existing scheduler; review history and stars remain attached to their original card IDs. Your choice is stored in browser settings and included in progress backups. Earlier backups with a single `topic` preference are supported.
+
 ## Personal learning history
 
 Reviews, scheduling, stars and preferences are saved in the viewer's **own browser localStorage**, using the same history/stars/settings keys as earlier versions. A review event log stores each answer with a timestamp. In Settings, use **Export progress** regularly and **Import progress** to restore or move it to another browser/device. Do not commit backup JSON files to this public repository. Browsers do not automatically synchronize data across devices, and browser storage may be cleared by the user or browser.
@@ -28,6 +32,7 @@ Historical downloads opened as `file://` do not share storage with the GitHub Pa
 - `data/packs/*.json`: expandable card sets
 - `js/app.js`: interface and card loading
 - `js/scheduler.js`: adaptive card selection and intervals
+- `js/banks.js`: multi-bank filtering and legacy settings migration
 - `js/storage.js`: local persistence, history, export/import
 - `sw.js`: offline asset caching
 

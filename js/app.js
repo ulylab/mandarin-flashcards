@@ -1,8 +1,10 @@
 import {state, saveHistory, saveStars, saveSettings, saveReview, exportProgress, importProgress, resetReviewHistory} from './storage.js';
 import {nextCard, grade} from './scheduler.js';
+import {resolveBanks} from './banks.js';
 const $ = id => document.getElementById(id);
 const escapeHTML = value => String(value ?? '').replace(/[&<>"']/g, char => ({'&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'}[char]));
 let cards = [], current = null, flipped = false, direction = 'zh', recent = [], session = 0;
+let availableBanks = [];
 let totalReviews = 0;
 let selectionCounts = {};
 let audioMuted = state.settings.audioMuted === true;
@@ -27,8 +29,40 @@ function playAudio(text = current?.zh) {
   synthesis.speak(utterance);
 }
 
+function selectedBanks() {
+  return [...$('bankList').querySelectorAll('input[type="checkbox"]:checked')].map(input => input.value);
+}
+function updateBankCount() {
+  const selected = selectedBanks().length;
+  $('bankCount').textContent = selected === availableBanks.length
+    ? `All ${selected} question banks selected`
+    : `${selected} of ${availableBanks.length} question banks selected`;
+}
+function setSelectedBanks(selection) {
+  const selected = new Set(selection);
+  for (const input of $('bankList').querySelectorAll('input[type="checkbox"]'))
+    input.checked = selected.has(input.value);
+  updateBankCount();
+}
+function buildBankPicker() {
+  const list = $('bankList');
+  list.replaceChildren();
+  for (const bank of availableBanks) {
+    const label = document.createElement('label');
+    label.className = 'bank-option';
+    const input = document.createElement('input');
+    input.type = 'checkbox';
+    input.value = bank;
+    const name = document.createElement('span');
+    name.textContent = bank;
+    label.append(input, name);
+    list.appendChild(label);
+  }
+}
 function options() {
-  return {starredOnly: $('starredOnly').checked, topic: $('topic').value,
+  const selected = selectedBanks();
+  return {starredOnly: $('starredOnly').checked,
+    topics: selected.length === availableBanks.length ? 'all' : selected,
     direction: $('direction').value, pinyin: $('pinyin').checked,
     examples: $('examples').checked, mix: $('mix').value,
     sentencesEnabled: $('sentencesEnabled').checked};
@@ -38,7 +72,8 @@ function restoreOptions() {
   const opts = state.settings;
   audioMuted = opts.audioMuted === true;
   renderMute();
-  for (const id of ['topic','direction','mix']) {
+  setSelectedBanks(resolveBanks(opts, availableBanks));
+  for (const id of ['direction','mix']) {
     const selected = id === 'mix' && opts[id] === 'balanced' ? 'new' : opts[id];
     if (selected && [...$(id).options].some(o => o.value === selected)) $(id).value = selected;
   }
@@ -125,7 +160,7 @@ function render() {
     $('content').innerHTML = '<div class="empty">No cards in this selection.<br><small>Change your filters in Settings.</small></div>';
     $('tip').textContent = '';
     $('progressText').textContent = 'No matching cards';
-    $('reviewNote').textContent = 'Choose a different topic or turn off starred-only';
+    $('reviewNote').textContent = 'Select question banks or adjust your filters';
     renderHistory(); return;
   }
   $('star').textContent = state.stars[c.id] ? '★' : '☆';
@@ -187,11 +222,17 @@ function wireEvents() {
   $('audioBtn').addEventListener('pointerdown', e => e.stopPropagation());
   $('audioBtn').addEventListener('pointerup', e => e.stopPropagation());
   $('audioBtn').addEventListener('click', e => { e.preventDefault(); e.stopPropagation(); playAudio(); });
-  for (const id of ['starredOnly','topic','direction','pinyin','examples','mix','sentencesEnabled']) {
+  const banksChanged = () => {
+    updateBankCount(); saveOptions(); recent=[]; selectionCounts={}; pick();
+  };
+  $('bankList').addEventListener('change', banksChanged);
+  $('banksAll').onclick = () => {setSelectedBanks(availableBanks); banksChanged();};
+  $('banksNone').onclick = () => {setSelectedBanks([]); banksChanged();};
+  for (const id of ['starredOnly','direction','pinyin','examples','mix','sentencesEnabled']) {
     $(id).addEventListener('change', () => {
       saveOptions();
-      if (['starredOnly','topic','direction','mix','sentencesEnabled'].includes(id)) {
-        if (['starredOnly','topic','mix','sentencesEnabled'].includes(id)) {recent=[]; selectionCounts={};}
+      if (['starredOnly','direction','mix','sentencesEnabled'].includes(id)) {
+        if (['starredOnly','mix','sentencesEnabled'].includes(id)) {recent=[]; selectionCounts={};}
         pick();
       } else render();
     });
@@ -264,9 +305,8 @@ async function start() {
   wireEvents();
   try {
     cards = await loadVocabulary();
-    const topics = [...new Set(cards.map(c=>c.topic))].sort();
-    $('topic').innerHTML = '<option value="all">All topics</option>' +
-      topics.map(t=>`<option value="${escapeHTML(t)}">${escapeHTML(t)}</option>`).join('');
+    availableBanks = [...new Set(cards.map(c=>c.topic))].sort();
+    buildBankPicker();
     restoreOptions(); pick();
     if ('serviceWorker' in navigator && location.protocol === 'https:')
       navigator.serviceWorker.register('sw.js').catch(()=>{});
