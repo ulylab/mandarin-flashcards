@@ -16,7 +16,7 @@ test('chapter 11 pilot contains all five complete learning screens', () => {
   assert.equal(lesson.challenge.length, 10);
   assert.equal(new Set([...lesson.practice,...lesson.challenge].map(q=>q.id)).size, 18);
   assert.ok(lesson.concepts.some(c=>c.heading.includes('First')));
-  assert.ok(lesson.concepts.some(c=>c.examples.some(line=>line[1].toLowerCase().includes('xiàwǔ'))));
+  assert.ok(lesson.supportingWords.some(word=>word.zh === '下午' && word.py === 'xiàwǔ'));
 });
 
 test('multiple-choice, word ordering and pinyin are graded accurately', () => {
