@@ -1,10 +1,12 @@
 import {state, saveHistory, saveStars, saveSettings, saveReview, exportProgress, importProgress, resetReviewHistory} from './storage.js';
 import {nextCard, grade} from './scheduler.js';
 import {resolveBanks, bankMemberships, compareBanks} from './banks.js';
+import {initReview} from './review.js';
 const $ = id => document.getElementById(id);
 const escapeHTML = value => String(value ?? '').replace(/[&<>"']/g, char => ({'&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'}[char]));
 let cards = [], current = null, flipped = false, direction = 'zh', recent = [], session = 0;
 let availableBanks = [];
+let reviewUI = null;
 let totalReviews = 0;
 let selectionCounts = {};
 let audioMuted = state.settings.audioMuted === true;
@@ -302,6 +304,7 @@ function wireEvents() {
   card.addEventListener('pointercancel',()=>{start=null;card.classList.remove('dragging');card.style.transform='';});
   card.addEventListener('click',e=>{if(dragged){e.stopImmediatePropagation();dragged=false;}},true);
   document.addEventListener('keydown',e=>{
+    if ($('flashcardsView').hidden) return;
     if ($('overlay').classList.contains('open')) {if(e.key==='Escape') $('overlay').classList.remove('open');return;}
     if(e.key==='ArrowLeft'){e.preventDefault();rate(false);}
     else if(e.key==='ArrowRight'){e.preventDefault();rate(true);}
@@ -321,18 +324,19 @@ function wireEvents() {
       const data=JSON.parse(await file.text());
       if(!confirm('Replace the progress and stars on this device with the imported backup?'))return;
       importProgress(data);
-      restoreOptions();recent=[];selectionCounts={};pick();showStorageStatus('Progress imported.');
+      restoreOptions();recent=[];selectionCounts={};pick();reviewUI?.refresh();showStorageStatus('Progress imported.');
     } catch (err) {showStorageStatus(err.message || 'Unable to import this backup.');}
     finally {e.target.value='';}
   };
 }
 async function start() {
+  reviewUI = initReview({getCards: () => cards, playAudio, stopAudio});
   wireEvents();
   try {
     cards = await loadVocabulary();
     availableBanks = [...new Set(cards.flatMap(bankMemberships))].sort(compareBanks);
     buildBankPicker();
-    restoreOptions(); pick();
+    restoreOptions(); pick(); reviewUI.refresh();
     if ('serviceWorker' in navigator && location.protocol === 'https:')
       navigator.serviceWorker.register('sw.js').catch(()=>{});
   } catch (err) {

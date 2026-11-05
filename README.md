@@ -83,3 +83,21 @@ authentic recorded listening tests. It follows **HSK Standard Course 1**, based 
 older 150-word HSK 1 syllabus (HSK 2.0). **HSK 3.0 officially launches on 13 December 2026**
 and has a different, larger vocabulary syllabus. Consult the exam centre and its
 current syllabus before choosing exam preparation materials.
+
+
+## Chapter Review — Chapter 11 pilot
+
+The **Flashcards / Chapter Review** tabs are available in the same installed web app.
+Chapter Review offers five screens for HSK Standard Course 1, Chapter 11:
+
+1. **Vocabulary** — the original lesson-11 book word cards (read directly from the loaded vocabulary bank) plus supporting time expressions with Chinese text, tone-marked pinyin, English, and text-to-speech playback.
+2. **Concepts** — asking the time, telling hours and minutes, half past, time-of-day word order, and optional before/after sequencing expressions.
+3. **Examples** — an illustrated-sheet-style daily routine and a short dialogue, with read-aloud controls and the option to hide pinyin or translations.
+4. **Exercises** — eight guided multiple-choice, word-order, and typed-pinyin exercises with explanations.
+5. **Challenge** — ten scored questions, answer review, retries, last score and personal best.
+
+The review lesson content lives in `data/lessons/chapter-11.json`; pure grading and progress helpers are in `js/review-model.js`; the UI is in `js/review.js` and `css/review.css`. `tests/review.test.js` verifies content, scoring, original storage keys, backup behavior and offline caching.
+
+**Flashcard progress is preserved.** The flashcard scheduler, card IDs, history, stars and their storage keys are unchanged. Lesson visits, practice results and challenge scores use a separate browser storage key `mandarim-chapter-review-v1`. Backup exports include this new field without changing the backup format version. Importing an older backup without lesson data leaves existing chapter progress intact. The original “Reset learning progress” button still resets only flashcard history. As before, progress is local to each browser until exported/imported.
+
+The service worker caches the new lesson files for offline review after a successful initial load. Audio depends on the user's browser Chinese text-to-speech voice; it is not recorded native-speaker audio. Other chapters can be added with new content files and additional selectable review lessons later.

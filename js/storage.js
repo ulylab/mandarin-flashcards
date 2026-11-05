@@ -3,7 +3,8 @@ export const KEYS = Object.freeze({
   history: 'mandarim-learning-minimal-v2',
   stars: 'mandarim-stars-v1',
   settings: 'mandarim-settings-v2',
-  reviews: 'mandarim-review-events-v1'
+  reviews: 'mandarim-review-events-v1',
+  lessonProgress: 'mandarim-chapter-review-v1'
 });
 const parse = (key, fallback) => {
   try { const value = localStorage.getItem(key); return value === null ? fallback : JSON.parse(value); }
@@ -16,6 +17,7 @@ export const state = {
   stars: object(parse(KEYS.stars, {})),
   settings: object(parse(KEYS.settings, {})),
   reviews: array(parse(KEYS.reviews, [])),
+  lessonProgress: object(parse(KEYS.lessonProgress, {})),
   error: ''
 };
 function write(key, value) {
@@ -25,6 +27,7 @@ function write(key, value) {
 export function saveHistory() { return write(KEYS.history, state.history); }
 export function saveStars() { return write(KEYS.stars, state.stars); }
 export function saveSettings() { return write(KEYS.settings, state.settings); }
+export function saveLessonProgress() { return write(KEYS.lessonProgress, state.lessonProgress); }
 export function saveReview(cardId, correct, dueAt) {
   const entry = { id: String(cardId), correct: Boolean(correct), at: Date.now(), due: dueAt };
   state.reviews.push(entry);
@@ -36,7 +39,8 @@ export function exportProgress() {
     format: 'mandarin-flashcards-progress', version: 1,
     exportedAt: new Date().toISOString(),
     history: state.history, stars: state.stars,
-    settings: state.settings, reviews: state.reviews
+    settings: state.settings, reviews: state.reviews,
+    lessonProgress: state.lessonProgress
   };
 }
 export function importProgress(data) {
@@ -50,11 +54,17 @@ export function importProgress(data) {
     if (!rec || typeof rec !== 'object' || !Number.isFinite(Number(rec.seen || 0)) || id.length > 128)
       throw new Error('Invalid card history in backup.');
   }
+  // Older backups contain no lessonProgress field; importing one must not erase new lesson scores.
+  if (data.lessonProgress !== undefined) {
+    if (!data.lessonProgress || typeof data.lessonProgress !== 'object' || Array.isArray(data.lessonProgress))
+      throw new Error('Invalid chapter review progress in backup.');
+    state.lessonProgress = object(data.lessonProgress);
+  }
   state.history = safeHistory;
   state.stars = safeStars;
   state.settings = safeSettings;
   state.reviews = data.reviews.filter(e => e && typeof e.id === 'string' && typeof e.correct === 'boolean' && Number.isFinite(e.at));
-  const ok = [saveHistory(), saveStars(), saveSettings(), write(KEYS.reviews, state.reviews)].every(Boolean);
+  const ok = [saveHistory(), saveStars(), saveSettings(), write(KEYS.reviews, state.reviews), saveLessonProgress()].every(Boolean);
   if (!ok) throw new Error(state.error);
 }
 export function resetReviewHistory() {

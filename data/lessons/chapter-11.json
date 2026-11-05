@@ -1,0 +1,470 @@
+{
+  "id": "chapter-11",
+  "number": 11,
+  "title": "Telling Time",
+  "zh": "现在几点？",
+  "py": "Xiànzài jǐ diǎn?",
+  "subtitle": "Clock times, daily routines, and event order",
+  "supportingWords": [
+    {
+      "zh": "几",
+      "py": "jǐ",
+      "en": "how many / which number"
+    },
+    {
+      "zh": "半",
+      "py": "bàn",
+      "en": "half; half past"
+    },
+    {
+      "zh": "刻",
+      "py": "kè",
+      "en": "quarter (15 minutes)"
+    },
+    {
+      "zh": "早上",
+      "py": "zǎoshang",
+      "en": "early morning"
+    },
+    {
+      "zh": "上午",
+      "py": "shàngwǔ",
+      "en": "morning"
+    },
+    {
+      "zh": "下午",
+      "py": "xiàwǔ",
+      "en": "afternoon"
+    },
+    {
+      "zh": "晚上",
+      "py": "wǎnshang",
+      "en": "evening / night"
+    },
+    {
+      "zh": "起床",
+      "py": "qǐchuáng",
+      "en": "get up"
+    },
+    {
+      "zh": "早饭",
+      "py": "zǎofàn",
+      "en": "breakfast"
+    },
+    {
+      "zh": "工作",
+      "py": "gōngzuò",
+      "en": "work"
+    },
+    {
+      "zh": "睡觉",
+      "py": "shuìjiào",
+      "en": "sleep / go to bed"
+    },
+    {
+      "zh": "先",
+      "py": "xiān",
+      "en": "first"
+    },
+    {
+      "zh": "然后",
+      "py": "ránhòu",
+      "en": "then / afterward"
+    },
+    {
+      "zh": "以前",
+      "py": "yǐqián",
+      "en": "before"
+    },
+    {
+      "zh": "以后",
+      "py": "yǐhòu",
+      "en": "after"
+    }
+  ],
+  "concepts": [
+    {
+      "heading": "Ask and answer the time",
+      "rule": "现在 (now) + 几点 (what time) makes a time question. An answer uses the hour + 点.",
+      "formula": "现在 + number + 点",
+      "examples": [
+        [
+          "现在几点？",
+          "Xiànzài jǐ diǎn?",
+          "What time is it now?"
+        ],
+        [
+          "现在三点。",
+          "Xiànzài sān diǎn.",
+          "It is three o'clock now."
+        ]
+      ]
+    },
+    {
+      "heading": "Minutes and half past",
+      "rule": "Place minutes after 点. For 30 minutes, 半 is a natural alternative to 三十分. Do not add 分 after 半.",
+      "formula": "hour + 点 + minutes + 分 / 半",
+      "examples": [
+        [
+          "三点十分",
+          "sān diǎn shí fēn",
+          "3:10"
+        ],
+        [
+          "四点半",
+          "sì diǎn bàn",
+          "4:30"
+        ],
+        [
+          "三点一刻",
+          "sān diǎn yí kè",
+          "3:15 (quarter past; extension)"
+        ]
+      ]
+    },
+    {
+      "heading": "Times of day and word order",
+      "rule": "Put the time before the action. Both 我上午九点工作 and 上午九点，我工作 are natural.",
+      "formula": "subject + time + verb",
+      "examples": [
+        [
+          "我上午九点工作。",
+          "Wǒ shàngwǔ jiǔ diǎn gōngzuò.",
+          "I work at nine in the morning."
+        ],
+        [
+          "晚上十点我睡觉。",
+          "Wǎnshang shí diǎn wǒ shuìjiào.",
+          "I go to sleep at 10 p.m."
+        ]
+      ]
+    },
+    {
+      "heading": "First, then; before, after",
+      "rule": "先…然后… shows sequence. 以前 / 以后 mean before / after a stated time or action. These are optional extension expressions.",
+      "formula": "先 + action A，然后 + action B",
+      "examples": [
+        [
+          "我先吃早饭，然后去工作。",
+          "Wǒ xiān chī zǎofàn, ránhòu qù gōngzuò.",
+          "First I eat breakfast, then I go to work."
+        ],
+        [
+          "八点以前，我吃早饭。",
+          "Bā diǎn yǐqián, wǒ chī zǎofàn.",
+          "I eat breakfast before eight."
+        ],
+        [
+          "吃早饭以后，我去工作。",
+          "Chī zǎofàn yǐhòu, wǒ qù gōngzuò.",
+          "After breakfast, I go to work."
+        ]
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "我的一天",
+      "py": "Wǒ de yì tiān",
+      "en": "My day",
+      "lines": [
+        [
+          "我每天七点起床，八点吃早饭。",
+          "Wǒ měitiān qī diǎn qǐchuáng, bā diǎn chī zǎofàn.",
+          "I get up at seven and eat breakfast at eight every day."
+        ],
+        [
+          "上午九点我去工作。",
+          "Shàngwǔ jiǔ diǎn wǒ qù gōngzuò.",
+          "I go to work at nine in the morning."
+        ],
+        [
+          "我中午十二点吃午饭。",
+          "Wǒ zhōngwǔ shí'èr diǎn chī wǔfàn.",
+          "I eat lunch at noon."
+        ],
+        [
+          "下午六点我回家。",
+          "Xiàwǔ liù diǎn wǒ huí jiā.",
+          "I go home at six in the afternoon."
+        ],
+        [
+          "晚上十点我睡觉。",
+          "Wǎnshang shí diǎn wǒ shuìjiào.",
+          "I go to sleep at ten in the evening."
+        ]
+      ]
+    },
+    {
+      "title": "几点见？",
+      "py": "Jǐ diǎn jiàn?",
+      "en": "What time shall we meet?",
+      "lines": [
+        [
+          "A：你下午有时间吗？",
+          "Nǐ xiàwǔ yǒu shíjiān ma?",
+          "Do you have time this afternoon?"
+        ],
+        [
+          "B：有。我们几点见？",
+          "Yǒu. Wǒmen jǐ diǎn jiàn?",
+          "Yes. What time shall we meet?"
+        ],
+        [
+          "A：下午三点半，可以吗？",
+          "Xiàwǔ sān diǎn bàn, kěyǐ ma?",
+          "At 3:30 p.m. Is that OK?"
+        ],
+        [
+          "B：可以！三点半见！",
+          "Kěyǐ! Sān diǎn bàn jiàn!",
+          "Yes! See you at 3:30!"
+        ]
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "p1",
+      "kind": "choice",
+      "question": "现在几点？ means…",
+      "options": [
+        "Where are you going?",
+        "What time is it now?",
+        "What day is it?"
+      ],
+      "answer": 1,
+      "why": "现在 = now; 几点 = what time."
+    },
+    {
+      "id": "p2",
+      "kind": "choice",
+      "question": "Which expression means 4:30?",
+      "options": [
+        "四点半",
+        "三点半",
+        "四点十五分"
+      ],
+      "answer": 0,
+      "why": "四 = four, 点 = o'clock, 半 = half past."
+    },
+    {
+      "id": "p3",
+      "kind": "order",
+      "question": "Build: I eat breakfast at eight.",
+      "tokens": [
+        "吃早饭",
+        "我",
+        "八点"
+      ],
+      "answer": [
+        "我",
+        "八点",
+        "吃早饭"
+      ],
+      "why": "Subject + time + verb: 我八点吃早饭。"
+    },
+    {
+      "id": "p4",
+      "kind": "choice",
+      "question": "What comes after 点 to say 3:10?",
+      "options": [
+        "十分",
+        "半分",
+        "一刻"
+      ],
+      "answer": 0,
+      "why": "三点十分 is 3:10. 分 is optional in some casual speech, but standard here."
+    },
+    {
+      "id": "p5",
+      "kind": "order",
+      "question": "Build: First I eat breakfast, then go to work.",
+      "tokens": [
+        "然后",
+        "工作",
+        "先",
+        "我",
+        "吃早饭",
+        "去"
+      ],
+      "answer": [
+        "我",
+        "先",
+        "吃早饭",
+        "然后",
+        "去",
+        "工作"
+      ],
+      "why": "先 marks the first event, 然后 introduces the next."
+    },
+    {
+      "id": "p6",
+      "kind": "input",
+      "question": "Type the pinyin (tone marks optional) for 下午.",
+      "answers": [
+        "xiàwǔ",
+        "xiawu"
+      ],
+      "hint": "Afternoon",
+      "why": "下午 is xiàwǔ: fourth tone, then third tone."
+    },
+    {
+      "id": "p7",
+      "kind": "choice",
+      "question": "In 四点半, do we add 分 after 半?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "answer": 1,
+      "why": "半 already means half past; 四点半 is complete."
+    },
+    {
+      "id": "p8",
+      "kind": "order",
+      "question": "Build: I go to sleep at ten in the evening.",
+      "tokens": [
+        "睡觉",
+        "我",
+        "十点",
+        "晚上"
+      ],
+      "answer": [
+        "晚上",
+        "十点",
+        "我",
+        "睡觉"
+      ],
+      "why": "Time can come first: 晚上十点我睡觉。"
+    }
+  ],
+  "challenge": [
+    {
+      "id": "c1",
+      "kind": "choice",
+      "question": "How do you say 3:15?",
+      "options": [
+        "三点一刻",
+        "三点半",
+        "三点十分"
+      ],
+      "answer": 0,
+      "why": "一刻 means a quarter (15 minutes)."
+    },
+    {
+      "id": "c2",
+      "kind": "choice",
+      "question": "What is 六点半?",
+      "options": [
+        "6:15",
+        "6:30",
+        "6:45"
+      ],
+      "answer": 1,
+      "why": "半 means 30 minutes past the hour."
+    },
+    {
+      "id": "c3",
+      "kind": "order",
+      "question": "Build: What time is it now?",
+      "tokens": [
+        "几点",
+        "现在"
+      ],
+      "answer": [
+        "现在",
+        "几点"
+      ],
+      "why": "现在几点？"
+    },
+    {
+      "id": "c4",
+      "kind": "choice",
+      "question": "Choose the correct pinyin for 工作.",
+      "options": [
+        "gōngzuò",
+        "gǒngzuō",
+        "gōngzuō"
+      ],
+      "answer": 0,
+      "why": "工 is first tone; 作 is fourth tone."
+    },
+    {
+      "id": "c5",
+      "kind": "input",
+      "question": "Type pinyin (tone marks optional) for 然后.",
+      "answers": [
+        "ránhòu",
+        "ranhou"
+      ],
+      "hint": "Then / afterward",
+      "why": "然 rises (tone 2); 后 falls (tone 4)."
+    },
+    {
+      "id": "c6",
+      "kind": "choice",
+      "question": "Which means 'before eight'?",
+      "options": [
+        "八点以后",
+        "八点以前",
+        "八点半"
+      ],
+      "answer": 1,
+      "why": "以前 = before; 以后 = after."
+    },
+    {
+      "id": "c7",
+      "kind": "order",
+      "question": "Build: I work at nine in the morning.",
+      "tokens": [
+        "工作",
+        "我",
+        "九点",
+        "上午"
+      ],
+      "answer": [
+        "我",
+        "上午",
+        "九点",
+        "工作"
+      ],
+      "why": "Subject + morning time + action."
+    },
+    {
+      "id": "c8",
+      "kind": "choice",
+      "question": "Choose 'I eat breakfast first, then work'.",
+      "options": [
+        "我先吃早饭，然后工作。",
+        "我然后吃早饭，先工作。",
+        "我先工作，然后吃早饭。"
+      ],
+      "answer": 0,
+      "why": "先 introduces the first action; 然后 introduces the next."
+    },
+    {
+      "id": "c9",
+      "kind": "choice",
+      "question": "When is 晚上十点?",
+      "options": [
+        "10 a.m.",
+        "10 p.m.",
+        "12 p.m."
+      ],
+      "answer": 1,
+      "why": "晚上 is the evening or night."
+    },
+    {
+      "id": "c10",
+      "kind": "input",
+      "question": "Type pinyin (tone marks optional) for 睡觉.",
+      "answers": [
+        "shuìjiào",
+        "shuijiao"
+      ],
+      "hint": "Go to sleep",
+      "why": "睡觉 has two fourth tones: shuìjiào."
+    }
+  ]
+}
