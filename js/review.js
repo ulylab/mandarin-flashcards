@@ -283,7 +283,7 @@ export function initReview({getCards, playAudio, stopAudio}) {
     screen = Math.max(0, Math.min(REVIEW_SCREENS.length - 1, next));
     markVisited(screen);
     render();
-    review.scrollIntoView({behavior:'instant', block:'start'});
+    review.scrollIntoView({behavior:'auto', block:'start'});
   }
   function render() {
     if (review.hidden) return;
