@@ -1,0 +1,1143 @@
+{
+  "version": 1,
+  "label": "HSK Standard Course 1 · Chapters 1–15",
+  "description": "Lessons 1–10 and 12–15; Chapter 11 pilot is a separate hand-authored file.",
+  "chapters": [
+    {
+      "id": "chapter-01",
+      "number": 1,
+      "title": "Greetings",
+      "subtitle": "Say hello, ask how someone is, and use simple statements.",
+      "zh": "",
+      "supportingWords": [
+        {
+          "zh": "你好",
+          "py": "nǐ hǎo",
+          "en": "hello"
+        },
+        {
+          "zh": "好",
+          "py": "hǎo",
+          "en": "good / well"
+        },
+        {
+          "zh": "很",
+          "py": "hěn",
+          "en": "very; links subject and adjective"
+        },
+        {
+          "zh": "老师",
+          "py": "lǎoshī",
+          "en": "teacher"
+        },
+        {
+          "zh": "我们",
+          "py": "wǒmen",
+          "en": "we"
+        }
+      ],
+      "concepts": [
+        {
+          "heading": "Greeting someone",
+          "rule": "你好 is a familiar greeting; 老师好 is a respectful greeting to a teacher. In speech, the first third tone in 你好 changes to a rising tone.",
+          "formula": "[person] + 好",
+          "exampleIndices": [
+            0,
+            1
+          ]
+        },
+        {
+          "heading": "Asking about someone",
+          "rule": "Place 吗 at the end of a statement to make a yes/no question. 你好吗？ asks how someone is.",
+          "formula": "statement + 吗？",
+          "exampleIndices": [
+            2,
+            3
+          ]
+        },
+        {
+          "heading": "Describing how you feel",
+          "rule": "To say someone is well, use [person] + 很 + 好; 很 need not mean a strong 'very' here.",
+          "formula": "subject + 很 + 好",
+          "exampleIndices": [
+            4,
+            5
+          ]
+        }
+      ],
+      "storyGroups": [
+        {
+          "title": "Foundations · Short sentences",
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "title": "In context · Longer sentences",
+          "indices": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-02",
+      "number": 2,
+      "title": "Thanks and Courtesy",
+      "subtitle": "Thank people, respond politely, apologize and say goodbye.",
+      "zh": "",
+      "supportingWords": [
+        {
+          "zh": "谢谢你",
+          "py": "xièxie nǐ",
+          "en": "thank you"
+        },
+        {
+          "zh": "对不起",
+          "py": "duìbuqǐ",
+          "en": "sorry"
+        },
+        {
+          "zh": "没关系",
+          "py": "méi guānxi",
+          "en": "it's okay"
+        },
+        {
+          "zh": "老师",
+          "py": "lǎoshī",
+          "en": "teacher"
+        }
+      ],
+      "concepts": [
+        {
+          "heading": "Expressing thanks",
+          "rule": "谢谢 means thank you; adding 你 specifies the person. A reply is 不客气.",
+          "formula": "谢谢(你) → 不客气",
+          "exampleIndices": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "heading": "Apologizing",
+          "rule": "Say 对不起 to apologize and 没关系 to reassure someone. These are a useful conversational pair.",
+          "formula": "对不起 → 没关系",
+          "exampleIndices": [
+            3,
+            4
+          ]
+        },
+        {
+          "heading": "Ending an exchange",
+          "rule": "再见 is goodbye. Put the person addressed after 谢谢 or before 对不起 as appropriate.",
+          "formula": "谢谢 + person / person + 对不起",
+          "exampleIndices": [
+            5,
+            6
+          ]
+        }
+      ],
+      "storyGroups": [
+        {
+          "title": "Foundations · Short sentences",
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "title": "In context · Longer sentences",
+          "indices": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-03",
+      "number": 3,
+      "title": "Introductions",
+      "subtitle": "Names, occupations, and simple questions.",
+      "zh": "",
+      "supportingWords": [
+        {
+          "zh": "中国人",
+          "py": "Zhōngguó rén",
+          "en": "Chinese person"
+        },
+        {
+          "zh": "小明",
+          "py": "Xiǎomíng",
+          "en": "Xiaoming (name)"
+        },
+        {
+          "zh": "还是",
+          "py": "háishi",
+          "en": "or (in a question)"
+        },
+        {
+          "zh": "也",
+          "py": "yě",
+          "en": "also"
+        }
+      ],
+      "concepts": [
+        {
+          "heading": "Giving a name",
+          "rule": "Use 叫 to introduce a name. To ask a name, say 你叫什么名字？",
+          "formula": "subject + 叫 + name",
+          "exampleIndices": [
+            0,
+            2
+          ]
+        },
+        {
+          "heading": "Who someone is",
+          "rule": "是 links a person with their identity or occupation: 我是学生。",
+          "formula": "subject + 是 + noun",
+          "exampleIndices": [
+            4,
+            5
+          ]
+        },
+        {
+          "heading": "Yes/no questions",
+          "rule": "Put 吗 after a statement to ask if someone is Chinese, a teacher, or a student.",
+          "formula": "statement + 吗？",
+          "exampleIndices": [
+            6,
+            7
+          ]
+        }
+      ],
+      "storyGroups": [
+        {
+          "title": "Foundations · Short sentences",
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "title": "In context · Longer sentences",
+          "indices": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-04",
+      "number": 4,
+      "title": "People and Possession",
+      "subtitle": "Ask who someone is and describe relationships and belongings.",
+      "zh": "",
+      "supportingWords": [
+        {
+          "zh": "这",
+          "py": "zhè",
+          "en": "this"
+        },
+        {
+          "zh": "那",
+          "py": "nà",
+          "en": "that"
+        },
+        {
+          "zh": "书",
+          "py": "shū",
+          "en": "book"
+        },
+        {
+          "zh": "爸爸",
+          "py": "bàba",
+          "en": "dad"
+        },
+        {
+          "zh": "妈妈",
+          "py": "māma",
+          "en": "mom"
+        }
+      ],
+      "concepts": [
+        {
+          "heading": "Asking who",
+          "rule": "谁 means who. In 她是谁？ the question word goes where the answer would be.",
+          "formula": "subject + 是 + 谁？",
+          "exampleIndices": [
+            0,
+            1
+          ]
+        },
+        {
+          "heading": "Showing possession",
+          "rule": "的 connects a possessor to a noun: 我的书 = my book. It can often be omitted with close family terms.",
+          "formula": "person + 的 + object",
+          "exampleIndices": [
+            2,
+            3
+          ]
+        },
+        {
+          "heading": "Family and origin",
+          "rule": "Use 是 to identify relatives or answer questions about nationality. 哪国人 asks which country someone is from.",
+          "formula": "subject + 是 + noun",
+          "exampleIndices": [
+            4,
+            6
+          ]
+        }
+      ],
+      "storyGroups": [
+        {
+          "title": "Foundations · Short sentences",
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "title": "In context · Longer sentences",
+          "indices": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-05",
+      "number": 5,
+      "title": "Age and Numbers",
+      "subtitle": "Say ages, ask how old someone is, and count family members.",
+      "zh": "",
+      "supportingWords": [
+        {
+          "zh": "二十",
+          "py": "èrshí",
+          "en": "twenty"
+        },
+        {
+          "zh": "个",
+          "py": "gè",
+          "en": "general measure word"
+        },
+        {
+          "zh": "孩子",
+          "py": "háizi",
+          "en": "child"
+        },
+        {
+          "zh": "爸爸",
+          "py": "bàba",
+          "en": "dad"
+        }
+      ],
+      "concepts": [
+        {
+          "heading": "Stating an age",
+          "rule": "Age uses a number followed by 岁; you don't normally add 是 before the age.",
+          "formula": "person + number + 岁",
+          "exampleIndices": [
+            0,
+            1
+          ]
+        },
+        {
+          "heading": "Asking how old",
+          "rule": "几岁 is common for young children; 多大了 is a general way to ask age.",
+          "formula": "几岁？ / 多大了？",
+          "exampleIndices": [
+            2,
+            3
+          ]
+        },
+        {
+          "heading": "Counting family members",
+          "rule": "Use 有 for having something; numbers normally need a classifier such as 个 before a countable noun.",
+          "formula": "有 + number + 个 + noun",
+          "exampleIndices": [
+            6,
+            7
+          ]
+        }
+      ],
+      "storyGroups": [
+        {
+          "title": "Foundations · Short sentences",
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "title": "In context · Longer sentences",
+          "indices": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-06",
+      "number": 6,
+      "title": "Languages and Skills",
+      "subtitle": "Discuss learned abilities, reading, writing, and Chinese.",
+      "zh": "",
+      "supportingWords": [
+        {
+          "zh": "汉语",
+          "py": "Hànyǔ",
+          "en": "spoken Chinese / Chinese language"
+        },
+        {
+          "zh": "难",
+          "py": "nán",
+          "en": "difficult"
+        },
+        {
+          "zh": "书",
+          "py": "shū",
+          "en": "book"
+        },
+        {
+          "zh": "一点儿",
+          "py": "yìdiǎnr",
+          "en": "a little"
+        }
+      ],
+      "concepts": [
+        {
+          "heading": "Saying what you can do",
+          "rule": "会 expresses an ability you've learned, such as speaking or writing Chinese.",
+          "formula": "subject + 会 + verb",
+          "exampleIndices": [
+            0,
+            1
+          ]
+        },
+        {
+          "heading": "Asking about a skill",
+          "rule": "Add 吗 to a 会 sentence to make a yes/no question. Use 不会 to say you cannot do it.",
+          "formula": "subject + 会 + verb + 吗？",
+          "exampleIndices": [
+            2,
+            3
+          ]
+        },
+        {
+          "heading": "Describing difficulty",
+          "rule": "很 often joins a subject and adjective (汉语很难). Don't insert 是 before 难 in this structure.",
+          "formula": "subject + 很 + adjective",
+          "exampleIndices": [
+            4,
+            5
+          ]
+        }
+      ],
+      "storyGroups": [
+        {
+          "title": "Foundations · Short sentences",
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "title": "In context · Longer sentences",
+          "indices": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-07",
+      "number": 7,
+      "title": "Dates and Days",
+      "subtitle": "Days of the week, dates, and plans for tomorrow.",
+      "zh": "",
+      "supportingWords": [
+        {
+          "zh": "星期一",
+          "py": "xīngqīyī",
+          "en": "Monday"
+        },
+        {
+          "zh": "星期天",
+          "py": "xīngqītiān",
+          "en": "Sunday"
+        },
+        {
+          "zh": "几号",
+          "py": "jǐ hào",
+          "en": "which day of the month"
+        },
+        {
+          "zh": "下星期",
+          "py": "xià xīngqī",
+          "en": "next week"
+        }
+      ],
+      "concepts": [
+        {
+          "heading": "Days of the week",
+          "rule": "星期 plus a number names a day, Monday through Saturday; Sunday can be 星期天 or 星期日.",
+          "formula": "星期 + number",
+          "exampleIndices": [
+            0,
+            1
+          ]
+        },
+        {
+          "heading": "Asking the date",
+          "rule": "今天几号？ asks the date. Answer using the day number followed by 号.",
+          "formula": "今天 + number + 号",
+          "exampleIndices": [
+            2,
+            3
+          ]
+        },
+        {
+          "heading": "Time words and plans",
+          "rule": "昨天, 今天, 明天 usually appear before the verb, and weekday phrases can set when an activity happens.",
+          "formula": "time + subject + action",
+          "exampleIndices": [
+            4,
+            6
+          ]
+        }
+      ],
+      "storyGroups": [
+        {
+          "title": "Foundations · Short sentences",
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "title": "In context · Longer sentences",
+          "indices": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-08",
+      "number": 8,
+      "title": "Food, Drinks and Shopping",
+      "subtitle": "Say what you want, order a drink, and ask about prices.",
+      "zh": "",
+      "supportingWords": [
+        {
+          "zh": "水",
+          "py": "shuǐ",
+          "en": "water"
+        },
+        {
+          "zh": "苹果",
+          "py": "píngguǒ",
+          "en": "apple"
+        },
+        {
+          "zh": "还是",
+          "py": "háishi",
+          "en": "or (in a question)"
+        },
+        {
+          "zh": "喜欢",
+          "py": "xǐhuan",
+          "en": "like"
+        }
+      ],
+      "concepts": [
+        {
+          "heading": "Saying what you want",
+          "rule": "想 + verb expresses wanting to do something. To order a drink: 我想喝茶。",
+          "formula": "subject + 想 + verb + object",
+          "exampleIndices": [
+            0,
+            1
+          ]
+        },
+        {
+          "heading": "Asking about choices",
+          "rule": "吗 makes yes/no questions; 还是 offers alternatives in a question, as in 茶还是水？",
+          "formula": "A + 还是 + B？",
+          "exampleIndices": [
+            2,
+            8
+          ]
+        },
+        {
+          "heading": "Asking the price",
+          "rule": "多少钱 means 'how much money'. Answer with a number followed by 块钱 (spoken yuan).",
+          "formula": "这个 + 多少钱？",
+          "exampleIndices": [
+            6,
+            7
+          ]
+        }
+      ],
+      "storyGroups": [
+        {
+          "title": "Foundations · Short sentences",
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "title": "In context · Longer sentences",
+          "indices": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-09",
+      "number": 9,
+      "title": "Where People Are",
+      "subtitle": "Ask where people live, study, or work.",
+      "zh": "",
+      "supportingWords": [
+        {
+          "zh": "这儿",
+          "py": "zhèr",
+          "en": "here"
+        },
+        {
+          "zh": "休息",
+          "py": "xiūxi",
+          "en": "rest"
+        },
+        {
+          "zh": "上班",
+          "py": "shàngbān",
+          "en": "go to work"
+        },
+        {
+          "zh": "儿子",
+          "py": "érzi",
+          "en": "son"
+        }
+      ],
+      "concepts": [
+        {
+          "heading": "Asking where",
+          "rule": "在哪儿？ means 'where is ...?'; 哪儿 can follow 在 in a location question.",
+          "formula": "subject + 在 + 哪儿？",
+          "exampleIndices": [
+            0,
+            1
+          ]
+        },
+        {
+          "heading": "Saying location",
+          "rule": "在 before a place locates someone: 我在学校。",
+          "formula": "subject + 在 + place",
+          "exampleIndices": [
+            2,
+            3
+          ]
+        },
+        {
+          "heading": "Describing work location",
+          "rule": "To say where an action happens, use 在 + place before the verb: 在医院工作.",
+          "formula": "subject + 在 + place + verb",
+          "exampleIndices": [
+            4,
+            6
+          ]
+        }
+      ],
+      "storyGroups": [
+        {
+          "title": "Foundations · Short sentences",
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "title": "In context · Longer sentences",
+          "indices": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-10",
+      "number": 10,
+      "title": "Positions and Objects",
+      "subtitle": "Describe where objects are, and ask permission to sit.",
+      "zh": "",
+      "supportingWords": [
+        {
+          "zh": "杯子",
+          "py": "bēizi",
+          "en": "cup"
+        },
+        {
+          "zh": "椅子",
+          "py": "yǐzi",
+          "en": "chair"
+        },
+        {
+          "zh": "猫",
+          "py": "māo",
+          "en": "cat"
+        },
+        {
+          "zh": "上面",
+          "py": "shàngmiàn",
+          "en": "on top / above"
+        },
+        {
+          "zh": "下面",
+          "py": "xiàmiàn",
+          "en": "under / below"
+        }
+      ],
+      "concepts": [
+        {
+          "heading": "Asking permission",
+          "rule": "能 or 可以 + action + 吗 asks if something is permitted or possible.",
+          "formula": "subject + 能 + verb + 吗？",
+          "exampleIndices": [
+            0,
+            1
+          ]
+        },
+        {
+          "heading": "Locating things",
+          "rule": "在 + place + 上(面), 下(面), 前面, or 后面 describes positions.",
+          "formula": "object + 在 + place + position",
+          "exampleIndices": [
+            4,
+            5
+          ]
+        },
+        {
+          "heading": "Saying that something exists",
+          "rule": "有 shows presence or quantity at a location. The location comes first: 桌子上有三个杯子。",
+          "formula": "place + 有 + quantity + object",
+          "exampleIndices": [
+            6,
+            7
+          ]
+        }
+      ],
+      "storyGroups": [
+        {
+          "title": "Foundations · Short sentences",
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "title": "In context · Longer sentences",
+          "indices": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-12",
+      "number": 12,
+      "title": "Weather and Temperature",
+      "subtitle": "Talk about the weather and make simple plans.",
+      "zh": "",
+      "supportingWords": [
+        {
+          "zh": "今天",
+          "py": "jīntiān",
+          "en": "today"
+        },
+        {
+          "zh": "明天",
+          "py": "míngtiān",
+          "en": "tomorrow"
+        },
+        {
+          "zh": "会",
+          "py": "huì",
+          "en": "will / may"
+        },
+        {
+          "zh": "茶",
+          "py": "chá",
+          "en": "tea"
+        }
+      ],
+      "concepts": [
+        {
+          "heading": "Describing the weather",
+          "rule": "天气 means weather; 很 + an adjective expresses conditions such as hot or good.",
+          "formula": "今天 + 很 + adjective",
+          "exampleIndices": [
+            0,
+            5
+          ]
+        },
+        {
+          "heading": "Asking about the forecast",
+          "rule": "天气怎么样？ asks what the weather is like. Add a day such as 明天.",
+          "formula": "明天 + 天气 + 怎么样？",
+          "exampleIndices": [
+            1,
+            2
+          ]
+        },
+        {
+          "heading": "Extreme conditions and rain",
+          "rule": "太 + adjective + 了 expresses 'so/too ...'. 下雨 means 'to rain', and 会 can suggest a future event.",
+          "formula": "太 + adjective + 了 / 会 + 下雨",
+          "exampleIndices": [
+            3,
+            4
+          ]
+        }
+      ],
+      "storyGroups": [
+        {
+          "title": "Foundations · Short sentences",
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "title": "In context · Longer sentences",
+          "indices": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-13",
+      "number": 13,
+      "title": "Actions Happening Now",
+      "subtitle": "Say what someone is doing at the moment.",
+      "zh": "",
+      "supportingWords": [
+        {
+          "zh": "做饭",
+          "py": "zuò fàn",
+          "en": "cook"
+        },
+        {
+          "zh": "看书",
+          "py": "kàn shū",
+          "en": "read books"
+        },
+        {
+          "zh": "呢",
+          "py": "ne",
+          "en": "particle highlighting the ongoing situation"
+        },
+        {
+          "zh": "汉语",
+          "py": "Hànyǔ",
+          "en": "Chinese language"
+        }
+      ],
+      "concepts": [
+        {
+          "heading": "Asking about an ongoing action",
+          "rule": "在 + verb describes an action in progress. 你在做什么？ asks what someone is doing.",
+          "formula": "subject + 在 + verb",
+          "exampleIndices": [
+            0,
+            1
+          ]
+        },
+        {
+          "heading": "Describing a current activity",
+          "rule": "Use 在 before the activity, not after it: 他在看电视。",
+          "formula": "subject + 在 + activity",
+          "exampleIndices": [
+            2,
+            3
+          ]
+        },
+        {
+          "heading": "Adding context",
+          "rule": "You can attach 呢 to an ongoing-action statement for a conversational emphasis.",
+          "formula": "在 + verb + 呢",
+          "exampleIndices": [
+            6,
+            7
+          ]
+        }
+      ],
+      "storyGroups": [
+        {
+          "title": "Foundations · Short sentences",
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "title": "In context · Longer sentences",
+          "indices": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-14",
+      "number": 14,
+      "title": "Clothes and Quantities",
+      "subtitle": "Talk about clothing, shopping and quantities.",
+      "zh": "",
+      "supportingWords": [
+        {
+          "zh": "件",
+          "py": "jiàn",
+          "en": "classifier for clothes"
+        },
+        {
+          "zh": "很多",
+          "py": "hěn duō",
+          "en": "a lot / many"
+        },
+        {
+          "zh": "商店",
+          "py": "shāngdiàn",
+          "en": "store"
+        },
+        {
+          "zh": "多少钱",
+          "py": "duōshao qián",
+          "en": "how much money"
+        }
+      ],
+      "concepts": [
+        {
+          "heading": "Describing things",
+          "rule": "Use 这/这些 + noun and an adjective such as 漂亮 to describe clothes.",
+          "formula": "这些 + noun + 很 + adjective",
+          "exampleIndices": [
+            0,
+            6
+          ]
+        },
+        {
+          "heading": "Completed shopping actions",
+          "rule": "了 after a verb can mark a completed action, such as 买了 (bought).",
+          "formula": "subject + verb + 了 + object",
+          "exampleIndices": [
+            1,
+            4
+          ]
+        },
+        {
+          "heading": "Quantities and price",
+          "rule": "衣服 can be counted using 件. 一点儿 means a little, while 多少 asks how much or how many.",
+          "formula": "number + 件 + 衣服 / 多少钱",
+          "exampleIndices": [
+            2,
+            7
+          ]
+        }
+      ],
+      "storyGroups": [
+        {
+          "title": "Foundations · Short sentences",
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "title": "In context · Longer sentences",
+          "indices": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-15",
+      "number": 15,
+      "title": "Travel and Transport",
+      "subtitle": "Describe how you travel and talk about meeting people.",
+      "zh": "",
+      "supportingWords": [
+        {
+          "zh": "坐",
+          "py": "zuò",
+          "en": "ride / take (vehicle)"
+        },
+        {
+          "zh": "怎么",
+          "py": "zěnme",
+          "en": "how"
+        },
+        {
+          "zh": "中国",
+          "py": "Zhōngguó",
+          "en": "China"
+        },
+        {
+          "zh": "朋友",
+          "py": "péngyou",
+          "en": "friend"
+        }
+      ],
+      "concepts": [
+        {
+          "heading": "Travel by vehicle",
+          "rule": "坐 + vehicle expresses traveling by taxi or airplane: 坐出租车, 坐飞机.",
+          "formula": "坐 + vehicle + 去 + place",
+          "exampleIndices": [
+            0,
+            1
+          ]
+        },
+        {
+          "heading": "How did you arrive?",
+          "rule": "怎么来的？ asks how someone got here. 是…的 can emphasize the means of arrival.",
+          "formula": "(是) + 坐 + vehicle + 来 + 的",
+          "exampleIndices": [
+            4,
+            5
+          ]
+        },
+        {
+          "heading": "Meeting new people",
+          "rule": "很高兴认识你 is a useful greeting when you first meet someone.",
+          "formula": "很高兴 + 认识 + 你",
+          "exampleIndices": [
+            2,
+            7
+          ]
+        }
+      ],
+      "storyGroups": [
+        {
+          "title": "Foundations · Short sentences",
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "title": "In context · Longer sentences",
+          "indices": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    }
+  ]
+}
