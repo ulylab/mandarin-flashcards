@@ -32,9 +32,8 @@ export function buildChapterReviewLesson(definition, sentenceCards, bookWords) {
     const other = lines.filter((item, i) => i !== sourceIndex && item[key] !== answerText)
       .map(item => item[key]).filter((value, i, items) => items.indexOf(value) === i);
     if (other.length < 2) throw new Error('Not enough distinct answer choices.');
-    const options = [answerText, other[(sourceIndex + 2) % other.length],
-      other[(sourceIndex + 6) % other.length]];
-    if (options[1] === options[2]) options[2] = other[(sourceIndex + 3) % other.length];
+    const offset = sourceIndex % other.length;
+    const options = [answerText, other[offset], other[(offset + 1) % other.length]];
     const correctPosition = sourceIndex % 3;
     const ordered = [...options.slice(1)];
     ordered.splice(correctPosition, 0, answerText);
@@ -56,7 +55,7 @@ export function buildChapterReviewLesson(definition, sentenceCards, bookWords) {
     const word = bookWords[wordIndex % bookWords.length];
     if (typed) return {id:suffix,kind:'input',question:'Type pinyin for: ' + word.zh,
       answers:[word.py],hint:word.en,why:word.zh + ' is ' + word.py + ' (' + word.en + ').'};
-    const alternatives = bookWords.filter(w => w.py !== word.py).slice(0);
+    const alternatives = [...new Map(bookWords.filter(w => w.py !== word.py).map(w => [w.py, w])).values()];
     if (alternatives.length < 2) throw new Error('Not enough pinyin alternatives.');
     const altA = alternatives[(wordIndex + 1) % alternatives.length].py;
     const altB = alternatives[(wordIndex + 2) % alternatives.length].py;
