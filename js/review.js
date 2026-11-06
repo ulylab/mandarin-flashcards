@@ -1,4 +1,5 @@
 import {state, saveLessonProgress} from './storage.js';
+import {initListening} from './listening.js';
 import {REVIEW_CHAPTERS, buildChapterReviewLesson, validateLessonCatalog} from './review-curriculum.js';
 import {REVIEW_SCREENS, checkReviewAnswer, validateReviewLesson, chapterState,
   recordVisited, recordPractice, recordChallenge} from './review-model.js';
@@ -22,19 +23,22 @@ const answerLabel = question => question.kind === 'choice'
   ? question.options[question.answer]
   : question.kind === 'order' ? question.answer.join(' ') : question.answers[0];
 
-export function initReview({getCards, playAudio, stopAudio}) {
+export function initReview({getCards, playAudio, stopAudio, canPlayAudio}) {
   const flashcards = document.getElementById('flashcardsView');
   const review = document.getElementById('reviewView');
+  const listeningView = document.getElementById('listeningView');
   const root = document.getElementById('reviewRoot');
   const cardTab = document.getElementById('cardsTab');
   const reviewTab = document.getElementById('reviewTab');
-  if (!flashcards || !review || !root || !cardTab || !reviewTab) return {refresh() {}};
+  if (!flashcards || !review || !listeningView || !root || !cardTab || !reviewTab) return {refresh() {}};
+  const listeningUI = initListening({getCards,playAudio,stopAudio,canPlayAudio});
 
   let lesson = null;
   let loading = null;
   let catalog = null;
   let catalogLoading = null;
   let selectedChapter = null;
+  let showChapterList = false;
   let loadError = '';
   let screen = 0;
   let showPinyin = true;
@@ -304,7 +308,29 @@ export function initReview({getCards, playAudio, stopAudio}) {
     if (!Number.isInteger(number) || number < 1 || number > 15) return;
     location.hash = 'review/' + number;
   }
+  function practiceHome() {
+    const intro=el('div','review-home-intro');
+    intro.append(el('p','review-kicker','HSK 1 · STUDY & PRACTICE'));
+    intro.append(el('h1','','Practice'));
+    paragraph(intro,'','Choose a focused activity. Chapter lessons explain the grammar; listening sessions train comprehension in five questions.');
+    root.append(intro);
+    const grid=el('div','review-chapter-grid');
+    const chapter=button('','review-chapter-card',()=>{location.hash='review/chapters';});
+    chapter.append(el('span','review-chapter-num','LESSONS'));
+    chapter.append(el('span','review-chapter-name','Chapter Review'));
+    chapter.append(el('span','listen-module-summary','Vocabulary, grammar, examples, and challenges'));
+    chapter.append(el('span','review-chapter-meta','15 HSK 1 chapters'));
+    grid.append(chapter);
+    const listening=button('','review-chapter-card',()=>{location.hash='listen';});
+    listening.append(el('span','review-chapter-num','AUDIO FIRST'));
+    listening.append(el('span','review-chapter-name','Listening Trainer'));
+    listening.append(el('span','listen-module-summary','Hear Mandarin and choose the correct meaning'));
+    listening.append(el('span','review-chapter-meta','5 questions · 6 topics'));
+    grid.append(listening);
+    root.append(grid);
+  }
   function dashboard() {
+    root.append(button('← Practice','review-small-button review-back',()=>{location.hash='review';}));
     const intro = el('div', 'review-home-intro');
     intro.append(el('p','review-kicker','HSK STANDARD COURSE 1'));
     intro.append(el('h1','', 'Chapter Review'));
@@ -350,8 +376,8 @@ export function initReview({getCards, playAudio, stopAudio}) {
   function render() {
     if (review.hidden) return;
     root.replaceChildren();
-    if (!selectedChapter) {dashboard();return;}
-    root.append(button('← All 15 chapters','review-small-button review-back', () => {location.hash='review';}));
+    if (!selectedChapter) {if(showChapterList) dashboard(); else practiceHome();return;}
+    root.append(button('← All 15 chapters','review-small-button review-back', () => {location.hash='review/chapters';}));
     if (!lesson || lesson.number !== selectedChapter) {
       paragraph(root, 'review-description', loadError || ('Loading Chapter '+selectedChapter+'…'));
       if (loadError) root.append(button('Retry', 'review-action', () => {
@@ -446,24 +472,33 @@ export function initReview({getCards, playAudio, stopAudio}) {
     return promise;
   }
   function refresh() {
+    if (!listeningView.hidden) {listeningUI.refresh();return;}
     if (review.hidden) return;
     render();
-    ensureCatalog().then(()=>ensureLesson()).then(render).catch(()=>render());
+    if(showChapterList || selectedChapter) {
+      ensureCatalog().then(()=>ensureLesson()).then(render).catch(()=>render());
+    }
   }
   function syncMode() {
-    const match = /^#review(?:\/([1-9]|1[0-5]))?$/.exec(location.hash);
+    const match = /^#review(?:\/(chapters|[1-9]|1[0-5]))?$/.exec(location.hash);
     const isReview = Boolean(match);
-    const target = match?.[1] ? Number(match[1]) : null;
+    const isListening = /^#listen(?:\/[a-z-]+)?$/.test(location.hash);
+    const isPractice = isReview || isListening;
+    const showList = match?.[1] === 'chapters';
+    const target = match?.[1] && !showList ? Number(match[1]) : null;
     if (target !== selectedChapter) {
       selectedChapter=target;
       resetChapterSession();
     }
-    flashcards.hidden = isReview;
+    showChapterList=showList;
+    flashcards.hidden = isPractice;
     review.hidden = !isReview;
-    cardTab.classList.toggle('is-active',!isReview);
-    reviewTab.classList.toggle('is-active',isReview);
-    cardTab.setAttribute('aria-selected',String(!isReview));
-    reviewTab.setAttribute('aria-selected',String(isReview));
+    listeningView.hidden = !isListening;
+    cardTab.classList.toggle('is-active',!isPractice);
+    reviewTab.classList.toggle('is-active',isPractice);
+    cardTab.setAttribute('aria-selected',String(!isPractice));
+    reviewTab.setAttribute('aria-selected',String(isPractice));
+    listeningUI.route();
     if (isReview) {
       stopAudio();
       refresh();

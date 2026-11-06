@@ -17,18 +17,19 @@ function stopAudio() {
   const button = $('audioBtn');
   if (button) button.setAttribute('aria-label', 'Play Mandarin pronunciation');
 }
-function playAudio(text = current?.zh) {
-  if (!text || !speechAvailable) return;
+function playAudio(text = current?.zh, rate = 0.85) {
+  if (!text || !speechAvailable) return false;
   const synthesis = window.speechSynthesis;
   synthesis.cancel();
   const utterance = new SpeechSynthesisUtterance(text);
   utterance.lang = 'zh-CN';
-  utterance.rate = 0.85;
+  utterance.rate = Math.max(0.5,Math.min(1.2,rate));
   utterance.pitch = 1;
   const voices = synthesis.getVoices();
   const voice = voices.find(v => /^zh[-_]CN$/i.test(v.lang)) || voices.find(v => /^zh/i.test(v.lang));
   if (voice) utterance.voice = voice;
   synthesis.speak(utterance);
+  return true;
 }
 
 function selectedBanks() {
@@ -330,7 +331,7 @@ function wireEvents() {
   };
 }
 async function start() {
-  reviewUI = initReview({getCards: () => cards, playAudio, stopAudio});
+  reviewUI = initReview({getCards: () => cards, playAudio, stopAudio, canPlayAudio: speechAvailable});
   wireEvents();
   try {
     cards = await loadVocabulary();
