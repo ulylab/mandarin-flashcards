@@ -1,5 +1,6 @@
 import {state, saveLessonProgress} from './storage.js';
 import {initListening} from './listening.js';
+import {initVocabularyLab} from './vocab-lab.js';
 import {REVIEW_CHAPTERS, buildChapterReviewLesson, validateLessonCatalog} from './review-curriculum.js';
 import {REVIEW_SCREENS, checkReviewAnswer, validateReviewLesson, chapterState,
   recordVisited, recordPractice, recordChallenge} from './review-model.js';
@@ -27,11 +28,13 @@ export function initReview({getCards, playAudio, stopAudio, canPlayAudio}) {
   const flashcards = document.getElementById('flashcardsView');
   const review = document.getElementById('reviewView');
   const listeningView = document.getElementById('listeningView');
+  const vocabView = document.getElementById('vocabView');
   const root = document.getElementById('reviewRoot');
   const cardTab = document.getElementById('cardsTab');
   const reviewTab = document.getElementById('reviewTab');
-  if (!flashcards || !review || !listeningView || !root || !cardTab || !reviewTab) return {refresh() {}};
+  if (!flashcards || !review || !listeningView || !vocabView || !root || !cardTab || !reviewTab) return {refresh() {}};
   const listeningUI = initListening({getCards,playAudio,stopAudio,canPlayAudio});
+  const vocabUI = initVocabularyLab({getCards,playAudio,stopAudio,canPlayAudio});
 
   let lesson = null;
   let loading = null;
@@ -312,7 +315,7 @@ export function initReview({getCards, playAudio, stopAudio, canPlayAudio}) {
     const intro=el('div','review-home-intro');
     intro.append(el('p','review-kicker','HSK 1 · STUDY & PRACTICE'));
     intro.append(el('h1','','Practice'));
-    paragraph(intro,'','Choose a focused activity. Chapter lessons explain the grammar; listening sessions train comprehension in five questions.');
+    paragraph(intro,'','Choose a focused activity: structured chapter lessons, five-question listening sessions, or guided HSK 3.0 vocabulary learning.');
     root.append(intro);
     const grid=el('div','review-chapter-grid');
     const chapter=button('','review-chapter-card',()=>{location.hash='review/chapters';});
@@ -327,6 +330,12 @@ export function initReview({getCards, playAudio, stopAudio, canPlayAudio}) {
     listening.append(el('span','listen-module-summary','Hear Mandarin and choose the correct meaning'));
     listening.append(el('span','review-chapter-meta','5 questions · 6 topics'));
     grid.append(listening);
+    const vocab=button('','review-chapter-card',()=>{location.hash='vocab';});
+    vocab.append(el('span','review-chapter-num','HSK 3.0 · 2025 SYLLABUS'));
+    vocab.append(el('span','review-chapter-name','Vocabulary Lab'));
+    vocab.append(el('span','listen-module-summary','10-word lessons, active recall and spaced review'));
+    vocab.append(el('span','review-chapter-meta','300 Level 1 entries'));
+    grid.append(vocab);
     root.append(grid);
   }
   function dashboard() {
@@ -472,6 +481,7 @@ export function initReview({getCards, playAudio, stopAudio, canPlayAudio}) {
     return promise;
   }
   function refresh() {
+    if (!vocabView.hidden) {vocabUI.refresh();return;}
     if (!listeningView.hidden) {listeningUI.refresh();return;}
     if (review.hidden) return;
     render();
@@ -483,7 +493,8 @@ export function initReview({getCards, playAudio, stopAudio, canPlayAudio}) {
     const match = /^#review(?:\/(chapters|[1-9]|1[0-5]))?$/.exec(location.hash);
     const isReview = Boolean(match);
     const isListening = /^#listen(?:\/[a-z-]+)?$/.test(location.hash);
-    const isPractice = isReview || isListening;
+    const isVocab = /^#vocab(?:\/(?:lesson|review)\/(?:extended|all)(?:\/\d{1,2})?)?$/.test(location.hash);
+    const isPractice = isReview || isListening || isVocab;
     const showList = match?.[1] === 'chapters';
     const target = match?.[1] && !showList ? Number(match[1]) : null;
     if (target !== selectedChapter) {
@@ -494,11 +505,13 @@ export function initReview({getCards, playAudio, stopAudio, canPlayAudio}) {
     flashcards.hidden = isPractice;
     review.hidden = !isReview;
     listeningView.hidden = !isListening;
+    vocabView.hidden = !isVocab;
     cardTab.classList.toggle('is-active',!isPractice);
     reviewTab.classList.toggle('is-active',isPractice);
     cardTab.setAttribute('aria-selected',String(!isPractice));
     reviewTab.setAttribute('aria-selected',String(isPractice));
     listeningUI.route();
+    vocabUI.route();
     if (isReview) {
       stopAudio();
       refresh();
