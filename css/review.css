@@ -87,3 +87,57 @@
 .review-progress-fill{display:block;background:#4c9874;height:100%;border-radius:4px}
 .review-back{margin-bottom:12px;padding:9px 12px}
 .review-header .review-description{font-size:14px}
+
+
+/* Listening Trainer mini-sessions and the broader Practice hub. */
+.listening-view{flex:1;min-width:0;padding:4px 0 28px}
+.listen-module{min-height:175px}
+.listen-module-summary{font-size:13px;line-height:1.4;color:#597280}
+.listen-level{padding:0 0 17px;display:grid;gap:9px}
+.listen-label{font-size:13px;font-weight:700;color:#3f5d70}
+.listen-level-choices{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px}
+.listen-level-button{min-height:44px;padding:10px 6px;background:#fff;border:1px solid #cfdee7;border-radius:11px;color:#4b6576;font-weight:650;font-size:13px}
+.listen-level-button.is-selected{border-color:#276884;background:#e9f4fa;color:#235a78;box-shadow:inset 0 0 0 1px #276884}
+.listen-footnote{color:#6d7d86;font-size:12px;line-height:1.5;padding:8px 3px}
+.listen-question-heading h1{font-size:clamp(24px,6vw,33px);line-height:1.25;color:#1a4056;margin:5px 0}
+.listen-question-heading p:last-child{margin:8px 0 14px}
+.listen-count{display:flex;justify-content:space-between;align-items:center;gap:15px;font-size:13px;color:#567183;margin:8px 0 13px}
+.listen-count .review-progress-track{width:42%;height:7px}
+.listen-question{padding:20px 16px}
+.listen-hidden-transcript{border:1px dashed #b8d2df;background:#f4f9fc;border-radius:13px;text-align:center;padding:19px 14px 16px;color:#4c6c82}
+.listen-hidden-transcript span{display:block;font-size:28px;font-weight:800;margin-bottom:8px}
+.listen-hidden-transcript p{font-size:13px;line-height:1.4;margin:0}
+.listen-audio-controls{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.85fr);gap:9px;margin:18px 0 6px}
+.listen-play,.listen-slow{border:1px solid #bad7c9;min-height:52px;border-radius:13px;padding:10px;background:#ecf8f1;color:#246347;font-size:16px;font-weight:740}
+.listen-slow{background:#f3f7f9;border-color:#cddde5;color:#315b75;font-size:14px}
+.listen-play:disabled,.listen-slow:disabled{opacity:.4}
+.listen-audio-note{font-size:12px;color:#73848b;margin:0 0 20px}
+.listen-audio-note.listen-warning{color:#99552e}
+.listen-options{display:grid;gap:10px;margin:16px 0 17px}
+.listen-choice{text-align:left;background:#fff;border:1px solid #cbdce6;padding:14px 13px;font-size:15px;line-height:1.45;border-radius:12px;min-height:56px;color:#2b4351}
+.listen-choice.is-selected{border:2px solid #2f7ca4;padding:13px 12px;background:#eef8fd}
+.listen-choice.is-correct{border:2px solid #2e8961;padding:13px 12px;background:#edf8f0;color:#1b5d3e}
+.listen-choice.is-wrong{border:2px solid #c06d55;padding:13px 12px;background:#fff3ef;color:#905441}
+.listen-choice:disabled{opacity:1}
+.listen-submit{width:100%;margin-top:4px}
+.listen-skip{background:transparent;color:#687f8d;font-size:12px;border:0;display:block;text-decoration:underline;min-height:44px;padding:12px 8px;margin:6px auto 0}
+.listen-feedback{padding:12px 14px;border-radius:11px;margin:15px 0;font-size:14px}
+.listen-feedback strong{display:block;margin-bottom:3px}
+.listen-feedback p{margin:0}
+.listen-feedback.is-correct{background:#eff7ef;color:#245c41}
+.listen-feedback.is-missed{background:#fff3e9;color:#865330}
+.listen-transcript{border-top:1px solid #e0e9ee;padding:16px 0 5px;margin-top:11px}
+.listen-chinese{font-size:clamp(23px,5.5vw,29px);font-weight:650;line-height:1.55;color:#1b3b4f;overflow-wrap:anywhere}
+.listen-pinyin{font-size:17px;color:#386e8e;line-height:1.55;margin:5px 0}
+.listen-translation{font-size:15px;color:#596771;line-height:1.45;margin:6px 0 12px}
+.listen-breakdown-heading{margin-top:20px}
+.listen-breakdown{display:grid;grid-template-columns:minmax(50px,.8fr) minmax(60px,1fr) minmax(95px,1.4fr);gap:9px;border-top:1px solid #e5ecef;padding:8px 0;font-size:12px;align-items:center}
+.listen-breakdown strong{color:#25485a;font-size:15px}
+.listen-breakdown span:nth-child(2){color:#437a96}
+.listen-breakdown span:last-child{color:#596974}
+.listen-results h1{font-size:32px;color:#245c43;margin:5px 0 14px}
+.listen-missed-heading{font-size:17px;margin:25px 0 8px}
+.listen-missed{border-top:1px solid #e4ebee;padding:12px 0}
+.listen-missed strong{font-size:20px;color:#2b4658}
+.listen-all-topics{width:100%;margin-top:10px}
+@media(max-width:380px){.listen-question{padding:16px 12px}.listen-breakdown{grid-template-columns:minmax(43px,.6fr) minmax(55px,1fr) minmax(80px,1.3fr);gap:5px}}
