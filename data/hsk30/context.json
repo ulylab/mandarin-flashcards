@@ -1,0 +1,413 @@
+{
+  "note": "Curated supplementary examples; a few intentionally extend Level 1 for natural contexts. Original book-card examples are used when available.",
+  "entries": {
+    "吧": {
+      "zh": "我们走吧。",
+      "py": "Wǒmen zǒu ba.",
+      "en": "Let's go.",
+      "note": "A sentence-final particle that softens a suggestion; usually pronounced neutral tone."
+    },
+    "本": {
+      "zh": "我有三本书。",
+      "py": "Wǒ yǒu sān běn shū.",
+      "en": "I have three books.",
+      "note": "本 is a measure word for books; use it between a number and 书."
+    },
+    "半": {
+      "zh": "现在三点半。",
+      "py": "Xiànzài sān diǎn bàn.",
+      "en": "It is 3:30.",
+      "note": "Say the hour + 点半; never add 分 after 半."
+    },
+    "包子": {
+      "zh": "我早上吃包子。",
+      "py": "Wǒ zǎoshang chī bāozi.",
+      "en": "I eat steamed buns in the morning.",
+      "note": "A food noun; the second syllable is neutral tone."
+    },
+    "白天": {
+      "zh": "我白天工作。",
+      "py": "Wǒ báitiān gōngzuò.",
+      "en": "I work during the day.",
+      "note": "白天 is the daytime, contrasting with 晚上 (evening/night)."
+    },
+    "超市": {
+      "zh": "我去超市买水。",
+      "py": "Wǒ qù chāoshì mǎi shuǐ.",
+      "en": "I go to the supermarket to buy water.",
+      "note": "超市 is a supermarket; 商店 is a more general shop."
+    },
+    "穿": {
+      "zh": "今天我穿新衣服。",
+      "py": "Jīntiān wǒ chuān xīn yīfu.",
+      "en": "Today I wear new clothes.",
+      "note": "Use 穿 for putting on/wearing clothing."
+    },
+    "大学": {
+      "zh": "我在大学学习。",
+      "py": "Wǒ zài dàxué xuéxí.",
+      "en": "I study at university.",
+      "note": "大学 = university. 大学生 = university student."
+    },
+    "大学生": {
+      "zh": "我哥哥是大学生。",
+      "py": "Wǒ gēge shì dàxuéshēng.",
+      "en": "My older brother is a university student.",
+      "note": "The noun 大学生 literally combines university + student."
+    },
+    "到": {
+      "zh": "我八点到学校。",
+      "py": "Wǒ bā diǎn dào xuéxiào.",
+      "en": "I arrive at school at eight.",
+      "note": "到 describes reaching a destination; 去 describes going there."
+    },
+    "第": {
+      "zh": "这是第一课。",
+      "py": "Zhè shì dì-yī kè.",
+      "en": "This is lesson one.",
+      "note": "第 + number gives ordinal numbers: 第一 means first."
+    },
+    "弟弟": {
+      "zh": "我弟弟七岁。",
+      "py": "Wǒ dìdi qī suì.",
+      "en": "My younger brother is seven.",
+      "note": "Chinese kinship terms distinguish older and younger siblings."
+    },
+    "电影院": {
+      "zh": "我去电影院看电影。",
+      "py": "Wǒ qù diànyǐngyuàn kàn diànyǐng.",
+      "en": "I go to the cinema to watch a movie.",
+      "note": "电影院 is the place; 电影 is the movie."
+    },
+    "给": {
+      "zh": "请给我一杯水。",
+      "py": "Qǐng gěi wǒ yì bēi shuǐ.",
+      "en": "Please give me a cup of water.",
+      "note": "给 can mean 'give' or 'for/to'; watch the word order."
+    },
+    "公司": {
+      "zh": "我爸爸在公司工作。",
+      "py": "Wǒ bàba zài gōngsī gōngzuò.",
+      "en": "My dad works at a company.",
+      "note": "Use 在 + place + 工作 to say where someone works."
+    },
+    "贵": {
+      "zh": "这个太贵了。",
+      "py": "Zhège tài guì le.",
+      "en": "This is too expensive.",
+      "note": "贵 contrasts with 便宜 (inexpensive)."
+    },
+    "便宜": {
+      "zh": "这个苹果很便宜。",
+      "py": "Zhège píngguǒ hěn piányi.",
+      "en": "This apple is inexpensive.",
+      "note": "Second syllable is neutral tone: piányi."
+    },
+    "还": {
+      "zh": "我还想喝茶。",
+      "py": "Wǒ hái xiǎng hē chá.",
+      "en": "I still want to drink tea.",
+      "note": "还 (hái) can mean 'still' or 'also'; meaning depends on context."
+    },
+    "好吃": {
+      "zh": "这个菜很好吃。",
+      "py": "Zhège cài hěn hǎochī.",
+      "en": "This dish is delicious.",
+      "note": "好吃 describes food; 好喝 describes drinks."
+    },
+    "好看": {
+      "zh": "这个电影很好看。",
+      "py": "Zhège diànyǐng hěn hǎokàn.",
+      "en": "This movie is entertaining.",
+      "note": "好看 describes appearance or something enjoyable to watch."
+    },
+    "好听": {
+      "zh": "这首歌很好听。",
+      "py": "Zhè shǒu gē hěn hǎotīng.",
+      "en": "This song sounds nice.",
+      "note": "好听 describes sounds or music, not food."
+    },
+    "好玩儿": {
+      "zh": "这个游戏很好玩儿。",
+      "py": "Zhège yóuxì hěn hǎowánr.",
+      "en": "This game is fun.",
+      "note": "儿 marks an -r ending (érhuà) in this vocabulary entry."
+    },
+    "火车": {
+      "zh": "我坐火车去北京。",
+      "py": "Wǒ zuò huǒchē qù Běijīng.",
+      "en": "I take the train to Beijing.",
+      "note": "坐 + vehicle is how you travel; 开车 means to drive."
+    },
+    "鸡蛋": {
+      "zh": "我早饭吃鸡蛋。",
+      "py": "Wǒ zǎofàn chī jīdàn.",
+      "en": "I eat eggs for breakfast.",
+      "note": "鸡蛋 literally means chicken egg."
+    },
+    "家人": {
+      "zh": "我和家人一起吃饭。",
+      "py": "Wǒ hé jiārén yìqǐ chīfàn.",
+      "en": "I eat with my family.",
+      "note": "家 is home/family; 家人 refers to family members."
+    },
+    "饺子": {
+      "zh": "我喜欢吃饺子。",
+      "py": "Wǒ xǐhuan chī jiǎozi.",
+      "en": "I like eating dumplings.",
+      "note": "饺子 is a kind of dumpling; 子 here is neutral tone."
+    },
+    "觉得": {
+      "zh": "我觉得汉语很有意思。",
+      "py": "Wǒ juéde Hànyǔ hěn yǒu yìsi.",
+      "en": "I think Chinese is interesting.",
+      "note": "觉得 expresses an opinion or feeling. (This example extends the Level 1 word pool.)"
+    },
+    "开车": {
+      "zh": "我爸爸会开车。",
+      "py": "Wǒ bàba huì kāichē.",
+      "en": "My dad can drive.",
+      "note": "会 is a learned ability; 开车 = drive a car."
+    },
+    "看见": {
+      "zh": "我看见一只猫。",
+      "py": "Wǒ kànjiàn yì zhī māo.",
+      "en": "I see a cat.",
+      "note": "看 is looking/watching; 看见 emphasizes actually seeing."
+    },
+    "看病": {
+      "zh": "她去医院看病。",
+      "py": "Tā qù yīyuàn kànbìng.",
+      "en": "She goes to the hospital to see a doctor.",
+      "note": "看病 means seeking medical attention; 看 is not literally 'look at' here."
+    },
+    "课": {
+      "zh": "我上午有汉语课。",
+      "py": "Wǒ shàngwǔ yǒu Hànyǔ kè.",
+      "en": "I have Chinese class in the morning.",
+      "note": "课 is a class or lesson; 上课 means attend class."
+    },
+    "两": {
+      "zh": "我有两个朋友。",
+      "py": "Wǒ yǒu liǎng ge péngyou.",
+      "en": "I have two friends.",
+      "note": "两 normally goes before a measure word; 二 is used in counting and many numbers."
+    },
+    "卖": {
+      "zh": "这个商店卖水果。",
+      "py": "Zhège shāngdiàn mài shuǐguǒ.",
+      "en": "This shop sells fruit.",
+      "note": "买 (mǎi, third tone) = buy; 卖 (mài, fourth tone) = sell."
+    },
+    "没事": {
+      "zh": "没事，你不用担心。",
+      "py": "Méishì, nǐ bú yòng dānxīn.",
+      "en": "It's okay, don't worry.",
+      "note": "没事 is conversational reassurance. (Example uses words outside Level 1.)"
+    },
+    "面条儿": {
+      "zh": "我想吃面条儿。",
+      "py": "Wǒ xiǎng chī miàntiáor.",
+      "en": "I want to eat noodles.",
+      "note": "The -r ending is part of the published entry."
+    },
+    "哪个": {
+      "zh": "你喜欢哪个？",
+      "py": "Nǐ xǐhuan nǎge?",
+      "en": "Which one do you like?",
+      "note": "哪 + measure word can ask which one."
+    },
+    "哪些": {
+      "zh": "你喜欢哪些书？",
+      "py": "Nǐ xǐhuan nǎxiē shū?",
+      "en": "Which books do you like?",
+      "note": "哪些 asks which ones (plural), whereas 哪个 asks which one."
+    },
+    "男朋友": {
+      "zh": "他是我男朋友。",
+      "py": "Tā shì wǒ nánpéngyou.",
+      "en": "He is my boyfriend.",
+      "note": "朋友 is a friend; 男朋友 often means boyfriend."
+    },
+    "女朋友": {
+      "zh": "她是我女朋友。",
+      "py": "Tā shì wǒ nǚpéngyou.",
+      "en": "She is my girlfriend.",
+      "note": "女朋友 often means girlfriend; 女 = female."
+    },
+    "呢": {
+      "zh": "你呢？",
+      "py": "Nǐ ne?",
+      "en": "And you?",
+      "note": "呢 is used for follow-up questions or an ongoing situation; it is neutral tone."
+    },
+    "您": {
+      "zh": "您好！",
+      "py": "Nín hǎo!",
+      "en": "Hello (polite)!",
+      "note": "您 is a respectful form of 你."
+    },
+    "女士": {
+      "zh": "王女士是老师。",
+      "py": "Wáng nǚshì shì lǎoshī.",
+      "en": "Ms. Wang is a teacher.",
+      "note": "女士 is a polite title, used after the surname."
+    },
+    "千": {
+      "zh": "这里有一千个人。",
+      "py": "Zhèlǐ yǒu yì qiān ge rén.",
+      "en": "There are one thousand people here.",
+      "note": "千 = one thousand; 百 = hundred."
+    },
+    "请问": {
+      "zh": "请问，洗手间在哪儿？",
+      "py": "Qǐngwèn, xǐshǒujiān zài nǎr?",
+      "en": "Excuse me, where is the restroom?",
+      "note": "请问 is polite before asking someone a question. (Some words extend Level 1.)"
+    },
+    "上班": {
+      "zh": "我九点上班。",
+      "py": "Wǒ jiǔ diǎn shàngbān.",
+      "en": "I start work at nine.",
+      "note": "上班 = go to/start work; 下班 = finish work."
+    },
+    "下班": {
+      "zh": "我六点下班。",
+      "py": "Wǒ liù diǎn xiàbān.",
+      "en": "I finish work at six.",
+      "note": "Contrasts with 上班 (start work)."
+    },
+    "上学": {
+      "zh": "孩子们八点上学。",
+      "py": "Háizimen bā diǎn shàngxué.",
+      "en": "The children go to school at eight.",
+      "note": "上学 = attend/go to school; 上课 = attend class."
+    },
+    "手机": {
+      "zh": "这是我的手机。",
+      "py": "Zhè shì wǒ de shǒujī.",
+      "en": "This is my phone.",
+      "note": "手机 is a mobile phone; 电话 can refer to a telephone or call."
+    },
+    "书店": {
+      "zh": "我去书店买书。",
+      "py": "Wǒ qù shūdiàn mǎi shū.",
+      "en": "I go to the bookstore to buy a book.",
+      "note": "书店 = bookshop; 书 = book."
+    },
+    "睡": {
+      "zh": "我想睡觉。",
+      "py": "Wǒ xiǎng shuìjiào.",
+      "en": "I want to sleep.",
+      "note": "睡 and 睡觉 are related; 睡觉 is a common verb meaning sleep."
+    },
+    "它": {
+      "zh": "它是一只猫。",
+      "py": "Tā shì yì zhī māo.",
+      "en": "It is a cat.",
+      "note": "它 (it), 他 (he), and 她 (she) are pronounced tā."
+    },
+    "他": {
+      "zh": "他是我哥哥。",
+      "py": "Tā shì wǒ gēge.",
+      "en": "He is my older brother.",
+      "note": "他/她/它 all sound tā but are different characters."
+    },
+    "她": {
+      "zh": "她是我姐姐。",
+      "py": "Tā shì wǒ jiějie.",
+      "en": "She is my older sister.",
+      "note": "她 and 他 sound identical; characters show gender."
+    },
+    "太": {
+      "zh": "今天太热了。",
+      "py": "Jīntiān tài rè le.",
+      "en": "It's too hot today.",
+      "note": "Pattern: 太 + adjective + 了."
+    },
+    "外边": {
+      "zh": "猫在房间外边。",
+      "py": "Māo zài fángjiān wàibian.",
+      "en": "The cat is outside the room.",
+      "note": "外边 = outside; 里 = inside."
+    },
+    "晚饭": {
+      "zh": "我们晚上七点吃晚饭。",
+      "py": "Wǒmen wǎnshang qī diǎn chī wǎnfàn.",
+      "en": "We eat dinner at seven in the evening.",
+      "note": "晚饭 = dinner; 早饭 = breakfast, 午饭 = lunch."
+    },
+    "问": {
+      "zh": "我想问一个问题。",
+      "py": "Wǒ xiǎng wèn yí ge wèntí.",
+      "en": "I want to ask a question.",
+      "note": "问 is to ask; 问题 is the question."
+    },
+    "问题": {
+      "zh": "老师问我一个问题。",
+      "py": "Lǎoshī wèn wǒ yí ge wèntí.",
+      "en": "The teacher asks me a question.",
+      "note": "问题 can mean a question or a problem."
+    },
+    "小朋友": {
+      "zh": "小朋友在学校。",
+      "py": "Xiǎopéngyǒu zài xuéxiào.",
+      "en": "The little child is at school.",
+      "note": "This term refers to children, not necessarily a small-sized friend."
+    },
+    "雪": {
+      "zh": "今天下雪。",
+      "py": "Jīntiān xià xuě.",
+      "en": "It is snowing today.",
+      "note": "下雪 = snow (verb phrase); 雪 is snow."
+    },
+    "一半": {
+      "zh": "我吃了一半。",
+      "py": "Wǒ chī le yíbàn.",
+      "en": "I ate half.",
+      "note": "一 changes tone before fourth-tone words: yíbàn."
+    },
+    "有点儿": {
+      "zh": "我今天有点儿忙。",
+      "py": "Wǒ jīntiān yǒudiǎnr máng.",
+      "en": "I am a little busy today.",
+      "note": "有点儿 often describes a slightly undesirable state; 一点儿 means a small amount."
+    },
+    "正在": {
+      "zh": "我正在学习。",
+      "py": "Wǒ zhèngzài xuéxí.",
+      "en": "I am studying right now.",
+      "note": "正在 before a verb marks an activity in progress."
+    },
+    "知道": {
+      "zh": "我知道他的名字。",
+      "py": "Wǒ zhīdào tā de míngzi.",
+      "en": "I know his name.",
+      "note": "知道 is knowing facts; 认识 is knowing or being acquainted with someone."
+    },
+    "坐": {
+      "zh": "我坐出租车。",
+      "py": "Wǒ zuò chūzūchē.",
+      "en": "I take a taxi.",
+      "note": "坐 = sit or ride; 做 = do or make. Both are zuò."
+    },
+    "做": {
+      "zh": "我会做饭。",
+      "py": "Wǒ huì zuò fàn.",
+      "en": "I can cook.",
+      "note": "做 = do/make; 坐 = sit/ride, pronounced the same."
+    },
+    "在": {
+      "zh": "我在学校。",
+      "py": "Wǒ zài xuéxiào.",
+      "en": "I am at school.",
+      "note": "在 = location; 再 = again, both pronounced zài."
+    },
+    "再": {
+      "zh": "请再说一次。",
+      "py": "Qǐng zài shuō yí cì.",
+      "en": "Please say it again.",
+      "note": "再 means again; 在 indicates location or ongoing action. (一次 extends Level 1.)"
+    }
+  }
+}

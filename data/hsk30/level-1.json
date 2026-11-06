@@ -1,0 +1,3009 @@
+{
+  "edition": "HSK exam syllabus 2025-11 (HSK 3.0)",
+  "level": 1,
+  "count": 300,
+  "attribution": "Vocabulary order/characters/pinyin: 2025 HSK exam syllabus, transcribed by hsk-tutor.com; English teaching glosses authored for this learning app; not official translations.",
+  "source": "https://github.com/uranbekanarbaev/hsk-3.0-vocabulary-dataset",
+  "words": [
+    {
+      "id": "hsk30-1-001",
+      "seq": 1,
+      "zh": "爱",
+      "py": "ài",
+      "en": "love",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 80
+    },
+    {
+      "id": "hsk30-1-002",
+      "seq": 2,
+      "zh": "八",
+      "py": "bā",
+      "en": "eight",
+      "pos": "number",
+      "level": 1,
+      "sourcePage": 80
+    },
+    {
+      "id": "hsk30-1-003",
+      "seq": 3,
+      "zh": "爸爸",
+      "py": "bàba",
+      "en": "dad; father",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 80
+    },
+    {
+      "id": "hsk30-1-004",
+      "seq": 4,
+      "zh": "吧",
+      "py": "ba",
+      "en": "suggestion particle",
+      "pos": "particle",
+      "level": 1,
+      "sourcePage": 80
+    },
+    {
+      "id": "hsk30-1-005",
+      "seq": 5,
+      "zh": "白天",
+      "py": "báitiān",
+      "en": "daytime",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 80
+    },
+    {
+      "id": "hsk30-1-006",
+      "seq": 6,
+      "zh": "百",
+      "py": "bǎi",
+      "en": "hundred",
+      "pos": "number",
+      "level": 1,
+      "sourcePage": 80
+    },
+    {
+      "id": "hsk30-1-007",
+      "seq": 7,
+      "zh": "半",
+      "py": "bàn",
+      "en": "half",
+      "pos": "number; （副）",
+      "level": 1,
+      "sourcePage": 80
+    },
+    {
+      "id": "hsk30-1-008",
+      "seq": 8,
+      "zh": "包子",
+      "py": "bāozi",
+      "en": "steamed stuffed bun",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 80
+    },
+    {
+      "id": "hsk30-1-009",
+      "seq": 9,
+      "zh": "杯子",
+      "py": "bēizi",
+      "en": "cup",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 80
+    },
+    {
+      "id": "hsk30-1-010",
+      "seq": 10,
+      "zh": "本",
+      "py": "běn",
+      "en": "measure word for books",
+      "pos": "measure word",
+      "level": 1,
+      "sourcePage": 80
+    },
+    {
+      "id": "hsk30-1-011",
+      "seq": 11,
+      "zh": "边",
+      "py": "biān",
+      "en": "side",
+      "pos": "noun; 后缀",
+      "level": 1,
+      "sourcePage": 80
+    },
+    {
+      "id": "hsk30-1-012",
+      "seq": 12,
+      "zh": "病",
+      "py": "bìng",
+      "en": "illness; disease",
+      "pos": "noun; verb",
+      "level": 1,
+      "sourcePage": 80
+    },
+    {
+      "id": "hsk30-1-013",
+      "seq": 13,
+      "zh": "不",
+      "py": "bù",
+      "en": "not; no",
+      "pos": "adverb",
+      "level": 1,
+      "sourcePage": 80
+    },
+    {
+      "id": "hsk30-1-014",
+      "seq": 14,
+      "zh": "不客气",
+      "py": "bú kèqi",
+      "en": "you're welcome",
+      "pos": "",
+      "level": 1,
+      "sourcePage": 80
+    },
+    {
+      "id": "hsk30-1-015",
+      "seq": 15,
+      "zh": "不要",
+      "py": "búyào",
+      "en": "don't; do not want",
+      "pos": "adverb",
+      "level": 1,
+      "sourcePage": 80
+    },
+    {
+      "id": "hsk30-1-016",
+      "seq": 16,
+      "zh": "菜",
+      "py": "cài",
+      "en": "dish; vegetables",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 80
+    },
+    {
+      "id": "hsk30-1-017",
+      "seq": 17,
+      "zh": "茶",
+      "py": "chá",
+      "en": "tea",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 80
+    },
+    {
+      "id": "hsk30-1-018",
+      "seq": 18,
+      "zh": "唱",
+      "py": "chàng",
+      "en": "sing",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 80
+    },
+    {
+      "id": "hsk30-1-019",
+      "seq": 19,
+      "zh": "超市",
+      "py": "chāoshì",
+      "en": "supermarket",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 80
+    },
+    {
+      "id": "hsk30-1-020",
+      "seq": 20,
+      "zh": "车",
+      "py": "chē",
+      "en": "vehicle; car",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 80
+    },
+    {
+      "id": "hsk30-1-021",
+      "seq": 21,
+      "zh": "吃",
+      "py": "chī",
+      "en": "eat",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 80
+    },
+    {
+      "id": "hsk30-1-022",
+      "seq": 22,
+      "zh": "出租车",
+      "py": "chūzūchē",
+      "en": "taxi",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 80
+    },
+    {
+      "id": "hsk30-1-023",
+      "seq": 23,
+      "zh": "穿",
+      "py": "chuān",
+      "en": "wear (clothes)",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 80
+    },
+    {
+      "id": "hsk30-1-024",
+      "seq": 24,
+      "zh": "打电话",
+      "py": "dǎ diànhuà",
+      "en": "make a phone call",
+      "pos": "",
+      "level": 1,
+      "sourcePage": 80
+    },
+    {
+      "id": "hsk30-1-025",
+      "seq": 25,
+      "zh": "大",
+      "py": "dà",
+      "en": "big",
+      "pos": "adjective",
+      "level": 1,
+      "sourcePage": 80
+    },
+    {
+      "id": "hsk30-1-026",
+      "seq": 26,
+      "zh": "大家",
+      "py": "dàjiā",
+      "en": "everyone",
+      "pos": "pronoun",
+      "level": 1,
+      "sourcePage": 80
+    },
+    {
+      "id": "hsk30-1-027",
+      "seq": 27,
+      "zh": "大学",
+      "py": "dàxué",
+      "en": "university",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 80
+    },
+    {
+      "id": "hsk30-1-028",
+      "seq": 28,
+      "zh": "大学生",
+      "py": "dàxuéshēng",
+      "en": "university student",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 80
+    },
+    {
+      "id": "hsk30-1-029",
+      "seq": 29,
+      "zh": "到",
+      "py": "dào",
+      "en": "arrive; reach",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 80
+    },
+    {
+      "id": "hsk30-1-030",
+      "seq": 30,
+      "zh": "的",
+      "py": "de",
+      "en": "possession / modifying particle",
+      "pos": "particle",
+      "level": 1,
+      "sourcePage": 80
+    },
+    {
+      "id": "hsk30-1-031",
+      "seq": 31,
+      "zh": "第",
+      "py": "dì",
+      "en": "ordinal-number prefix",
+      "pos": "前缀",
+      "level": 1,
+      "sourcePage": 80
+    },
+    {
+      "id": "hsk30-1-032",
+      "seq": 32,
+      "zh": "弟弟",
+      "py": "dìdi",
+      "en": "younger brother",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 80
+    },
+    {
+      "id": "hsk30-1-033",
+      "seq": 33,
+      "zh": "点",
+      "py": "diǎn",
+      "en": "o'clock; point",
+      "pos": "measure word; （名）",
+      "level": 1,
+      "sourcePage": 80
+    },
+    {
+      "id": "hsk30-1-034",
+      "seq": 34,
+      "zh": "店",
+      "py": "diàn",
+      "en": "shop",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 80
+    },
+    {
+      "id": "hsk30-1-035",
+      "seq": 35,
+      "zh": "电话",
+      "py": "diànhuà",
+      "en": "telephone",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 80
+    },
+    {
+      "id": "hsk30-1-036",
+      "seq": 36,
+      "zh": "电脑",
+      "py": "diànnǎo",
+      "en": "computer",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 80
+    },
+    {
+      "id": "hsk30-1-037",
+      "seq": 37,
+      "zh": "电视",
+      "py": "diànshì",
+      "en": "television",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 80
+    },
+    {
+      "id": "hsk30-1-038",
+      "seq": 38,
+      "zh": "电影",
+      "py": "diànyǐng",
+      "en": "movie",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 80
+    },
+    {
+      "id": "hsk30-1-039",
+      "seq": 39,
+      "zh": "电影院",
+      "py": "diànyǐngyuàn",
+      "en": "cinema; movie theater",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 80
+    },
+    {
+      "id": "hsk30-1-040",
+      "seq": 40,
+      "zh": "东西",
+      "py": "dōngxi",
+      "en": "thing; stuff",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 80
+    },
+    {
+      "id": "hsk30-1-041",
+      "seq": 41,
+      "zh": "都",
+      "py": "dōu",
+      "en": "all; both",
+      "pos": "adverb",
+      "level": 1,
+      "sourcePage": 81
+    },
+    {
+      "id": "hsk30-1-042",
+      "seq": 42,
+      "zh": "读",
+      "py": "dú",
+      "en": "read (aloud); study",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 81
+    },
+    {
+      "id": "hsk30-1-043",
+      "seq": 43,
+      "zh": "读书",
+      "py": "dúshū",
+      "en": "read books; study",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 81
+    },
+    {
+      "id": "hsk30-1-044",
+      "seq": 44,
+      "zh": "对",
+      "py": "duì",
+      "en": "correct; right",
+      "pos": "adjective; preposition; （动; 量）",
+      "level": 1,
+      "sourcePage": 81
+    },
+    {
+      "id": "hsk30-1-045",
+      "seq": 45,
+      "zh": "对不起",
+      "py": "duìbuqǐ",
+      "en": "sorry",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 81
+    },
+    {
+      "id": "hsk30-1-046",
+      "seq": 46,
+      "zh": "多",
+      "py": "duō",
+      "en": "many; much",
+      "pos": "adjective; verb; pronoun; （数; 副）",
+      "level": 1,
+      "sourcePage": 81
+    },
+    {
+      "id": "hsk30-1-047",
+      "seq": 47,
+      "zh": "多少",
+      "py": "duōshao",
+      "en": "how much; how many",
+      "pos": "pronoun",
+      "level": 1,
+      "sourcePage": 81
+    },
+    {
+      "id": "hsk30-1-048",
+      "seq": 48,
+      "zh": "儿子",
+      "py": "érzi",
+      "en": "son",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 81
+    },
+    {
+      "id": "hsk30-1-049",
+      "seq": 49,
+      "zh": "二",
+      "py": "èr",
+      "en": "two",
+      "pos": "number",
+      "level": 1,
+      "sourcePage": 81
+    },
+    {
+      "id": "hsk30-1-050",
+      "seq": 50,
+      "zh": "饭",
+      "py": "fàn",
+      "en": "cooked food; meal",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 81
+    },
+    {
+      "id": "hsk30-1-051",
+      "seq": 51,
+      "zh": "饭店",
+      "py": "fàndiàn",
+      "en": "restaurant; hotel",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 81
+    },
+    {
+      "id": "hsk30-1-052",
+      "seq": 52,
+      "zh": "房间",
+      "py": "fángjiān",
+      "en": "room",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 81
+    },
+    {
+      "id": "hsk30-1-053",
+      "seq": 53,
+      "zh": "非常",
+      "py": "fēicháng",
+      "en": "very; extremely",
+      "pos": "adverb",
+      "level": 1,
+      "sourcePage": 81
+    },
+    {
+      "id": "hsk30-1-054",
+      "seq": 54,
+      "zh": "飞机",
+      "py": "fēijī",
+      "en": "airplane",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 81
+    },
+    {
+      "id": "hsk30-1-055",
+      "seq": 55,
+      "zh": "分",
+      "py": "fēn",
+      "en": "minute; cent",
+      "pos": "measure word; （动; 名）",
+      "level": 1,
+      "sourcePage": 81
+    },
+    {
+      "id": "hsk30-1-056",
+      "seq": 56,
+      "zh": "分钟",
+      "py": "fēnzhōng",
+      "en": "minute (duration)",
+      "pos": "measure word",
+      "level": 1,
+      "sourcePage": 81
+    },
+    {
+      "id": "hsk30-1-057",
+      "seq": 57,
+      "zh": "高兴",
+      "py": "gāoxìng",
+      "en": "happy; glad",
+      "pos": "adjective",
+      "level": 1,
+      "sourcePage": 81
+    },
+    {
+      "id": "hsk30-1-058",
+      "seq": 58,
+      "zh": "歌",
+      "py": "gē",
+      "en": "song",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 81
+    },
+    {
+      "id": "hsk30-1-059",
+      "seq": 59,
+      "zh": "哥哥",
+      "py": "gēge",
+      "en": "older brother",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 81
+    },
+    {
+      "id": "hsk30-1-060",
+      "seq": 60,
+      "zh": "个",
+      "py": "gè",
+      "en": "general measure word",
+      "pos": "measure word",
+      "level": 1,
+      "sourcePage": 81
+    },
+    {
+      "id": "hsk30-1-061",
+      "seq": 61,
+      "zh": "给",
+      "py": "gěi",
+      "en": "give; for",
+      "pos": "verb; （介）",
+      "level": 1,
+      "sourcePage": 81
+    },
+    {
+      "id": "hsk30-1-062",
+      "seq": 62,
+      "zh": "公司",
+      "py": "gōngsī",
+      "en": "company",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 81
+    },
+    {
+      "id": "hsk30-1-063",
+      "seq": 63,
+      "zh": "工作",
+      "py": "gōngzuò",
+      "en": "work; job",
+      "pos": "verb; noun",
+      "level": 1,
+      "sourcePage": 81
+    },
+    {
+      "id": "hsk30-1-064",
+      "seq": 64,
+      "zh": "狗",
+      "py": "gǒu",
+      "en": "dog",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 81
+    },
+    {
+      "id": "hsk30-1-065",
+      "seq": 65,
+      "zh": "贵",
+      "py": "guì",
+      "en": "expensive",
+      "pos": "adjective",
+      "level": 1,
+      "sourcePage": 81
+    },
+    {
+      "id": "hsk30-1-066",
+      "seq": 66,
+      "zh": "国",
+      "py": "guó",
+      "en": "country",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 81
+    },
+    {
+      "id": "hsk30-1-067",
+      "seq": 67,
+      "zh": "还",
+      "py": "hái",
+      "en": "also; still",
+      "pos": "adverb",
+      "level": 1,
+      "sourcePage": 81
+    },
+    {
+      "id": "hsk30-1-068",
+      "seq": 68,
+      "zh": "孩子",
+      "py": "háizi",
+      "en": "child",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 81
+    },
+    {
+      "id": "hsk30-1-069",
+      "seq": 69,
+      "zh": "汉语",
+      "py": "Hànyǔ",
+      "en": "Chinese language",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 81
+    },
+    {
+      "id": "hsk30-1-070",
+      "seq": 70,
+      "zh": "汉字",
+      "py": "Hànzì",
+      "en": "Chinese character",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 81
+    },
+    {
+      "id": "hsk30-1-071",
+      "seq": 71,
+      "zh": "好",
+      "py": "hǎo",
+      "en": "good; well",
+      "pos": "adjective; （副）; （动）",
+      "level": 1,
+      "sourcePage": 81
+    },
+    {
+      "id": "hsk30-1-072",
+      "seq": 72,
+      "zh": "好吃",
+      "py": "hǎochī",
+      "en": "tasty",
+      "pos": "adjective",
+      "level": 1,
+      "sourcePage": 81
+    },
+    {
+      "id": "hsk30-1-073",
+      "seq": 73,
+      "zh": "好看",
+      "py": "hǎokàn",
+      "en": "good-looking; entertaining",
+      "pos": "adjective",
+      "level": 1,
+      "sourcePage": 81
+    },
+    {
+      "id": "hsk30-1-074",
+      "seq": 74,
+      "zh": "好听",
+      "py": "hǎotīng",
+      "en": "pleasant to hear",
+      "pos": "adjective",
+      "level": 1,
+      "sourcePage": 81
+    },
+    {
+      "id": "hsk30-1-075",
+      "seq": 75,
+      "zh": "好玩儿",
+      "py": "hǎowánr",
+      "en": "fun",
+      "pos": "adjective",
+      "level": 1,
+      "sourcePage": 81
+    },
+    {
+      "id": "hsk30-1-076",
+      "seq": 76,
+      "zh": "号",
+      "py": "hào",
+      "en": "day of month; number",
+      "pos": "noun; measure word",
+      "level": 1,
+      "sourcePage": 81
+    },
+    {
+      "id": "hsk30-1-077",
+      "seq": 77,
+      "zh": "喝",
+      "py": "hē",
+      "en": "drink",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 81
+    },
+    {
+      "id": "hsk30-1-078",
+      "seq": 78,
+      "zh": "和",
+      "py": "hé",
+      "en": "and; with",
+      "pos": "preposition; conjunction",
+      "level": 1,
+      "sourcePage": 81
+    },
+    {
+      "id": "hsk30-1-079",
+      "seq": 79,
+      "zh": "很",
+      "py": "hěn",
+      "en": "very; adjective linker",
+      "pos": "adverb",
+      "level": 1,
+      "sourcePage": 81
+    },
+    {
+      "id": "hsk30-1-080",
+      "seq": 80,
+      "zh": "后",
+      "py": "hòu",
+      "en": "behind; after",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 81
+    },
+    {
+      "id": "hsk30-1-081",
+      "seq": 81,
+      "zh": "回",
+      "py": "huí",
+      "en": "return; go back",
+      "pos": "verb; （量）",
+      "level": 1,
+      "sourcePage": 82
+    },
+    {
+      "id": "hsk30-1-082",
+      "seq": 82,
+      "zh": "会",
+      "py": "huì",
+      "en": "can (learned skill); will",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 82
+    },
+    {
+      "id": "hsk30-1-083",
+      "seq": 83,
+      "zh": "火车",
+      "py": "huǒchē",
+      "en": "train",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 82
+    },
+    {
+      "id": "hsk30-1-084",
+      "seq": 84,
+      "zh": "鸡蛋",
+      "py": "jīdàn",
+      "en": "egg",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 82
+    },
+    {
+      "id": "hsk30-1-085",
+      "seq": 85,
+      "zh": "几",
+      "py": "jǐ",
+      "en": "how many (small number)",
+      "pos": "pronoun; number",
+      "level": 1,
+      "sourcePage": 82
+    },
+    {
+      "id": "hsk30-1-086",
+      "seq": 86,
+      "zh": "家",
+      "py": "jiā",
+      "en": "home; family",
+      "pos": "noun; measure word; （后缀）",
+      "level": 1,
+      "sourcePage": 82
+    },
+    {
+      "id": "hsk30-1-087",
+      "seq": 87,
+      "zh": "家人",
+      "py": "jiārén",
+      "en": "family member",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 82
+    },
+    {
+      "id": "hsk30-1-088",
+      "seq": 88,
+      "zh": "见",
+      "py": "jiàn",
+      "en": "see; meet",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 82
+    },
+    {
+      "id": "hsk30-1-089",
+      "seq": 89,
+      "zh": "件",
+      "py": "jiàn",
+      "en": "measure word for clothing",
+      "pos": "measure word",
+      "level": 1,
+      "sourcePage": 82
+    },
+    {
+      "id": "hsk30-1-090",
+      "seq": 90,
+      "zh": "饺子",
+      "py": "jiǎozi",
+      "en": "dumpling",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 82
+    },
+    {
+      "id": "hsk30-1-091",
+      "seq": 91,
+      "zh": "叫",
+      "py": "jiào",
+      "en": "be called; call",
+      "pos": "verb; （介）",
+      "level": 1,
+      "sourcePage": 82
+    },
+    {
+      "id": "hsk30-1-092",
+      "seq": 92,
+      "zh": "姐姐",
+      "py": "jiějie",
+      "en": "older sister",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 82
+    },
+    {
+      "id": "hsk30-1-093",
+      "seq": 93,
+      "zh": "今年",
+      "py": "jīnnián",
+      "en": "this year",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 82
+    },
+    {
+      "id": "hsk30-1-094",
+      "seq": 94,
+      "zh": "今天",
+      "py": "jīntiān",
+      "en": "today",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 82
+    },
+    {
+      "id": "hsk30-1-095",
+      "seq": 95,
+      "zh": "九",
+      "py": "jiǔ",
+      "en": "nine",
+      "pos": "number",
+      "level": 1,
+      "sourcePage": 82
+    },
+    {
+      "id": "hsk30-1-096",
+      "seq": 96,
+      "zh": "觉得",
+      "py": "juéde",
+      "en": "think; feel",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 82
+    },
+    {
+      "id": "hsk30-1-097",
+      "seq": 97,
+      "zh": "开",
+      "py": "kāi",
+      "en": "open; drive",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 82
+    },
+    {
+      "id": "hsk30-1-098",
+      "seq": 98,
+      "zh": "开车",
+      "py": "kāichē",
+      "en": "drive a car",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 82
+    },
+    {
+      "id": "hsk30-1-099",
+      "seq": 99,
+      "zh": "看",
+      "py": "kàn",
+      "en": "look; watch; read",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 82
+    },
+    {
+      "id": "hsk30-1-100",
+      "seq": 100,
+      "zh": "看病",
+      "py": "kànbìng",
+      "en": "see a doctor",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 82
+    },
+    {
+      "id": "hsk30-1-101",
+      "seq": 101,
+      "zh": "看见",
+      "py": "kànjiàn",
+      "en": "see; catch sight of",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 82
+    },
+    {
+      "id": "hsk30-1-102",
+      "seq": 102,
+      "zh": "可以",
+      "py": "kěyǐ",
+      "en": "can; may; okay",
+      "pos": "verb; adjective",
+      "level": 1,
+      "sourcePage": 82
+    },
+    {
+      "id": "hsk30-1-103",
+      "seq": 103,
+      "zh": "课",
+      "py": "kè",
+      "en": "lesson; class",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 82
+    },
+    {
+      "id": "hsk30-1-104",
+      "seq": 104,
+      "zh": "口",
+      "py": "kǒu",
+      "en": "mouth; measure word for family members",
+      "pos": "noun; measure word",
+      "level": 1,
+      "sourcePage": 82
+    },
+    {
+      "id": "hsk30-1-105",
+      "seq": 105,
+      "zh": "块",
+      "py": "kuài",
+      "en": "yuan (colloquial); piece",
+      "pos": "measure word",
+      "level": 1,
+      "sourcePage": 82
+    },
+    {
+      "id": "hsk30-1-106",
+      "seq": 106,
+      "zh": "来",
+      "py": "lái",
+      "en": "come",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 82
+    },
+    {
+      "id": "hsk30-1-107",
+      "seq": 107,
+      "zh": "老师",
+      "py": "lǎoshī",
+      "en": "teacher",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 82
+    },
+    {
+      "id": "hsk30-1-108",
+      "seq": 108,
+      "zh": "了",
+      "py": "le",
+      "en": "completed action / change particle",
+      "pos": "particle",
+      "level": 1,
+      "sourcePage": 82
+    },
+    {
+      "id": "hsk30-1-109",
+      "seq": 109,
+      "zh": "冷",
+      "py": "lěng",
+      "en": "cold (temperature)",
+      "pos": "adjective",
+      "level": 1,
+      "sourcePage": 82
+    },
+    {
+      "id": "hsk30-1-110",
+      "seq": 110,
+      "zh": "里",
+      "py": "lǐ",
+      "en": "inside",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 82
+    },
+    {
+      "id": "hsk30-1-111",
+      "seq": 111,
+      "zh": "两",
+      "py": "liǎng",
+      "en": "two (before measure words)",
+      "pos": "number",
+      "level": 1,
+      "sourcePage": 82
+    },
+    {
+      "id": "hsk30-1-112",
+      "seq": 112,
+      "zh": "零",
+      "py": "líng",
+      "en": "zero",
+      "pos": "number",
+      "level": 1,
+      "sourcePage": 82
+    },
+    {
+      "id": "hsk30-1-113",
+      "seq": 113,
+      "zh": "六",
+      "py": "liù",
+      "en": "six",
+      "pos": "number",
+      "level": 1,
+      "sourcePage": 82
+    },
+    {
+      "id": "hsk30-1-114",
+      "seq": 114,
+      "zh": "妈妈",
+      "py": "māma",
+      "en": "mom; mother",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 82
+    },
+    {
+      "id": "hsk30-1-115",
+      "seq": 115,
+      "zh": "吗",
+      "py": "ma",
+      "en": "yes/no question particle",
+      "pos": "particle",
+      "level": 1,
+      "sourcePage": 82
+    },
+    {
+      "id": "hsk30-1-116",
+      "seq": 116,
+      "zh": "买",
+      "py": "mǎi",
+      "en": "buy",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 82
+    },
+    {
+      "id": "hsk30-1-117",
+      "seq": 117,
+      "zh": "卖",
+      "py": "mài",
+      "en": "sell",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 82
+    },
+    {
+      "id": "hsk30-1-118",
+      "seq": 118,
+      "zh": "忙",
+      "py": "máng",
+      "en": "busy",
+      "pos": "adjective; verb",
+      "level": 1,
+      "sourcePage": 82
+    },
+    {
+      "id": "hsk30-1-119",
+      "seq": 119,
+      "zh": "猫",
+      "py": "māo",
+      "en": "cat",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 82
+    },
+    {
+      "id": "hsk30-1-120",
+      "seq": 120,
+      "zh": "没关系",
+      "py": "méi guānxi",
+      "en": "it's okay; no problem",
+      "pos": "",
+      "level": 1,
+      "sourcePage": 82
+    },
+    {
+      "id": "hsk30-1-121",
+      "seq": 121,
+      "zh": "没事",
+      "py": "méishì",
+      "en": "nothing's wrong; it's okay",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 83
+    },
+    {
+      "id": "hsk30-1-122",
+      "seq": 122,
+      "zh": "没有",
+      "py": "méiyǒu",
+      "en": "do not have; there isn't",
+      "pos": "verb; adverb",
+      "level": 1,
+      "sourcePage": 83
+    },
+    {
+      "id": "hsk30-1-123",
+      "seq": 123,
+      "zh": "妹妹",
+      "py": "mèimei",
+      "en": "younger sister",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 83
+    },
+    {
+      "id": "hsk30-1-124",
+      "seq": 124,
+      "zh": "们",
+      "py": "men",
+      "en": "plural suffix for people",
+      "pos": "后缀",
+      "level": 1,
+      "sourcePage": 83
+    },
+    {
+      "id": "hsk30-1-125",
+      "seq": 125,
+      "zh": "米饭",
+      "py": "mǐfàn",
+      "en": "cooked rice",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 83
+    },
+    {
+      "id": "hsk30-1-126",
+      "seq": 126,
+      "zh": "面包",
+      "py": "miànbāo",
+      "en": "bread",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 83
+    },
+    {
+      "id": "hsk30-1-127",
+      "seq": 127,
+      "zh": "面条儿",
+      "py": "miàntiáor",
+      "en": "noodles",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 83
+    },
+    {
+      "id": "hsk30-1-128",
+      "seq": 128,
+      "zh": "明年",
+      "py": "míngnián",
+      "en": "next year",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 83
+    },
+    {
+      "id": "hsk30-1-129",
+      "seq": 129,
+      "zh": "明天",
+      "py": "míngtiān",
+      "en": "tomorrow",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 83
+    },
+    {
+      "id": "hsk30-1-130",
+      "seq": 130,
+      "zh": "名字",
+      "py": "míngzi",
+      "en": "name",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 83
+    },
+    {
+      "id": "hsk30-1-131",
+      "seq": 131,
+      "zh": "哪",
+      "py": "nǎ",
+      "en": "which",
+      "pos": "pronoun",
+      "level": 1,
+      "sourcePage": 83
+    },
+    {
+      "id": "hsk30-1-132",
+      "seq": 132,
+      "zh": "哪个",
+      "py": "nǎge",
+      "en": "which one",
+      "pos": "pronoun",
+      "level": 1,
+      "sourcePage": 83
+    },
+    {
+      "id": "hsk30-1-133",
+      "seq": 133,
+      "zh": "哪里",
+      "py": "nǎlǐ",
+      "en": "where",
+      "pos": "pronoun",
+      "level": 1,
+      "sourcePage": 83
+    },
+    {
+      "id": "hsk30-1-134",
+      "seq": 134,
+      "zh": "哪儿",
+      "py": "nǎr",
+      "en": "where",
+      "pos": "pronoun",
+      "level": 1,
+      "sourcePage": 83
+    },
+    {
+      "id": "hsk30-1-135",
+      "seq": 135,
+      "zh": "哪些",
+      "py": "nǎxiē",
+      "en": "which ones",
+      "pos": "pronoun",
+      "level": 1,
+      "sourcePage": 83
+    },
+    {
+      "id": "hsk30-1-136",
+      "seq": 136,
+      "zh": "那",
+      "py": "nà",
+      "en": "that",
+      "pos": "pronoun; （连）",
+      "level": 1,
+      "sourcePage": 83
+    },
+    {
+      "id": "hsk30-1-137",
+      "seq": 137,
+      "zh": "那边",
+      "py": "nàbiān",
+      "en": "over there",
+      "pos": "pronoun",
+      "level": 1,
+      "sourcePage": 83
+    },
+    {
+      "id": "hsk30-1-138",
+      "seq": 138,
+      "zh": "那个",
+      "py": "nàge",
+      "en": "that one",
+      "pos": "pronoun",
+      "level": 1,
+      "sourcePage": 83
+    },
+    {
+      "id": "hsk30-1-139",
+      "seq": 139,
+      "zh": "那里",
+      "py": "nàlǐ",
+      "en": "there",
+      "pos": "pronoun",
+      "level": 1,
+      "sourcePage": 83
+    },
+    {
+      "id": "hsk30-1-140",
+      "seq": 140,
+      "zh": "那儿",
+      "py": "nàr",
+      "en": "there",
+      "pos": "pronoun",
+      "level": 1,
+      "sourcePage": 83
+    },
+    {
+      "id": "hsk30-1-141",
+      "seq": 141,
+      "zh": "那些",
+      "py": "nàxiē",
+      "en": "those",
+      "pos": "pronoun",
+      "level": 1,
+      "sourcePage": 83
+    },
+    {
+      "id": "hsk30-1-142",
+      "seq": 142,
+      "zh": "男",
+      "py": "nán",
+      "en": "male; man",
+      "pos": "adjective",
+      "level": 1,
+      "sourcePage": 83
+    },
+    {
+      "id": "hsk30-1-143",
+      "seq": 143,
+      "zh": "男朋友",
+      "py": "nánpéngyou",
+      "en": "boyfriend",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 83
+    },
+    {
+      "id": "hsk30-1-144",
+      "seq": 144,
+      "zh": "呢",
+      "py": "ne",
+      "en": "follow-up / ongoing particle",
+      "pos": "particle",
+      "level": 1,
+      "sourcePage": 83
+    },
+    {
+      "id": "hsk30-1-145",
+      "seq": 145,
+      "zh": "能",
+      "py": "néng",
+      "en": "can; be able to",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 83
+    },
+    {
+      "id": "hsk30-1-146",
+      "seq": 146,
+      "zh": "你",
+      "py": "nǐ",
+      "en": "you",
+      "pos": "pronoun",
+      "level": 1,
+      "sourcePage": 83
+    },
+    {
+      "id": "hsk30-1-147",
+      "seq": 147,
+      "zh": "你好",
+      "py": "nǐ hǎo",
+      "en": "hello",
+      "pos": "",
+      "level": 1,
+      "sourcePage": 83
+    },
+    {
+      "id": "hsk30-1-148",
+      "seq": 148,
+      "zh": "你们",
+      "py": "nǐmen",
+      "en": "you (plural)",
+      "pos": "pronoun",
+      "level": 1,
+      "sourcePage": 83
+    },
+    {
+      "id": "hsk30-1-149",
+      "seq": 149,
+      "zh": "年",
+      "py": "nián",
+      "en": "year",
+      "pos": "noun; measure word",
+      "level": 1,
+      "sourcePage": 83
+    },
+    {
+      "id": "hsk30-1-150",
+      "seq": 150,
+      "zh": "您",
+      "py": "nín",
+      "en": "you (polite)",
+      "pos": "pronoun",
+      "level": 1,
+      "sourcePage": 83
+    },
+    {
+      "id": "hsk30-1-151",
+      "seq": 151,
+      "zh": "牛奶",
+      "py": "niúnǎi",
+      "en": "milk",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 83
+    },
+    {
+      "id": "hsk30-1-152",
+      "seq": 152,
+      "zh": "女",
+      "py": "nǚ",
+      "en": "female; woman",
+      "pos": "adjective",
+      "level": 1,
+      "sourcePage": 83
+    },
+    {
+      "id": "hsk30-1-153",
+      "seq": 153,
+      "zh": "女儿",
+      "py": "nǚ’ér",
+      "en": "daughter",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 83
+    },
+    {
+      "id": "hsk30-1-154",
+      "seq": 154,
+      "zh": "女朋友",
+      "py": "nǚpéngyou",
+      "en": "girlfriend",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 83
+    },
+    {
+      "id": "hsk30-1-155",
+      "seq": 155,
+      "zh": "女士",
+      "py": "nǚshì",
+      "en": "Ms.; lady",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 83
+    },
+    {
+      "id": "hsk30-1-156",
+      "seq": 156,
+      "zh": "朋友",
+      "py": "péngyou",
+      "en": "friend",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 83
+    },
+    {
+      "id": "hsk30-1-157",
+      "seq": 157,
+      "zh": "便宜",
+      "py": "piányi",
+      "en": "cheap; inexpensive",
+      "pos": "adjective",
+      "level": 1,
+      "sourcePage": 83
+    },
+    {
+      "id": "hsk30-1-158",
+      "seq": 158,
+      "zh": "漂亮",
+      "py": "piàoliang",
+      "en": "pretty; beautiful",
+      "pos": "adjective",
+      "level": 1,
+      "sourcePage": 83
+    },
+    {
+      "id": "hsk30-1-159",
+      "seq": 159,
+      "zh": "苹果",
+      "py": "píngguǒ",
+      "en": "apple",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 83
+    },
+    {
+      "id": "hsk30-1-160",
+      "seq": 160,
+      "zh": "七",
+      "py": "qī",
+      "en": "seven",
+      "pos": "number",
+      "level": 1,
+      "sourcePage": 83
+    },
+    {
+      "id": "hsk30-1-161",
+      "seq": 161,
+      "zh": "起床",
+      "py": "qǐchuáng",
+      "en": "get out of bed",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 84
+    },
+    {
+      "id": "hsk30-1-162",
+      "seq": 162,
+      "zh": "千",
+      "py": "qiān",
+      "en": "thousand",
+      "pos": "number",
+      "level": 1,
+      "sourcePage": 84
+    },
+    {
+      "id": "hsk30-1-163",
+      "seq": 163,
+      "zh": "前",
+      "py": "qián",
+      "en": "before; front",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 84
+    },
+    {
+      "id": "hsk30-1-164",
+      "seq": 164,
+      "zh": "钱",
+      "py": "qián",
+      "en": "money",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 84
+    },
+    {
+      "id": "hsk30-1-165",
+      "seq": 165,
+      "zh": "请",
+      "py": "qǐng",
+      "en": "please; invite",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 84
+    },
+    {
+      "id": "hsk30-1-166",
+      "seq": 166,
+      "zh": "请问",
+      "py": "qǐngwèn",
+      "en": "excuse me; may I ask",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 84
+    },
+    {
+      "id": "hsk30-1-167",
+      "seq": 167,
+      "zh": "去",
+      "py": "qù",
+      "en": "go",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 84
+    },
+    {
+      "id": "hsk30-1-168",
+      "seq": 168,
+      "zh": "去年",
+      "py": "qùnián",
+      "en": "last year",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 84
+    },
+    {
+      "id": "hsk30-1-169",
+      "seq": 169,
+      "zh": "热",
+      "py": "rè",
+      "en": "hot (temperature)",
+      "pos": "adjective",
+      "level": 1,
+      "sourcePage": 84
+    },
+    {
+      "id": "hsk30-1-170",
+      "seq": 170,
+      "zh": "人",
+      "py": "rén",
+      "en": "person; people",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 84
+    },
+    {
+      "id": "hsk30-1-171",
+      "seq": 171,
+      "zh": "认识",
+      "py": "rènshi",
+      "en": "know (someone); meet",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 84
+    },
+    {
+      "id": "hsk30-1-172",
+      "seq": 172,
+      "zh": "日",
+      "py": "rì",
+      "en": "day; date",
+      "pos": "measure word; （名）",
+      "level": 1,
+      "sourcePage": 84
+    },
+    {
+      "id": "hsk30-1-173",
+      "seq": 173,
+      "zh": "三",
+      "py": "sān",
+      "en": "three",
+      "pos": "number",
+      "level": 1,
+      "sourcePage": 84
+    },
+    {
+      "id": "hsk30-1-174",
+      "seq": 174,
+      "zh": "商店",
+      "py": "shāngdiàn",
+      "en": "store; shop",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 84
+    },
+    {
+      "id": "hsk30-1-175",
+      "seq": 175,
+      "zh": "上",
+      "py": "shàng",
+      "en": "above; on; previous",
+      "pos": "noun; verb",
+      "level": 1,
+      "sourcePage": 84
+    },
+    {
+      "id": "hsk30-1-176",
+      "seq": 176,
+      "zh": "上班",
+      "py": "shàngbān",
+      "en": "go to work; be at work",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 84
+    },
+    {
+      "id": "hsk30-1-177",
+      "seq": 177,
+      "zh": "上课",
+      "py": "shàngkè",
+      "en": "attend class",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 84
+    },
+    {
+      "id": "hsk30-1-178",
+      "seq": 178,
+      "zh": "上午",
+      "py": "shàngwǔ",
+      "en": "morning (before noon)",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 84
+    },
+    {
+      "id": "hsk30-1-179",
+      "seq": 179,
+      "zh": "上学",
+      "py": "shàngxué",
+      "en": "go to school",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 84
+    },
+    {
+      "id": "hsk30-1-180",
+      "seq": 180,
+      "zh": "少",
+      "py": "shǎo",
+      "en": "few; little",
+      "pos": "adjective; verb",
+      "level": 1,
+      "sourcePage": 84
+    },
+    {
+      "id": "hsk30-1-181",
+      "seq": 181,
+      "zh": "谁",
+      "py": "shéi/shuí",
+      "en": "who",
+      "pos": "pronoun",
+      "level": 1,
+      "sourcePage": 84
+    },
+    {
+      "id": "hsk30-1-182",
+      "seq": 182,
+      "zh": "什么",
+      "py": "shénme",
+      "en": "what",
+      "pos": "pronoun",
+      "level": 1,
+      "sourcePage": 84
+    },
+    {
+      "id": "hsk30-1-183",
+      "seq": 183,
+      "zh": "生病",
+      "py": "shēngbìng",
+      "en": "get sick; be ill",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 84
+    },
+    {
+      "id": "hsk30-1-184",
+      "seq": 184,
+      "zh": "十",
+      "py": "shí",
+      "en": "ten",
+      "pos": "number",
+      "level": 1,
+      "sourcePage": 84
+    },
+    {
+      "id": "hsk30-1-185",
+      "seq": 185,
+      "zh": "时候",
+      "py": "shíhou",
+      "en": "time; moment",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 84
+    },
+    {
+      "id": "hsk30-1-186",
+      "seq": 186,
+      "zh": "时间",
+      "py": "shíjiān",
+      "en": "time",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 84
+    },
+    {
+      "id": "hsk30-1-187",
+      "seq": 187,
+      "zh": "事",
+      "py": "shì",
+      "en": "matter; thing",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 84
+    },
+    {
+      "id": "hsk30-1-188",
+      "seq": 188,
+      "zh": "是",
+      "py": "shì",
+      "en": "be",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 84
+    },
+    {
+      "id": "hsk30-1-189",
+      "seq": 189,
+      "zh": "手机",
+      "py": "shǒujī",
+      "en": "mobile phone",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 84
+    },
+    {
+      "id": "hsk30-1-190",
+      "seq": 190,
+      "zh": "书",
+      "py": "shū",
+      "en": "book",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 84
+    },
+    {
+      "id": "hsk30-1-191",
+      "seq": 191,
+      "zh": "书店",
+      "py": "shūdiàn",
+      "en": "bookstore",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 84
+    },
+    {
+      "id": "hsk30-1-192",
+      "seq": 192,
+      "zh": "水",
+      "py": "shuǐ",
+      "en": "water",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 84
+    },
+    {
+      "id": "hsk30-1-193",
+      "seq": 193,
+      "zh": "水果",
+      "py": "shuǐguǒ",
+      "en": "fruit",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 84
+    },
+    {
+      "id": "hsk30-1-194",
+      "seq": 194,
+      "zh": "睡",
+      "py": "shuì",
+      "en": "sleep",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 84
+    },
+    {
+      "id": "hsk30-1-195",
+      "seq": 195,
+      "zh": "睡觉",
+      "py": "shuìjiào",
+      "en": "sleep; go to bed",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 84
+    },
+    {
+      "id": "hsk30-1-196",
+      "seq": 196,
+      "zh": "说",
+      "py": "shuō",
+      "en": "say; speak",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 84
+    },
+    {
+      "id": "hsk30-1-197",
+      "seq": 197,
+      "zh": "说话",
+      "py": "shuōhuà",
+      "en": "speak; talk",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 84
+    },
+    {
+      "id": "hsk30-1-198",
+      "seq": 198,
+      "zh": "四",
+      "py": "sì",
+      "en": "four",
+      "pos": "number",
+      "level": 1,
+      "sourcePage": 84
+    },
+    {
+      "id": "hsk30-1-199",
+      "seq": 199,
+      "zh": "岁",
+      "py": "suì",
+      "en": "years old (age)",
+      "pos": "measure word",
+      "level": 1,
+      "sourcePage": 84
+    },
+    {
+      "id": "hsk30-1-200",
+      "seq": 200,
+      "zh": "他",
+      "py": "tā",
+      "en": "he; him",
+      "pos": "pronoun",
+      "level": 1,
+      "sourcePage": 84
+    },
+    {
+      "id": "hsk30-1-201",
+      "seq": 201,
+      "zh": "它",
+      "py": "tā",
+      "en": "it",
+      "pos": "pronoun",
+      "level": 1,
+      "sourcePage": 85
+    },
+    {
+      "id": "hsk30-1-202",
+      "seq": 202,
+      "zh": "她",
+      "py": "tā",
+      "en": "she; her",
+      "pos": "pronoun",
+      "level": 1,
+      "sourcePage": 85
+    },
+    {
+      "id": "hsk30-1-203",
+      "seq": 203,
+      "zh": "他们",
+      "py": "tāmen",
+      "en": "they; them (people)",
+      "pos": "pronoun",
+      "level": 1,
+      "sourcePage": 85
+    },
+    {
+      "id": "hsk30-1-204",
+      "seq": 204,
+      "zh": "它们",
+      "py": "tāmen",
+      "en": "they; them (things/animals)",
+      "pos": "pronoun",
+      "level": 1,
+      "sourcePage": 85
+    },
+    {
+      "id": "hsk30-1-205",
+      "seq": 205,
+      "zh": "她们",
+      "py": "tāmen",
+      "en": "they; them (women)",
+      "pos": "pronoun",
+      "level": 1,
+      "sourcePage": 85
+    },
+    {
+      "id": "hsk30-1-206",
+      "seq": 206,
+      "zh": "太",
+      "py": "tài",
+      "en": "too; very",
+      "pos": "adverb",
+      "level": 1,
+      "sourcePage": 85
+    },
+    {
+      "id": "hsk30-1-207",
+      "seq": 207,
+      "zh": "天",
+      "py": "tiān",
+      "en": "day; sky",
+      "pos": "noun; measure word",
+      "level": 1,
+      "sourcePage": 85
+    },
+    {
+      "id": "hsk30-1-208",
+      "seq": 208,
+      "zh": "天气",
+      "py": "tiānqì",
+      "en": "weather",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 85
+    },
+    {
+      "id": "hsk30-1-209",
+      "seq": 209,
+      "zh": "听",
+      "py": "tīng",
+      "en": "listen",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 85
+    },
+    {
+      "id": "hsk30-1-210",
+      "seq": 210,
+      "zh": "听见",
+      "py": "tīngjiàn",
+      "en": "hear",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 85
+    },
+    {
+      "id": "hsk30-1-211",
+      "seq": 211,
+      "zh": "同学",
+      "py": "tóngxué",
+      "en": "classmate",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 85
+    },
+    {
+      "id": "hsk30-1-212",
+      "seq": 212,
+      "zh": "外",
+      "py": "wài",
+      "en": "outside",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 85
+    },
+    {
+      "id": "hsk30-1-213",
+      "seq": 213,
+      "zh": "外边",
+      "py": "wàibian",
+      "en": "outside",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 85
+    },
+    {
+      "id": "hsk30-1-214",
+      "seq": 214,
+      "zh": "玩",
+      "py": "wán",
+      "en": "play; have fun",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 85
+    },
+    {
+      "id": "hsk30-1-215",
+      "seq": 215,
+      "zh": "晚",
+      "py": "wǎn",
+      "en": "late; evening",
+      "pos": "adjective",
+      "level": 1,
+      "sourcePage": 85
+    },
+    {
+      "id": "hsk30-1-216",
+      "seq": 216,
+      "zh": "晚饭",
+      "py": "wǎnfàn",
+      "en": "dinner",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 85
+    },
+    {
+      "id": "hsk30-1-217",
+      "seq": 217,
+      "zh": "晚上",
+      "py": "wǎnshang",
+      "en": "evening; night",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 85
+    },
+    {
+      "id": "hsk30-1-218",
+      "seq": 218,
+      "zh": "喂",
+      "py": "wèi",
+      "en": "hello (on phone)",
+      "pos": "interjection",
+      "level": 1,
+      "sourcePage": 85
+    },
+    {
+      "id": "hsk30-1-219",
+      "seq": 219,
+      "zh": "问",
+      "py": "wèn",
+      "en": "ask",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 85
+    },
+    {
+      "id": "hsk30-1-220",
+      "seq": 220,
+      "zh": "问题",
+      "py": "wèntí",
+      "en": "question; problem",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 85
+    },
+    {
+      "id": "hsk30-1-221",
+      "seq": 221,
+      "zh": "我",
+      "py": "wǒ",
+      "en": "I; me",
+      "pos": "pronoun",
+      "level": 1,
+      "sourcePage": 85
+    },
+    {
+      "id": "hsk30-1-222",
+      "seq": 222,
+      "zh": "我们",
+      "py": "wǒmen",
+      "en": "we; us",
+      "pos": "pronoun",
+      "level": 1,
+      "sourcePage": 85
+    },
+    {
+      "id": "hsk30-1-223",
+      "seq": 223,
+      "zh": "五",
+      "py": "wǔ",
+      "en": "five",
+      "pos": "number",
+      "level": 1,
+      "sourcePage": 85
+    },
+    {
+      "id": "hsk30-1-224",
+      "seq": 224,
+      "zh": "午饭",
+      "py": "wǔfàn",
+      "en": "lunch",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 85
+    },
+    {
+      "id": "hsk30-1-225",
+      "seq": 225,
+      "zh": "喜欢",
+      "py": "xǐhuan",
+      "en": "like",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 85
+    },
+    {
+      "id": "hsk30-1-226",
+      "seq": 226,
+      "zh": "下",
+      "py": "xià",
+      "en": "down; below; next",
+      "pos": "noun; verb; measure word",
+      "level": 1,
+      "sourcePage": 85
+    },
+    {
+      "id": "hsk30-1-227",
+      "seq": 227,
+      "zh": "下雨",
+      "py": "xià yǔ",
+      "en": "rain",
+      "pos": "",
+      "level": 1,
+      "sourcePage": 85
+    },
+    {
+      "id": "hsk30-1-228",
+      "seq": 228,
+      "zh": "下班",
+      "py": "xiàbān",
+      "en": "finish work; get off work",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 85
+    },
+    {
+      "id": "hsk30-1-229",
+      "seq": 229,
+      "zh": "下课",
+      "py": "xiàkè",
+      "en": "finish class",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 85
+    },
+    {
+      "id": "hsk30-1-230",
+      "seq": 230,
+      "zh": "下午",
+      "py": "xiàwǔ",
+      "en": "afternoon",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 85
+    },
+    {
+      "id": "hsk30-1-231",
+      "seq": 231,
+      "zh": "先生",
+      "py": "xiānsheng",
+      "en": "Mr.; gentleman",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 85
+    },
+    {
+      "id": "hsk30-1-232",
+      "seq": 232,
+      "zh": "现在",
+      "py": "xiànzài",
+      "en": "now",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 85
+    },
+    {
+      "id": "hsk30-1-233",
+      "seq": 233,
+      "zh": "想",
+      "py": "xiǎng",
+      "en": "want; think; miss",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 85
+    },
+    {
+      "id": "hsk30-1-234",
+      "seq": 234,
+      "zh": "小",
+      "py": "xiǎo",
+      "en": "small; young",
+      "pos": "adjective; 前缀",
+      "level": 1,
+      "sourcePage": 85
+    },
+    {
+      "id": "hsk30-1-235",
+      "seq": 235,
+      "zh": "小朋友",
+      "py": "xiǎopéngyǒu",
+      "en": "little child; kid",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 85
+    },
+    {
+      "id": "hsk30-1-236",
+      "seq": 236,
+      "zh": "小时",
+      "py": "xiǎoshí",
+      "en": "hour (duration)",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 85
+    },
+    {
+      "id": "hsk30-1-237",
+      "seq": 237,
+      "zh": "小学",
+      "py": "xiǎoxué",
+      "en": "primary school",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 85
+    },
+    {
+      "id": "hsk30-1-238",
+      "seq": 238,
+      "zh": "小学生",
+      "py": "xiǎoxuéshēng",
+      "en": "primary school pupil",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 85
+    },
+    {
+      "id": "hsk30-1-239",
+      "seq": 239,
+      "zh": "些",
+      "py": "xiē",
+      "en": "some; a few",
+      "pos": "measure word",
+      "level": 1,
+      "sourcePage": 85
+    },
+    {
+      "id": "hsk30-1-240",
+      "seq": 240,
+      "zh": "写",
+      "py": "xiě",
+      "en": "write",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 85
+    },
+    {
+      "id": "hsk30-1-241",
+      "seq": 241,
+      "zh": "谢谢",
+      "py": "xièxie",
+      "en": "thank you",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 86
+    },
+    {
+      "id": "hsk30-1-242",
+      "seq": 242,
+      "zh": "新",
+      "py": "xīn",
+      "en": "new",
+      "pos": "adjective",
+      "level": 1,
+      "sourcePage": 86
+    },
+    {
+      "id": "hsk30-1-243",
+      "seq": 243,
+      "zh": "星期",
+      "py": "xīngqī",
+      "en": "week",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 86
+    },
+    {
+      "id": "hsk30-1-244",
+      "seq": 244,
+      "zh": "星期日",
+      "py": "xīngqīrì",
+      "en": "Sunday",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 86
+    },
+    {
+      "id": "hsk30-1-245",
+      "seq": 245,
+      "zh": "星期天",
+      "py": "xīngqītiān",
+      "en": "Sunday",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 86
+    },
+    {
+      "id": "hsk30-1-246",
+      "seq": 246,
+      "zh": "休息",
+      "py": "xiūxi",
+      "en": "rest; take a break",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 86
+    },
+    {
+      "id": "hsk30-1-247",
+      "seq": 247,
+      "zh": "学",
+      "py": "xué",
+      "en": "learn",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 86
+    },
+    {
+      "id": "hsk30-1-248",
+      "seq": 248,
+      "zh": "学生",
+      "py": "xuéshēng",
+      "en": "student",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 86
+    },
+    {
+      "id": "hsk30-1-249",
+      "seq": 249,
+      "zh": "学习",
+      "py": "xuéxí",
+      "en": "study; learn",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 86
+    },
+    {
+      "id": "hsk30-1-250",
+      "seq": 250,
+      "zh": "学校",
+      "py": "xuéxiào",
+      "en": "school",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 86
+    },
+    {
+      "id": "hsk30-1-251",
+      "seq": 251,
+      "zh": "雪",
+      "py": "xuě",
+      "en": "snow",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 86
+    },
+    {
+      "id": "hsk30-1-252",
+      "seq": 252,
+      "zh": "要",
+      "py": "yào",
+      "en": "want; need; going to",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 86
+    },
+    {
+      "id": "hsk30-1-253",
+      "seq": 253,
+      "zh": "也",
+      "py": "yě",
+      "en": "also",
+      "pos": "adverb",
+      "level": 1,
+      "sourcePage": 86
+    },
+    {
+      "id": "hsk30-1-254",
+      "seq": 254,
+      "zh": "一",
+      "py": "yī",
+      "en": "one",
+      "pos": "number",
+      "level": 1,
+      "sourcePage": 86
+    },
+    {
+      "id": "hsk30-1-255",
+      "seq": 255,
+      "zh": "衣服",
+      "py": "yīfu",
+      "en": "clothing; clothes",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 86
+    },
+    {
+      "id": "hsk30-1-256",
+      "seq": 256,
+      "zh": "医生",
+      "py": "yīshēng",
+      "en": "doctor",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 86
+    },
+    {
+      "id": "hsk30-1-257",
+      "seq": 257,
+      "zh": "医院",
+      "py": "yīyuàn",
+      "en": "hospital",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 86
+    },
+    {
+      "id": "hsk30-1-258",
+      "seq": 258,
+      "zh": "一半",
+      "py": "yíbàn",
+      "en": "half",
+      "pos": "number",
+      "level": 1,
+      "sourcePage": 86
+    },
+    {
+      "id": "hsk30-1-259",
+      "seq": 259,
+      "zh": "一下",
+      "py": "yíxià",
+      "en": "briefly; once",
+      "pos": "数量; （副）",
+      "level": 1,
+      "sourcePage": 86
+    },
+    {
+      "id": "hsk30-1-260",
+      "seq": 260,
+      "zh": "椅子",
+      "py": "yǐzi",
+      "en": "chair",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 86
+    },
+    {
+      "id": "hsk30-1-261",
+      "seq": 261,
+      "zh": "一点儿",
+      "py": "yìdiǎnr",
+      "en": "a little; a bit",
+      "pos": "数量",
+      "level": 1,
+      "sourcePage": 86
+    },
+    {
+      "id": "hsk30-1-262",
+      "seq": 262,
+      "zh": "一些",
+      "py": "yìxiē",
+      "en": "some",
+      "pos": "数量",
+      "level": 1,
+      "sourcePage": 86
+    },
+    {
+      "id": "hsk30-1-263",
+      "seq": 263,
+      "zh": "有",
+      "py": "yǒu",
+      "en": "have; there is",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 86
+    },
+    {
+      "id": "hsk30-1-264",
+      "seq": 264,
+      "zh": "有的",
+      "py": "yǒude",
+      "en": "some (of them)",
+      "pos": "pronoun",
+      "level": 1,
+      "sourcePage": 86
+    },
+    {
+      "id": "hsk30-1-265",
+      "seq": 265,
+      "zh": "有点儿",
+      "py": "yǒudiǎnr",
+      "en": "a little; somewhat",
+      "pos": "adverb",
+      "level": 1,
+      "sourcePage": 86
+    },
+    {
+      "id": "hsk30-1-266",
+      "seq": 266,
+      "zh": "有些",
+      "py": "yǒuxiē",
+      "en": "some; a few",
+      "pos": "pronoun; （副）",
+      "level": 1,
+      "sourcePage": 86
+    },
+    {
+      "id": "hsk30-1-267",
+      "seq": 267,
+      "zh": "雨",
+      "py": "yǔ",
+      "en": "rain",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 86
+    },
+    {
+      "id": "hsk30-1-268",
+      "seq": 268,
+      "zh": "元",
+      "py": "yuán",
+      "en": "yuan (currency)",
+      "pos": "measure word",
+      "level": 1,
+      "sourcePage": 86
+    },
+    {
+      "id": "hsk30-1-269",
+      "seq": 269,
+      "zh": "月",
+      "py": "yuè",
+      "en": "month; moon",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 86
+    },
+    {
+      "id": "hsk30-1-270",
+      "seq": 270,
+      "zh": "再",
+      "py": "zài",
+      "en": "again",
+      "pos": "adverb",
+      "level": 1,
+      "sourcePage": 86
+    },
+    {
+      "id": "hsk30-1-271",
+      "seq": 271,
+      "zh": "在",
+      "py": "zài",
+      "en": "be at; be located; -ing",
+      "pos": "verb; preposition; adverb",
+      "level": 1,
+      "sourcePage": 86
+    },
+    {
+      "id": "hsk30-1-272",
+      "seq": 272,
+      "zh": "再见",
+      "py": "zàijiàn",
+      "en": "goodbye",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 86
+    },
+    {
+      "id": "hsk30-1-273",
+      "seq": 273,
+      "zh": "早",
+      "py": "zǎo",
+      "en": "early; morning",
+      "pos": "adjective",
+      "level": 1,
+      "sourcePage": 86
+    },
+    {
+      "id": "hsk30-1-274",
+      "seq": 274,
+      "zh": "早饭",
+      "py": "zǎofàn",
+      "en": "breakfast",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 86
+    },
+    {
+      "id": "hsk30-1-275",
+      "seq": 275,
+      "zh": "早上",
+      "py": "zǎoshang",
+      "en": "morning",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 86
+    },
+    {
+      "id": "hsk30-1-276",
+      "seq": 276,
+      "zh": "怎么",
+      "py": "zěnme",
+      "en": "how",
+      "pos": "pronoun",
+      "level": 1,
+      "sourcePage": 86
+    },
+    {
+      "id": "hsk30-1-277",
+      "seq": 277,
+      "zh": "怎么样",
+      "py": "zěnmeyàng",
+      "en": "how; how is it",
+      "pos": "pronoun",
+      "level": 1,
+      "sourcePage": 86
+    },
+    {
+      "id": "hsk30-1-278",
+      "seq": 278,
+      "zh": "找",
+      "py": "zhǎo",
+      "en": "look for; find",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 86
+    },
+    {
+      "id": "hsk30-1-279",
+      "seq": 279,
+      "zh": "这",
+      "py": "zhè",
+      "en": "this",
+      "pos": "pronoun",
+      "level": 1,
+      "sourcePage": 86
+    },
+    {
+      "id": "hsk30-1-280",
+      "seq": 280,
+      "zh": "这边",
+      "py": "zhèbiān",
+      "en": "over here",
+      "pos": "pronoun",
+      "level": 1,
+      "sourcePage": 86
+    },
+    {
+      "id": "hsk30-1-281",
+      "seq": 281,
+      "zh": "这个",
+      "py": "zhège",
+      "en": "this one",
+      "pos": "pronoun",
+      "level": 1,
+      "sourcePage": 87
+    },
+    {
+      "id": "hsk30-1-282",
+      "seq": 282,
+      "zh": "这里",
+      "py": "zhèlǐ",
+      "en": "here",
+      "pos": "pronoun",
+      "level": 1,
+      "sourcePage": 87
+    },
+    {
+      "id": "hsk30-1-283",
+      "seq": 283,
+      "zh": "这儿",
+      "py": "zhèr",
+      "en": "here",
+      "pos": "pronoun",
+      "level": 1,
+      "sourcePage": 87
+    },
+    {
+      "id": "hsk30-1-284",
+      "seq": 284,
+      "zh": "这些",
+      "py": "zhèxiē",
+      "en": "these",
+      "pos": "pronoun",
+      "level": 1,
+      "sourcePage": 87
+    },
+    {
+      "id": "hsk30-1-285",
+      "seq": 285,
+      "zh": "真",
+      "py": "zhēn",
+      "en": "really; truly",
+      "pos": "adverb; （形）",
+      "level": 1,
+      "sourcePage": 87
+    },
+    {
+      "id": "hsk30-1-286",
+      "seq": 286,
+      "zh": "正在",
+      "py": "zhèngzài",
+      "en": "currently doing; in progress",
+      "pos": "adverb",
+      "level": 1,
+      "sourcePage": 87
+    },
+    {
+      "id": "hsk30-1-287",
+      "seq": 287,
+      "zh": "只",
+      "py": "zhī",
+      "en": "measure word for animals; only",
+      "pos": "measure word",
+      "level": 1,
+      "sourcePage": 87
+    },
+    {
+      "id": "hsk30-1-288",
+      "seq": 288,
+      "zh": "知道",
+      "py": "zhīdào",
+      "en": "know (a fact)",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 87
+    },
+    {
+      "id": "hsk30-1-289",
+      "seq": 289,
+      "zh": "中国",
+      "py": "Zhōngguó",
+      "en": "China",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 87
+    },
+    {
+      "id": "hsk30-1-290",
+      "seq": 290,
+      "zh": "中文",
+      "py": "Zhōngwén",
+      "en": "Chinese (language)",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 87
+    },
+    {
+      "id": "hsk30-1-291",
+      "seq": 291,
+      "zh": "中午",
+      "py": "zhōngwǔ",
+      "en": "noon; midday",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 87
+    },
+    {
+      "id": "hsk30-1-292",
+      "seq": 292,
+      "zh": "中学",
+      "py": "zhōngxué",
+      "en": "secondary school",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 87
+    },
+    {
+      "id": "hsk30-1-293",
+      "seq": 293,
+      "zh": "中学生",
+      "py": "zhōngxuéshēng",
+      "en": "secondary school student",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 87
+    },
+    {
+      "id": "hsk30-1-294",
+      "seq": 294,
+      "zh": "住",
+      "py": "zhù",
+      "en": "live; reside",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 87
+    },
+    {
+      "id": "hsk30-1-295",
+      "seq": 295,
+      "zh": "桌子",
+      "py": "zhuōzi",
+      "en": "table; desk",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 87
+    },
+    {
+      "id": "hsk30-1-296",
+      "seq": 296,
+      "zh": "字",
+      "py": "zì",
+      "en": "written character",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 87
+    },
+    {
+      "id": "hsk30-1-297",
+      "seq": 297,
+      "zh": "昨天",
+      "py": "zuótiān",
+      "en": "yesterday",
+      "pos": "noun",
+      "level": 1,
+      "sourcePage": 87
+    },
+    {
+      "id": "hsk30-1-298",
+      "seq": 298,
+      "zh": "坐",
+      "py": "zuò",
+      "en": "sit; ride",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 87
+    },
+    {
+      "id": "hsk30-1-299",
+      "seq": 299,
+      "zh": "做",
+      "py": "zuò",
+      "en": "do; make",
+      "pos": "verb",
+      "level": 1,
+      "sourcePage": 87
+    },
+    {
+      "id": "hsk30-1-300",
+      "seq": 300,
+      "zh": "做饭",
+      "py": "zuò fàn",
+      "en": "cook; make a meal",
+      "pos": "",
+      "level": 1,
+      "sourcePage": 87
+    }
+  ]
+}

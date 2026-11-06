@@ -153,3 +153,58 @@ and relies on the device's installed Mandarin voices. Manual playback is used to
 respect mobile autoplay restrictions. Offline audio depends on the local speech
 engine and whether its voice is available offline; the lesson text and application
 assets are cached after first loading.
+
+
+## HSK 3.0 Vocabulary Lab — November 2025 syllabus, Level 1
+
+Open **Practice → Vocabulary Lab**. This is separate from the existing HSK Standard Course 1
+chapters, legacy flashcards, test prep, and Listening Trainer.
+
+The lab uses **300 HSK 3.0 Level 1 entries**, from the **November 2025 HSK examination
+syllabus** (not the distinct 2021 *proficiency grading standard*, where Level 1 has 500
+entries). Vocabulary is packaged in `data/hsk30/level-1.json`; Chinese
+characters, word order and source pinyin were checked against the syllabus transcription
+maintained by **hsk-tutor.com**:
+https://github.com/uranbekanarbaev/hsk-3.0-vocabulary-dataset.
+English glosses are short teaching aids authored for this app, **not official English
+translations**. Contextual sentences and learner notes for 68 words are in
+`data/hsk30/context.json`; where available, examples are also drawn from the
+existing flashcard bank. Some natural examples contain words beyond Level 1.
+
+### Learning method and rationale
+
+The learning flow is based on **practice testing / retrieval practice** and **distributed
+(spaced) practice**, which Dunlosky et al. (2013) identified as highly useful techniques
+across many learner populations and test types. We use context and listening to explain
+meaning, rather than treating passive rereading or picture mnemonics as the principal
+memorization technique. Source:
+https://www.psychologicalscience.org/journals/pspi/1529100612453266/
+
+- **English-speaker onboarding:** Each new word is introduced with simplified characters,
+  tone-marked pinyin, a concise English meaning, Mandarin text-to-speech and a contextual
+  sentence where available. Contrast notes explain traps such as 买/卖, 坐/做,
+  二/两, 他/她/它, and 在/再.
+- **Small, themed lessons:** 10 words per lesson. **Beyond my book** focuses on entries
+  not present in the existing 169-word HSK Book 1 vocabulary bank; **All 300 words** uses
+  the entire HSK 3.0 Level 1 syllabus. These are two views onto the **same** word records.
+  “Beyond my book” is a local book comparison, not a claim about historical exam changes.
+- **Initial active retrieval:** Learners should think of the English meaning before
+  choosing among four distinct English answers. Pinyin is hidden in the quiz.
+- **Later, harder retrieval:** Due words display only the Mandarin prompt; the learner
+  must retrieve its meaning before revealing characters/pinyin/translation feedback and
+  self-rating recalled vs. needs practice. This is deliberately more demanding than
+  multiple-choice recognition.
+- **Expanding reviews:** Correct recall schedules the next review after 1, 3, 7, 14, 30,
+  60, or 120 days, using the current success streak. An incorrect response resets the
+  streak and schedules a shorter 10-minute retry. This is a simple transparent
+  expanding-interval heuristic, **not** FSRS or a scientifically validated optimal
+  schedule.
+- **Separately saved results:** A new browser key `mandarim-hsk30-learning-v1` stores
+  performance and due dates per word ID. Existing flashcard scheduling and card IDs
+  remain unchanged. Backup exports include the new records; older backups still import
+  without erasing newer vocabulary results.
+
+Offline lesson files are cached by the service worker. The device must supply a Mandarin
+voice for spoken playback, and offline audio availability varies by platform. The learning
+materials are not an official HSK product; check the exam centre for the syllabus applicable
+to a booked test. See `tests/vocab-lab.test.js` for coverage and compatibility tests.

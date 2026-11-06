@@ -5,7 +5,8 @@ export const KEYS = Object.freeze({
   settings: 'mandarim-settings-v2',
   reviews: 'mandarim-review-events-v1',
   lessonProgress: 'mandarim-chapter-review-v1',
-  listeningProgress: 'mandarim-listening-v1'
+  listeningProgress: 'mandarim-listening-v1',
+  vocabProgress: 'mandarim-hsk30-learning-v1'
 });
 const parse = (key, fallback) => {
   try { const value = localStorage.getItem(key); return value === null ? fallback : JSON.parse(value); }
@@ -20,6 +21,7 @@ export const state = {
   reviews: array(parse(KEYS.reviews, [])),
   lessonProgress: object(parse(KEYS.lessonProgress, {})),
   listeningProgress: object(parse(KEYS.listeningProgress, {})),
+  vocabProgress: object(parse(KEYS.vocabProgress, {})),
   error: ''
 };
 function write(key, value) {
@@ -31,6 +33,7 @@ export function saveStars() { return write(KEYS.stars, state.stars); }
 export function saveSettings() { return write(KEYS.settings, state.settings); }
 export function saveLessonProgress() { return write(KEYS.lessonProgress, state.lessonProgress); }
 export function saveListeningProgress() { return write(KEYS.listeningProgress, state.listeningProgress); }
+export function saveVocabProgress() { return write(KEYS.vocabProgress, state.vocabProgress); }
 export function saveReview(cardId, correct, dueAt) {
   const entry = { id: String(cardId), correct: Boolean(correct), at: Date.now(), due: dueAt };
   state.reviews.push(entry);
@@ -44,7 +47,8 @@ export function exportProgress() {
     history: state.history, stars: state.stars,
     settings: state.settings, reviews: state.reviews,
     lessonProgress: state.lessonProgress,
-    listeningProgress: state.listeningProgress
+    listeningProgress: state.listeningProgress,
+    vocabProgress: state.vocabProgress
   };
 }
 export function importProgress(data) {
@@ -71,11 +75,17 @@ export function importProgress(data) {
       throw new Error('Invalid listening progress in backup.');
     state.listeningProgress = object(data.listeningProgress);
   }
+  // Legacy backups do not contain HSK 3.0 vocabulary records; preserve them on import.
+  if (data.vocabProgress !== undefined) {
+    if (!data.vocabProgress || typeof data.vocabProgress !== 'object' || Array.isArray(data.vocabProgress))
+      throw new Error('Invalid HSK 3.0 learning progress in backup.');
+    state.vocabProgress = object(data.vocabProgress);
+  }
   state.history = safeHistory;
   state.stars = safeStars;
   state.settings = safeSettings;
   state.reviews = data.reviews.filter(e => e && typeof e.id === 'string' && typeof e.correct === 'boolean' && Number.isFinite(e.at));
-  const ok = [saveHistory(), saveStars(), saveSettings(), write(KEYS.reviews, state.reviews), saveLessonProgress(), saveListeningProgress()].every(Boolean);
+  const ok = [saveHistory(), saveStars(), saveSettings(), write(KEYS.reviews, state.reviews), saveLessonProgress(), saveListeningProgress(), saveVocabProgress()].every(Boolean);
   if (!ok) throw new Error(state.error);
 }
 export function resetReviewHistory() {
