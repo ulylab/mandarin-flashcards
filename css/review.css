@@ -141,3 +141,59 @@
 .listen-missed strong{font-size:20px;color:#2b4658}
 .listen-all-topics{width:100%;margin-top:10px}
 @media(max-width:380px){.listen-question{padding:16px 12px}.listen-breakdown{grid-template-columns:minmax(43px,.6fr) minmax(55px,1fr) minmax(80px,1.3fr);gap:5px}}
+
+
+/* HSK 3.0 Vocabulary Lab — compact exposure + retrieval practice for mobile. */
+.vocab-view{flex:1;min-width:0;padding:5px 0 32px}
+.vocab-view button:focus-visible{outline:3px solid #85afc3;outline-offset:2px}
+.vocab-scope{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin:15px 0}
+.vocab-scope-button{border:1px solid #bed1df;background:#fff;border-radius:12px;padding:12px 8px;color:#385a72;font-size:13px;line-height:1.3;font-weight:650;min-height:54px}
+.vocab-scope-button.is-selected{background:#e8f4fa;color:#1f5879;border:2px solid #4384aa;padding:11px 7px}
+.vocab-stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:7px;margin:7px 0 14px}
+.vocab-stat{background:#fff;border:1px solid #dce5e9;border-radius:13px;padding:12px 6px;text-align:center;display:flex;flex-direction:column;gap:3px}
+.vocab-stat strong{font-size:clamp(19px,5vw,24px);font-variant-numeric:tabular-nums;line-height:1.2;color:#2b5f77}
+.vocab-stat span{font-size:10px;line-height:1.25;color:#77868b}
+.vocab-review-button{width:100%;margin:4px 0 16px}
+.vocab-method p{font-size:13px;margin:5px 0 10px;line-height:1.6}
+.vocab-method p:last-child{margin-bottom:0}
+.vocab-section-title{font-size:clamp(23px,6vw,28px);color:#263f50;margin:20px 0 12px;line-height:1.3}
+.vocab-lesson-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+.vocab-lesson-button{border:1px solid #d5e3ea;border-radius:15px;background:#fff;padding:14px 12px;text-align:left;display:flex;flex-direction:column;gap:8px;min-height:145px;color:#2c4858}
+.vocab-lesson-name{font-weight:750;font-size:16px;line-height:1.26}
+.vocab-preview{font-size:15px;color:#667d89;line-height:1.4;overflow-wrap:anywhere}
+.vocab-lesson-button>.review-chapter-meta{margin-top:auto}
+.vocab-credit{color:#768991;font-size:11px;line-height:1.5;margin:17px 3px}
+.vocab-study{text-align:center;padding:20px 17px}
+.vocab-word-audio{display:flex;justify-content:center;margin:0 0 7px}
+.vocab-listen{border:1px solid #bfdcca;background:#edf8f1;color:#286748;border-radius:12px;min-height:45px;padding:10px 17px;font-weight:700;font-size:14px}
+.vocab-listen:disabled{opacity:.45}
+.vocab-detail{padding:10px 0;overflow-wrap:anywhere}
+.vocab-chinese{font-size:clamp(43px,11vw,62px);line-height:1.42;font-weight:540;color:#18394e;letter-spacing:.01em}
+.vocab-pinyin{color:#327c9d;font-size:clamp(19px,5vw,23px);line-height:1.55;margin:5px 0}
+.vocab-meaning{font-size:clamp(18px,4.5vw,23px);font-weight:650;color:#2b424d;margin-top:12px}
+.vocab-pos{color:#7c8991;font-size:12px;margin:5px 0 9px}
+.vocab-example{border-top:1px solid #e0e8ec;text-align:left;margin:23px 0 0;padding:18px 1px 0}
+.vocab-example-zh{font-size:clamp(19px,5vw,24px);color:#1c3e51;line-height:1.6;overflow-wrap:anywhere}
+.vocab-example-pinyin{font-size:15px;color:#397a99;line-height:1.55;margin:5px 0}
+.vocab-example-en{color:#586f79;font-size:14px;line-height:1.45;margin:7px 0}
+.vocab-example>.review-small-button{margin-top:10px}
+.vocab-learning-note{font-size:13px;line-height:1.6;color:#617782;margin:12px 0 15px}
+.vocab-study-nav{display:flex;gap:8px;justify-content:space-between;padding-top:17px;border-top:1px solid #e6ecee;margin-top:7px}
+.vocab-study-nav>.review-action{margin-left:auto}
+.vocab-quiz{text-align:center;padding:22px 17px}
+.vocab-quiz-prompt{font-size:clamp(39px,11vw,60px);font-weight:540;line-height:1.5;color:#20394c;margin:15px 0}
+.vocab-quiz-directions{color:#617681;font-size:14px;line-height:1.5;margin:17px 4px}
+.vocab-choices{display:grid;gap:9px;text-align:left;margin:18px 0}
+.vocab-choice{border:1px solid #cfdee5;background:#fafdff;border-radius:12px;min-height:50px;text-align:left;padding:12px 13px;font-size:15px;color:#2e4653}
+.vocab-choice.is-selected{border:2px solid #34799a;background:#eaf5fb;padding:11px 12px}
+.vocab-wide{width:100%}
+.vocab-feedback{border-radius:11px;padding:12px 14px;font-size:14px;text-align:left;background:#eff5f8;color:#4c6576;margin:16px 0 4px}
+.vocab-feedback p{margin:5px 0 0}
+.vocab-feedback.is-right{background:#edf8f1;color:#266447}
+.vocab-feedback.is-missed{background:#fff3ec;color:#875534}
+.vocab-grade-controls{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:14px}
+.vocab-grade-controls button{min-height:49px}
+.vocab-missed{color:#915a44;border-color:#dfbfaf}
+.vocab-quiz .vocab-detail{border-top:1px solid #e6e9ec;margin:15px 0}
+.vocab-results h1{font-size:30px;color:#285b78;margin:3px 0 12px}
+@media(max-width:370px){.vocab-lesson-grid{grid-template-columns:1fr}.vocab-scope-button{font-size:12px}.vocab-study,.vocab-quiz{padding:17px 12px}}
