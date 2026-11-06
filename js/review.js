@@ -1,4 +1,5 @@
 import {state, saveLessonProgress} from './storage.js';
+import {REVIEW_CHAPTERS, buildChapterReviewLesson, validateLessonCatalog} from './review-curriculum.js';
 import {REVIEW_SCREENS, checkReviewAnswer, validateReviewLesson, chapterState,
   recordVisited, recordPractice, recordChallenge} from './review-model.js';
 
@@ -31,6 +32,10 @@ export function initReview({getCards, playAudio, stopAudio}) {
 
   let lesson = null;
   let loading = null;
+  let catalog = null;
+  let catalogLoading = null;
+  let selectedChapter = null;
+  let loadError = '';
   let screen = 0;
   let showPinyin = true;
   let showEnglish = true;
@@ -41,9 +46,10 @@ export function initReview({getCards, playAudio, stopAudio}) {
   let challengeResults = {};
   let challengeFinished = false;
 
-  const chapter = () => chapterState(state.lessonProgress, 'chapter-11');
+  const chapterKey = number => 'chapter-' + String(number).padStart(2, '0');
+  const chapter = () => chapterState(state.lessonProgress, chapterKey(selectedChapter || 11));
   const save = value => {
-    state.lessonProgress = {...state.lessonProgress, 'chapter-11': value};
+    state.lessonProgress = {...state.lessonProgress, [chapterKey(selectedChapter || 11)]: value};
     saveLessonProgress();
   };
   function markVisited(value) {
@@ -81,22 +87,22 @@ export function initReview({getCards, playAudio, stopAudio}) {
   }
   function vocabulary(container) {
     heading(container, 'SCREEN 1 · DISCOVER', 'Vocabulary & pronunciation',
-      'Start with the words assigned to Chapter 11 in your existing flashcard data, then review the supporting time expressions.');
+      'Study the words from your existing chapter flashcard bank, then practice supporting expressions.');
     toggles(container);
-    const book = getCards().filter(card => card.topic === 'HSK Book 1 vocabulary' && card.lesson === 11);
+    const book = getCards().filter(card => card.topic === 'HSK Book 1 vocabulary' && card.lesson === lesson.number);
     const bookPanel = el('section', 'review-panel');
-    bookPanel.append(el('h3', '', 'From your HSK Book 1 · Chapter 11 bank'));
+    bookPanel.append(el('h3', '', 'From your HSK Book 1 · Chapter ' + lesson.number + ' bank'));
     if (!book.length) paragraph(bookPanel, 'review-description', 'Vocabulary is loading. The supporting expressions below are available now.');
     for (const word of book) bookPanel.append(lineCard(word.zh, word.py, word.en));
     container.append(bookPanel);
     const extra = el('section', 'review-panel');
     extra.append(el('h3', '', 'Supporting expressions'));
-    paragraph(extra, 'review-note', 'Useful for conversation. Some expressions extend beyond the Chapter 11 word list.');
+    paragraph(extra, 'review-note', 'Useful expressions from the examples. Some extend beyond the assigned chapter vocabulary.');
     for (const word of lesson.supportingWords) extra.append(lineCard(word.zh, word.py, word.en));
     container.append(extra);
   }
   function concepts(container) {
-    heading(container, 'SCREEN 2 · UNDERSTAND', 'How to tell time',
+    heading(container, 'SCREEN 2 · UNDERSTAND', 'Grammar & sentence patterns',
       'Read the pattern, compare examples, then say the sentences aloud.');
     toggles(container);
     for (const [index, concept] of lesson.concepts.entries()) {
@@ -108,23 +114,25 @@ export function initReview({getCards, playAudio, stopAudio}) {
       for (const sample of concept.examples) panel.append(lineCard(...sample));
       container.append(panel);
     }
-    const note = el('aside', 'review-tip');
-    note.append(el('strong', '', 'Tone check'));
-    paragraph(note, '', '工作 gōngzuò (1st + 4th); 下午 xiàwǔ (4th + 3rd); 然后 ránhòu (2nd + 4th); 睡觉 shuìjiào (4th + 4th).');
-    container.append(note);
+    if (lesson.number === 11) {
+      const note = el('aside', 'review-tip');
+      note.append(el('strong', '', 'Tone check'));
+      paragraph(note, '', '工作 gōngzuò (1st + 4th); 下午 xiàwǔ (4th + 3rd); 然后 ránhòu (2nd + 4th); 睡觉 shuìjiào (4th + 4th).');
+      container.append(note);
+    }
   }
   function examples(container) {
-    heading(container, 'SCREEN 3 · READ & LISTEN', 'Short stories and dialogues',
+    heading(container, 'SCREEN 3 · READ & LISTEN', 'Examples, stories & dialogues',
       'Follow the full sentence, then hide pinyin or English and read it again.');
     toggles(container);
     for (const [index, story] of lesson.stories.entries()) {
       const panel = el('section', 'review-panel');
       panel.append(el('p', 'review-section-label', 'EXAMPLE ' + (index + 1)));
       panel.append(el('h3', '', story.title));
-      if (showPinyin) paragraph(panel, 'review-pinyin', story.py);
-      if (showEnglish) paragraph(panel, 'review-english', story.en);
+      if (showPinyin && story.py) paragraph(panel, 'review-pinyin', story.py);
+      if (showEnglish && story.en) paragraph(panel, 'review-english', story.en);
       for (const sample of story.lines) panel.append(lineCard(...sample));
-      panel.append(button('▶ Listen to the full story', 'review-action secondary', () =>
+      panel.append(button('▶ Listen to all examples', 'review-action secondary', () =>
         speak(story.lines.map(line => line[0].replace(/^[AB]：/, '')).join(' '))));
       container.append(panel);
     }
@@ -235,7 +243,7 @@ export function initReview({getCards, playAudio, stopAudio}) {
     }, practiceIndex === lesson.practice.length - 1 ? 'See practice summary' : 'Next question'));
   }
   function challenge(container) {
-    heading(container, 'SCREEN 5 · TEST YOURSELF', 'Chapter 11 challenge',
+    heading(container, 'SCREEN 5 · TEST YOURSELF', 'Chapter ' + lesson.number + ' challenge',
       'Ten mixed questions. Aim for 80% or above. Your highest and latest scores are saved separately from flashcards.');
     const saved = chapter();
     paragraph(container, 'review-note', 'Best score: ' + (saved.attempts ? saved.bestScore + '%' : 'Not attempted') +
@@ -279,21 +287,83 @@ export function initReview({getCards, playAudio, stopAudio}) {
       render();
     }, challengeIndex === lesson.challenge.length - 1 ? 'See my score' : 'Next question'));
   }
+
+  function resetChapterSession() {
+    lesson = null;
+    loading = null;
+    screen = 0;
+    practiceIndex = 0;
+    practiceResults = {};
+    practiceFinished = false;
+    challengeIndex = 0;
+    challengeResults = {};
+    challengeFinished = false;
+    loadError = '';
+  }
+  function openChapter(number) {
+    if (!Number.isInteger(number) || number < 1 || number > 15) return;
+    location.hash = 'review/' + number;
+  }
+  function dashboard() {
+    const intro = el('div', 'review-home-intro');
+    intro.append(el('p','review-kicker','HSK STANDARD COURSE 1'));
+    intro.append(el('h1','', 'Chapter Review'));
+    paragraph(intro,'','Choose a chapter to study vocabulary, grammar, examples, exercises, and a final challenge. Your flashcard progress is kept separately.');
+    root.append(intro);
+    if (!catalog) {
+      paragraph(root, 'review-description', loadError || 'Loading all 15 chapters…');
+      if (loadError) root.append(button('Retry loading', 'review-action', () => {
+        loadError='';ensureCatalog().then(render).catch(()=>{});
+      }));
+      return;
+    }
+    const items = el('div','review-chapter-grid');
+    for (const {number,id} of REVIEW_CHAPTERS) {
+      const def = number === 11
+        ? {title:'Telling Time',subtitle:'Hours, minutes and daily routines'}
+        : catalog.chapters.find(c => c.number === number);
+      if (!def) continue;
+      const progress = chapterState(state.lessonProgress,id);
+      const item = button('', 'review-chapter-card', () => openChapter(number));
+      item.setAttribute('aria-label','Open Chapter '+number+': '+def.title);
+      item.append(el('span','review-chapter-num','CHAPTER '+number));
+      item.append(el('span','review-chapter-name',def.title));
+      const caption = progress.attempts
+        ? 'Best challenge: '+progress.bestScore+'% · '+progress.visited.length+'/5 screens'
+        : progress.visited.length ? progress.visited.length+'/5 screens visited' : 'Not started';
+      item.append(el('span','review-chapter-meta',caption));
+      const track = el('div','review-progress-track');
+      const fill = el('span','review-progress-fill');
+      fill.style.width = (progress.visited.length/5*100)+'%';
+      track.append(fill);
+      item.append(track);
+      items.append(item);
+    }
+    root.append(items);
+  }
   function setScreen(next) {
     screen = Math.max(0, Math.min(REVIEW_SCREENS.length - 1, next));
     markVisited(screen);
     render();
-    review.scrollIntoView({behavior:'auto', block:'start'});
+    review.scrollIntoView({behavior:'auto',block:'start'});
   }
   function render() {
     if (review.hidden) return;
     root.replaceChildren();
-    if (!lesson) {paragraph(root, 'review-description', 'Loading Chapter 11 lesson…');return;}
+    if (!selectedChapter) {dashboard();return;}
+    root.append(button('← All 15 chapters','review-small-button review-back', () => {location.hash='review';}));
+    if (!lesson || lesson.number !== selectedChapter) {
+      paragraph(root, 'review-description', loadError || ('Loading Chapter '+selectedChapter+'…'));
+      if (loadError) root.append(button('Retry', 'review-action', () => {
+        loadError='';ensureLesson().then(render).catch(()=>{});
+      }));
+      return;
+    }
     const header = el('div','review-header');
     const top = el('div','review-heading');
-    top.append(el('p','review-kicker','HSK STANDARD COURSE 1 · CHAPTER 11'));
+    top.append(el('p','review-kicker','HSK STANDARD COURSE 1 · CHAPTER '+lesson.number));
     top.append(el('h1','',lesson.title));
-    paragraph(top,'review-description',lesson.zh + ' · ' + lesson.py);
+    paragraph(top,'review-description',lesson.subtitle || (lesson.zh+' · '+lesson.py));
     header.append(top);
     const chapterProgress = chapter();
     paragraph(header,'review-status','Screens visited: '+chapterProgress.visited.length+'/5' +
@@ -301,7 +371,7 @@ export function initReview({getCards, playAudio, stopAudio}) {
     root.append(header);
     const tabs = el('div','review-steps');
     tabs.setAttribute('role','tablist');
-    tabs.setAttribute('aria-label','Chapter 11 lesson screens');
+    tabs.setAttribute('aria-label','Chapter '+lesson.number+' lesson screens');
     REVIEW_SCREENS.forEach((label,index) => {
       const step = button((index+1)+'. '+label,'review-step'+(index===screen?' is-current':''),()=>setScreen(index));
       step.setAttribute('role','tab');
@@ -320,32 +390,74 @@ export function initReview({getCards, playAudio, stopAudio}) {
     if (screen === 4) challenge(content);
     root.append(content);
     const nav = el('div','review-bottom-nav');
-    if (screen > 0) nav.append(button('← Previous', 'review-small-button',()=>setScreen(screen-1)));
+    if (screen > 0) nav.append(button('← Previous','review-small-button',()=>setScreen(screen-1)));
     if (screen < REVIEW_SCREENS.length-1) nav.append(button('Next: '+REVIEW_SCREENS[screen+1]+' →','review-action',()=>setScreen(screen+1)));
     root.append(nav);
   }
+  async function ensureCatalog() {
+    if (catalog) return;
+    if (!catalogLoading) {
+      catalogLoading = (async () => {
+        const response = await fetch('data/lessons/catalog.json');
+        if (!response.ok) throw new Error('Could not load the chapter catalog.');
+        const payload = await response.json();
+        validateLessonCatalog(payload);
+        catalog = payload;
+        loadError='';
+      })().catch(error=>{
+        catalogLoading=null;
+        loadError=error.message || 'Could not load the chapter catalog.';
+        throw error;
+      });
+    }
+    return catalogLoading;
+  }
   async function ensureLesson() {
-    if (lesson) return;
-    if (!loading) loading = (async () => {
-      const response = await fetch('data/lessons/chapter-11.json');
-      if (!response.ok) throw new Error('Chapter lesson could not be loaded.');
-      const payload = await response.json();
+    const number = selectedChapter;
+    if (!number || lesson?.number === number) return;
+    if (loading?.number === number) return loading.promise;
+    // Book-card chapters are compiled only after the flashcard manifest has loaded.
+    if (number !== 11 && !getCards().length) return;
+    const promise = (async()=>{
+      await ensureCatalog();
+      let payload;
+      if (number === 11) {
+        const response = await fetch('data/lessons/chapter-11.json');
+        if (!response.ok) throw new Error('Could not load Chapter 11.');
+        payload = await response.json();
+      } else {
+        const definition = catalog.chapters.find(c=>c.number===number);
+        const cards = getCards();
+        const sentences = cards.filter(card=>card.type==='sentence' && card.topic==='HSK 1 · Chapter '+number);
+        const words = cards.filter(card=>card.topic==='HSK Book 1 vocabulary' && card.lesson===number);
+        payload = buildChapterReviewLesson(definition,sentences,words);
+      }
       validateReviewLesson(payload);
-      lesson = payload;
-      markVisited(screen);
-    })().catch(err => {
-      loading = null;
-      root.replaceChildren();
-      const block=el('div','review-panel');
-      paragraph(block,'review-description',err.message || 'Could not load the lesson.');
-      block.append(button('Retry', 'review-action', () => {ensureLesson().then(render);}));
-      root.append(block);
-      throw err;
-    });
-    return loading;
+      if (selectedChapter === number) {
+        lesson=payload;
+        loadError='';
+        markVisited(screen);
+      }
+    })().catch(error=>{
+      if (selectedChapter === number) loadError=error.message || 'Could not load the lesson.';
+      throw error;
+    }).finally(()=>{if (loading?.number===number) loading=null;});
+    loading = {number,promise};
+    return promise;
+  }
+  function refresh() {
+    if (review.hidden) return;
+    render();
+    ensureCatalog().then(()=>ensureLesson()).then(render).catch(()=>render());
   }
   function syncMode() {
-    const isReview = location.hash === '#review';
+    const match = /^#review(?:\/([1-9]|1[0-5]))?$/.exec(location.hash);
+    const isReview = Boolean(match);
+    const target = match?.[1] ? Number(match[1]) : null;
+    if (target !== selectedChapter) {
+      selectedChapter=target;
+      resetChapterSession();
+    }
     flashcards.hidden = isReview;
     review.hidden = !isReview;
     cardTab.classList.toggle('is-active',!isReview);
@@ -354,13 +466,12 @@ export function initReview({getCards, playAudio, stopAudio}) {
     reviewTab.setAttribute('aria-selected',String(isReview));
     if (isReview) {
       stopAudio();
-      render();
-      ensureLesson().then(render).catch(()=>{});
+      refresh();
     }
   }
-  cardTab.addEventListener('click', () => {location.hash = 'cards';});
-  reviewTab.addEventListener('click', () => {location.hash = 'review';});
+  cardTab.addEventListener('click', () => {location.hash='cards';});
+  reviewTab.addEventListener('click', () => {location.hash='review';});
   window.addEventListener('hashchange',syncMode);
   syncMode();
-  return {refresh(){if (!review.hidden && lesson) render();}};
+  return {refresh};
 }

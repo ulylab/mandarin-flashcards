@@ -85,9 +85,31 @@ and has a different, larger vocabulary syllabus. Consult the exam centre and its
 current syllabus before choosing exam preparation materials.
 
 
-## Chapter Review — Chapter 11 pilot
+## Chapter Review — all 15 HSK Standard Course 1 chapters
 
-The **Flashcards / Chapter Review** tabs are available in the same installed web app.
+
+The header now contains **Settings (left)** and **Flashcards / Chapters** navigation.
+The **automatic flashcard audio** toggle is in Settings and retains the existing saved mute preference.
+
+The Chapters dashboard covers **all 15 chapters** in numerical order. Each chapter has
+five fully interactive screens: book vocabulary and supporting terms, three or more
+chapter-specific grammar concepts with worked examples, ten contextual Mandarin sentences
+with tone-marked pinyin and optional read-aloud playback, eight guided questions, and ten
+mixed challenge questions with a personal-best score.
+
+Chapters 1–10 and 12–15 are defined in `data/lessons/catalog.json`, with
+questions and example sentences assembled from the existing 150 HSK 1 chapter sentence
+cards and 169 HSK Book 1 vocabulary cards. `js/review-curriculum.js` generates
+deterministic translation, sentence-building, pinyin recognition and pinyin entry
+questions with answers based on actual existing content. Chapter 11 retains its
+independently authored material in `data/lessons/chapter-11.json`.
+
+Each chapter saves its mastery separately under the *existing* chapter review
+storage key `mandarim-chapter-review-v1`. Chapter 11 progress is preserved.
+The flashcard scheduler, original card IDs, review history and stars are unchanged.
+Older progress backups continue to import correctly.
+
+The **Flashcards / Chapters** tabs are available in the same installed web app.
 Chapter Review offers five screens for HSK Standard Course 1, Chapter 11:
 
 1. **Vocabulary** — the original lesson-11 book word cards (read directly from the loaded vocabulary bank) plus supporting time expressions with Chinese text, tone-marked pinyin, English, and text-to-speech playback.
