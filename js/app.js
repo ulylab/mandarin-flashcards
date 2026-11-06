@@ -10,7 +10,7 @@ let reviewUI = null;
 let totalReviews = 0;
 let selectionCounts = {};
 let audioMuted = state.settings.audioMuted === true;
-function renderMute() { const b = $('muteBtn'); b.textContent = audioMuted ? '🔇' : '🔊'; b.setAttribute('aria-pressed', String(audioMuted)); b.setAttribute('aria-label', audioMuted ? 'Enable automatic pronunciation' : 'Mute automatic pronunciation'); }
+function renderMute() { $('autoAudio').checked = !audioMuted; }
 const speechAvailable = typeof window !== 'undefined' && 'speechSynthesis' in window && 'SpeechSynthesisUtterance' in window;
 function stopAudio() {
   if (speechAvailable) window.speechSynthesis.cancel();
@@ -149,7 +149,7 @@ function pick() {
   flipped = false;
   if (current) session++;
   render();
-  if (current && !audioMuted && direction !== 'en' && !(current.type === 'test' && current.section === 'reading')) playAudio(current.zh);
+  if (current && !audioMuted && !$('flashcardsView').hidden && direction !== 'en' && !(current.type === 'test' && current.section === 'reading')) playAudio(current.zh);
 }
 function render() {
   const c = current;
@@ -242,7 +242,7 @@ function rate(correct) {
   pick();
 }
 function wireEvents() {
-  $('muteBtn').onclick = () => { audioMuted = !audioMuted; saveOptions(); renderMute(); if (audioMuted) stopAudio(); else if (current && !flipped && direction !== 'en') playAudio(current.zh); };
+  $('autoAudio').addEventListener('change', () => { audioMuted = !$('autoAudio').checked; saveOptions(); if (audioMuted) stopAudio(); else if (current && !flipped && !$('flashcardsView').hidden && direction !== 'en') playAudio(current.zh); });
   $('content').addEventListener('pointerdown', e => { if(e.target.closest('.example-play')) e.stopPropagation(); });
   $('content').addEventListener('pointerup', e => { if(e.target.closest('.example-play')) e.stopPropagation(); });
   $('content').addEventListener('click', e => { const btn=e.target.closest('.example-play'); if(!btn)return; e.preventDefault();e.stopPropagation(); const example=current?.examples?.[Number(btn.dataset.example)]; if(example) playAudio(example[0]); });
