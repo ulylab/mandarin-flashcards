@@ -4,7 +4,8 @@ export const KEYS = Object.freeze({
   stars: 'mandarim-stars-v1',
   settings: 'mandarim-settings-v2',
   reviews: 'mandarim-review-events-v1',
-  lessonProgress: 'mandarim-chapter-review-v1'
+  lessonProgress: 'mandarim-chapter-review-v1',
+  listeningProgress: 'mandarim-listening-v1'
 });
 const parse = (key, fallback) => {
   try { const value = localStorage.getItem(key); return value === null ? fallback : JSON.parse(value); }
@@ -18,6 +19,7 @@ export const state = {
   settings: object(parse(KEYS.settings, {})),
   reviews: array(parse(KEYS.reviews, [])),
   lessonProgress: object(parse(KEYS.lessonProgress, {})),
+  listeningProgress: object(parse(KEYS.listeningProgress, {})),
   error: ''
 };
 function write(key, value) {
@@ -28,6 +30,7 @@ export function saveHistory() { return write(KEYS.history, state.history); }
 export function saveStars() { return write(KEYS.stars, state.stars); }
 export function saveSettings() { return write(KEYS.settings, state.settings); }
 export function saveLessonProgress() { return write(KEYS.lessonProgress, state.lessonProgress); }
+export function saveListeningProgress() { return write(KEYS.listeningProgress, state.listeningProgress); }
 export function saveReview(cardId, correct, dueAt) {
   const entry = { id: String(cardId), correct: Boolean(correct), at: Date.now(), due: dueAt };
   state.reviews.push(entry);
@@ -40,7 +43,8 @@ export function exportProgress() {
     exportedAt: new Date().toISOString(),
     history: state.history, stars: state.stars,
     settings: state.settings, reviews: state.reviews,
-    lessonProgress: state.lessonProgress
+    lessonProgress: state.lessonProgress,
+    listeningProgress: state.listeningProgress
   };
 }
 export function importProgress(data) {
@@ -60,11 +64,18 @@ export function importProgress(data) {
       throw new Error('Invalid chapter review progress in backup.');
     state.lessonProgress = object(data.lessonProgress);
   }
+  // Imports of older backups must preserve any listening practice saved on this device.
+  if (data.listeningProgress !== undefined) {
+    if (!data.listeningProgress || typeof data.listeningProgress !== 'object' ||
+        Array.isArray(data.listeningProgress))
+      throw new Error('Invalid listening progress in backup.');
+    state.listeningProgress = object(data.listeningProgress);
+  }
   state.history = safeHistory;
   state.stars = safeStars;
   state.settings = safeSettings;
   state.reviews = data.reviews.filter(e => e && typeof e.id === 'string' && typeof e.correct === 'boolean' && Number.isFinite(e.at));
-  const ok = [saveHistory(), saveStars(), saveSettings(), write(KEYS.reviews, state.reviews), saveLessonProgress()].every(Boolean);
+  const ok = [saveHistory(), saveStars(), saveSettings(), write(KEYS.reviews, state.reviews), saveLessonProgress(), saveListeningProgress()].every(Boolean);
   if (!ok) throw new Error(state.error);
 }
 export function resetReviewHistory() {
