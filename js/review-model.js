@@ -16,7 +16,8 @@ export function checkReviewAnswer(question, answer) {
 }
 
 export function validateReviewLesson(lesson) {
-  if (!lesson || lesson.id !== 'chapter-11' || lesson.number !== 11 ||
+  if (!lesson || !Number.isInteger(lesson.number) || lesson.number < 1 || lesson.number > 15 ||
+      lesson.id !== 'chapter-' + String(lesson.number).padStart(2, '0') ||
       !Array.isArray(lesson.supportingWords) || !Array.isArray(lesson.concepts) ||
       !Array.isArray(lesson.stories) || !Array.isArray(lesson.practice) ||
       !Array.isArray(lesson.challenge)) throw new Error('Invalid Chapter 11 lesson.');
