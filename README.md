@@ -208,3 +208,33 @@ Offline lesson files are cached by the service worker. The device must supply a 
 voice for spoken playback, and offline audio availability varies by platform. The learning
 materials are not an official HSK product; check the exam centre for the syllabus applicable
 to a booked test. See `tests/vocab-lab.test.js` for coverage and compatibility tests.
+
+
+## HSK 3.0 — Daily 30m exam preparation
+
+The **Daily 30m** tab in the main header (also available from Practice) offers a
+fresh HSK 3.0 Level 1 study session each local calendar day, targeted at the
+13 December 2026 exam. Its 30-minute structure is:
+
+- 6 minutes: 8 vocabulary recognition questions from the 300-word 2025 HSK 3.0 Level 1 list.
+- 8 minutes: 6 audio-first sentence comprehension questions (Mandarin device TTS).
+- 7 minutes: 6 Chinese reading comprehension questions.
+- 6 minutes: 5 sentence-pattern / word-order recognition questions.
+- 3 minutes: review any mistakes with answer explanations and audio.
+
+**Time allocations are pacing recommendations, not enforced countdowns.** The
+app records elapsed time and scored answers; it does not certify that a full
+30 minutes were studied. A session resumes after refreshing the page and
+records one answer per question. A new question set is generated each day from
+the syllabus words and existing sentence decks; the latter were authored for
+HSK Standard Course 1, so they are useful foundation practice rather than
+official HSK 3.0 sample questions. This is **not an official mock exam** and
+does not claim to reproduce its exact weighting or item types.
+
+Results reside in `mandarim-hsk30-daily-v1`, independent of flashcard,
+chapter, listening and vocabulary-lab progress. The original version-1 backup
+format now includes `dailyProgress`; imports from older backups preserve
+existing daily results. The module is cached for offline use after loading,
+while speech quality/availability depends on the device's Mandarin TTS voice.
+
+Official exam calendar and registration: https://www.chinesetest.cn/ .
