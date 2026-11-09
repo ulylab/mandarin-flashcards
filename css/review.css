@@ -203,3 +203,7 @@
 .daily-plan-row{border-bottom:1px solid #e7edf1;padding:9px 0;margin:0;color:#344e60;font-size:14px}
 .daily-question .review-zh{font-size:27px;line-height:1.5;margin:15px 0}
 .daily-question .review-choice{text-align:left;width:100%;margin-bottom:7px}
+
+/* Three primary navigation tabs fit the mobile header. */
+.top>.mode-tabs .mode-tab{padding-left:5px;padding-right:5px;font-size:12px}
+@media(max-width:360px){.top{gap:5px}.top>.mode-tabs .mode-tab{font-size:11px;padding:9px 4px}}
