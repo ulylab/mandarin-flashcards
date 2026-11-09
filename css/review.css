@@ -1,5 +1,5 @@
 /* Chapter Review: readable, touch-friendly lesson sheets. No flashcard styles altered. */
-.mode-tabs{display:grid;grid-template-columns:1fr 1fr;gap:4px;padding:4px;background:#edf0ee;border:1px solid #e0e6e1;border-radius:15px;margin:0 0 12px}
+.mode-tabs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px;padding:4px;background:#edf0ee;border:1px solid #e0e6e1;border-radius:15px;margin:0 0 12px}
 .mode-tab{border:0;background:transparent;border-radius:11px;min-height:44px;padding:10px 12px;font-size:14px;font-weight:650;color:#62726a}
 .mode-tab.is-active{background:white;color:#24654b;box-shadow:0 2px 8px #233d3013}
 .mode-tab:focus-visible,.review-view button:focus-visible,.review-view input:focus-visible{outline:3px solid #84b99f;outline-offset:2px}
@@ -207,3 +207,11 @@
 /* Three primary navigation tabs fit the mobile header. */
 .top>.mode-tabs .mode-tab{padding-left:5px;padding-right:5px;font-size:12px}
 @media(max-width:360px){.top{gap:5px}.top>.mode-tabs .mode-tab{font-size:11px;padding:9px 4px}}
+
+/* Keep all three primary modes on one row, including narrow iPhone screens. */
+.top{flex-wrap:nowrap;min-width:0}
+.top>.mode-tabs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));width:100%;min-width:0;align-items:stretch}
+.top>.mode-tabs .mode-tab{min-width:0;width:100%;white-space:nowrap;min-height:44px;line-height:1.15;padding:9px 3px;font-size:clamp(10px,2.9vw,13px)}
+.top>.iconbtn{flex:none}
+@media(max-width:440px){.top{gap:7px}.top>.mode-tabs{gap:2px;padding:3px}.app{padding-left:14px;padding-right:14px}}
+@media(max-width:340px){.top>.mode-tabs .mode-tab{font-size:10px;letter-spacing:-.2px}.top>.iconbtn{width:42px;height:42px}}
