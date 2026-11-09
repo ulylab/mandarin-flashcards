@@ -197,3 +197,9 @@
 .vocab-quiz .vocab-detail{border-top:1px solid #e6e9ec;margin:15px 0}
 .vocab-results h1{font-size:30px;color:#285b78;margin:3px 0 12px}
 @media(max-width:370px){.vocab-lesson-grid{grid-template-columns:1fr}.vocab-scope-button{font-size:12px}.vocab-study,.vocab-quiz{padding:17px 12px}}
+
+/* Daily HSK 3.0 preparation */
+.daily-view{flex:1;min-width:0;padding:4px 0 30px}
+.daily-plan-row{border-bottom:1px solid #e7edf1;padding:9px 0;margin:0;color:#344e60;font-size:14px}
+.daily-question .review-zh{font-size:27px;line-height:1.5;margin:15px 0}
+.daily-question .review-choice{text-align:left;width:100%;margin-bottom:7px}
