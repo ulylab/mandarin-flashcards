@@ -1,6 +1,7 @@
 import {state, saveLessonProgress} from './storage.js';
 import {initListening} from './listening.js';
 import {initVocabularyLab} from './vocab-lab.js';
+import {initDailyPrep} from './daily-prep.js';
 import {REVIEW_CHAPTERS, buildChapterReviewLesson, validateLessonCatalog} from './review-curriculum.js';
 import {REVIEW_SCREENS, checkReviewAnswer, validateReviewLesson, chapterState,
   recordVisited, recordPractice, recordChallenge} from './review-model.js';
@@ -29,12 +30,14 @@ export function initReview({getCards, playAudio, stopAudio, canPlayAudio}) {
   const review = document.getElementById('reviewView');
   const listeningView = document.getElementById('listeningView');
   const vocabView = document.getElementById('vocabView');
+  const dailyView = document.getElementById('dailyView');
   const root = document.getElementById('reviewRoot');
   const cardTab = document.getElementById('cardsTab');
   const reviewTab = document.getElementById('reviewTab');
-  if (!flashcards || !review || !listeningView || !vocabView || !root || !cardTab || !reviewTab) return {refresh() {}};
+  if (!flashcards || !review || !listeningView || !vocabView || !dailyView || !root || !cardTab || !reviewTab) return {refresh() {}};
   const listeningUI = initListening({getCards,playAudio,stopAudio,canPlayAudio});
   const vocabUI = initVocabularyLab({getCards,playAudio,stopAudio,canPlayAudio});
+  const dailyUI = initDailyPrep({getCards,playAudio,stopAudio,canPlayAudio});
 
   let lesson = null;
   let loading = null;
@@ -336,6 +339,9 @@ export function initReview({getCards, playAudio, stopAudio, canPlayAudio}) {
     vocab.append(el('span','listen-module-summary','10-word lessons, active recall and spaced review'));
     vocab.append(el('span','review-chapter-meta','300 Level 1 entries'));
     grid.append(vocab);
+    const daily=button('','review-chapter-card',()=>{location.hash='daily';});
+    daily.append(el('span','review-chapter-num','DECEMBER 13 · HSK 3.0'),el('span','review-chapter-name','Daily Exam Prep'),el('span','listen-module-summary','Vocabulary, listening, reading, sentence building, and corrections'),el('span','review-chapter-meta','30 minutes · New session daily'));
+    grid.prepend(daily);
     root.append(grid);
   }
   function dashboard() {
@@ -481,6 +487,7 @@ export function initReview({getCards, playAudio, stopAudio, canPlayAudio}) {
     return promise;
   }
   function refresh() {
+    if (!dailyView.hidden) {dailyUI.refresh();return;}
     if (!vocabView.hidden) {vocabUI.refresh();return;}
     if (!listeningView.hidden) {listeningUI.refresh();return;}
     if (review.hidden) return;
@@ -494,7 +501,8 @@ export function initReview({getCards, playAudio, stopAudio, canPlayAudio}) {
     const isReview = Boolean(match);
     const isListening = /^#listen(?:\/[a-z-]+)?$/.test(location.hash);
     const isVocab = /^#vocab(?:\/(?:lesson|review)\/(?:extended|all)(?:\/\d{1,2})?)?$/.test(location.hash);
-    const isPractice = isReview || isListening || isVocab;
+    const isDaily = /^#daily(?:\/session)?$/.test(location.hash);
+    const isPractice = isReview || isListening || isVocab || isDaily;
     const showList = match?.[1] === 'chapters';
     const target = match?.[1] && !showList ? Number(match[1]) : null;
     if (target !== selectedChapter) {
@@ -506,12 +514,14 @@ export function initReview({getCards, playAudio, stopAudio, canPlayAudio}) {
     review.hidden = !isReview;
     listeningView.hidden = !isListening;
     vocabView.hidden = !isVocab;
+    dailyView.hidden = !isDaily;
     cardTab.classList.toggle('is-active',!isPractice);
     reviewTab.classList.toggle('is-active',isPractice);
     cardTab.setAttribute('aria-selected',String(!isPractice));
     reviewTab.setAttribute('aria-selected',String(isPractice));
     listeningUI.route();
     vocabUI.route();
+    dailyUI.route();
     if (isReview) {
       stopAudio();
       refresh();
