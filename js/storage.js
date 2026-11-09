@@ -6,7 +6,8 @@ export const KEYS = Object.freeze({
   reviews: 'mandarim-review-events-v1',
   lessonProgress: 'mandarim-chapter-review-v1',
   listeningProgress: 'mandarim-listening-v1',
-  vocabProgress: 'mandarim-hsk30-learning-v1'
+  vocabProgress: 'mandarim-hsk30-learning-v1',
+  dailyProgress: 'mandarim-hsk30-daily-v1'
 });
 const parse = (key, fallback) => {
   try { const value = localStorage.getItem(key); return value === null ? fallback : JSON.parse(value); }
@@ -22,6 +23,7 @@ export const state = {
   lessonProgress: object(parse(KEYS.lessonProgress, {})),
   listeningProgress: object(parse(KEYS.listeningProgress, {})),
   vocabProgress: object(parse(KEYS.vocabProgress, {})),
+  dailyProgress: object(parse(KEYS.dailyProgress, {})),
   error: ''
 };
 function write(key, value) {
@@ -33,6 +35,7 @@ export function saveStars() { return write(KEYS.stars, state.stars); }
 export function saveSettings() { return write(KEYS.settings, state.settings); }
 export function saveLessonProgress() { return write(KEYS.lessonProgress, state.lessonProgress); }
 export function saveListeningProgress() { return write(KEYS.listeningProgress, state.listeningProgress); }
+export function saveDailyProgress() { return write(KEYS.dailyProgress, state.dailyProgress); }
 export function saveVocabProgress() { return write(KEYS.vocabProgress, state.vocabProgress); }
 export function saveReview(cardId, correct, dueAt) {
   const entry = { id: String(cardId), correct: Boolean(correct), at: Date.now(), due: dueAt };
@@ -48,7 +51,8 @@ export function exportProgress() {
     settings: state.settings, reviews: state.reviews,
     lessonProgress: state.lessonProgress,
     listeningProgress: state.listeningProgress,
-    vocabProgress: state.vocabProgress
+    vocabProgress: state.vocabProgress,
+    dailyProgress: state.dailyProgress
   };
 }
 export function importProgress(data) {
@@ -81,11 +85,15 @@ export function importProgress(data) {
       throw new Error('Invalid HSK 3.0 learning progress in backup.');
     state.vocabProgress = object(data.vocabProgress);
   }
+  if (data.dailyProgress !== undefined) {
+    if (!data.dailyProgress || typeof data.dailyProgress !== 'object' || Array.isArray(data.dailyProgress)) throw new Error('Invalid daily progress in backup.');
+    state.dailyProgress = object(data.dailyProgress);
+  }
   state.history = safeHistory;
   state.stars = safeStars;
   state.settings = safeSettings;
   state.reviews = data.reviews.filter(e => e && typeof e.id === 'string' && typeof e.correct === 'boolean' && Number.isFinite(e.at));
-  const ok = [saveHistory(), saveStars(), saveSettings(), write(KEYS.reviews, state.reviews), saveLessonProgress(), saveListeningProgress(), saveVocabProgress()].every(Boolean);
+  const ok = [saveHistory(), saveStars(), saveSettings(), write(KEYS.reviews, state.reviews), saveLessonProgress(), saveListeningProgress(), saveVocabProgress(), saveDailyProgress()].every(Boolean);
   if (!ok) throw new Error(state.error);
 }
 export function resetReviewHistory() {
