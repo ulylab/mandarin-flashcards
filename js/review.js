@@ -34,7 +34,8 @@ export function initReview({getCards, playAudio, stopAudio, canPlayAudio}) {
   const root = document.getElementById('reviewRoot');
   const cardTab = document.getElementById('cardsTab');
   const reviewTab = document.getElementById('reviewTab');
-  if (!flashcards || !review || !listeningView || !vocabView || !dailyView || !root || !cardTab || !reviewTab) return {refresh() {}};
+  const dailyTab = document.getElementById('dailyTab');
+  if (!flashcards || !review || !listeningView || !vocabView || !dailyView || !root || !cardTab || !reviewTab || !dailyTab) return {refresh() {}};
   const listeningUI = initListening({getCards,playAudio,stopAudio,canPlayAudio});
   const vocabUI = initVocabularyLab({getCards,playAudio,stopAudio,canPlayAudio});
   const dailyUI = initDailyPrep({getCards,playAudio,stopAudio,canPlayAudio});
@@ -516,9 +517,11 @@ export function initReview({getCards, playAudio, stopAudio, canPlayAudio}) {
     vocabView.hidden = !isVocab;
     dailyView.hidden = !isDaily;
     cardTab.classList.toggle('is-active',!isPractice);
-    reviewTab.classList.toggle('is-active',isPractice);
+    reviewTab.classList.toggle('is-active',isPractice && !isDaily);
+    dailyTab.classList.toggle('is-active',isDaily);
     cardTab.setAttribute('aria-selected',String(!isPractice));
-    reviewTab.setAttribute('aria-selected',String(isPractice));
+    reviewTab.setAttribute('aria-selected',String(isPractice && !isDaily));
+    dailyTab.setAttribute('aria-selected',String(isDaily));
     listeningUI.route();
     vocabUI.route();
     dailyUI.route();
@@ -529,6 +532,7 @@ export function initReview({getCards, playAudio, stopAudio, canPlayAudio}) {
   }
   cardTab.addEventListener('click', () => {location.hash='cards';});
   reviewTab.addEventListener('click', () => {location.hash='review';});
+  dailyTab.addEventListener('click', () => {location.hash='daily';});
   window.addEventListener('hashchange',syncMode);
   syncMode();
   return {refresh};
